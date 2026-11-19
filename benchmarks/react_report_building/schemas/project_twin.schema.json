@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "react_report.project_twin/v1",
+  "type": "object",
+  "required": ["schema_version", "project_id", "nodes", "collections"],
+  "properties": {
+    "schema_version": {"const": "react_report.project_twin/v1"},
+    "project_id": {"type": "string", "pattern": "^FP[0-9]{3}$"},
+    "nodes": {
+      "type": "object",
+      "additionalProperties": {"$ref": "#/$defs/node"}
+    },
+    "collections": {
+      "type": "object",
+      "additionalProperties": {"$ref": "#/$defs/collection"}
+    }
+  },
+  "$defs": {
+    "node": {
+      "type": "object",
+      "required": ["id", "kind", "description", "status", "value"],
+      "properties": {
+        "id": {"type": "string"},
+        "kind": {"const": "scalar"},
+        "description": {"type": "string"},
+        "status": {"enum": ["available", "missing"]},
+        "value": {},
+        "unit": {"type": ["string", "null"]}
+      }
+    },
+    "collection": {
+      "type": "object",
+      "required": ["id", "kind", "status", "record_schema", "records"],
+      "properties": {
+        "id": {"type": "string"},
+        "kind": {"const": "collection"},
+        "status": {"enum": ["available", "missing"]},
+        "record_schema": {"type": "array", "items": {"type": "string"}},
+        "records": {"type": "array"}
+      }
+    }
+  }
+}
+

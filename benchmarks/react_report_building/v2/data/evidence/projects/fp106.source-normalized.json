@@ -1,0 +1,144 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp106.json",
+    "sha256": "4ae711c2fdb6ed95c4b1d73f10ad5a30083e5128d3ca96f448ab38d7ded193df",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_coal_electricity_share_min_pct": {
+      "description": "Lower bound stated for coal's share of electricity production",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_coal_electricity_share_min_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp106",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "more than 90% of electricity being produced mainly from this source",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp106-dbsa-south-africa.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 90.0
+    },
+    "dt.project.baseline_energy_sector_ghg_share_pct": {
+      "description": "Energy-sector share of South Africa greenhouse-gas emissions in 2012",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_energy_sector_ghg_share_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp106",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "energy sector remains the single largest contributor to the country’s total GHG emissions (82.7% in 2012)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp106-dbsa-south-africa.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 82.7
+    },
+    "dt.project.developed_renewable_pipeline_capacity_gw": {
+      "description": "Fully developed viable renewable-energy project pipeline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.developed_renewable_pipeline_capacity_gw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp106",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "There remains ca 11.2 GW of fully developed and viable renewable energy projects",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp106-dbsa-south-africa.pdf"
+      },
+      "status": "available",
+      "unit": "GW",
+      "value": 11.2
+    },
+    "dt.project.expected_annual_avoided_ghg_tco2e": {
+      "description": "Expected direct annual emissions reduction once all subprojects operate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_annual_avoided_ghg_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp106",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "ca. 717,794 tons CO2 eq per year once all the sub-projects are operational",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp106-dbsa-south-africa.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e/year",
+      "value": 717794
+    },
+    "dt.project.policy_embedded_generation_capacity_mw": {
+      "description": "Embedded-generation allocation through 2030",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_embedded_generation_capacity_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp106",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "2,600 MW allocated up to 2030",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp106-dbsa-south-africa.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 2600.0
+    },
+    "dt.project.reipppp_procured_capacity_mw": {
+      "description": "Renewable-energy capacity historically procured by REIPPPP",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.reipppp_procured_capacity_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp106",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "procured renewable energy capacity of ca. 6,422 MW",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp106-dbsa-south-africa.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 6422.0
+    }
+  },
+  "project_id": "FP106",
+  "schema_version": "react_report.source_normalization/v2"
+}

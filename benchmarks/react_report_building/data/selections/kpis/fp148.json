@@ -1,0 +1,218 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 14,
+  "excluded_kpi_count": 3,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m1 1 tonnes of carbon dioxide equivalent t co2eq reduced or avoided gendersensitive energy access power generation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M1.1 Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided - gendersensitive energy access power generation)",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "m6 2 number of households and individuals males and females withimproved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "M6.2 Number of households and individuals (males and females) withimproved access to low-emission energy sources",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "m6 2 number of households and individuals males and females withimproved access to low emission energy sources",
+      "duplicate_of": "outcomes.1.kpis.0",
+      "eligible": false,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": false,
+      "name": "M6.2 Number of households and individuals (males and females) withimproved access to low-emission energy sources",
+      "path": "outcomes.1.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "m6 3 mws of low emission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M6.3 MWs of low-emission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.1.kpis.2",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "outcome 1 1 1 of companies receiving earf funds report that they have reached precrisis sales levels as a result of earf funding",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 1.1.1 % of companies receiving EARF funds report that they have reached precrisis sales levels as a result of EARF funding",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "outcome 1 1 2 increase in cumulative of households reached across earf portfolio",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 1.1.2 % increase in cumulative # of households reached across EARF portfolio",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "outcome 1 1 3 number of individuals accessing clean energy through sales or service from a earf beneficiary company",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 1.1.3 Number of individuals accessing clean energy through sales or service from a EARF beneficiary company",
+      "path": "outcomes.2.kpis.2",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "outcome 1 2 1 of companies in earf portfolio that adopt a flexible work policy",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 1.2.1 % of companies in EARF portfolio that adopt a flexible work policy",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "outcome 1 2 2 of companies receiving earf funds communicat e public health information regarding covid 19 to their customer base",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 1.2.2 % of companies receiving EARF funds communicat e public health information regarding COVID-19 to their customer base",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "outcome 1 2 3 essential service centers such as health facilities schools and public service hubs powered by companies receiving earf funding",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 1.2.3 Essential service centers, such as health facilities, schools, and public service hubs, powered by companies receiving EARF funding",
+      "path": "outcomes.3.kpis.2",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "outcome 2 1 1 number of sector experts influenced by insights and knowledge outputs related to earf",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 2.1.1 Number of sector experts influenced by insights and knowledge outputs related to EARF",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "outcome 2 1 2 of recipient companies that have gained market or business insights from an earf led convening",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 2.1.2 % of recipient companies that have gained market or business insights from an EARF-led convening",
+      "path": "outcomes.4.kpis.1",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "outcome 2 1 3 of energy access companies not receiving earf funding who gain material insight into business continuity practices or other improved operational strategies",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 2.1.3 # of energy access companies NOT receiving EARF funding who gain material insight into business continuity practices or other improved operational strategies",
+      "path": "outcomes.4.kpis.2",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "outcome 2 2 1 of organization s represented in earfrelated strategy sessions knowledge sessions and or working groups",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Outcome 2.2.1 # of organization s represented in EARFrelated strategy sessions, knowledge sessions, and/or working groups",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "number of jobs maintained by concessional finance at companies manufacturing distributing and or financing renewable energy products",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of jobs maintained by concessional finance at companies manufacturing, distributing, and/or financing renewable energy products",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "number of jobs maintained by concessional finance at companies manufacturing distributing and or financing renewable energy products",
+      "duplicate_of": "outcomes.6.kpis.0",
+      "eligible": false,
+      "family": "employment_gender",
+      "legacy_selection_eligible": false,
+      "name": "Number of jobs maintained by concessional finance at companies manufacturing, distributing, and/or financing renewable energy products",
+      "path": "outcomes.6.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "number of jobs maintained by concessional finance at companies manufacturing distributing and or financing renewable energy products",
+      "duplicate_of": "outcomes.6.kpis.0",
+      "eligible": false,
+      "family": "employment_gender",
+      "legacy_selection_eligible": false,
+      "name": "Number of jobs maintained by concessional finance at companies manufacturing, distributing, and/or financing renewable energy products",
+      "path": "outcomes.6.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 17
+    }
+  ],
+  "project_id": "FP148",
+  "risk_count": 9,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.1.kpis.2"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "policy_governance",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.6.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.2.kpis.0"
+    }
+  ]
+}

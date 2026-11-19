@@ -1,0 +1,188 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp128.json",
+    "sha256": "015d80b98e423752289b43cb3c2384fa3b25371c6f9e8090795c61fc8bea96c1",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.average_investment_size_max_usd": {
+      "description": "Upper end of Arbaro's stated average investment-size range",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.average_investment_size_max_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "average investment size will be between USD 10 to 25 million per project",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "USD/investment",
+      "value": 25000000
+    },
+    "dt.project.average_investment_size_min_usd": {
+      "description": "Lower end of Arbaro's stated average investment-size range",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.average_investment_size_min_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "average investment size will be between USD 10 to 25 million per project",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "USD/investment",
+      "value": 10000000
+    },
+    "dt.project.conservation_set_aside_pct": {
+      "description": "Average share of plantation-project land set aside for conservation",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.conservation_set_aside_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "set aside 20% of its total land area for conservation purposes",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 20.0
+    },
+    "dt.project.direct_beneficiaries_target": {
+      "description": "Maximum rural people expected to benefit from Arbaro investments",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.direct_beneficiaries_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "Up to 200 000 rural people are expected to benefit",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 200000
+    },
+    "dt.project.direct_jobs_target": {
+      "description": "Estimated direct employment from Arbaro investments",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.direct_jobs_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "estimated to provide direct employment to ca 5 000 people",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "jobs",
+      "value": 5000
+    },
+    "dt.project.indirect_jobs_target": {
+      "description": "Estimated indirect employment from Arbaro investee projects",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.indirect_jobs_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "indirectly Arbaro’s investee projects will employ another 15 000 people",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "jobs",
+      "value": 15000
+    },
+    "dt.project.underlying_investment_count_max": {
+      "description": "Upper end of the stated final portfolio-size range",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.underlying_investment_count_max",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "final portfolio of 8 to 12 underlying investments",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "investments",
+      "value": 12
+    },
+    "dt.project.underlying_investment_count_min": {
+      "description": "Lower end of the stated final portfolio-size range",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.underlying_investment_count_min",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp128",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "final portfolio of 8 to 12 underlying investments",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp128.pdf"
+      },
+      "status": "available",
+      "unit": "investments",
+      "value": 8
+    }
+  },
+  "project_id": "FP128",
+  "schema_version": "react_report.source_normalization/v2"
+}

@@ -1,0 +1,2789 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Renewable energy-based rural electrification replacing the continuous, alternative use of fossil fuel-based solutions (CDM AMS-III.BL baseline methodology) in households, commercial facilities such as shops, public services/buildings and small, medium and micro enterprises (SMMEs). "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "130,563 "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided - gender-sensitive energy access power generation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "130,563 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Annual CO2 emission reductions \r\nMonitoring, Reporting and Verification by independent CDM-DOE auditor or local carbon verifier "
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Senegal politically recognized rural vulnerabilities to climate change and the interest of gender institutionalization  at both national bodies and local committees levels \r\nInvestment targets are achieved, less turnover and higher retention rate of trained agents \r\nRural energy development success builds on extensive community mobilization, and capacity building for efficient electricity use "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "%",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "%",
+              "value": "75"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Percentage of rural electrification procedures, communications and decisions reflecting women & youth priorities"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "%",
+              "value": "75"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Community based gender committees meeting minutes\r\nGender sensitive communication tools\r\nPREM MoUs "
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Senegal politically recognized rural vulnerabilities to climate change and the interest of gender institutionalization  at both national bodies and local committees levels \r\nInvestment targets are achieved, less turnover and higher retention rate of trained agents \r\nRural energy development success builds on extensive community mobilization, and capacity building for efficient electricity use "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "1,000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of additional vulnerable localities attributed to rural electrification operators"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "1,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ASER database \r\nCRSE independent verification "
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.1.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Access to electricity fosters agriculture productivity, health & community services, ICTs & lighting benefits network is  available in rural areas and access coupons mechanism understood "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Baseline to be defined according to the implementa tion sites of the mini- grids"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "newly connected eligible social services, women & youth-entrepreneurs to the PV mini-grids",
+              "value": "2,548"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of coupon- subsidized connections of eligible social services, women& youth-entrepreneurs to the PV mini-grids"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "newly connected eligible social services, women & youth-entrepreneurs to the PV mini-grids",
+              "value": "2,548"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ASER coupon distribution plans\r\nSubsidy Payment Confirmations database"
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "GCF involvement brings down the WACC to an acceptable level to Senegalese treasury"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MWh",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MWh",
+              "value": "74,879 "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWh energy consumption from installed solar plants"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MWh",
+              "value": "74,879 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Installation project reports \r\nConcessionnaires billing "
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Appropriate micro-finance network is available in rural areas and access coupons mechanism understood"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Baseline to be surveyed according to the implementa tion sites of the mini- grids"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "% of total clean power sales from SMEs and community services",
+              "value": "60"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "% of sales income from total productive use by SMEs and community services of clean energy"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "% of total clean power sales from SMEs and community services",
+              "value": "60"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Local operators tariff harmonization requests breakdown\r\nASER aggregated database"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.3.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Rural energy development success builds on extensive community mobilization, and capacity building for efficient electricity use  \r\nBarriers for mainstreaming solar PV projects are overcome, the capacity of the stakeholders developed nd \r\nthe financial incentives implemented"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "million EUR micro finance  borrowings  guaranteed  for  productive  uses",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "million EUR micro finance  borrowings  guaranteed  for  productive  uses",
+              "value": "3.3"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "million EUR micro finance  borrowings  guaranteed  for  productive  uses",
+              "value": "3.3"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Micro Finance  Institutions balance sheet summary verified by the Partner Financial Institution"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Private operators are interested in investing in the sector"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "32"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "32"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ASER database & CRSE independent verification/clearance"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.7.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SEN"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Senegal"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub-Saharan Africa"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Awareness, capacity & marketing risk  \r\nThere is a risk that the solar powered mini-grids’ potential and their de-risked investment opportunity, which the project aims to create, do not get sufficient communication and promotion and fail to mobilise the relevant local operators/investors. Similarly, beneficiaries (households and especially productive users and communities) require proper information, awareness raising and marketing efforts to overcome the lack of knowledge and sometimes negative perception that populations might have about solar technology as a permanent electrification solution. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "In relation to the selection of villages, sites, and the electrification process in general, the populations can address directly to ASER which will take the appropriate measures to remedy, in relation with its operational service providers in the field. For this purpose, a computerized system allowing a good feedback of information is being deployed, in addition to the classic system of referral and processing by administrative mail. \r\nIn relation to the operation of the service in rural areas (quality of service, incidents, damage, safety, performance in providing the services described and validated in the concessionaire's service regulations), the population first addresses its complaints to the concessionaire, which is required to give a contact number to customers and to intervene in the event of solicitation, according to the procedures described in the concession contract and its specifications. The concessionaire is also obliged to keep a register of complaints and to report regularly to the Electricity Sector Regulatory Commission (CRSE). Nevertheless, if the operator's customer is not satisfied with the reaction of the concessionaire, it must refer the matter to the CRSE, which is mandated to monitor the implementation of the concession contracts and compliance with commitments on behalf of the State. \r\nIn relation to regulatory or legal claims made by the concessionaire who feel aggrieved or in danger in relation to the operating conditions, they shall refer to ASER and the CRSE for handling the matter. For this purpose, activity reports are required by ASER and which the concessionaire is obliged to transmit at the intervals laid down in the concession contract. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Variable commercial risk \r\nThe slow uptake or progressive ramp-up of rural electrification beneficiaries might impair the first year(s)’ financials of the local operators/investors. Similarly, all productive demand load profiles may not be suited to solar power solutions. Unlike non time-critical energy demand (e.g. irrigation and manufacturing/agro-processing), time-critical demand (e.g. cooling & refrigeration) involve surges in power needed to bring and keep temperatures down regardless of the instant availability of solar power. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sound market assessment and modular sizing of the proposed technical solutions should be tailored to the circumstances of each mini-grid in order to cater for power demand extension as per the growth in demand; over-sizing of photovoltaic panels & storage capacities (batteries) shall be considered."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Operations & Maintenance risks \r\nUnderperformance of decentralised renewable energy technologies could lead to lower production of energy and revenues, as there has been limited experience with financing decentralised renewable energy projects in rural parts of Senegal to date. Limited track record and data on nationwide historical performance implies that higher-than-expected variability in performance can occur, impacting the revenue-generation potential of the concessionaires."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "This risk will be mitigated by ensuring: - the choice of quality pieces of equipment at procurement & construction (cf. ASER “Minima Techniques”). The concessionaires will minimise risks by only sourcing commercially proven, independently certified solar panels, storage solutions and inverters - that the concessions are awarded to entities that can demonstrate relevant experiences and/or capacity in the operation and maintenance of the implemented technologies in accordance with best industry practices. \r\nFurthermore, the concessionaires will be expected to manage maintenance reserve accounts to allow for timely maintenance and replacement of components, when needed."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Monitoring risk \r\nAs per ASER’s experience with the 4 awarded PPER concessionaires, different data practices pose a risk of improper, incomplete or unharmonised data collection and transmission to ASER’s coordination structure (both technical, accounting and financial information). As ASER rural electrification program signed an emissions reduction purchase agreement (ERPA) with the World  Bank’s Ci-Dev program in 2016, which is as of 17 May 2018 a registered programme under the CDM, there is a need for a clear demarcation between the contribution of different climate finance sources in order to prevent double-claiming of emission reductions. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "To mitigate the risk of double-claiming or double-counting, ASER will apply the CDM MRV framework (methodologies AMS III.BL) for GCF project activities, yet Emission reductions supported by the GCF will not be claimed elsewhere and not result in the issuance nor transfer of any carbon credits. Therefore, the project’s linkage with the CDM infrastructure adds transparency to the mitigation outcomes achieved and prevents any form of double claiming or double counting. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Environmental/disposal risk \r\nInappropriate dismantling/recycling of mini-grids components (e.g. batteries) could lead to environmental contamination. Communities in developing regions are already struggling with contaminated sites and soil pollution from unregulated car battery recovery and recycling. Unsound end-of-life management and recycling can cause severe lead poisoning of people and negatively affect the environment. There is a risk that inappropriate battery disposal under the project will generate similar negative externalities. \r\nWrong-doing and financial malversation risk \r\nNo individuals or entities subject to United Nations Security Council Resolutions imposing financial sanctions will be involved in or benefitting from the activities of the project."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "While pollution caused by mishandling or disposal of batteries involved in mini-grids installations can be harmful, the end-of-life issues associated with the used batteries has been noted in earlier consultations and a management plan has been drafted to mitigate the risk of any spillage or inappropriate disposal of batteries. Specifically, concessionaires will be requested to a) regularly assess and maintain their entire portfolio of batteries, and b) together with ASER develop a collection and disposal scheme for expired batteries and equipment. ASER will carefully monitor the disposal  process of used batteries to prevent any negative impacts to the environment. \r\nBOAD will also ensure implementation of the environmental and social measures set forth by the project. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Prohibited practices"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Prohibited practices"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "GCF involvement brings down the WACC to an acceptable level to Senegalese treasury"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MWh",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MWh",
+              "value": "74,879 "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWh energy consumption from installed solar plants"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "MWh",
+              "value": "74,879 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Installation project reports \r\nConcessionnaires billing "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Rural energy development success builds on extensive community mobilization, and capacity building for efficient electricity use  \r\nBarriers for mainstreaming solar PV projects are overcome, the capacity of the stakeholders developed nd \r\nthe financial incentives implemented"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "million EUR micro finance  borrowings  guaranteed  for  productive  uses",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "million EUR micro finance  borrowings  guaranteed  for  productive  uses",
+              "value": "3.3"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "million EUR micro finance  borrowings  guaranteed  for  productive  uses",
+              "value": "3.3"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Micro Finance  Institutions balance sheet summary verified by the Partner Financial Institution"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Senegal politically recognized rural vulnerabilities to climate change and the interest of gender institutionalization  at both national bodies and local committees levels \r\nInvestment targets are achieved, less turnover and higher retention rate of trained agents \r\nRural energy development success builds on extensive community mobilization, and capacity building for efficient electricity use "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "%",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "%",
+              "value": "75"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Percentage of rural electrification procedures, communications and decisions reflecting women & youth priorities"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "%",
+              "value": "75"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Community based gender committees meeting minutes\r\nGender sensitive communication tools\r\nPREM MoUs "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Senegal politically recognized rural vulnerabilities to climate change and the interest of gender institutionalization  at both national bodies and local committees levels \r\nInvestment targets are achieved, less turnover and higher retention rate of trained agents \r\nRural energy development success builds on extensive community mobilization, and capacity building for efficient electricity use "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "1,000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of additional vulnerable localities attributed to rural electrification operators"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "1,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ASER database \r\nCRSE independent verification "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.1.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Access to electricity fosters agriculture productivity, health & community services, ICTs & lighting benefits network is  available in rural areas and access coupons mechanism understood "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Baseline to be defined according to the implementa tion sites of the mini- grids"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "newly connected eligible social services, women & youth-entrepreneurs to the PV mini-grids",
+              "value": "2,548"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of coupon- subsidized connections of eligible social services, women& youth-entrepreneurs to the PV mini-grids"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": "newly connected eligible social services, women & youth-entrepreneurs to the PV mini-grids",
+              "value": "2,548"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp138",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ASER coupon distribution plans\r\nSubsidy Payment Confirmations database"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp138",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP138"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp138",
+        "locator": "GCF project FP138 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp138"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 144285269
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "This proposal aims to foster the development of off-grid renewable energy mini-grids to reduce CO2 emissions from the Senegal power sector whilst contributing to electricity access objectives and promoting gender-balanced rural economic growth. Low-carbon universal access is a critical pillar of the Emerging Senegal Plan (PSE) phase II, as the energy sector was considered one of the greatest success of PSE phase I2, with national power generation increasing two-fold between 2012 and 2018, and 20% of the energy mix derived from clean energy sources. \r\nCurrently, only 42% of Senegal’s rural population has access to electricity. Electricity access rate is still relatively low and reveals a great disparity between urban and rural populations, with regional disparities that are even more dramatic in terms of the level of coverage. With coverage rates ranging from 12% in Kedougou to 70% in Dakar, only five other regions (Diourbel, Saint-Louis, Matam,Thiès, Ziguinchor) have been able to achieve an electrical coverage rate of at least 50%. Two regions (Kolda and Kedougou) have a coverage rate of less than 20%. At the departmental level, Salémata, Medina Yoro Foula, Ranerou and Saraya have an electrical coverage rate of less than 10%3. These low rates are due to excessively high costs of investment and operations, dispersal and low level of consumption, yet the benefits of rural electrification are undisputed, significantly improving the quality of life of communities and increasing \r\nproductivity. Distributed renewable energy generation also help increase the reliability and resilience of power supply by making it less vulnerable to disruptions caused by natural disasters. Multiple socio-economic and socio-ecological co-benefits can further contribute to improving living standards of the communities. \r\nThe Government of Senegal is thus committed to tackle this issue and has pledged to reach universal energy access by 2025. Meanwhile, lack of resources means that any improvements are likely to be met through carbon-intensive grid extensions and diesel-powered generators (lower upfront cost). However, the Government of Senegal (GoS) has committed, through the Paris Agreement (2015) and COP21, to contribute to the international collective effort to mitigate climate change emissions and put in place adequate adaptation measures. In the energy sector, this commitment has resulted in the definition of strategies and the implementation of priority actions presented in the Nationally Determined Contribution (NDC) of Senegal. \r\nThe objective of the proposed project is to support the GoS by providing concessional co-funding needed to mobilise private sector participation in the domestic renewable energy market and achieve its low-carbon rural electrification goals as proclaimed in the Nationally Determined Contribution (NDC) of Senegal, under the form of sovereign loan and grant de-risking local operators’ involvement while alleviating GoS tariff compensation burden following harmonization.  \r\nClimate change in Senegal is predicted to affect average yearly rainfall with an increase in rain intensity leading to flooding, along with increased air temperatures and sea level rise. Its effects on water resources thus include stressors affecting hydropower production, which contributes more than 10 percent to the country’s electricity supply and is susceptible to variable rainfall and increased evaporation rates of retention ponds and dams. Its effects are also particularly faced by the agriculture sector where the majority of agricultural activities are heavily dependent on the pumping of underground water. Rural electrification improves access to groundwater and thereby supports higher agricultural productivity and better food security. In addition, other income-generating activities are made possible through access to electricity and thereby information and communications technologies, improving household resilience.   \r\nProposed intervention In line with Senegal NDCs5 and its national ambition of universal access to electricity by 2025 (SE4All), this project, to be executed by the Senegalese Rural Electrification Agency (ASER) under delegation of the Government of Senegal, aims at deploying 100% solar mini-grids in a thousand (1,000) isolated villages across Senegal, i.e. half of the most vulnerable, least attractive locations to be electrified, by rural electrification concessionaires. By channelling concessional funding and by easing the connection of beneficiaries and facilitating access to productive users of energy, the project will accelerate and perpetuate the electrification of communities that remain outside the perimeter  of PPER (Rural Electrification Priority Plan’) private concessionaires and Senelec intervention. \r\nThe project will mobilize concessional resources from the GCF to engage private sector local operators with acceptable risk-reward conditions, complementing BOAD co-financing and Senegal resources mobilized towards 1,000 newly electrified villages through 100% solar photovoltaic mini-networks. In addition, a grant is requested for strengthening the capacity of the main rural electrification stakeholders, for facilitating first connection access to most vulnerable eligible social services and women & youth-entrepreneurs based on the experience of JAPPALE coupons and lessons learned from PPERs, and a loaned guarantee facility for catalyzing access to local micro-financing towards productive and gender users of energy. \r\nClimate impacts  \r\nWhilst the energy sector is very exposed to diverse impacts of climate variability and change through changes in energy supply (e.g. disruption of operations and distribution) and demand (growing populations and evolving power needs), it is a strong contributor to the drivers of climate change, namely through the emission of greenhouse gases. \r\n The proposed project seeks to place Senegal on a low-carbon energy trajectory relative to its energy sector high-GHG baseline. By benefitting 38,917 newly electrified rural households within 5 years (32 MW total solar PV mini-grids ultimate capacity) across 1,000 villages, it will result in an estimated 45,098 tCO2 annual emission reductions impact i.e. 1.13 M. tCO2 to be avoided over its technical lifetime, resulting in an abatement cost of 28.8 GCF€/tCO2e.   \r\nMoreover, access to electricity from renewable sources will co-benefit the resilience of rural livelihoods to climate variability and their adaptive capacity related to disaster risk reduction and recovery, alleviating climate stress and improving access to water and agriculture productivity, health and community impowerment, and information and communication services."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Solar energy"
+      ]
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "BOAD"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Banque Ouest Africaine de Développement (West African Development Bank)"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Medium"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Regional"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp138",
+        "locator": "GCF project FP138 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp138"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 88323667
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 1127447.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 6.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 25.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Energy, mitigation and access"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "public"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "medium"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "ASER Solar Rural Electrification"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 209300000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP138",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp138"
+}

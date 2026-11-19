@@ -1,0 +1,188 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp081.json",
+    "sha256": "8b41dd1a6242b393543923be4eb695fb8efc79de04e278ddeaad1b0acc109b39",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_rooftop_solar_capacity_mw": {
+      "description": "Installed rooftop-solar capacity as of March 2017",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_rooftop_solar_capacity_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "installed capacity stood at 1.4 GW as on March 2017",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 1400.0
+    },
+    "dt.project.commercial_industrial_capacity_share_pct": {
+      "description": "Commercial and industrial share of installed rooftop capacity",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.commercial_industrial_capacity_share_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "With 65% of total installed capacity, Commercial & Industrial",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 65.0
+    },
+    "dt.project.gcf_concessional_loan_usd": {
+      "description": "GCF resources provided in the form of senior loans",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_concessional_loan_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "USD 100 million of GCF resources in the form of Senior Loans",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 100000000
+    },
+    "dt.project.installed_capacity_target_mw": {
+      "description": "Solar-rooftop capacity targeted in the programme's initial phase",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.installed_capacity_target_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "tap around 250 MW of solar rooftop capacity in the initial phase",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 250.0
+    },
+    "dt.project.policy_non_fossil_capacity_target_pct": {
+      "description": "Non-fossil electric-power capacity target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_non_fossil_capacity_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "40% cumulative Electric power capacity from non-fossil fuel based energy resources by 2030",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 40.0
+    },
+    "dt.project.policy_non_fossil_capacity_target_year": {
+      "description": "Target year for the non-fossil electric-power capacity objective",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_non_fossil_capacity_target_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "40% cumulative Electric power capacity from non-fossil fuel based energy resources by 2030",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "2030"
+    },
+    "dt.project.policy_rooftop_solar_capacity_target_mw": {
+      "description": "National rooftop-solar capacity target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_rooftop_solar_capacity_target_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "target of 40 GW of rooftop solar power by 2022",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 40000.0
+    },
+    "dt.project.rooftop_solar_market_cagr_pct": {
+      "description": "Reported four-year rooftop-solar market compound annual growth rate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.rooftop_solar_market_cagr_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "solar rooftop market has grown at a CAGR of 98%",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 98.0
+    }
+  },
+  "project_id": "FP081",
+  "schema_version": "react_report.source_normalization/v2"
+}

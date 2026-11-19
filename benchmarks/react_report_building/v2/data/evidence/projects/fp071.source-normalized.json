@@ -1,0 +1,188 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp071.json",
+    "sha256": "16ee513027bbd3801e1c5e7bb8d8f5c3de001ed44d51a73dd32af65b35fe17c5",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.expected_ee_investment_mobilization_usd": {
+      "description": "Approximate energy-efficiency investment mobilisation",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_ee_investment_mobilization_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "mobilize approximately US$ 407.3 million of EE investments",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 407300000
+    },
+    "dt.project.gcf_risk_sharing_facility_usd": {
+      "description": "Amount of the GCF risk-sharing facility component",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_risk_sharing_facility_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "US$78 million GCF Risk Sharing Facility",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 78000000
+    },
+    "dt.project.ibrd_credit_line_usd": {
+      "description": "Complementary World Bank energy-efficiency credit line",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ibrd_credit_line_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "US$100 million World Bank Energy Efficiency Credit Line",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 100000000
+    },
+    "dt.project.portfolio_unit_count": {
+      "description": "Reported lower bound on industrial companies supported",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "supporting over 100 industrial companies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "companies",
+      "value": 100
+    },
+    "dt.project.portfolio_unit_count_basis": {
+      "description": "Basis of the portfolio-unit count",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_count_basis",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "supporting over 100 industrial companies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "support target"
+    },
+    "dt.project.portfolio_unit_count_qualification": {
+      "description": "Qualification attached to the portfolio-unit count",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_count_qualification",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "supporting over 100 industrial companies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The source states over 100 industrial companies; 100 is the stated lower bound."
+    },
+    "dt.project.portfolio_unit_type": {
+      "description": "Type of portfolio unit in the stated support target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_type",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "supporting over 100 industrial companies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "industrial company"
+    },
+    "dt.project.world_bank_gcf_technical_assistance_usd": {
+      "description": "Combined World Bank and GCF technical-assistance component",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.world_bank_gcf_technical_assistance_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "US$10 million World Bank and GCF Technical Assistance",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 10000000
+    }
+  },
+  "project_id": "FP071",
+  "schema_version": "react_report.source_normalization/v2"
+}

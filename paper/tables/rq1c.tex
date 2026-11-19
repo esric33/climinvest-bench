@@ -1,0 +1,34 @@
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{Report maintenance. Scores on a 0--100 scale. Bold marks the higher unrounded mean within each model.}
+\label{tab:rq1c}
+\begin{tabular}{llrrrrrrrr}
+\toprule
+Model & Strategy & $S$ & $T$ & $K$ & $C$ & $R$ & $J$ & $A$ & $P$ \\
+\midrule
+GPT-5.6 Luna & Section & \textbf{100.0} & \textbf{99.9}\textsuperscript{*} & \textbf{99.7}\textsuperscript{*} & \textbf{81.8}\textsuperscript{*} & 66.6 & \textbf{64.0}\textsuperscript{*} & 100.0 & \textbf{99.6}\textsuperscript{*} \\
+GPT-5.6 Luna & Report & 100.0 & 99.5 & 97.3 & 77.8 & \textbf{97.1}\textsuperscript{*} & 55.8 & 100.0 & 0.0 \\
+\addlinespace[2pt]
+Muse Spark 1.3 & Section & 100.0 & 100.0 & 99.9 & 81.9 & \textbf{66.1}\textsuperscript{*} & \textbf{63.8}\textsuperscript{*} & 100.0 & \textbf{100.0} \\
+Muse Spark 1.3 & Report & 100.0 & \textbf{100.0} & \textbf{100.0} & \textbf{83.1}\textsuperscript{*} & 58.7 & 63.2 & 100.0 & 99.0 \\
+\addlinespace[2pt]
+GLM 5.3 Flash & Section & 99.0 & 99.0 & 98.9 & 81.1 & 63.4 & 63.2 & 99.0 & \textbf{98.7} \\
+GLM 5.3 Flash & Report & \textbf{100.0}\textsuperscript{*} & \textbf{100.0} & \textbf{99.9} & \textbf{82.6}\textsuperscript{*} & \textbf{66.6} & \textbf{63.7} & \textbf{100.0} & 82.0 \\
+\addlinespace[2pt]
+MiMo V2.5 & Section & \textbf{99.9} & \textbf{100.0}\textsuperscript{*} & 99.8 & 82.4 & \textbf{62.9}\textsuperscript{*} & \textbf{63.5} & 100.0 & \textbf{100.0}\textsuperscript{*} \\
+MiMo V2.5 & Report & 98.7 & 99.9 & \textbf{99.9} & \textbf{83.0}\textsuperscript{*} & 59.3 & 63.4 & 100.0 & 86.1 \\
+\addlinespace[2pt]
+MiniMax M3 & Section & 89.0 & 89.0 & 88.8 & 72.7 & \textbf{57.6} & 56.5 & 89.0 & 89.0 \\
+MiniMax M3 & Report & \textbf{96.0} & \textbf{96.0} & \textbf{95.8} & \textbf{79.5} & 57.5 & \textbf{60.9} & \textbf{96.0} & \textbf{91.2} \\
+\addlinespace[2pt]
+Mistral Small 4 & Section & 98.8 & \textbf{98.8} & \textbf{95.7} & 77.9 & \textbf{77.4}\textsuperscript{*} & 57.4 & 98.0 & 37.6 \\
+Mistral Small 4 & Report & \textbf{99.4} & 98.4 & 95.6 & \textbf{80.1} & 62.9 & \textbf{60.9}\textsuperscript{*} & \textbf{100.0} & \textbf{70.2}\textsuperscript{*} \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}
+\par\vspace{3pt}
+\begin{minipage}{0.98\linewidth}\footnotesize
+$S$: structure; $T$: tables; $K$: calculated-result correctness; $C$: citation obligations; $R$: prose requirement coverage; $J$: supported required citation groups. $A$: affected-section change rate; $P$: unaffected-section preservation. $A$ measures edits, not their correctness. All 20 projects contribute equally. All planned cases remain included; incomplete reports receive zero on applicable measures. Existing semantic measurement-failure assignments are retained. $^{*}p_{\mathrm{Holm}}<.05$: exact two-sided project-paired sign-flip tests, with 48 planned comparisons in this task's Holm family.
+\end{minipage}
+\end{table*}

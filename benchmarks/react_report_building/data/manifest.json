@@ -1,0 +1,149 @@
+{
+  "catalogue": {
+    "path": "catalogues/global_catalogue.json",
+    "sha256": "da23b8e0863c73ee7222a02f82275e633e561a80d3161d8c702f0ebdd825a6d1"
+  },
+  "inputs": {
+    "canonical_overrides": {
+      "path": "canonical_overrides.yaml",
+      "sha256": "b2b1f44617c013666045ec42712d18f71d6ebabb54fba89f1784221183bf9b00"
+    },
+    "climatefund_twins": {
+      "path": "external/ClimateFund@d7a57b8/climatefund.json",
+      "sha256": "9f802daaca9a5385a9f1d545ebd89964a15c3e431208e1e75df941f513bc8b3f"
+    },
+    "finance_enrichment": {
+      "path": "finance_enrichment.yaml",
+      "sha256": "e1a441b816991e33e787507d8d4e540fc28edacca0128e448c812e2014db8221"
+    }
+  },
+  "project_ids": [
+    "FP083",
+    "FP039",
+    "FP128",
+    "FP178",
+    "FP148",
+    "FP063",
+    "FP102",
+    "FP163",
+    "FP090",
+    "FP064",
+    "FP193",
+    "FP080",
+    "FP033",
+    "FP138",
+    "FP019",
+    "FP071",
+    "FP140",
+    "FP081",
+    "FP106",
+    "FP196"
+  ],
+  "projects": [
+    {
+      "path": "normalized/projects/fp083.json",
+      "project_id": "FP083",
+      "sha256": "95daaa53d6442517172806ce999d97c6ff719ed417aad2dad5f32608b344fb22"
+    },
+    {
+      "path": "normalized/projects/fp039.json",
+      "project_id": "FP039",
+      "sha256": "56bee7a8f486d799c7b4affdee3db79ef9f50b424aa2ec0214310f50483d6fce"
+    },
+    {
+      "path": "normalized/projects/fp128.json",
+      "project_id": "FP128",
+      "sha256": "015d80b98e423752289b43cb3c2384fa3b25371c6f9e8090795c61fc8bea96c1"
+    },
+    {
+      "path": "normalized/projects/fp178.json",
+      "project_id": "FP178",
+      "sha256": "273e2108194405fca07fe2576a1209a8a843cad804b86abe557f50cd2db76169"
+    },
+    {
+      "path": "normalized/projects/fp148.json",
+      "project_id": "FP148",
+      "sha256": "c9f91966975f2c409d32808c55ef5f630128ce1b0d11a5027f798924ef7d2dbb"
+    },
+    {
+      "path": "normalized/projects/fp063.json",
+      "project_id": "FP063",
+      "sha256": "18eb448ad14430d7863af16b4f6848859d993e28a0830f183796a897841b501e"
+    },
+    {
+      "path": "normalized/projects/fp102.json",
+      "project_id": "FP102",
+      "sha256": "59522e5bf33bd6934f978524ae1d9c27b9f10d8c028833cddbd3fa10b6aabc93"
+    },
+    {
+      "path": "normalized/projects/fp163.json",
+      "project_id": "FP163",
+      "sha256": "38f9c26c64145fa5200a35933e585da4265dddce80309dff1682a7fb9fda0431"
+    },
+    {
+      "path": "normalized/projects/fp090.json",
+      "project_id": "FP090",
+      "sha256": "3213cd11afb88b6b4096797f65b0ef9670e041aba6a3911912fae51053556557"
+    },
+    {
+      "path": "normalized/projects/fp064.json",
+      "project_id": "FP064",
+      "sha256": "df70697d01b2381077a73c82772b95048126625b79b6761ba22af70907a23fab"
+    },
+    {
+      "path": "normalized/projects/fp193.json",
+      "project_id": "FP193",
+      "sha256": "f773d9ab1d99dd1b300d65d920c63e310433b03df7b95b6c6bd9c5f3308a97f6"
+    },
+    {
+      "path": "normalized/projects/fp080.json",
+      "project_id": "FP080",
+      "sha256": "b45f8febaa96dd348e39653ac80745f32a69a87ccde918d05a4c2aa2aaa47566"
+    },
+    {
+      "path": "normalized/projects/fp033.json",
+      "project_id": "FP033",
+      "sha256": "725fcc6611587cc8881a5660f43a1b4a24e0fb5bae09b822e7823f37ae08f38d"
+    },
+    {
+      "path": "normalized/projects/fp138.json",
+      "project_id": "FP138",
+      "sha256": "3ed5001a2a655fa11159f16174df0d3d63641b1d7b17f2502bd06a84194a6244"
+    },
+    {
+      "path": "normalized/projects/fp019.json",
+      "project_id": "FP019",
+      "sha256": "2cadaebf56f422651502e58ce0e48a9c7bdd45d8226f8b23e02bc4d5d9d62f4b"
+    },
+    {
+      "path": "normalized/projects/fp071.json",
+      "project_id": "FP071",
+      "sha256": "16ee513027bbd3801e1c5e7bb8d8f5c3de001ed44d51a73dd32af65b35fe17c5"
+    },
+    {
+      "path": "normalized/projects/fp140.json",
+      "project_id": "FP140",
+      "sha256": "cda0d9a588e65a8ac4577fc95148eae232819a4f8aaf2adfb694c78b02fa1c51"
+    },
+    {
+      "path": "normalized/projects/fp081.json",
+      "project_id": "FP081",
+      "sha256": "8b41dd1a6242b393543923be4eb695fb8efc79de04e278ddeaad1b0acc109b39"
+    },
+    {
+      "path": "normalized/projects/fp106.json",
+      "project_id": "FP106",
+      "sha256": "4ae711c2fdb6ed95c4b1d73f10ad5a30083e5128d3ca96f448ab38d7ded193df"
+    },
+    {
+      "path": "normalized/projects/fp196.json",
+      "project_id": "FP196",
+      "sha256": "605048473029ec6e5707a76ffdf7259e54c848fe0708ca9def69dba964955537"
+    }
+  ],
+  "reference": {
+    "path": "references/climatefund20-v1.json",
+    "sha256": "95d60bf35b689a357c0363907597705c0dfacbe8d5b475741b3c25c794117dd1"
+  },
+  "schema_version": "react_report.dataset_manifest/v1"
+}

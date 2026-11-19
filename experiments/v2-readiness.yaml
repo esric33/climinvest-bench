@@ -1,0 +1,38 @@
+schema_version: benchrunner.study/v1
+study_id: react-report-v2-offline-readiness
+mode: smoke
+adapter: react_report_v2
+analysis_seed: 7
+replicates: 1
+
+models:
+  - alias: deterministic-fixture
+    provider: fixture
+    model: deterministic-fixture-v1
+
+# This zero-provider matrix exercises all three tasks, all five topology
+# categories, both generation scopes, and all 15 section decisions for FP083.
+selection:
+  projects: [FP083]
+  tasks: [complete, missingness, update]
+  scopes: [report, section]
+  categories: all
+
+generation:
+  action_protocol: textual_json
+  max_turns: 8
+  # Match the configured whole-report generation ceiling in target plans.
+  max_output_tokens: 32000
+  timeout_seconds: 180
+
+scheduler:
+  concurrency: 10
+  provider_limits:
+    fixture: 10
+  lease_seconds: 600
+
+retry:
+  max_attempts: 1
+  base_delay_seconds: 2
+  max_delay_seconds: 60
+  max_total_delay_seconds: 180

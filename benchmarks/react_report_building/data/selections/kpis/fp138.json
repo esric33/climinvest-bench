@@ -1,0 +1,119 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 8,
+  "excluded_kpi_count": 0,
+  "kpi_candidates": [
+    {
+      "canonical_name": "tonnes of carbon dioxide equivalent t co2eq reduced or avoided gender sensitive energy access power generation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided - gender-sensitive energy access power generation",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "percentage of rural electrification procedures communications and decisions reflecting women youth priorities",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Percentage of rural electrification procedures, communications and decisions reflecting women & youth priorities",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "number of additional vulnerable localities attributed to rural electrification operators",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of additional vulnerable localities attributed to rural electrification operators",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "number of coupon subsidized connections of eligible social services women youth entrepreneurs to the pv mini grids",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of coupon- subsidized connections of eligible social services, women& youth-entrepreneurs to the PV mini-grids",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "mwh energy consumption from installed solar plants",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWh energy consumption from installed solar plants",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "of sales income from total productive use by smes and community services of clean energy",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "% of sales income from total productive use by SMEs and community services of clean energy",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "mws of low emission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    }
+  ],
+  "project_id": "FP138",
+  "risk_count": 5,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.6.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.1.kpis.1"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.2.kpis.0"
+    }
+  ]
+}

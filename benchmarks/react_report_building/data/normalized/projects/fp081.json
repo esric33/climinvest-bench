@@ -1,0 +1,3322 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The programme’s final target is based on the assumptions indicated in section E.6.5, which are expected to be representative of the programme’s portfolio composition."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "5,212,200"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided as a result of Fund-funded projects/programmes"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "90,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Aggregated results of projects’ annual supervision report verified by an independent engineer and TCCL Social & Environmental specialist"
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL will aim for at least this leverage level through its additional mobilization efforts with own funds, or other private financers, if necessary"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "250"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding (funding leverage factor)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "100"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Aggregated amount allocated to finance low emission energy projects reported by TCCL."
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Entire capacity of 250 MW expected to be captive power\r\n• expected life of the assets: 25 years\r\n• CAPEX costs: USD 250 million\r\n• Capacity Utilization Factor: 17%\r\n• Annual Degradation Factor: 0.6%\r\n• Programme Emissions: 0 – since programme involves generation of electricity using solar power\r\n• Grid Emission factor: 0.8 kg per 1kWh of solar power based on average emission factors "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "USD / tCO2eq avoided",
+              "value": null
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD / tCO2eq avoided",
+              "value": "47.96"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "USD / tCO2eq avoided",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL will calculate this value for each project in the GCF portfolio at the time of financial closing based on total project cost and GCF financing to each project.  TCCL will aggregate results and report to GCF for the whole portfolio."
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.0.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Entire capacity of 250 MW expected to be captive power\r\n• expected life of the assets: 25 years\r\n• CAPEX costs: USD 250 million\r\n• Capacity Utilization Factor: 17%\r\n• Annual Degradation Factor: 0.6%\r\n• Programme Emissions: 0 – since programme involves generation of electricity using solar power\r\n• Grid Emission factor: 0.8 kg per 1kWh of solar power based on average emission factors "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "USD / tCO2eq avoided",
+              "value": null
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD / tCO2eq avoided",
+              "value": "19.19"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes (Public GCF funding)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "USD / tCO2eq avoided",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.3"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL will calculate this value for each project in the GCF portfolio at the time of financial closing based on total project cost and GCF financing to each project.  TCCL will aggregate results and report to GCF for the whole portfolio."
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.0.kpis.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Entire capacity of 250 MW expected to be captive power\r\n• expected life of the assets: 25 years\r\n• CAPEX costs: USD 250 million\r\n• Capacity Utilization Factor: 17%\r\n• Annual Degradation Factor: 0.6%\r\n• Programme Emissions: 0 – since programme involves generation of electricity using solar power\r\n• Grid Emission factor: 0.8 kg per 1kWh of solar power based on average emission factors "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "USD / tCO2eq avoided",
+              "value": null
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD / tCO2eq avoided",
+              "value": "28.78"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes (Private funding)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "USD / tCO2eq avoided",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.4"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL will calculate this value for each project in the GCF portfolio at the time of financial closing based on total project cost and GCF financing to each project.  TCCL will aggregate results and report to GCF for the whole portfolio."
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.0.kpis.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Easy availability of desired levels of long term funding and knowledge sharing from this programme to project developers shall attract more no. of players"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "250"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "100"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL portfolio reports, Government / MNRE reports"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expected market demand in the solar rooftop sector \r\nDeals in pipeline / under evaluation with TCCL of around 20 MW. TCCL shall consider all proposals for solar rooftop received / sanctioned since September 30, 2017 under this programme\r\nSegment wise composition is  indicative and may vary based on the  extant market dynamics within each segment (expected C&I: 65-70%, Institutional & Social: 25%, Residential: 5-10%)."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "No. of funding proposals received by TCCL",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW (proposals aggregating to)",
+              "value": "250"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No. of funding proposals received by TCCL"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW (proposals aggregating to)",
+              "value": "150"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL generated reports indicating no of proposals received "
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Considering TCCL’s established operational and credit risk evaluation track record \r\nSegment wise composition is indicative and may vary based on the risk based evaluation of each proposal within the respective segment (expected C&I: 65-70%, Institutional & Social: 25%, Residential: 5-10%)."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "200"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No. of proposals sanctioned by TCCL under the programme"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "120"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL generated reports indicating no. of proposals sanctioned"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Considering TCCL’s established operational track record \r\nSegment wise composition is indicative and may vary based on the actual sanctions within the respective segment (expected C&I: 65-70%, Institutional & Social: 25%, Residential: 5-10%)."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "200"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Amount of loans disbursed by TCCL to project developers under the programme"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "90"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL generated reports indicating actual amount of loans disbursed"
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_10.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Assuming a project construction period of 5-6 months. \r\nSegment wise composition is indicative and may vary based on the actual sanctions within the respective segment (expected C&I: 65-70%, Institutional & Social: 25%, Residential: 5-10%)."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_10.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW (project aggregation)",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_10.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_10.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW (project aggregation)",
+              "value": "250"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_10.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MW of solar rooftop capacity installed under the programme"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_10.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW (project aggregation)",
+              "value": "100"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_10.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_10.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_10.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 10
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_10.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL generated reports indicating aggregate capacity of projects commissioned under the programme."
+            }
+          },
+          "id": "dt.kpis.kpi_10",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.5.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_11.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_11.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "jobs created",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_11.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_11.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "jobs created",
+              "value": "5000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_11.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "jobs created"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_11.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "jobs created",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_11.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_11.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_11.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 11
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_11.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            }
+          },
+          "id": "dt.kpis.kpi_11",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "IND"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "India"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Asia"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Southern Asia"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Potential delay in payments by the off-taker for the energy delivered by the Borrowers may impact the Borrower’s ability to serve debt."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "• Detailed evaluation of the underlying off-taker and selection of healthy off-taker with no default history\r\n• Structured loan payments considering the track record of the off-taker in making payments for the energy delivered\r\n• Detailed vetting of the underlying Power Purchase Agreement to ensure no ambiguity in tariff determination\r\n• Stipulation of a Debt Service Reserve Account of no less than 6 months of Project debt service, which will be used to pay debt in the event of any cash short fall of the Borrower"
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Lower-than-expected solar irradiation could reduce the ability of the Project to generate enough revenues to service debt."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Use of conservative base-case assumptions for debt sizing that incorporates levels of energy production that will have a high probability of being exceeded.\r\nMaintenance of minimum debt service coverage ratio\r\nAppointment of external technical consultant (the Lenders Engineer, “LE”) to independently analyze the solar irradiation using the best performing solar database presently available."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Loss of revenues caused by delays in construction and cost overruns."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Selection of sites with easy accessibility (no Right of Way issues)\r\nClarity in rooftop configuration. Pre-construction assessment of roof structure, shadow analysis, building condition, future construction plans etc.\r\nEngaging Consultants to have deeper understanding of regulatory aspects \r\nEmploying EPC reputable contractor. Vetting of EPC arrangements to ensure effective transfer of construction risk to the EPC Contractor. The EPC Contract to have a package of market-standard liquidated damages (the “LDs”), to be sized on a case-by-case basis taking into the account the opinion of the LE and considering the characteristics of project site and construction program. The LDs to be provided by the EPC Contractors or the Sponsor will be credit enhanced with a letter of credit posted by a financial institution acceptable to TCCL.\r\nAdditional support from Sponsor to cover risks that may be excluded by EPC Contractors."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Loss of revenues caused by delays in construction and cost overruns"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Underperformance of the technology leading to lower production of energy and revenues."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Selection of commercially proven, independently certified solar panels and inverters,\r\nSolar panel degradation guarantee and defects guarantee provided by manufacturers of solar panels and wind turbines, Where appropriate, a major maintenance reserve accounts to perform scheduled maintenance and replacement of components.\r\nContracting an experienced operation and maintenance (O&M) company, which will ensure proper maintenance of all equipment in accordance with best industry practices.\r\nO&M contracts that include a minimum plant availability guarantee. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Underperformance of the technology leading to lower production of energy and revenues"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Impacts environment and social situations."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Clearly defined list for type of projects to be excluded under the programme\r\nApplication of the environmental and social safeguards, which require a comprehensive assessment of environmental and social risks and its corresponding action plan to mitigate such risks\r\nConduct a flora and fauna survey, including birds during the migratory seasons, before the execution of any works\r\nPublic consultation process to identify and address, as needed, the concerns of the affected communities (if any). "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Impacts environment and social situations"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_6.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Impacts performance and asset life."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_6.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_6.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Appointment of Reputable O&M contractor with min. performance efficiency\r\nPreferably constructor to undertake O&M to avoid disputes\r\nProject to be adequately insured."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Impacts performance and asset life"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_6.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_6.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "risk.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Easy availability of desired levels of long term funding and knowledge sharing from this programme to project developers shall attract more no. of players"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "250"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "100"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL portfolio reports, Government / MNRE reports"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL will aim for at least this leverage level through its additional mobilization efforts with own funds, or other private financers, if necessary"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "250"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding (funding leverage factor)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "100"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Aggregated amount allocated to finance low emission energy projects reported by TCCL."
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "jobs created",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "jobs created",
+              "value": "5000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "jobs created"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": "jobs created",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 11
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expected market demand in the solar rooftop sector \r\nDeals in pipeline / under evaluation with TCCL of around 20 MW. TCCL shall consider all proposals for solar rooftop received / sanctioned since September 30, 2017 under this programme\r\nSegment wise composition is  indicative and may vary based on the  extant market dynamics within each segment (expected C&I: 65-70%, Institutional & Social: 25%, Residential: 5-10%)."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "No. of funding proposals received by TCCL",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW (proposals aggregating to)",
+              "value": "250"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No. of funding proposals received by TCCL"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "MW (proposals aggregating to)",
+              "value": "150"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL generated reports indicating no of proposals received "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Considering TCCL’s established operational and credit risk evaluation track record \r\nSegment wise composition is indicative and may vary based on the risk based evaluation of each proposal within the respective segment (expected C&I: 65-70%, Institutional & Social: 25%, Residential: 5-10%)."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "200"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No. of proposals sanctioned by TCCL under the programme"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "120"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp081",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCCL generated reports indicating no. of proposals sanctioned"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp081",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP081"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp081",
+        "locator": "GCF project FP081 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp081"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 150000000
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The challenge of climate change calls for extraordinary vision, leadership, compassion and wisdom as the cumulative accumulation of greenhouse gases (GHGs) historically since industrial revolution has resulted in the current problem of global warming. Government of India has been an active and constructive participant at global level in the search for location specific solutions. The per capita emissions of many developed countries vary between 7 to15 metric tonnes, the per capita emissions in India were only about 1.56 metric tonnes in 2010. Climate change is a major challenge for developing countries like India that face large scale climate variability and are exposed to enhanced risks from climate change. Few countries in the world are as vulnerable to the effects of climate change as India because of its’ vast population that is dependent on the growth of its agrarian economy, its expansive coastal areas and the Himalayan region and islands. In recognition of the growing problem of Climate Change, Govt of India declared a voluntary goal of reducing the emissions intensity of its GDP by 20–25%, over 2005 levels, by 2020, despite having no binding mitigation obligations as per the Convention. A slew of policy measures were launched to achieve this goal. As a result, the emission intensity of our GDP has decreased by 12% between 2005 and 2010. It is a matter of satisfaction that United Nations Environment Programme (UNEP) in its Emission Gap Report 2014 has recognized India as one of the countries on course to achieving its voluntary goal.\r\nThe largest renewable capacity expansion program in the world is being taken up by India to reduce CO2 emissions. The Government of India is aiming to increase share of clean energy through massive thrust in renewables. A capacity addition of 14.30 GW of renewable energy has been reported during the last two and half years under Grid Connected Renewable Power, which include 5.8 GW from Solar Power, 7.04 GW from Wind Power, 0.53 GW from Small Hydro Power and 0.93 GW from Bio-power. Going by the growth rate in clean energy sector, the Government of India in its submission to the United Nations Frame Work Convention on Climate Change on Nationally Determined Contribution (NDC) has stated that India will achieve 40% cumulative Electric power capacity from non-fossil fuel based energy resources by 2030. The Government of India has set a target of 40 GW of rooftop solar power by 2022 which will require substantial financial resources, estimated at USD 34 billion. However, availability of long-term debt financing remains a major constraints for expansion of rooftop solar power in India.\r\nIndian Solar Rooftop: installed capacity stood at 1.4 GW as on March 2017 with Tamil Nadu, Maharashtra and Rajasthan being the leading states in terms of installed Rooftop Solar capacity. The solar rooftop market has grown at a CAGR of 98% over the last 4 years. Historically, Solar Rooftop has always maintained a 10-12% share of the overall Solar Capacity. With 65% of total installed capacity, Commercial & Industrial remains the biggest market segment. These consumers account for more than 50% of India’s total power demand and make savings of up to 50% through rooftop solar systemsas their grid tariffs are typically between INR 7-10 (US₵ 11-16)/ kWh. Public sector segment is also expected to show robust growth in the coming years because of a strong government push combined with 25-30% capital subsidy. In contrast, the residential segment is expected to grow relatively slowly because of limited economic incentive to set up solar rooftop systems. \r\nII. Executing Entity:\r\nTata Cleantech Capital Limited (TCCL) is a joint venture between Tata Capital and International Finance Corporation (IFC), Washington DC, US. Tata Capital is a part of USD 103 billion Tata Group, one of India's biggest and most respected business conglomerates. TCCL, rated AA+ by CRISIL (a Standard & Poor's company), has funded over 3 GW renewable energy projects saving approximately 4.5 million tonne CO2 emission annually. TCCL specialises in end to end business solutions in the clean technology space. It identifies, evaluates & funds projects in renewable energy (solar, wind, small hydro, biomass etc), energy efficiency and water treatment sectors. \r\nIII. Programme:\r\nThe programme, titled ‘Line of Credit for Solar rooftop segment for commercial, industrial and residential housing sectors’, seeks a total of USD 100 million of GCF resources in the form of Senior Loans to overcome identified barriers to lowcarbon investment. Additionally, TCCL shall also contribute USD 100 million in to the programme. With the assistance of the GCF, TCCL will receive the necessary assistance to develop a fit-for-purpose framework to allow the ambitious scaleup of solar roof top capacity in India. The programme shall, among others, enable an expected lifetime emission reduction of ~5,200,000 tCO2eq (indicative) over the lifetime of the project. The supervision of the projects financed by the GCF will be based on a detailed Monitoring and Evaluation plan that will be implemented to track project performance and achievement of results. Project level results will be aggregated to assess the impact of the GCF’s programme in addition to the GCF’s project-specific indicators.\r\nGCF’s financial assistance (USD funds via its Interim Trustee World Bank) to TCCL shall be routed through NABARD, the AE with GCF. NABARD shall then on-lend the same to TCCL in local currency (Indian Rupees). TCCL shall provide project loans to various solar rooftop developers after a detailed technical, financial and economic due diligence for the project and the developer. TCCL will have a detailed project monitoring evaluation and reporting framework dedicated to the programme. The monitoring evaluation reports (in accordance with the FAA and AMA) shall be submitted with NABARD for onward submission to GCF after being appraised by NABARD and/or NABARD appointed Independent Consultants. NABARD would ensure necessary monitoring and reporting as per the GCF requirements indicated in the AMA and FAA. The mechanism would be independent mechanism apart from the concurrent mechanism proposed by the TCCL.\r\nIV. Objectives:\r\nThe proposed programme by TCCL would support Government of India’s initiative in fulfilling renewable energy targets by enabling access to solar rooftop developers to the required means of finance. The programme aims to tap around 250 MW of solar rooftop capacity in the initial phase over 2018-2022. TCCL, through its expertise, aims to cater to the specific market needs and be a facilitator to bridge existing gaps/current barriers in the rooftop solar sector. This will lead to creation of a viable economical model in the solar rooftop space and will attract competitive financing in the currently unbanked sector."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Solar energy"
+      ]
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "NABARD"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "National Bank for Agriculture and Rural Development (India)"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Large"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "National"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp081",
+        "locator": "GCF project FP081 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp081"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 100000000
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 5212200.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 5.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 20.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Energy, mitigation and access"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "public"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "medium"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Line of Credit for Solar rooftop segment for commercial, industrial and residential housing sectors"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 250000000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp081",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "programme"
+    }
+  },
+  "project_id": "FP081",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp081-nabard-india.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp081"
+}

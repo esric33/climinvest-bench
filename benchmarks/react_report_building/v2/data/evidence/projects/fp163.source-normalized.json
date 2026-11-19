@@ -1,0 +1,34 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp163.json",
+    "sha256": "38f9c26c64145fa5200a35933e585da4265dddce80309dff1682a7fb9fda0431",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.initial_phase_country_count": {
+      "description": "Countries included in the facility's initial phase",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.initial_phase_country_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp163",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "technical and financial support to seven initial countries (Phase 1)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp163.pdf"
+      },
+      "status": "available",
+      "unit": "countries",
+      "value": 7
+    }
+  },
+  "project_id": "FP163",
+  "schema_version": "react_report.source_normalization/v2"
+}

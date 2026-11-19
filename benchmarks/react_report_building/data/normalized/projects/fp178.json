@@ -1,0 +1,3764 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Methodologies ACM0002, AM0103, used Project lifetime 25 years (standard practice for PV systems)\r\nAnnual emission reductions 0.63MtCO2eq u.\r\nLifetime reductions 14.4 MtCO2equ."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "kt CO2equ.",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "Mt CO2equ",
+              "value": "2.8"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.1 Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided - gender-sensitive energy access power generation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "kt CO2equ.",
+              "value": "317"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Annual CO2 performance Monitoring, Reporting and Verification by independent CDM-DOE auditor or independent local carbon verifier"
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Calculated using to current figures for electricity mix in participating countries, 875 GWh direct contribution from DtP and 175 GWh indirect.\r\nRegulatory environment enables solar integration and incentivize investments.\r\nInformation to be further disaggregated provided by project, country and type of technology in relation to the programme performance."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% of current annual electrici ty supply in the G5 Sahel countri es come from low emission sources",
+              "value": "31"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% of current annual electrici ty supply in the G5 Sahel countri es come from low emission sources",
+              "value": "40"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.1 Proportion of low-emission power supply in a jurisdiction market"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% of current annual electrici ty supply in the G5 Sahel countri es come from low emission sources",
+              "value": "32"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Monitoring, Reporting and Verification by independent carbon auditor or independent local carbon verifier.\r\nNational reports"
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Calculated using to current figures for electricity mix in participating countries, 875 GWh direct contribution from DtP and 175 GWh indirect.\r\nRegulatory environment enables solar integration and incentivize investments.\r\nInformation to be further disaggregated provided by project, country and type of technology in relation to the programme performance."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "695,000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.2 Number of households and individuals (males and females) with improved access to low-emission energy sources Monitoring, Reporting and Verification by independent"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "69,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Monitoring, Reporting and Verification by independent carbon auditor or independent local carbon verifier.\r\nNational reports, verified by NDAs. "
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.1.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Calculated using to current figures for electricity mix in participating countries, 875 GWh direct contribution from DtP and 175 GWh indirect.\r\nRegulatory environment enables solar integration and incentivize investments.\r\nInformation to be further disaggregated provided by project, country and type of technology in relation to the programme performance."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp Solar PV",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp Solar PV",
+              "value": "500"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.3 MWs of lowemission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp Solar PV",
+              "value": "50"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.3"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Monitoring, Reporting and Verification by independent carbon auditor or independent local carbon verifier.\r\nNational reports, verified by NDAs.  "
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.1.kpis.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Engagement among G5 Sahel countries continues, and country's governments are committed to the programme's objectives.\r\nRegulations to represent best practice as reflected in RISE indicator framework"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "regulatory systems",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "regulatory system that incentivizes solar investments designed and enacted in each target country",
+              "value": "1"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.1 Institutional and regulatory systems that improve incentives for lowemission planning and development and their effective implementation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "regulatory system that incentivizes solar investments designed in each target country",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National reports verified by NDAs Baseline, mid-term and end term assessment in each country using RISE subindicators for legal framework and incentives and regulatory support for RE "
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Suitable storage opportunity is created and exploited.\r\nPublic or private investors make the required investments "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "technologies",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "new utility scale storage systems in operation",
+              "value": "3"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of technologies and innovative solutions transferred or licensed to support low emission development as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "technologies",
+              "value": "0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National reports verified by NDAs"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.2.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Utilities are interested and able to implement grid investments.\r\nContinuous governments ’ commitments to the Programme. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "500"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Grids are upgraded to a status where VRE becomes dispatchable"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "50 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 1.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Commissioning and project completion certificates"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Utilities are  interested  and able to  implement  grid  investments.  \r\n  Continuous  governments ’  commitments  to the  Programme.  "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "solar PV farms",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "solar PV farms",
+              "value": "6"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of grid connected solar PV farms"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "solar PV farms",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 1.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Commissioning and project completion certificates "
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.3.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Utilities are interested and able to implement grid investments.\r\nContinuous governments ’ commitments to the Programme. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "o"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWh of utility storage",
+              "value": "239"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Utility scale storage installed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 1.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 10
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Commissioning and project completion certificates"
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_10.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Private sector is interested and able to invest in solar generation  \r\nRegulatory and legal frameworks in place for incremental solar power generation "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_10.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_10.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_10.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "500"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_10.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Additional solar capacity installed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_10.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "50"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_10.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 2.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_10.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_10.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 11
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_10.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Programme monitoring and completion reports"
+            }
+          },
+          "id": "dt.kpis.kpi_10",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.5.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_11.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Private sector is interested and able to invest in solar generation  \r\nRegulatory and legal frameworks in place for incremental solar power generation "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_11.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% reduction",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_11.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_11.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% reduction",
+              "value": "20"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_11.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Improved reliability of supply – reduction in blackouts and brownouts – SAIDI & SAIFI measures for selected cities"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_11.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% reduction",
+              "value": "2"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_11.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 2.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_11.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_11.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 12
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_11.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Programme monitoring and completion reports "
+            }
+          },
+          "id": "dt.kpis.kpi_11",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.5.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_12.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutions and stakeholders willing to participate in the activities. \r\n50% are women Minimum 80% of the target audience should be satisfied \r\nMinimum 80% of the target audience should be able to articulate the message delivered"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_12.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "people",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_12.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_12.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "people",
+              "value": "2500"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_12.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Knowledge and experience exists within transmission operators and utilities to operate with high VRE Conducive enabling environment for IPPs established Number of people trained (including regulators, utilities), sex disaggregated Improved capacity / skills of trainees (sex disaggregated data)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_12.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "people",
+              "value": "1000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_12.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 3.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_12.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_12.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 13
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_12.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project monitoring and completion reports\r\nTraining feedback forms"
+            }
+          },
+          "id": "dt.kpis.kpi_12",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_13.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Regulatory and legal frameworks in place for incremental solar power generation\r\nPrivate sector is interested and able to invest in solar generation"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_13.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "standards for solar integration",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_13.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_13.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "standar d for solar integration",
+              "value": "5"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_13.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Standard developed and competitive tender using gender responsive procurement process designed Matchmaking events organized to mobilize private investments"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_13.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "standards for solar integration",
+              "value": "2"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_13.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 3.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_13.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_13.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 14
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_13.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Programme monitoring and completion reports"
+            }
+          },
+          "id": "dt.kpis.kpi_13",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.7.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "BFA"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Burkina Faso"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub-Saharan Africa"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_2.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TCD"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Chad"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_2.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_2.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub-Saharan Africa"
+            }
+          },
+          "id": "dt.project.countries.country_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "countries.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_3.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MLI"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Mali"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_3.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_3.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub-Saharan Africa"
+            }
+          },
+          "id": "dt.project.countries.country_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "countries.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_4.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MRT"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Mauritania"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_4.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_4.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub-Saharan Africa"
+            }
+          },
+          "id": "dt.project.countries.country_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "countries.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_5.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "NER"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Niger (the)"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_5.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_5.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub-Saharan Africa"
+            }
+          },
+          "id": "dt.project.countries.country_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "countries.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational capacity to implement the strategic plans and programs in relation to implementation of strategic plans, effective monitoring and evaluation, and delays in having a PIU in place."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The mitigation measure will be to ensure effective co-ordination and streamlining of the programs and the Bank’s High-5 priorities to maximize advantages and optimize resources, including the establishment of a well-coordinated multidisciplinary Taskforce and implementation units at partner institutions, as well as the engagement of regional coordination entities.\r\nEfforts will be made to establish a robust institutional structure to effectively co-ordinate implementation and undertake capacity needs assessments as to design targeted interventions to boost implementation capacity.\r\nAn additional mitigation measure will be to establish a well-articulated and functional monitoring and evaluation process/mechanism. Delay in having the coordination unit implemented and regional coordination entities engaged will consequently impact early implementation of the program. Dialogue would be accelerated to mobilize the involved parties as expeditiously as possible."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Deployment risks linked to simultaneous planning and implementation of multiple projects. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Capacity building as a cross-cutting component of the initiative, aims at improving institutional capacity to implement projects, but also to develop local workforce and value chains. Policy reforms are part of the program, political commitment is required to ensure that there is a willingness to implement reforms."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Deployment risks linked to simultaneous planning and implementation of multiple projects"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Foreign exchange risks related to potential Power Purchase Agreements. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PPAs are usually denominated in local currency. The practice however in the region is to introduce 3 important commercial features in the PPA that mitigate the FX risks. Those are:\r\n• A take or pay feature in the price. The price has an element of measured injected energy and an\r\nelement of available energy.\r\n• The possibility to revise the tariff in the event of major FX fluctuations.\r\n• A bank guarantee provided by the off taker which can cover up to 3 months of payments. This bank guarantee is often put in place by the off-taker and will be extended to 6 months with the support of a PRG. These measures will be addressed at a transaction level."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Foreign exchange risks related to potential Power Purchase Agreements"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Forex"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Risks related to political and social unrest and insecurity.  "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ECOWAS and the G5 Sahel Alliance are working with partners to stabilize the region through military and development actions. The Bank also has a security monitoring system to determine its engagement with countries in transition. In addition, the DtP Team will continue to work with the Host Countries to monitor the security situations in the region as well as other partners and stakeholders on the ground to ensure that project implementation in not affected by tensions and conflicts. All sites selected for the programme will be secured sites in the countries concerned. Each country will propose a plan of action for the safety of the intervention sites that will be taken into account during planning, construction, operation and evaluation. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Risks related to political and social unrest and insecurity"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Risks related to inability of Off-takers to maintain their financing payments. The Programme will be primarily providing financial support to the IPP projects in Least Developed Countries prone to political and economic instability. The off-takers are also characterised with weak balance sheets and limited track-record of dealing with IPPs. These financing instruments may be difficult to restructure or workout, particularly in stressed conditions, and as such the risk of loss may be greater than the risk of similar loans for IPP projects in other countries."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The AE will conduct extensive due diligence on IPP project financing parameters and contractual arrangements, including the creditworthiness of counterparties, such as countries utilities, the impact and performance of the financial structure under various stress scenarios. \r\nThe Programme will seek to target contracts with credible counterparties with long term visibility on cashflows and appropriate credit enhancements, where possible.\r\nThe Programme will apply its robust monitoring process to manage the risk of default and any work out situation required to aim to deliver the best outcome for the Programme and ultimately the GCF and commercial investors.\r\nAs part of the sector due-diligence, the AE will identify and discuss possible reforms that the governments will need to put in place to ensure long-term sustainability of the sector backed by a monitoring plan. \r\nThe Programme has also a Partial Risk Guarantee (PRG) in the in the financing structure to be funded by AfDB and the GCF. The PRG will support the payment obligations of the off-takers to the IPPs for approximate duration of 6 months, providing the off-takers with the temporary liquidity as they sort-out their cash-flow situation. The PRG is also intended to support the IPPs in developing a dependable track-record in dealing with the private sector in the long-run."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Risks related to inability of Off-takers to maintain their financing payments"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Credit"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Calculated using to current figures for electricity mix in participating countries, 875 GWh direct contribution from DtP and 175 GWh indirect.\r\nRegulatory environment enables solar integration and incentivize investments.\r\nInformation to be further disaggregated provided by project, country and type of technology in relation to the programme performance."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% of current annual electrici ty supply in the G5 Sahel countri es come from low emission sources",
+              "value": "31"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% of current annual electrici ty supply in the G5 Sahel countri es come from low emission sources",
+              "value": "40"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.1 Proportion of low-emission power supply in a jurisdiction market"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "% of current annual electrici ty supply in the G5 Sahel countri es come from low emission sources",
+              "value": "32"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Monitoring, Reporting and Verification by independent carbon auditor or independent local carbon verifier.\r\nNational reports"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Calculated using to current figures for electricity mix in participating countries, 875 GWh direct contribution from DtP and 175 GWh indirect.\r\nRegulatory environment enables solar integration and incentivize investments.\r\nInformation to be further disaggregated provided by project, country and type of technology in relation to the programme performance."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "695,000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.2 Number of households and individuals (males and females) with improved access to low-emission energy sources Monitoring, Reporting and Verification by independent"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "69,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Monitoring, Reporting and Verification by independent carbon auditor or independent local carbon verifier.\r\nNational reports, verified by NDAs. "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.1.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Engagement among G5 Sahel countries continues, and country's governments are committed to the programme's objectives.\r\nRegulations to represent best practice as reflected in RISE indicator framework"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "regulatory systems",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "regulatory system that incentivizes solar investments designed and enacted in each target country",
+              "value": "1"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.1 Institutional and regulatory systems that improve incentives for lowemission planning and development and their effective implementation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "regulatory system that incentivizes solar investments designed in each target country",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National reports verified by NDAs Baseline, mid-term and end term assessment in each country using RISE subindicators for legal framework and incentives and regulatory support for RE "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Regulatory and legal frameworks in place for incremental solar power generation\r\nPrivate sector is interested and able to invest in solar generation"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "standards for solar integration",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "standar d for solar integration",
+              "value": "5"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Standard developed and competitive tender using gender responsive procurement process designed Matchmaking events organized to mobilize private investments"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "standards for solar integration",
+              "value": "2"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Output 3.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 14
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Programme monitoring and completion reports"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.7.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Suitable storage opportunity is created and exploited.\r\nPublic or private investors make the required investments "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "technologies",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "new utility scale storage systems in operation",
+              "value": "3"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of technologies and innovative solutions transferred or licensed to support low emission development as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": "technologies",
+              "value": "0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp178",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National reports verified by NDAs"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp178",
+            "locator": "outcomes.2.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP178"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp178",
+        "locator": "GCF project FP178 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp178"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 816716400
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "In line with the mandate obtained by the African Development Bank (AfDB) from the Heads of State of the G5 Sahel countries to drive the implementation of the DtP initiative, the role of the AfDB is to assist the G5 Sahel countries in mobilizing resources from various sources including the GCF to address the barriers that hinder these countries from adopting a low emission power generation path by seizing the abundant solar potential of the region.\r\nThe Desert to Power G5 Sahel Facility (DtP) consists of US$ 150 million GCF financing that leverages US$ 816.7 million co-financing including US$ 379.6 million from the AfDB and US$ 437 million of private sector co-financing.\r\nThe Sahel is a vast semi-arid region that lies south of the Sahara Desert and stretches from Africa’s Atlantic Coast to the Red Sea. It covers 11 countries including Burkina Faso, Chad, Djibouti, Eritrea, Ethiopia, Mali, Mauritania, Niger, Nigeria, Senegal, and Sudan. These countries are among the poorest in Africa with an average GDP 2.5 times lower than the rest of the continent. The Sahel countries are also largely underserved with electricity, exacerbated by growing electricity demands driven among other factors by cooling needs. A temperature increase of 0.3 °C per decade has been recorded between 1979-2015.\r\nG5 Sahel Countries: Low Human Development, Vulnerability and Security Challenges\r\nThe G5 Sahel includes a group of five countries: Burkina Faso, Chad, Mali, Mauritania, and Niger. The G5 Sahel countries have a total population of 86 million as of 2020, 75% of whom live in rural areas. In all five countries, agriculture and cattle-raising remain a central pillar of the economy and the occupation of a large majority of the population, despite the presence of high-value resources such as gold, hydrocarbons, uranium, and manganese. All the G5 Sahel countries rank at the bottom of the Human Development Index (HDI) and are among the 10 poorest countries in the world. The G5 Sahel Strategy for Development and Security identifies its members as ecologically vulnerable states, and recognizes that this vulnerability, combined with insecurity and a history of low state capacity as key contributors to the region’s development challenges. These issues are furthercompounded by infrastructure challenges, which restricts the movement of people, goods and energy into these desert countries, four of which are land locked. \r\nImpact of COVID on G5- Sahel Countries\r\nAccording to the African Economic Outlook (AEO) 2021, African economies contracted by 2.1% in 2020 due to the impact of COVID-19 with an estimated US$ 4.5 billion required to lift the newly extreme poor out of poverty. The COVID-19 impact in the G-5 Sahel countries is especially manifested by subdued economic growth rates and widening budget deficits. Furthermore, COVID-19 resulted in border closures and lockdowns that impacted revenue collections (taxes) and led to a re-prioritization of public spending to social sectors of health and socialsafety nets. \r\nThe electricity sub-sector in the G5 countries, as in most African countries, has suffered from disruptions to global supply chains, as well as from lower demand in global markets for a wide range of African commodities. Low electricity access rates have also exposed the vulnerability of the public health systems in these countries as reliable electricity is required to offer the much-needed medical care, support the healthcare infrastructure including cold-storage facilities for vaccines. On the electricity project financing front, the COVID situation has seen a freezing of new investments as most financiers have opted to postpone their engagements, with potential negative impact on expected new generation and grid investment projects.  \r\nThe livelihoods of rural households in fragile environments of G5 Sahel countries have been severely affected by the unprecedented circumstances associated with the COVID-19 pandemic. Chronic food insecurity threatens the most vulnerable in the Sahel, including women, as women constitute the majority of the Sahelian population, due to high rates of male migration from the region. Women of this region are subjected to additional stress in this period of pandemic because they find themselves alone and separated from their usual social institutions such as schools and savings groups. Children remain at home and require care and food, which women must generally provide alone. Thus, by enabling the environment for private capital flows in the renewable energy sector, the DtP Facility will create economic and social opportunities for women and men. In the medium term, the program will also foster social cohesion in the targeted areas by reducing migratory pressures.\r\nSDGs and Global Agenda\r\nDesert to Power is a flagship program and an important climate project in the quest towards the achievement of the Sustainable Development Goal (SDG) 7 on energy for the beneficiary Sahel countries, all of which are LDCs. The Desert to Power G5-Sahel Facility (DtP) is part of the AfDB’s agreed entity work program with the Green Climate Fund and in line with the declaration of intent on cooperation on DtP signed between the two institutions in 2018 during the Bank’s Annual Meetings in Busan. \r\nLack of Direct Access Entities in a Fragile Environment\r\nThe G5 Sahel countries do not have any direct access entities coupled with fragility, which makes this proposal critically important and catalytic in terms of attracting investors to the Sahel region and supporting the ambition of the governments in the region to fight poverty, create employment for the youth, address migration and desertification challenges as well as to ensure the development of low-carbon and climate resilient economies.\r\nStrong political and partner support\r\nIn September 2019, the Heads of State of the G5 Sahel countries endorsed the Desert to Power Initiative and its holistic implementation approach focused on five key priorities: (1) increase on-grid solar generation; (2) strengthen transmission and distribution networks; (3) deploy decentralized energy access solutions at scale: (4) improve the viability of the utilities and (5) improve the enabling environment to facilitate more private sector investments. An implementation structure composed of a dedicated DtP Taskforce housed by the AfDB, a steering committee and country focal points was set up and operationalized. This strong support to Desert to Power was reiterated in the communique of the Extraordinary Sahel G5 Heads of State Summit in July 2021. The initiative also enjoys strong support from relevant regional organizations as evidenced by formal letters of support received from the ECOWAS Commission, the G5 Sahel Executive Secretariat, the Pan-African Great Green Wall Agency and support expressed by others, such as the Alliance Sahel. Various technical and financial partners support the initiative and are represented in the Steering Committee, and several have also expressed their cofinancing interest (e.g. AFD, Power Africa) under this Facility.\r\nDesert to Power G5 Sahel Facility (DtP or the Facility)\r\nThe Desert to Power G5 Sahel Facility seeks to enable the G5 Sahel countries to adopt a low-emission pathway by making use of their abundant solar potential. The Facility has the potential to deliver a substantial climate mitigation dividend which is estimated at over 14.4 million tCO2equ. for the G5 Sahel countries over the programme lifetime. This dividend will be reaped by adding over 500 MW of solar energy generation capacity, which will significantly increase the share of clean energy in the generation mix across the five countries. The proposed approach will address the identified barriers through the execution of three components that are part of the overarching priorities of the Desert to Power initiative as endorsed by the G5 Sahel Heads of State:\r\n• The first component will focus on grid investments to de-risk solar IPPs and pave the way for the uptake of a regional solar market. This component will include financial support to grid ancillary infrastructure for solar integration, and storage for grid stability.\r\n• A second component will provide concessional finance to solar IPPs as well as partial risk guarantees (PRGs) to cover investors against the risk of the government (or the government-owned utility) failing to perform under the Power Purchase Agreement (PPA) obligations with respect to the underlying project.\r\n• A third component focuses on technical assistance (TA) which includes: the development of capacity of local stakeholders to manage larger shares of variable renewable energy and improve the enabling environment for IPPs to attract private sector investments in solar energy across the G5 Sahel region.\r\nExpected Outcomes and Impact of the Facility The Facility intends to generate the following outcomes: (i) A backbone grid with utility scale storage for solar power integration and basic technical conditions in place for a regional solar market; (ii) 500 MW of additional solar generation capacity through IPPs. The IPPs are expected to mobilize US$ 141.7 million in equity and US$ 566.9 million in debt financing (AfDB, other DFIs, and commercial loans). A partial risk guarantee of US$ 40 million is introduced as a feature to facilitate the bankability of the IPP projects, designed to improve the credit and risk profile of the off takers. The outcomes of the proposed technical assistance activities under the Desert to Power Financing Facility are the creation of a clear and reliable environment for private sector solar project financing and the development of adequate capacity at national institutions in the G5 Sahel countries to ensure the long-term sustainability of their national renewable energy sectors. Through these outcomes, the Facility will create attractive and viable opportunities for solar PV in the G5 countries, improve energy access and security, reduce 14.4 million tCO2equ., and directly benefit 3.5 million people (out of which 1.75 million are women). The expected indirect beneficiaries are estimated at 700,000 people3. It is also estimated that 1250 jobs will be created during construction and 450 permanent jobs."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Solar energy"
+      ]
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "AfDB"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "African Development Bank"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Large"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp178",
+        "locator": "GCF project FP178 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp178"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 150000000
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 14400000.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 7.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 25.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Energy, mitigation and access"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "private"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "large"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Desert to Power G5 Sahel Facility"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 966700000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP178",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp178"
+}

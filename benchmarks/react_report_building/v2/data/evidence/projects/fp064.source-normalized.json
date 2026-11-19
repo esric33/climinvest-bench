@@ -1,0 +1,188 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp064.json",
+    "sha256": "df70697d01b2381077a73c82772b95048126625b79b6761ba22af70907a23fab",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.bice_in_kind_resources_usd": {
+      "description": "BICE in-kind resources complementing the GCF grant",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.bice_in_kind_resources_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "in-kind resources from BICE (USD 600,000)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 600000
+    },
+    "dt.project.expected_energy_consumption_reduction_gwh": {
+      "description": "Expected energy-consumption reduction including the revolving account",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_energy_consumption_reduction_gwh",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "could reduce energy consumption by 229 GWh",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": "GWh",
+      "value": 229.0
+    },
+    "dt.project.expected_energy_generation_gwh": {
+      "description": "Expected energy generation including the revolving account",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_energy_generation_gwh",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "generate 8,842 GWh",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": "GWh",
+      "value": 8842.0
+    },
+    "dt.project.gcf_grant_usd": {
+      "description": "Non-reimbursable GCF grant resources for technical assistance",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "Non-reimbursable GCF grant resources (USD 3 million)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 3000000
+    },
+    "dt.project.idb_additional_grant_usd": {
+      "description": "Additional IDB grant resources",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.idb_additional_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "additional IDB grant resources (USD 250,000)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 250000
+    },
+    "dt.project.policy_renewable_target_pct": {
+      "description": "Argentina renewable-energy share target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_renewable_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "increase RE share in the energy matrix to 20%",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 20.0
+    },
+    "dt.project.policy_target_year": {
+      "description": "Target year for the renewable-energy and consumption objectives",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_target_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "reduce energy consumption in 5.9% by 2025",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "2025"
+    },
+    "dt.project.revolving_account_tenor_years": {
+      "description": "Maximum stated tenor for recycling sub-loan returns",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.revolving_account_tenor_years",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp064",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "up to the tenor of 20 years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp064-idb-argentina.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 20.0
+    }
+  },
+  "project_id": "FP064",
+  "schema_version": "react_report.source_normalization/v2"
+}

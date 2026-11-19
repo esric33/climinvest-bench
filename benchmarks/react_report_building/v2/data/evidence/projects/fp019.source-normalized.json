@@ -1,0 +1,56 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp019.json",
+    "sha256": "2cadaebf56f422651502e58ce0e48a9c7bdd45d8226f8b23e02bc4d5d9d62f4b",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.redd_activity_count": {
+      "description": "Number of REDD+ activities included in the national action plan",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.redd_activity_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp019",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "includes the 5 REDD+ activities",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp019-undp-ecuador.pdf"
+      },
+      "status": "available",
+      "unit": "activities",
+      "value": 5
+    },
+    "dt.project.zero_net_deforestation_target_year": {
+      "description": "National zero-net-deforestation objective year",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.zero_net_deforestation_target_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp019",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "zero net deforestation by 2020",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp019-undp-ecuador.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "project_id": "FP019",
+  "schema_version": "react_report.source_normalization/v2"
+}

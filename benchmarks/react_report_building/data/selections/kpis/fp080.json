@@ -1,0 +1,262 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 20,
+  "excluded_kpi_count": 1,
+  "kpi_candidates": [
+    {
+      "canonical_name": "proportion of low emission power supply in a jurisdiction or market",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Proportion of low emission power supply in a jurisdiction or market",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "number of households and individuals males and females with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of households, and individuals (males and females) with improved access to low-emission energy sources",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "mws of low emission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.0.kpis.2",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "number of ipp projects financed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of IPP projects financed",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "jobs created",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Jobs created",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "local institutions involved into private sector re financing",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Local institutions involved into private sector RE financing",
+      "path": "outcomes.2.kpis.2",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "number of ipp projects financed",
+      "duplicate_of": "outcomes.2.kpis.0",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Number of IPP projects financed",
+      "path": "outcomes.2.kpis.3",
+      "reason": "duplicate indicator name",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "strategy regulatory framework standards and guidelines produced",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Strategy, regulatory framework, standards and guidelines produced",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "capacity building training conducted",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Capacity building training conducted",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "database created",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Database created",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "site selected and feasibility reports produced and cleared",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Site selected, and feasibility reports produced and cleared",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "financial commercial framework and risk mitigation strategy produced",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Financial & commercial framework and risk mitigation strategy produced",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "detailed rural energy access plans developed and adopted",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Detailed rural energy access plans developed and adopted",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "tariffs operational scheme and financial mechanisms produced",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Tariffs, operational scheme, and financial mechanisms produced",
+      "path": "outcomes.8.kpis.0",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "number of women who join the zambia network of women in energy",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of women who join the Zambia network of women in energy",
+      "path": "outcomes.9.kpis.0",
+      "reason": "eligible",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "number of women and disabled trained on re technologies and business development related to renewable energy transactions",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of women and disabled trained on RE technologies and business development related to renewable energy transactions",
+      "path": "outcomes.9.kpis.1",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "number of financial institutions benefited and their institutional capacity built",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of financial institutions benefited and their institutional capacity built",
+      "path": "outcomes.10.kpis.0",
+      "reason": "eligible",
+      "source_order": 18
+    },
+    {
+      "canonical_name": "of financial institutions in zambia implementing gender responsive programs by 2020",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "% of financial institutions in Zambia implementing Gender responsive programs by 2020",
+      "path": "outcomes.11.kpis.0",
+      "reason": "eligible",
+      "source_order": 19
+    },
+    {
+      "canonical_name": "number of staff in financial institutions trained on gender responsive climate finance",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of staff in financial institutions trained on gender responsive climate finance",
+      "path": "outcomes.11.kpis.1",
+      "reason": "eligible",
+      "source_order": 20
+    },
+    {
+      "canonical_name": "number of knowledge products on gender responsive climate financing developed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of knowledge products on gender responsive climate financing developed",
+      "path": "outcomes.11.kpis.2",
+      "reason": "eligible",
+      "source_order": 21
+    }
+  ],
+  "project_id": "FP080",
+  "risk_count": 7,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.0.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.0.kpis.1"
+    },
+    {
+      "family": "policy_governance",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.2.kpis.1"
+    }
+  ]
+}

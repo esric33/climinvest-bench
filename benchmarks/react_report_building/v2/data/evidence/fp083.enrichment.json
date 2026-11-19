@@ -1,0 +1,1175 @@
+{
+  "inputs": {
+    "peer_projects": [
+      "FP019",
+      "FP033",
+      "FP039",
+      "FP063",
+      "FP064",
+      "FP071",
+      "FP080",
+      "FP081",
+      "FP083",
+      "FP090",
+      "FP102",
+      "FP106",
+      "FP128",
+      "FP138",
+      "FP140",
+      "FP148",
+      "FP163",
+      "FP178",
+      "FP193",
+      "FP196"
+    ],
+    "sibling_repository": {
+      "path": "packages/climinvest-domain/demo-data-registry.js",
+      "repository": "climinvest-studio",
+      "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+      "sha256": "bfaf46a6ef751419531ce0b7d4206a306f4e1b5da90688467957912a2b13107e"
+    },
+    "source_normalization": {
+      "path": "v2/data/evidence/fp083.source-normalized.json",
+      "sha256": "8d9473141133c487db7e051ccc724fd9fc5b6268c04723d7d9ddc21f05d93cb2"
+    }
+  },
+  "policy": {
+    "cross_project_values_are_project_facts": false,
+    "description": "Sibling-repository supplements remain explicitly marked; other projects contribute only frozen peer statistics and are never copied into FP083 project facts.",
+    "overwrite_normalized_facts": false,
+    "synthetic_imputation_used": false
+  },
+  "project_id": "FP083",
+  "project_nodes": {
+    "dt.project.cofinance_disbursement_period_1_share": {
+      "description": "Cofinance disbursement share, period 1",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.cofinance_disbursement_period_1_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.cofinance_schedule[0]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.15
+    },
+    "dt.project.cofinance_disbursement_period_2_share": {
+      "description": "Cofinance disbursement share, period 2",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.cofinance_disbursement_period_2_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.cofinance_schedule[1]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.35
+    },
+    "dt.project.cofinance_disbursement_period_3_share": {
+      "description": "Cofinance disbursement share, period 3",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.cofinance_disbursement_period_3_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.cofinance_schedule[2]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.3
+    },
+    "dt.project.cofinance_disbursement_period_4_share": {
+      "description": "Cofinance disbursement share, period 4",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.cofinance_disbursement_period_4_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.cofinance_schedule[3]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.2
+    },
+    "dt.project.commitment_period_years": {
+      "description": "Facility commitment period",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.commitment_period_years",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.commitment_period_years",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 6
+    },
+    "dt.project.delivery_mechanism": {
+      "description": "Project delivery mechanism",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.delivery_mechanism",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.project_mechanism",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "A Geothermal Resource Risk Mitigation Facility provides debt financing for geothermal developers' resource-confirmation drilling."
+    },
+    "dt.project.environmental_cobenefits": {
+      "description": "Expected environmental co-benefits",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.environmental_cobenefits",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.environmental_cobenefits",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Expected co-benefits include lower local air-pollutant emissions, relatively low freshwater use, and a smaller land footprint than conventional energy extraction."
+    },
+    "dt.project.gcf_grant_disbursement_period_1_share": {
+      "description": "Gcf Grant disbursement share, period 1",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_grant_disbursement_period_1_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_grant_schedule[0]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.8
+    },
+    "dt.project.gcf_grant_disbursement_period_2_share": {
+      "description": "Gcf Grant disbursement share, period 2",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_grant_disbursement_period_2_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_grant_schedule[1]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.2
+    },
+    "dt.project.gcf_grant_disbursement_period_3_share": {
+      "description": "Gcf Grant disbursement share, period 3",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_grant_disbursement_period_3_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_grant_schedule[2]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.0
+    },
+    "dt.project.gcf_grant_disbursement_period_4_share": {
+      "description": "Gcf Grant disbursement share, period 4",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_grant_disbursement_period_4_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_grant_schedule[3]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.0
+    },
+    "dt.project.gcf_reimbursable_grant_disbursement_period_1_share": {
+      "description": "Gcf Reimbursable Grant disbursement share, period 1",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_reimbursable_grant_disbursement_period_1_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_reimbursable_grant_schedule[0]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.65
+    },
+    "dt.project.gcf_reimbursable_grant_disbursement_period_2_share": {
+      "description": "Gcf Reimbursable Grant disbursement share, period 2",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_reimbursable_grant_disbursement_period_2_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_reimbursable_grant_schedule[1]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.35
+    },
+    "dt.project.gcf_reimbursable_grant_disbursement_period_3_share": {
+      "description": "Gcf Reimbursable Grant disbursement share, period 3",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_reimbursable_grant_disbursement_period_3_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_reimbursable_grant_schedule[2]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.0
+    },
+    "dt.project.gcf_reimbursable_grant_disbursement_period_4_share": {
+      "description": "Gcf Reimbursable Grant disbursement share, period 4",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_reimbursable_grant_disbursement_period_4_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_reimbursable_grant_schedule[3]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.0
+    },
+    "dt.project.gcf_soft_loan_disbursement_period_1_share": {
+      "description": "Gcf Soft Loan disbursement share, period 1",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_soft_loan_disbursement_period_1_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_soft_loan_schedule[0]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.5
+    },
+    "dt.project.gcf_soft_loan_disbursement_period_2_share": {
+      "description": "Gcf Soft Loan disbursement share, period 2",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_soft_loan_disbursement_period_2_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_soft_loan_schedule[1]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.3
+    },
+    "dt.project.gcf_soft_loan_disbursement_period_3_share": {
+      "description": "Gcf Soft Loan disbursement share, period 3",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_soft_loan_disbursement_period_3_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_soft_loan_schedule[2]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.2
+    },
+    "dt.project.gcf_soft_loan_disbursement_period_4_share": {
+      "description": "Gcf Soft Loan disbursement share, period 4",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.gcf_soft_loan_disbursement_period_4_share",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.gcf_soft_loan_schedule[3]",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "x",
+      "value": 0.0
+    },
+    "dt.project.implementation_agency": {
+      "description": "Implementation agency and delivery unit",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.implementation_agency",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.implementation_agency",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "PT Sarana Multi Infrastruktur (SMI) is the implementing agency and is expected to establish a dedicated Project Management Unit."
+    },
+    "dt.project.implementation_sequence": {
+      "description": "High-level implementation sequence",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.implementation_sequence",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.implementation_sequence",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Candidate working areas proceed through due diligence, exploration and delineation drilling, resource confirmation, and then financial close for steam-field and power-plant development."
+    },
+    "dt.project.monitoring_reporting_process": {
+      "description": "Implementation monitoring and reporting process",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.monitoring_reporting_process",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.monitoring_reporting_process",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The SMI project unit is expected to gather and analyse outputs and outcomes and submit quarterly progress reports to the World Bank."
+    },
+    "dt.project.projects_explored_target": {
+      "description": "Geothermal projects explored target",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.projects_explored_target",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.projects_explored_target",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": "projects",
+      "value": 17
+    },
+    "dt.project.social_economic_cobenefits": {
+      "description": "Expected social and economic co-benefits",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "sibling_repository_source_supplement",
+      "id": "dt.project.social_economic_cobenefits",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.dt.social_economic_cobenefits",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "sibling_repository_source_supplement"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Expected co-benefits include greater energy security, employment around drilling locations, and opportunities for women engineers and project managers."
+    },
+    "req.detailed_implementation_schedule": {
+      "description": "Detailed Implementation Schedule",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.detailed_implementation_schedule",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.detailed_implementation_schedule",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "No dated activity-level schedule, dependencies, or critical path are exposed."
+    },
+    "req.financial_returns": {
+      "description": "Financial Returns",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.financial_returns",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.financial_returns",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "ENPV, avoided-damage valuation, and EIRR are not evidenced."
+    },
+    "req.ghg_target_horizon": {
+      "description": "Ghg Target Horizon",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.ghg_target_horizon",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.ghg_target_horizon",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The cumulative GHG range lacks a structured target year and fully specified calculation boundary."
+    },
+    "req.lifecycle_opex": {
+      "description": "Lifecycle Opex",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.lifecycle_opex",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.lifecycle_opex",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Lifecycle OPEX is not evidenced."
+    },
+    "req.mrv_plan_status": {
+      "description": "Mrv Plan Status",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.mrv_plan_status",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.mrv_plan_status",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Formal MRV-plan status is not exposed as structured evidence."
+    },
+    "req.permitting_status": {
+      "description": "Permitting Status",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.permitting_status",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.permitting_status",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Permitting status is not exposed as structured evidence."
+    },
+    "req.project_status": {
+      "description": "Project Status",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.project_status",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.project_status",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Current project status is not evidenced in the available FP083 twin."
+    },
+    "req.revenue_model": {
+      "description": "Revenue Model",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.revenue_model",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.revenue_model",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The revenue model is not exposed as structured evidence."
+    },
+    "req.technical_feasibility_status": {
+      "description": "Technical Feasibility Status",
+      "enrichment": {
+        "imputed": false,
+        "overwrites_normalized_node": false
+      },
+      "evidence_class": "documented_source_gap",
+      "id": "req.technical_feasibility_status",
+      "kind": "scalar",
+      "provenance": {
+        "locator": "fp083SourceNodeDefs.missing.technical_feasibility_status",
+        "path": "packages/climinvest-domain/demo-data-registry.js",
+        "repository": "climinvest-studio",
+        "revision": "b1a7d14b9376ea40228f3d6ccd64dafa6147a5d1",
+        "source_kind": "documented_source_gap"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "A formal overall technical-feasibility conclusion is not exposed as structured evidence."
+    }
+  },
+  "reference_nodes": {
+    "reference.climatefund20.v2.fp083_leave_one_out.median_country_count": {
+      "description": "Peer median country count",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.median_country_count",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "countries",
+      "value": 1.0
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.median_ghg_reduction_tco2e": {
+      "description": "Peer median GHG reduction",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.median_ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 9110338.0
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.median_implementation_years": {
+      "description": "Peer median implementation period",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.median_implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 6.0
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.median_lifespan_years": {
+      "description": "Peer median project lifespan",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.median_lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 20.0
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.median_project_cost_usd": {
+      "description": "Peer median project cost",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.median_project_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 191400000.0
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.median_total_cost_per_tco2e": {
+      "description": "Peer median total cost per tCO2e",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.median_total_cost_per_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "USD/tCO2e",
+      "value": 37.40625449293001
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.methodology": {
+      "description": "FP083 peer-reference methodology",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.methodology",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Frozen leave-one-out medians and inclusive quartiles over the other 19 normalized ClimateFund projects. The public-energy comparator is restricted to public projects tagged Energy, mitigation and access. It is not technology-matched and does not imply causal comparability."
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.public_energy_median_total_cost_per_tco2e": {
+      "description": "Public-energy comparator median total cost per tCO2e",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.public_energy_median_total_cost_per_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "USD/tCO2e",
+      "value": 46.41013093552654
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.public_energy_sample_count": {
+      "description": "Public-energy comparator sample count",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.public_energy_sample_count",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "projects",
+      "value": 8
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.q1_total_cost_per_tco2e": {
+      "description": "Peer first-quartile total cost per tCO2e",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.q1_total_cost_per_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "USD/tCO2e",
+      "value": 8.168665088121639
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.q3_total_cost_per_tco2e": {
+      "description": "Peer third-quartile total cost per tCO2e",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.q3_total_cost_per_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "USD/tCO2e",
+      "value": 56.11997187168528
+    },
+    "reference.climatefund20.v2.fp083_leave_one_out.sample_count": {
+      "description": "Leave-one-out peer sample count",
+      "evidence_class": "cross_project_reference_statistic",
+      "id": "reference.climatefund20.v2.fp083_leave_one_out.sample_count",
+      "kind": "scalar",
+      "provenance": {
+        "input_evidence_classes": [
+          "normalized_project_source"
+        ],
+        "project_ids": [
+          "FP019",
+          "FP033",
+          "FP039",
+          "FP063",
+          "FP064",
+          "FP071",
+          "FP080",
+          "FP081",
+          "FP090",
+          "FP102",
+          "FP106",
+          "FP128",
+          "FP138",
+          "FP140",
+          "FP148",
+          "FP163",
+          "FP178",
+          "FP193",
+          "FP196"
+        ],
+        "source_kind": "cross_project_reference_statistic",
+        "statistic": "median_or_inclusive_quartile",
+        "synthetic_input_share": 0.0,
+        "target_excluded": "FP083"
+      },
+      "status": "available",
+      "unit": "projects",
+      "value": 19
+    }
+  },
+  "schema_version": "react_report.evidence_enrichment/v2"
+}

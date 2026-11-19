@@ -1,0 +1,166 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp090.json",
+    "sha256": "3213cd11afb88b6b4096797f65b0ef9670e041aba6a3911912fae51053556557",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_fossil_generation_pct": {
+      "description": "Approximate imported-diesel share in historical electricity generation",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_fossil_generation_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "depended almost entirely on imported diesel (around 90%) to generate its electricity",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 90.0
+    },
+    "dt.project.baseline_grid_loss_pct": {
+      "description": "Electricity line-loss baseline for the NDC efficiency target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_grid_loss_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "from a baseline of 18 percent in 2010",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 18.0
+    },
+    "dt.project.grid_loss_target_pct": {
+      "description": "Electricity line-loss target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.grid_loss_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "reduction of electricity line losses to 9 percent by 2020",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 9.0
+    },
+    "dt.project.interim_renewable_target_pct": {
+      "description": "Interim renewable-electricity generation target stated in Tonga's NDC",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.interim_renewable_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "by 2020, 50% of all electricity to be generated from renewables",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 50.0
+    },
+    "dt.project.policy_renewable_target_pct": {
+      "description": "Final renewable-electricity generation target stated in Tonga's NDC",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_renewable_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "by 2030, 70% of all electricity to be generated from renewables",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 70.0
+    },
+    "dt.project.policy_target_year": {
+      "description": "Year of the final renewable-electricity generation target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_target_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "by 2030, 70% of all electricity to be generated from renewables",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "2030"
+    },
+    "dt.project.pre_project_renewable_generation_pct": {
+      "description": "Expected renewable generation share after completion of TERM phases 1 and 2",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.pre_project_renewable_generation_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "approximately 27% of Tonga’s electricity will be generated from renewable energies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 27.0
+    }
+  },
+  "project_id": "FP090",
+  "schema_version": "react_report.source_normalization/v2"
+}

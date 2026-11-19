@@ -1,0 +1,231 @@
+{
+  "dataset_manifest": {
+    "file_sha256": "78878cd3e65f077a1a665ed632098b9fd3daa6627e500c3d29cc2ec712d96f6e",
+    "path": "data/manifest.json"
+  },
+  "design": {
+    "aggregation_note": "Report macro averages over all twenty projects and their sections, micro averages over atomic requirements, and per-template diagnostics. Template is benchmark metadata rather than a research-question factor.",
+    "all_systems_receive_identical_pairs": true,
+    "assignment_rule": "Assign the template that matches the project's primary delivery and impact-accounting mechanism, not the GCF project/programme label or every secondary activity.",
+    "expected_projects_by_template": {
+      "asset_delivery": 4,
+      "financing_facility": 13,
+      "land_use_nature": 3
+    },
+    "expected_sections_per_project": 15,
+    "population_size": 20,
+    "project_template_pairs_are_fixed_instances": true,
+    "shared_core_sections": 11,
+    "specialist_sections_per_template": 4,
+    "template_is_experimental_condition": false
+  },
+  "evidence_enrichment_contract": "v2/data/study/evidence-enrichment-contract.json",
+  "population_id": "climatefund20-three-specialisation-study-population-v1",
+  "projects": [
+    {
+      "assignment_rationale": "REDD+ action-plan delivery is accounted through deforestation, restoration, conservation, and land-use measures rather than a financed asset pipeline.",
+      "normalized_twin_path": "data/normalized/projects/fp019.json",
+      "normalized_twin_sha256": "2cadaebf56f422651502e58ce0e48a9c7bdd45d8226f8b23e02bc4d5d9d62f4b",
+      "project_id": "FP019",
+      "template_id": "land_use_nature"
+    },
+    {
+      "assignment_rationale": "The primary delivery object is grid-connected renewable generation and a mini-grid, with physical commissioning and operational emissions consequences.",
+      "normalized_twin_path": "data/normalized/projects/fp033.json",
+      "normalized_twin_sha256": "725fcc6611587cc8881a5660f43a1b4a24e0fb5bae09b822e7823f37ae08f38d",
+      "project_id": "FP033",
+      "template_id": "asset_delivery"
+    },
+    {
+      "assignment_rationale": "The EBRD framework blends and allocates finance to a portfolio of renewable-energy subprojects, so commitments and mobilisation are the primary delivery mechanism.",
+      "normalized_twin_path": "data/normalized/projects/fp039.json",
+      "normalized_twin_sha256": "56bee7a8f486d799c7b4affdee3db79ef9f50b424aa2ec0214310f50483d6fce",
+      "project_id": "FP039",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "A second-tier development-bank credit line channels blended concessional finance through local financial institutions to an SME efficiency portfolio.",
+      "normalized_twin_path": "data/normalized/projects/fp063.json",
+      "normalized_twin_sha256": "18eb448ad14430d7863af16b4f6848859d993e28a0830f183796a897841b501e",
+      "project_id": "FP063",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "The intervention is a blended, revolving concessional-finance mechanism for sustainable-energy subprojects, including intermediated and direct lending.",
+      "normalized_twin_path": "data/normalized/projects/fp064.json",
+      "normalized_twin_sha256": "df70697d01b2381077a73c82772b95048126625b79b6761ba22af70907a23fab",
+      "project_id": "FP064",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "The primary mechanism combines a risk-sharing facility, technical assistance, and a complementary credit line to mobilise industrial-efficiency investment.",
+      "normalized_twin_path": "data/normalized/projects/fp071.json",
+      "normalized_twin_sha256": "16ee513027bbd3801e1c5e7bb8d8f5c3de001ed44d51a73dd32af65b35fe17c5",
+      "project_id": "FP071",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "The renewable-energy framework deploys a financing envelope and tenor-extension instruments across competitively selected private subprojects.",
+      "normalized_twin_path": "data/normalized/projects/fp080.json",
+      "normalized_twin_sha256": "b45f8febaa96dd348e39653ac80745f32a69a87ccde918d05a4c2aa2aaa47566",
+      "project_id": "FP080",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "A dedicated line of credit finances a distributed solar-rooftop portfolio across commercial, industrial, and residential borrowers.",
+      "normalized_twin_path": "data/normalized/projects/fp081.json",
+      "normalized_twin_sha256": "8b41dd1a6242b393543923be4eb695fb8efc79de04e278ddeaad1b0acc109b39",
+      "project_id": "FP081",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "Debt finance for resource-confirmation drilling is deployed through a risk-mitigation facility; geothermal capacity is a downstream result rather than the primary benchmark object.",
+      "normalized_twin_path": "data/normalized/projects/fp083.json",
+      "normalized_twin_sha256": "95daaa53d6442517172806ce999d97c6ff719ed417aad2dad5f32608b344fb22",
+      "project_id": "FP083",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "The project directly delivers renewable-generation, storage, and grid assets whose commissioning drives physical energy outcomes.",
+      "normalized_twin_path": "data/normalized/projects/fp090.json",
+      "normalized_twin_sha256": "3213cd11afb88b6b4096797f65b0ef9670e041aba6a3911912fae51053556557",
+      "project_id": "FP090",
+      "template_id": "asset_delivery"
+    },
+    {
+      "assignment_rationale": "The project directly installs isolated solar mini-grids in 70 communities, making capacity rollout and operational output the primary delivery chain.",
+      "normalized_twin_path": "data/normalized/projects/fp102.json",
+      "normalized_twin_sha256": "59522e5bf33bd6934f978524ae1d9c27b9f10d8c028833cddbd3fa10b6aabc93",
+      "project_id": "FP102",
+      "template_id": "asset_delivery"
+    },
+    {
+      "assignment_rationale": "The investment programme crowds lenders and investors into a pipeline of embedded-generation subprojects, making portfolio deployment central.",
+      "normalized_twin_path": "data/normalized/projects/fp106.json",
+      "normalized_twin_sha256": "4ae711c2fdb6ed95c4b1d73f10ad5a30083e5128d3ca96f448ab38d7ded193df",
+      "project_id": "FP106",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "Although delivered through a fund, its primary climate accounting follows sustainable plantation forestry, carbon sinks, and conservation of natural forest.",
+      "normalized_twin_path": "data/normalized/projects/fp128.json",
+      "normalized_twin_sha256": "015d80b98e423752289b43cb3c2384fa3b25371c6f9e8090795c61fc8bea96c1",
+      "project_id": "FP128",
+      "template_id": "land_use_nature"
+    },
+    {
+      "assignment_rationale": "The intervention directly rolls out solar mini-grids and associated electricity-access assets across rural villages.",
+      "normalized_twin_path": "data/normalized/projects/fp138.json",
+      "normalized_twin_sha256": "3ed5001a2a655fa11159f16174df0d3d63641b1d7b17f2502bd06a84194a6244",
+      "project_id": "FP138",
+      "template_id": "asset_delivery"
+    },
+    {
+      "assignment_rationale": "The multi-country corporate-sector programme deploys finance across a portfolio of efficiency and low-carbon investments rather than one physical asset.",
+      "normalized_twin_path": "data/normalized/projects/fp140.json",
+      "normalized_twin_sha256": "cda0d9a588e65a8ac4577fc95148eae232819a4f8aaf2adfb694c78b02fa1c51",
+      "project_id": "FP140",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "The project participates in an energy-access relief facility that supplies working-capital support to a portfolio of distributed-energy companies.",
+      "normalized_twin_path": "data/normalized/projects/fp148.json",
+      "normalized_twin_sha256": "c9f91966975f2c409d32808c55ef5f630128ce1b0d11a5027f798924ef7d2dbb",
+      "project_id": "FP148",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "The explicit multi-country facility combines technical, financial, procurement, and risk-mitigation support for a renewable-investment portfolio.",
+      "normalized_twin_path": "data/normalized/projects/fp163.json",
+      "normalized_twin_sha256": "38f9c26c64145fa5200a35933e585da4265dddce80309dff1682a7fb9fda0431",
+      "project_id": "FP163",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "The G5 Sahel facility blends concessional finance, guarantees, grid support, and technical assistance to mobilise a multi-country solar portfolio.",
+      "normalized_twin_path": "data/normalized/projects/fp178.json",
+      "normalized_twin_sha256": "273e2108194405fca07fe2576a1209a8a843cad804b86abe557f50cd2db76169",
+      "project_id": "FP178",
+      "template_id": "financing_facility"
+    },
+    {
+      "assignment_rationale": "Although structured as a fund, its primary impact accounting uses avoided deforestation, enhanced carbon stocks, forest livelihoods, and REDD+ infrastructure.",
+      "normalized_twin_path": "data/normalized/projects/fp193.json",
+      "normalized_twin_sha256": "f773d9ab1d99dd1b300d65d920c63e310433b03df7b95b6c6bd9c5f3308a97f6",
+      "project_id": "FP193",
+      "template_id": "land_use_nature"
+    },
+    {
+      "assignment_rationale": "The programme's core intervention is a package of industrial-efficiency financing and de-risking mechanisms with replication through financial institutions.",
+      "normalized_twin_path": "data/normalized/projects/fp196.json",
+      "normalized_twin_sha256": "605048473029ec6e5707a76ffdf7259e54c848fe0708ca9def69dba964955537",
+      "project_id": "FP196",
+      "template_id": "financing_facility"
+    }
+  ],
+  "purpose": "Authoritative twenty-project benchmark population. Every evaluated system receives all twenty fixed project-template instances; template is benchmark metadata rather than an experimental condition.",
+  "schema_version": "react_report.study_population/v1",
+  "source_coverage_contract": {
+    "available_collection_ids": [
+      "dt.project.countries",
+      "dt.kpis",
+      "dt.risks"
+    ],
+    "available_node_ids": [
+      "dt.project.adaptation_areas",
+      "dt.project.code",
+      "dt.project.cofinance_usd",
+      "dt.project.description",
+      "dt.project.energy_technologies",
+      "dt.project.entity_code",
+      "dt.project.entity_name",
+      "dt.project.entity_sector",
+      "dt.project.entity_size",
+      "dt.project.entity_type",
+      "dt.project.gcf_financing_usd",
+      "dt.project.ghg_reduction_tco2e",
+      "dt.project.implementation_years",
+      "dt.project.lifespan_years",
+      "dt.project.mitigation_areas",
+      "dt.project.sector",
+      "dt.project.size",
+      "dt.project.title",
+      "dt.project.total_cost_usd",
+      "dt.project.type"
+    ],
+    "interpretation": "These observed baseline fields are available in every normalized twin in the twenty-project population. They do not imply that specialist-template inputs are source-backed."
+  },
+  "status": "frozen_for_preflight",
+  "templates": [
+    {
+      "label": "Asset and physical delivery",
+      "specialist_concepts": [
+        "policy and system baseline",
+        "capacity and output",
+        "commissioning or deployment profile",
+        "operational impact"
+      ],
+      "template_id": "asset_delivery"
+    },
+    {
+      "label": "Financing facility or investment programme",
+      "specialist_concepts": [
+        "instrument mix",
+        "allocation and utilisation basis",
+        "portfolio scale and deployment envelope",
+        "mobilisation and leverage"
+      ],
+      "template_id": "financing_facility"
+    },
+    {
+      "label": "Land-use and nature programme",
+      "specialist_concepts": [
+        "land-use baseline",
+        "area or portfolio deployment",
+        "carbon profile",
+        "beneficiaries and environmental co-benefits"
+      ],
+      "template_id": "land_use_nature"
+    }
+  ]
+}

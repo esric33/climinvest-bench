@@ -1,0 +1,614 @@
+[
+  {
+    "cohort_id": "luna",
+    "task": "complete",
+    "scope": "section",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "luna",
+    "task": "complete",
+    "scope": "report",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "luna",
+    "task": "missingness",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "luna",
+    "task": "missingness",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "luna",
+    "task": "update",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "luna",
+    "task": "update",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "muse",
+    "task": "complete",
+    "scope": "section",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "muse",
+    "task": "complete",
+    "scope": "report",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "muse",
+    "task": "missingness",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "muse",
+    "task": "missingness",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "muse",
+    "task": "update",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "muse",
+    "task": "update",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "glm",
+    "task": "complete",
+    "scope": "section",
+    "planned": 20,
+    "accepted": 18,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "glm",
+    "task": "complete",
+    "scope": "report",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "glm",
+    "task": "missingness",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 89,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "glm",
+    "task": "missingness",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "glm",
+    "task": "update",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 99,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "glm",
+    "task": "update",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "mimo25",
+    "task": "complete",
+    "scope": "section",
+    "planned": 20,
+    "accepted": 19,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "mimo25",
+    "task": "complete",
+    "scope": "report",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "mimo25",
+    "task": "missingness",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "mimo25",
+    "task": "missingness",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "mimo25",
+    "task": "update",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "mimo25",
+    "task": "update",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "minimax",
+    "task": "complete",
+    "scope": "section",
+    "planned": 20,
+    "accepted": 18,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "minimax",
+    "task": "complete",
+    "scope": "report",
+    "planned": 20,
+    "accepted": 18,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "minimax",
+    "task": "missingness",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 97,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "minimax",
+    "task": "missingness",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 86,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "minimax",
+    "task": "update",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 89,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "minimax",
+    "task": "update",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 96,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "mistral-small4",
+    "task": "complete",
+    "scope": "section",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "mistral-small4",
+    "task": "complete",
+    "scope": "report",
+    "planned": 20,
+    "accepted": 20,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 20,
+      "T": 20,
+      "K": 20,
+      "C": 20,
+      "R": 20,
+      "J": 20
+    }
+  },
+  {
+    "cohort_id": "mistral-small4",
+    "task": "missingness",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "mistral-small4",
+    "task": "missingness",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "M": 100
+    }
+  },
+  {
+    "cohort_id": "mistral-small4",
+    "task": "update",
+    "scope": "section",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  },
+  {
+    "cohort_id": "mistral-small4",
+    "task": "update",
+    "scope": "report",
+    "planned": 100,
+    "accepted": 100,
+    "projects": 20,
+    "metric_report_counts": {
+      "S": 100,
+      "T": 100,
+      "K": 100,
+      "C": 100,
+      "R": 100,
+      "J": 100,
+      "A": 100,
+      "P": 100
+    }
+  }
+]

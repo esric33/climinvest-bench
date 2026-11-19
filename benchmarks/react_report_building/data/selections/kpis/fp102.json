@@ -1,0 +1,191 @@
+{
+  "canonical_overrides": {
+    "ghg_reduction_tco2e": {
+      "locator": "Funding proposal A.2 and E.1.2: 1,027,227 tCO2e over 25 years for the full 70-community project; Tranche 1 is separately 821,782 tCO2e",
+      "reason": "fp102-ghg-whole-project-v1 (2026-09-08): the upstream scalar 10,272,272 disagrees with the proposal's full-project lifetime total 1,027,227. Preserve the full 70-community/4.83 MW scope; do not substitute the 50-community Tranche 1 total 821,782. The proposal's annual 41,049/41,089 discrepancy remains explicit and is not corrected here. See source_corrections/fp102-ghg-whole-project-v1.json.",
+      "value": 1027227
+    }
+  },
+  "cleaned_kpi_count": 13,
+  "excluded_kpi_count": 1,
+  "kpi_candidates": [
+    {
+      "canonical_name": "number of households and individuals males and females with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of Households and individuals (males and females) with improved access to low- emission energy sources",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "mws of low emission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of low- emission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementati on",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementati on",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "functional rural electrification agency with trained agents in legal matters concession contracts technical aspects tariff methodology supervision of the sector monitoring and evaluating the project",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Functional rural electrification Agency with trained agents in legal matters (concession contracts), technical aspects (tariff methodology ), supervision of the sector (monitoring and evaluating the project)",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "number of isolated solar pv installed number of localities benefiting from pv installations in the project site mw produced by installed solar plants",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of Isolated solar PV installed Number of Localities benefiting from PV installations in the project site MW produced by installed solar plants",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "number of localities benefiting from pv installations in the project site",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of Localities benefiting from PV installations in the project site",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "mw produced by installed solar plants",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MW produced by installed solar plants",
+      "path": "outcomes.3.kpis.2",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "number of households connected to the clean solar energy proportion of connected households benefiting due to access to credit under financial mechanism guarantee scheme for productive use of clean energy",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of households connected to the clean solar energy Proportion of connected households benefiting due to access to credit under financial mechanism (guarantee scheme) for productive use of clean energy",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "number of households connected to the clean solar energy proportion of connected households benefiting due to access to credit under financial mechanism guarantee scheme for productive use of clean energy",
+      "duplicate_of": "outcomes.4.kpis.0",
+      "eligible": false,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": false,
+      "name": "Number of households connected to the clean solar energy Proportion of connected households benefiting due to access to credit under financial mechanism (guarantee scheme) for productive use of clean energy",
+      "path": "outcomes.4.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "tonnes of carbon dioxide equivalent t co2eq reduced or avoided as a result of the funding of projects programs main indicator",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided as a result of the funding of Projects/programs (main indicator)",
+      "path": "outcomes.9.kpis.0",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "volume of finance leveraged by fund funding funding leverage factor",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of finance leveraged by Fund funding (funding leverage factor)",
+      "path": "outcomes.9.kpis.1",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "cost per tco2 eq decreased",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Cost per tCO2 eq decreased",
+      "path": "outcomes.9.kpis.2",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "permanent jobs",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "permanent jobs",
+      "path": "outcomes.17.kpis.0",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "temporary jobs",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "temporary jobs",
+      "path": "outcomes.17.kpis.1",
+      "reason": "eligible",
+      "source_order": 14
+    }
+  ],
+  "project_id": "FP102",
+  "risk_count": 6,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.0.kpis.1"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.0.kpis.0"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.9.kpis.1"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.17.kpis.0"
+    }
+  ]
+}

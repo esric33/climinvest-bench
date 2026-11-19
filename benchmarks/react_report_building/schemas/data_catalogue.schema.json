@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "react_report.data_catalogue/v2",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "report_title",
+    "sections",
+    "tables",
+    "data",
+    "calculations",
+    "operations",
+    "tools",
+    "citation_format",
+    "missing_format",
+    "update_precedence"
+  ],
+  "properties": {
+    "schema_version": {"const": "react_report.data_catalogue/v2"},
+    "report_title": {"type": "string"},
+    "sections": {"type": "array", "minItems": 1},
+    "tables": {"type": "object"},
+    "data": {"type": "object", "minProperties": 1},
+    "calculations": {"type": "object", "minProperties": 1},
+    "operations": {"type": "object", "minProperties": 1},
+    "tools": {"type": "object", "minProperties": 4},
+    "citation_format": {"type": "string"},
+    "missing_format": {"type": "string"},
+    "update_precedence": {"type": "string"}
+  }
+}

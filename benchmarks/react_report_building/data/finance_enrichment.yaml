@@ -1,0 +1,62 @@
+FP019:
+  gcf_financing_usd: {value: 41172739, locator: "GCF project FP019 financing: Total GCF-financing"}
+  cofinance_usd: {value: 42835908, locator: "GCF project FP019 financing: Total co-financing"}
+FP033:
+  gcf_financing_usd: {value: 28210000, locator: "GCF project FP033 financing: Total GCF Financing"}
+  cofinance_usd: {value: 163180000, locator: "GCF project FP033 financing: Total Co-Financing"}
+FP039:
+  gcf_financing_usd: {value: 154700000, locator: "GCF project FP039 financing: Total GCF-financing"}
+  cofinance_usd: {value: 852300000, locator: "GCF project FP039 financing: Total co-financing"}
+FP063:
+  gcf_financing_usd: {value: 23000000, locator: "GCF project FP063 financing: Total GCF Financing"}
+  cofinance_usd: {value: 20000000, locator: "GCF project FP063 financing: Total Co-Financing"}
+FP064:
+  gcf_financing_usd: {value: 103000000, locator: "GCF project FP064 financing: Total GCF Financing"}
+  cofinance_usd: {value: 60850000, locator: "GCF project FP064 financing: Total Co-Financing"}
+FP071:
+  gcf_financing_usd: {value: 86300000, locator: "GCF project FP071 financing: Total GCF Financing"}
+  cofinance_usd: {value: 410900000, locator: "GCF project FP071 financing: Total Co-Financing"}
+FP080:
+  gcf_financing_usd: {value: 52500000, locator: "GCF project FP080 financing: Total GCF Financing"}
+  cofinance_usd: {value: 101500000, locator: "GCF project FP080 financing: Total Co-Financing"}
+FP081:
+  gcf_financing_usd: {value: 100000000, locator: "GCF project FP081 financing: Total GCF Financing"}
+  cofinance_usd: {value: 150000000, locator: "GCF project FP081 financing: Total Co-Financing"}
+FP083:
+  gcf_financing_usd:
+    value: 185000000
+    locator: "basic_info.description: GCF US$25m soft loan, US$150m reimbursable grant and US$10m grant"
+  cofinance_usd: {value: 325000000, locator: "basic_info.description: IBRD US$325 million loan"}
+FP090:
+  gcf_financing_usd: {value: 29900000, locator: "GCF project FP090 financing: Total GCF Financing"}
+  cofinance_usd: {value: 17700000, locator: "GCF project FP090 financing: Total Co-Financing"}
+FP102:
+  gcf_financing_usd: {value: 30401454, locator: "GCF project FP102 financing: Total GCF Financing"}
+  cofinance_usd: {value: 9697604, locator: "GCF project FP102 financing: Total Co-Financing"}
+FP106:
+  gcf_financing_usd: {value: 100000000, locator: "GCF project FP106 financing: Total GCF Financing"}
+  cofinance_usd: {value: 437000000, locator: "GCF project FP106 financing: Total Co-Financing"}
+FP128:
+  gcf_financing_usd: {value: 25000000, locator: "GCF project FP128 financing: Total GCF Financing"}
+  cofinance_usd: {value: 175000000, locator: "GCF project FP128 financing: Total Co-Financing"}
+FP138:
+  gcf_financing_usd: {value: 88323667, locator: "GCF project FP138 financing: Total GCF Financing"}
+  cofinance_usd: {value: 144285269, locator: "GCF project FP138 financing: Total Co-Financing"}
+FP140:
+  gcf_financing_usd: {value: 258030000, locator: "GCF project FP140 financing: Total GCF Financing"}
+  cofinance_usd: {value: 758860000, locator: "GCF project FP140 financing: Total Co-Financing"}
+FP148:
+  gcf_financing_usd: {value: 30000000, locator: "GCF project FP148 financing: Total GCF Financing"}
+  cofinance_usd: {value: 30000000, locator: "GCF project FP148 financing: Total Co-Financing"}
+FP163:
+  gcf_financing_usd: {value: 280000000, locator: "GCF project FP163 financing: Total GCF Financing"}
+  cofinance_usd: {value: 1283500000, locator: "GCF project FP163 financing: Total Co-Financing"}
+FP178:
+  gcf_financing_usd: {value: 150000000, locator: "GCF project FP178 financing: Total GCF Financing"}
+  cofinance_usd: {value: 816716400, locator: "GCF project FP178 financing: Total Co-Financing"}
+FP193:
+  gcf_financing_usd: {value: 8972400, locator: "GCF project FP193 financing: Total GCF Financing"}
+  cofinance_usd: {value: 1027600, locator: "GCF project FP193 financing: Total Co-Financing"}
+FP196:
+  gcf_financing_usd: {value: 105000000, locator: "GCF project FP196 financing: Total GCF Financing"}
+  cofinance_usd: {value: 142700000, locator: "GCF project FP196 financing: Total Co-Financing"}

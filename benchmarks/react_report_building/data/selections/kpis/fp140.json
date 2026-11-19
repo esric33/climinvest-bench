@@ -1,0 +1,229 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 13,
+  "excluded_kpi_count": 5,
+  "kpi_candidates": [
+    {
+      "canonical_name": "climate focused investments identified and technically supported",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Climate-focused investments identified and technically supported",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "climate focused investments identified and technically supported",
+      "duplicate_of": "outcomes.0.kpis.0",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Climate-focused investments identified and technically supported",
+      "path": "outcomes.0.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "corporate low carbon gender responsive strategies developed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Corporate low-carbon gender-responsive strategies developed",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "corporate low carbon gender responsive strategies implemented",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Corporate low-carbon gender-responsive strategies implemented",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "corporate climate governance ccg level",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Corporate Climate Governance (CCG) Level",
+      "path": "outcomes.1.kpis.2",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "gcf and ebrd finance usd",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "GCF and EBRD finance (USD)",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "new sectoral roadmaps and rollouts",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "New sectoral roadmaps and rollouts",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "green transition bond gtb products",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Green Transition Bond (GTB) products",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "case studies",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Case studies",
+      "path": "outcomes.4.kpis.1",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "knowledge uptake",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Knowledge uptake",
+      "path": "outcomes.4.kpis.2",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "NONE",
+      "path": "outcomes.5.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "NONE",
+      "path": "outcomes.6.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "None",
+      "path": "outcomes.7.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "NONE",
+      "path": "outcomes.8.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "tonnes of carbon dioxide equivalent t co2eq reduced or avoided gender sensitive energy access power generation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided - gender-sensitive energy access power generation",
+      "path": "outcomes.9.kpis.0",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "tonnes of carbon dioxide equivalent t co2 eq reduced or avoided buildings cities industries and appliances",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "Tonnes of carbon dioxide equivalent (t CO2 eq) reduced or avoided - buildings, cities, industries, and appliances",
+      "path": "outcomes.10.kpis.0",
+      "reason": "eligible",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "mws of low emission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.11.kpis.0",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "energy intensity improved efficiency of buildings cities industries and appliances as a result of fund support tj",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Energy intensity/improved efficiency of buildings, cities, industries and appliances as a result of Fund support, TJ",
+      "path": "outcomes.12.kpis.0",
+      "reason": "eligible",
+      "source_order": 18
+    }
+  ],
+  "project_id": "FP140",
+  "risk_count": 6,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.11.kpis.0"
+    },
+    {
+      "family": "policy_governance",
+      "path": "outcomes.1.kpis.2"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.0.kpis.0"
+    }
+  ]
+}

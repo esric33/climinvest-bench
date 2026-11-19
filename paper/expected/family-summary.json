@@ -1,0 +1,53 @@
+[
+  {
+    "task": "complete",
+    "models": 6,
+    "metrics": [
+      "S",
+      "T",
+      "K",
+      "C",
+      "R",
+      "J"
+    ],
+    "family_size": 36,
+    "eligible_tests": 36,
+    "significant": 7,
+    "alpha": 0.05
+  },
+  {
+    "task": "missingness",
+    "models": 6,
+    "metrics": [
+      "S",
+      "T",
+      "K",
+      "C",
+      "R",
+      "J",
+      "M"
+    ],
+    "family_size": 42,
+    "eligible_tests": 42,
+    "significant": 21,
+    "alpha": 0.05
+  },
+  {
+    "task": "update",
+    "models": 6,
+    "metrics": [
+      "S",
+      "T",
+      "K",
+      "C",
+      "R",
+      "J",
+      "A",
+      "P"
+    ],
+    "family_size": 48,
+    "eligible_tests": 48,
+    "significant": 18,
+    "alpha": 0.05
+  }
+]

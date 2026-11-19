@@ -1,0 +1,163 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 9,
+  "excluded_kpi_count": 3,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m1 1 tonnes of carbon dioxide equivalent t co2eq reduced or avoided",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M1.1 Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "m1 2 cost per tco2eq decreased for all fundfunded mitigation projects programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "M1.2 Cost per tCO2eq decreased for all Fundfunded mitigation projects/programmes",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "6 1 proportion of lowemission power supply in a jurisdiction or market",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "6.1 Proportion of lowemission power supply in a jurisdiction or market.",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "6 3 mws of lowemission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "6.3 MWs of lowemission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "number of projects depending on project size",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of projects (depending on project size)",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "volume of financing",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of financing",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "completion of the model on the renewable energy injection capacity into the grid",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Completion of the model on the renewable energy injection capacity into the grid",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "number of capacity building workshop held number of attendants re capacity awarded built through existing future tenders",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of capacity building workshop held; number of attendants RE capacity awarded/built through existing/future tenders",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "expected total number of direct and indirect beneficiaries",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Expected total number of direct and indirect beneficiaries",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "None",
+      "path": "outcomes.6.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "expected total number of direct and indirect beneficiaries",
+      "duplicate_of": "outcomes.5.kpis.0",
+      "eligible": false,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": false,
+      "name": "Expected total number of direct and indirect beneficiaries",
+      "path": "outcomes.9.kpis.0",
+      "reason": "duplicate indicator name",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "None",
+      "path": "outcomes.10.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 12
+    }
+  ],
+  "project_id": "FP039",
+  "risk_count": 7,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.5.kpis.0"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.4.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.2.kpis.1"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.2.kpis.0"
+    }
+  ]
+}

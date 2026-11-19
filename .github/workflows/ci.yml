@@ -1,0 +1,25 @@
+name: Offline verification
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22.14.0"
+      - uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9
+      - run: uv sync --locked --extra paper
+      - run: node benchmarks/react_report_building/v2/compile_contract.js --check
+      - run: uv run --locked --extra paper climinvest-benchmark validate
+      - run: uv run --locked --extra paper python -m unittest discover -s paper -p 'test_*.py'
+      - run: uv run --locked --extra paper python paper/reproduce.py --output "$RUNNER_TEMP/paper-replay"
+      - run: uv run --locked --extra paper benchrun run --config experiments/v2-readiness.yaml --run-dir "$RUNNER_TEMP/offline-fixture" --no-progress

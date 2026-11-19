@@ -1,0 +1,38 @@
+{
+  "schema_version": "react_report.source_correction/v1",
+  "correction_id": "fp102-ghg-whole-project-v1",
+  "review_date": "2026-09-08",
+  "project_id": "FP102",
+  "node_id": "dt.project.ghg_reduction_tco2e",
+  "upstream_value_preserved_in_raw_source": 10272272.0,
+  "corrected_value": 1027227,
+  "unit": "tCO2e",
+  "scope": "Expected lifetime direct emission reductions for the full 70-community, 4.83 MW project over 25 years",
+  "excluded_scope": {
+    "label": "Tranche 1: 50 communities",
+    "lifetime_tco2e": 821782
+  },
+  "primary_source": {
+    "document": "FP102 Mali solar rural electrification project funding proposal, updated 9 January 2019",
+    "publisher": "Banque Ouest Africaine de Développement (BOAD)",
+    "url": "https://admin.boad.org/wp-content/uploads/2025/05/FUNDING-PROPOSAL_FP102_MALI.pdf",
+    "locations": [
+      "A.2 executive summary: printed page 2, PDF page 6",
+      "E.1.2 key impact potential indicators: printed page 33, PDF page 37",
+      "E.1.2 emission-reduction calculation: printed page 35, PDF page 39"
+    ],
+    "verified_full_project_lifetime_tco2e": 1027227,
+    "verified_tranche_1_lifetime_tco2e": 821782,
+    "annual_values_reported_in_different_sections": [41049, 41089]
+  },
+  "scope_rationale": "The canonical node is explicitly a lifetime GHG total. The same normalized description and source-extracted capacity identify the full 70-community, 4.83 MW project. Both the executive summary and impact indicators distinguish its 1,027,227 lifetime total from Tranche 1's 821,782. This correction aligns the canonical impact scalar with that existing full-project boundary; it does not resolve the separately undetermined financing scope.",
+  "unchanged": [
+    "Pinned upstream raw ClimateFund JSON and its source hash",
+    "Source description, source-extracted annual 41,049 tCO2e figure, and 25-year lifespan",
+    "GCF/cofinance amounts and funding-scope qualifications",
+    "Synthetic generator rules, versions, seeds and unrelated assumptions",
+    "Historical experiment records, scores, reports and snapshot artifacts"
+  ],
+  "derived_value_policy": "Regenerate deterministic artifacts using the corrected scalar. Dividing 1,027,227 by 25 yields 41,089.08 tCO2e/year as a benchmark calculation, not a replacement for either source annual figure.",
+  "generation_policy": "No model calls are part of the correction. Old-input responses must not be silently rescored against corrected facts; identify changed input and output dependencies before any separately authorized new generation."
+}

@@ -1,0 +1,78 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp063.json",
+    "sha256": "18eb448ad14430d7863af16b4f6848859d993e28a0830f183796a897841b501e",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.economic_rate_of_return_pct": {
+      "description": "Reported project economic rate of return",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.economic_rate_of_return_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "economic rate of return of 136%",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 136.0
+    },
+    "dt.project.financial_rate_of_return_pct": {
+      "description": "Reported project financial return",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.financial_rate_of_return_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "financial return of 74%",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 74.0
+    },
+    "dt.project.social_cost_of_carbon_usd_per_tco2e": {
+      "description": "Social cost of carbon used in the economic analysis",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.social_cost_of_carbon_usd_per_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "social cost of carbon of USD 62/tCO2",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": "USD/tCO2e",
+      "value": 62.0
+    }
+  },
+  "project_id": "FP063",
+  "schema_version": "react_report.source_normalization/v2"
+}

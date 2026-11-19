@@ -1,0 +1,339 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 21,
+  "excluded_kpi_count": 7,
+  "kpi_candidates": [
+    {
+      "canonical_name": "emission reduction tco2e as a result of redd ap",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "emission reduction (tCO2e) as a result of REDD+ AP",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "cost per tco2e",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "cost per tCO2e",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Institutional and regulatory systems that improve incentives for low- emission planning and development and their effective implementation",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "number and level of effective coordination mechanisms",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number and level of effective coordination mechanisms",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "hectares of land or forests under improved and effective management that contributes to co2 emission reductions",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Hectares of land or forests under improved and effective management that contributes to CO2 emission reductions",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "hectares of land or forests under improved and effective management that contributes to co2 emission reductions",
+      "duplicate_of": "outcomes.2.kpis.0",
+      "eligible": false,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": false,
+      "name": "Hectares of land or forests under improved and effective management that contributes to CO2 emission reductions",
+      "path": "outcomes.2.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "hectares of land or forests under improved and effective management that contributes to co2 emission reductions",
+      "duplicate_of": "outcomes.2.kpis.0",
+      "eligible": false,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": false,
+      "name": "Hectares of land or forests under improved and effective management that contributes to CO2 emission reductions",
+      "path": "outcomes.2.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "number of strengthened land use planning instruments and life plans that have included climate change mitigation policies and actions",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Number of strengthened land-use planning instruments and life plans that have included climate change mitigation policies and actions",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "provincial pdot",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Provincial PDOT",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "cantonal pdot",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Cantonal PDOT",
+      "path": "outcomes.3.kpis.2",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "life plans",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Life Plans",
+      "path": "outcomes.3.kpis.3",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "number of legal coordination instruments at a national and territorial level for redd",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of legal coordination instruments at a national and territorial level for REDD+",
+      "path": "outcomes.3.kpis.4",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "number of legal coordination instruments at a national and territorial level for redd",
+      "duplicate_of": "outcomes.3.kpis.4",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Number of legal coordination instruments at a national and territorial level for REDD+",
+      "path": "outcomes.3.kpis.5",
+      "reason": "duplicate indicator name",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "rea ha transformed to sustainable production systems in deforested areas",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "rea (ha) transformed to sustainable production systems in deforested areas",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "rea ha transformed to sustainable production systems in deforested areas",
+      "duplicate_of": "outcomes.4.kpis.0",
+      "eligible": false,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": false,
+      "name": "rea (ha) transformed to sustainable production systems in deforested areas",
+      "path": "outcomes.4.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "rea ha transformed to sustainable production systems in deforested areas",
+      "duplicate_of": "outcomes.4.kpis.0",
+      "eligible": false,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": false,
+      "name": "rea (ha) transformed to sustainable production systems in deforested areas",
+      "path": "outcomes.4.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "area ha transformed to sustainable production systems in deforested areas",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Area (ha) transformed to sustainable production systems in deforested areas",
+      "path": "outcomes.4.kpis.3",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "number of products with deforestation free certification and traceability",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of products with deforestation-free certification and traceability.",
+      "path": "outcomes.4.kpis.4",
+      "reason": "eligible",
+      "source_order": 18
+    },
+    {
+      "canonical_name": "xistence of a national service for contracts sercop resolution that includes and prioritizes the procurement of deforestation free products",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "xistence of a national service for contracts (SERCOP) resolution that includes and prioritizes the procurement of deforestation-free products",
+      "path": "outcomes.4.kpis.5",
+      "reason": "eligible",
+      "source_order": 19
+    },
+    {
+      "canonical_name": "number of beneficiaries transiting successfully to sustainable production systems in deforested areas",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of beneficiaries transiting successfully to sustainable production systems in deforested areas.",
+      "path": "outcomes.4.kpis.6",
+      "reason": "eligible",
+      "source_order": 20
+    },
+    {
+      "canonical_name": "number of hectares under conservation incentives in priority areas with high threat of deforestation and potential to generate social and environmental cobenefits",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Number of hectares under conservation incentives in priority areas with high threat of deforestation and potential to generate social and environmental cobenefits",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 21
+    },
+    {
+      "canonical_name": "number of hectares under conservation incentives in priority areas with high threat of deforestation and potential to generate social and environmental cobenefi",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Number of hectares under conservation incentives in priority areas with high threat of deforestation and potential to generate social and environmental cobenefi",
+      "path": "outcomes.5.kpis.1",
+      "reason": "eligible",
+      "source_order": 22
+    },
+    {
+      "canonical_name": "number of hectares under restoration incentives in priority areas with high threat of deforestation and potential to generate water regulation co benefits",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Number of hectares under restoration incentives in priority areas with high threat of deforestation and potential to generate water regulation co-benefits",
+      "path": "outcomes.5.kpis.2",
+      "reason": "eligible",
+      "source_order": 23
+    },
+    {
+      "canonical_name": "number of coordination mechanisms for managing instruments that include land use planning and zoning guidelines in gads and indigenous territories",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of coordination mechanisms for managing instruments that include land-use planning and zoning guidelines in GADs and indigenous territories",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 24
+    },
+    {
+      "canonical_name": "number of coordination mechanisms for managing instruments that include land use planning and zoning guidelines in gads and indigenous territories",
+      "duplicate_of": "outcomes.6.kpis.0",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Number of coordination mechanisms for managing instruments that include land-use planning and zoning guidelines in GADs and indigenous territories",
+      "path": "outcomes.6.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 25
+    },
+    {
+      "canonical_name": "number of coordination mechanisms for managing instruments that include land use planning and zoning guidelines in gads and indigenous territories",
+      "duplicate_of": "outcomes.6.kpis.0",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Number of coordination mechanisms for managing instruments that include land-use planning and zoning guidelines in GADs and indigenous territories",
+      "path": "outcomes.6.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 26
+    },
+    {
+      "canonical_name": "economic benefit",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Economic benefit",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 27
+    },
+    {
+      "canonical_name": "increased household income",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Increased household income",
+      "path": "outcomes.10.kpis.0",
+      "reason": "eligible",
+      "source_order": 28
+    }
+  ],
+  "project_id": "FP019",
+  "risk_count": 6,
+  "selected_kpi_paths": [
+    {
+      "family": "land_nature_outcome",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.4.kpis.6"
+    },
+    {
+      "family": "policy_governance",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.1.kpis.1"
+    }
+  ]
+}

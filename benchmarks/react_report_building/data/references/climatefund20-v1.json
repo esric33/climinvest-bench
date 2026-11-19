@@ -1,0 +1,85 @@
+{
+  "frozen": true,
+  "id": "reference.climatefund20.v1",
+  "label": "ClimateFund 20-project baseline reference",
+  "nodes": {
+    "reference.climatefund20.v1.average_country_count": {
+      "description": "Frozen baseline average country count",
+      "id": "reference.climatefund20.v1.average_country_count",
+      "kind": "scalar",
+      "reference_version": 1,
+      "status": "available",
+      "unit": "countries",
+      "value": 2.6
+    },
+    "reference.climatefund20.v1.average_ghg_reduction_tco2e": {
+      "description": "Frozen baseline average ghg reduction tco2e",
+      "id": "reference.climatefund20.v1.average_ghg_reduction_tco2e",
+      "kind": "scalar",
+      "reference_version": 1,
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 26506940.85
+    },
+    "reference.climatefund20.v1.average_implementation_years": {
+      "description": "Frozen baseline average implementation years",
+      "id": "reference.climatefund20.v1.average_implementation_years",
+      "kind": "scalar",
+      "reference_version": 1,
+      "status": "available",
+      "unit": "years",
+      "value": 7.1
+    },
+    "reference.climatefund20.v1.average_lifespan_years": {
+      "description": "Frozen baseline average lifespan years",
+      "id": "reference.climatefund20.v1.average_lifespan_years",
+      "kind": "scalar",
+      "reference_version": 1,
+      "status": "available",
+      "unit": "years",
+      "value": 19.045
+    },
+    "reference.climatefund20.v1.average_project_cost_usd": {
+      "description": "Frozen baseline average project cost usd",
+      "id": "reference.climatefund20.v1.average_project_cost_usd",
+      "kind": "scalar",
+      "reference_version": 1,
+      "status": "available",
+      "unit": "USD",
+      "value": 376004860.1
+    },
+    "reference.climatefund20.v1.average_total_cost_per_tco2e": {
+      "description": "Frozen baseline average total cost per tco2e",
+      "id": "reference.climatefund20.v1.average_total_cost_per_tco2e",
+      "kind": "scalar",
+      "reference_version": 1,
+      "status": "available",
+      "unit": "USD/tCO2e",
+      "value": 434.2387707419703
+    }
+  },
+  "project_ids": [
+    "FP083",
+    "FP039",
+    "FP128",
+    "FP178",
+    "FP148",
+    "FP063",
+    "FP102",
+    "FP163",
+    "FP090",
+    "FP064",
+    "FP193",
+    "FP080",
+    "FP033",
+    "FP138",
+    "FP019",
+    "FP071",
+    "FP140",
+    "FP081",
+    "FP106",
+    "FP196"
+  ],
+  "schema_version": "react_report.reference_registry/v1",
+  "version": 1
+}

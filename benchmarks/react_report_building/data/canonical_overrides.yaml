@@ -1,0 +1,10 @@
+FP071:
+  ghg_reduction_tco2e:
+    value: 120000000
+    locator: "basic_info.description: about 120 MtCO2eq over the lifetime"
+    reason: "The source scalar lost the mega- prefix and stored 120 instead of 120 million."
+FP102:
+  ghg_reduction_tco2e:
+    value: 1027227
+    locator: "Funding proposal A.2 and E.1.2: 1,027,227 tCO2e over 25 years for the full 70-community project; Tranche 1 is separately 821,782 tCO2e"
+    reason: "fp102-ghg-whole-project-v1 (2026-09-08): the upstream scalar 10,272,272 disagrees with the proposal's full-project lifetime total 1,027,227. Preserve the full 70-community/4.83 MW scope; do not substitute the 50-community Tranche 1 total 821,782. The proposal's annual 41,049/41,089 discrepancy remains explicit and is not corrected here. See source_corrections/fp102-ghg-whole-project-v1.json."

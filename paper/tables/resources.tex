@@ -1,0 +1,28 @@
+\begin{table*}[t]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{Recorded generation resources per planned report case. Tokens are in thousands.}
+\label{tab:supp-resources}
+\begin{tabular}{llrrrrrr}
+\toprule
+Model & Strategy & Input k & Output k & Turns & Tools & $n_{\rm tool}$ & USD/case \\
+\midrule
+GPT-5.6 Luna & Section & 336.8 & 17.3 & 25.7 & 32.7 & 220 & --- \\
+GPT-5.6 Luna & Report & 113.2 & 17.4 & 2.3 & 3.5 & 220 & --- \\
+Muse Spark 1.3 & Section & 348.7 & 38.7 & 25.8 & 32.4 & 220 & 0.0389 \\
+Muse Spark 1.3 & Report & 122.9 & 23.4 & 2.8 & 4.0 & 220 & 0.0139 \\
+GLM 5.3 Flash & Section & 350.0 & 17.0 & 26.7 & 33.5 & 220 & 0.0550 \\
+GLM 5.3 Flash & Report & 94.6 & 19.7 & 2.2 & 3.1 & 220 & 0.0229 \\
+MiMo V2.5 & Section & 374.8 & 29.3 & 26.4 & 33.6 & 220 & 0.0397 \\
+MiMo V2.5 & Report & 131.9 & 21.7 & 2.9 & 4.3 & 220 & 0.0214 \\
+MiniMax M3 & Section & 430.3 & 52.6 & 30.4 & 56.6 & 220 & 0.1654 \\
+MiniMax M3 & Report & 160.6 & 26.2 & 3.9 & 7.9 & 205 & 0.0656 \\
+Mistral Small 4 & Section & 540.7 & 18.9 & 34.6 & 44.3 & 220 & 0.0820 \\
+Mistral Small 4 & Report & 163.9 & 16.4 & 3.7 & 5.3 & 220 & 0.0206 \\
+\bottomrule
+\end{tabular}
+\par\vspace{3pt}
+\begin{minipage}{0.98\linewidth}\footnotesize
+Each model--strategy pair contributes 220 cases (baseline:missing:update = 1:5:5), including unsuccessful cases. Turns count returned responses. Tools use the available native execution summaries; $n_{\rm tool}$ reports that denominator. A dash indicates unavailable charges, not zero. Charges exclude semantic judging and operational overhead.
+\end{minipage}
+\end{table*}

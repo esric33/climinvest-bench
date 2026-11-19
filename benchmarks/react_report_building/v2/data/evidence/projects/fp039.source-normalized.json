@@ -1,0 +1,144 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp039.json",
+    "sha256": "56bee7a8f486d799c7b4affdee3db79ef9f50b424aa2ec0214310f50483d6fce",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_hydropower_capacity_mw": {
+      "description": "Hydropower capacity reported in the Egypt energy baseline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_hydropower_capacity_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp039",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "hydro power (2,300 MW – c. 7%)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp039-ebrd-egypt.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 2300
+    },
+    "dt.project.baseline_hydropower_generation_share_pct": {
+      "description": "Approximate hydropower share reported in the Egypt energy baseline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_hydropower_generation_share_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp039",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "hydro power (2,300 MW – c. 7%)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp039-ebrd-egypt.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 7.0
+    },
+    "dt.project.expected_annual_avoided_ghg_tco2e": {
+      "description": "Expected annual avoided emissions once all projects are operational",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_annual_avoided_ghg_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp039",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "avoided GHG emissions of about 800,000 tCO2e annually",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp039-ebrd-egypt.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e/year",
+      "value": 800000
+    },
+    "dt.project.expected_annual_generation_mwh": {
+      "description": "Expected annual electricity generation once all projects are operational",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_annual_generation_mwh",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp039",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "generate around 1,400 GWh electricity annually",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp039-ebrd-egypt.pdf"
+      },
+      "status": "available",
+      "unit": "MWh/year",
+      "value": 1400000
+    },
+    "dt.project.policy_renewable_target_pct": {
+      "description": "Renewable share policy target",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_renewable_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp039",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "renewable sources to provide 20% of electricity generation by 2022",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp039-ebrd-egypt.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 20.0
+    },
+    "dt.project.policy_target_year": {
+      "description": "Renewable share policy target year",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.policy_target_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp039",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "renewable sources to provide 20% of electricity generation by 2022",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp039-ebrd-egypt.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "project_id": "FP039",
+  "schema_version": "react_report.source_normalization/v2"
+}
