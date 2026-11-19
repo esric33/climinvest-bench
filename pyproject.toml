@@ -4,11 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "climinvest-bench"
-version = "0.1.0rc1"
+version = "0.1.0rc2"
 description = "Benchmark for evidence-grounded investment report generation and maintenance"
 readme = "README.md"
 requires-python = ">=3.11"
-license-files = ["LICENSES/*.txt", "THIRD_PARTY_NOTICES.md"]
+license = "MIT AND MPL-2.0"
+license-files = [
+  "LICENSE",
+  "LICENSES/MPL-2.0.txt",
+  "LICENSES/TraceMark-MIT.txt",
+  "THIRD_PARTY_NOTICES.md",
+]
 dependencies = [
   "jsonschema>=4.23,<5",
   "python-dotenv>=1,<2",

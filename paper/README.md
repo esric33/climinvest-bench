@@ -19,3 +19,14 @@ outputs. This is a score-to-results replay. The shipped R and J values are the
 archived semantic judgments. Re-running the historical model and judge
 trajectories requires separate source artifacts and access to the historical
 model treatments.
+
+## Results license
+
+The original report-level scores, resource records, statistical outputs, and
+tables in `data/`, `expected/`, and `tables/` are licensed under
+[Creative Commons Attribution 4.0 International](../LICENSES/CC-BY-4.0.txt).
+Credit Edward Richards, Javier Sanz-Cruzado, and Richard McCreadie, and cite
+*ClimInvestBench: Evaluating Agentic Investment Report Generation and
+Maintenance*. See the [citation metadata](../CITATION.cff).
+
+The Python scripts in this directory use the [MIT license](../LICENSE).

@@ -16,7 +16,10 @@ Answering*, by Javier Sanz-Cruzado Puig, Miruna Clinciu, Edward Richards,
 Richard McCreadie, Craig Macdonald and Iadh Ounis. The upstream dataset
 declares MPL-2.0. The benchmark selects 20 projects, normalizes evidence,
 introduces labelled synthetic assumptions, and derives task and evaluation
-references. See the [dataset card](https://huggingface.co/datasets/JavierSanzCruza/ClimateFund),
+references. The ClimateFund-derived material in
+`benchmarks/react_report_building/data/` and
+`benchmarks/react_report_building/v2/data/` is provided under MPL-2.0.
+See the [dataset card](https://huggingface.co/datasets/JavierSanzCruza/ClimateFund),
 [pinned source and checksum](sources/climatefund.json) and
 [MPL-2.0 license](LICENSES/MPL-2.0.txt).
 

@@ -46,3 +46,15 @@ scope.
 The package includes the normalized inputs used for the benchmark. For source
 rebuilding, the upstream revision and byte checksum are in
 [`sources/climatefund.json`](sources/climatefund.json).
+
+## Licensing
+
+- The benchmark code, paper replay scripts, and software documentation use the
+  [MIT license](LICENSE).
+- The original paper results in `paper/data/`, `paper/expected/`, and
+  `paper/tables/` use [CC BY 4.0](LICENSES/CC-BY-4.0.txt).
+  See the [results attribution](paper/README.md#results-license).
+- The ClimateFund-derived benchmark material retains
+  [MPL-2.0](LICENSES/MPL-2.0.txt) and its upstream attribution.
+  The vendored TraceMark compiler carries its original MIT notice.
+  See [third-party notices](THIRD_PARTY_NOTICES.md).
