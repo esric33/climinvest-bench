@@ -1,0 +1,339 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 17,
+  "excluded_kpi_count": 11,
+  "kpi_candidates": [
+    {
+      "canonical_name": "institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": "outcomes.0.kpis.0",
+      "eligible": false,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": false,
+      "name": "Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation",
+      "path": "outcomes.0.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "proportion of low emission power supply in a jurisdiction or market",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Proportion of low- emission power supply in a jurisdiction or market",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "number of households and individuals males and females with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of households, and individuals (males and females) with improved access to low-emission energy sources",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "number of households and individuals males and females with improved access to low emission energy sources",
+      "duplicate_of": "outcomes.1.kpis.1",
+      "eligible": false,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": false,
+      "name": "Number of households, and individuals (males and females) with improved access to low-emission energy sources",
+      "path": "outcomes.1.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "number of households and individuals males and females with improved access to low emission energy sources",
+      "duplicate_of": "outcomes.1.kpis.1",
+      "eligible": false,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": false,
+      "name": "Number of households, and individuals (males and females) with improved access to low-emission energy sources",
+      "path": "outcomes.1.kpis.3",
+      "reason": "duplicate indicator name",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "institution staffed by mid term",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Institution staffed by mid-term",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "renewable energy agency act in place",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Renewable Energy Agency Act in place",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "battery energy storage system procured",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Battery energy storage system procured",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "software purchased",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Software purchased",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "smart grid strategy",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Smart Grid Strategy",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "advanced distribution management system",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Advanced Distribution Management system",
+      "path": "outcomes.4.kpis.1",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "actual mw installed by category gender disaggregated data",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Actual MW installed by category (gender- disaggregated data)",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "actual mw installed by category gender disaggregated data",
+      "duplicate_of": "outcomes.5.kpis.0",
+      "eligible": false,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": false,
+      "name": "Actual MW installed by category (gender- disaggregated data)",
+      "path": "outcomes.5.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "actual mw installed by category gender disaggregated data",
+      "duplicate_of": "outcomes.5.kpis.0",
+      "eligible": false,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": false,
+      "name": "Actual MW installed by category (gender- disaggregated data)",
+      "path": "outcomes.5.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "actual mw installed by category gender disaggregated data",
+      "duplicate_of": "outcomes.5.kpis.0",
+      "eligible": false,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": false,
+      "name": "Actual MW installed by category (gender- disaggregated data)",
+      "path": "outcomes.5.kpis.3",
+      "reason": "duplicate indicator name",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "capacity of pv systems installed number of oidc staff trained",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Capacity of PV systems installed Number of OIDC staff trained",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "number of oidc staff trained",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of OIDC staff trained",
+      "path": "outcomes.6.kpis.1",
+      "reason": "eligible",
+      "source_order": 18
+    },
+    {
+      "canonical_name": "onnes of carbon dioxide equivalent tco2eq reduced or avoided as a result of fund funded projects programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "onnes of carbon dioxide equivalent (tCO2eq) reduced or avoided as a result of Fund funded projects / programmes",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 19
+    },
+    {
+      "canonical_name": "onnes of carbon dioxide equivalent tco2eq reduced or avoided as a result of fund funded projects programmes",
+      "duplicate_of": "outcomes.7.kpis.0",
+      "eligible": false,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "onnes of carbon dioxide equivalent (tCO2eq) reduced or avoided as a result of Fund funded projects / programmes",
+      "path": "outcomes.7.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 20
+    },
+    {
+      "canonical_name": "number of jobs created",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of jobs created",
+      "path": "outcomes.8.kpis.0",
+      "reason": "eligible",
+      "source_order": 21
+    },
+    {
+      "canonical_name": "foreign currency savings",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Foreign currency savings",
+      "path": "outcomes.9.kpis.0",
+      "reason": "eligible",
+      "source_order": 22
+    },
+    {
+      "canonical_name": "reduction in government budget deficit",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Reduction in Government budget deficit",
+      "path": "outcomes.10.kpis.0",
+      "reason": "eligible",
+      "source_order": 23
+    },
+    {
+      "canonical_name": "ngos to benefit from partial funding of pv systems",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "NGOs to benefit from partial funding of PV systems",
+      "path": "outcomes.11.kpis.0",
+      "reason": "eligible",
+      "source_order": 24
+    },
+    {
+      "canonical_name": "number of jobs created",
+      "duplicate_of": "outcomes.8.kpis.0",
+      "eligible": false,
+      "family": "employment_gender",
+      "legacy_selection_eligible": false,
+      "name": "Number of jobs created",
+      "path": "outcomes.14.kpis.0",
+      "reason": "duplicate indicator name",
+      "source_order": 25
+    },
+    {
+      "canonical_name": "foreign currency savings",
+      "duplicate_of": "outcomes.9.kpis.0",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Foreign currency savings",
+      "path": "outcomes.15.kpis.0",
+      "reason": "duplicate indicator name",
+      "source_order": 26
+    },
+    {
+      "canonical_name": "reduction in government budget deficit",
+      "duplicate_of": "outcomes.10.kpis.0",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Reduction in Government budget deficit",
+      "path": "outcomes.16.kpis.0",
+      "reason": "duplicate indicator name",
+      "source_order": 27
+    },
+    {
+      "canonical_name": "ngos to benefit from partial funding of pv systems",
+      "duplicate_of": "outcomes.11.kpis.0",
+      "eligible": false,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": false,
+      "name": "NGOs to benefit from partial funding of PV systems",
+      "path": "outcomes.17.kpis.0",
+      "reason": "duplicate indicator name",
+      "source_order": 28
+    }
+  ],
+  "project_id": "FP033",
+  "risk_count": 10,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.1.kpis.1"
+    },
+    {
+      "family": "policy_governance",
+      "path": "outcomes.2.kpis.1"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.0.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.8.kpis.0"
+    }
+  ]
+}

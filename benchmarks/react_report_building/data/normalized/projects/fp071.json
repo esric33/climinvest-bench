@@ -1,0 +1,3246 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investment lifetime assumed to be 10 years\r\nResults estimated by extrapolating the minimum investment scenario and reducing by 15% to take conservative estimates\r\nUncertainty reflects the composition of EE investment types in the PFI lending portfolio."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "(tCO2eq)",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2eq million",
+              "value": "120 "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (tCO2eq) reduced over lifetime"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2eq million",
+              "value": "48"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M3.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "(a) Total project financing (GCF and IBRD projects) US$ 497.2 million\r\n(b) Requested GCF amount US$ 86.3 million\r\n(c) Expected lifetime emission reductions overtime 120 million tCO2eq\r\n(d) Estimated cost per tCO2eq (d = a / c) US$ 4.1 / tCO2eq\r\n(e) Estimated GCF cost per tCO2eq removed (e = b/ c) US$ 0.7 / tCO2eq\r\n\r\n(a) Total co-financing mobilized US$ 410.9 million\r\n(b) - From private sector (PFIs/IEs/ESCOs) US$ 307.3 million\r\n(c) - From public sector (WB/KOICA) US$ 103.6 million\r\n(d) Requested GCF amount US$ 86.3 million\r\n(e) Expected leverage factor (e = a / d) 4.8x\r\n"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Million USD",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Million USD",
+              "value": "411"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Million USD",
+              "value": "160"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M3.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Lifetime energy savings directly attributable to the project, converted to GWh. The baseline value is 0. Projected savings calculated against baseline."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "(GWh/year)",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "(GWh/year)",
+              "value": "4700"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Energy intensity/ improved efficiency ofbuildings, cities, industries and appliances (GWh/year)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "(GWh/year)",
+              "value": "1800"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M7.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports "
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub projects supported by financing facility or/and TA component."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of projects",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of projects",
+              "value": "160"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of projects"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of projects",
+              "value": "60"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports "
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs adopting improved EE technologies through Project and IBRD support."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs",
+              "value": "100"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs",
+              "value": "40"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of financing leveraged from PFIs and IEs by WB lending and IBRD/GCF guarantee"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "307.3"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of financing"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "USD million",
+              "value": "120"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of loan officers of PFIs who participated in training workshops offered by the Project or IBRD Loan project."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of loan officers trained",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of loan officers trained",
+              "value": "50"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of loan officers trained"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of loan officers trained",
+              "value": "40"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.5.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs and ESCOs which joined workshops or training offered by the Project or IBRD Loan project"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs/ESCOs reached through workshops",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs/ESCOs reached through workshops",
+              "value": "200"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs/ESCOs reached through workshops"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs/ESCOs reached through workshops",
+              "value": "160"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "5"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs certified for ISO 50 001/EMS to be increased through TA activities of the Project or the IBRD Loan project."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs certified for ISO 50 001/EMS",
+              "value": "45"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs certified for ISO 50 001/EMS",
+              "value": "90"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs certified for ISO 50 001/EMS"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs certified for ISO 50 001/EMS",
+              "value": "70"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "6"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.7.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "VNM"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Viet Nam"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Asia"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "South-eastern Asia"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Political and Governance: There is a risk of social instability from slower growth, and from reduced access to land of poorer Vietnamese in the wake of rapid urbanization."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Enhanced TA for addressing social safeguards issues, in particular, those related to land management and involuntary resettlement. \r\nThe safeguard frameworks have been prepared and will be applied during project implementation"
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sector Strategies and Policies: Weak government commitment and capacity to promote industrial energy conservation. Despite the government’s EE target, the current policies, financial incentives, and the government’s institutional capacity are limited to achieve these targets. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The project, together with the IBRD Loan and the ongoing CPEE project, will provide TA and capacity building to the MoIT to strengthen EE policies and institutional capacity."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical Design of Project or Program: Project implementation may depend substantially on technical and financial capacity of PFIs."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PFIs selected according to eligible criteria i.e. PFIs need to demonstrate strong financial capacity and experiences in EE lending. In addition, TA will provide capacity building to PFIs and IEs on identification of EE subprojects, technical appraisal and project monitoring."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Macroeconomic: Unfavorable macroeconomic developments (interest rate volatility, FOREX risk, low oil prices, and so on) may lessen the incentives for EE projects and slowdown investment pipeline."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The project will provide TA to IEs and PFIs on FOREX management and interest rate swaps. The sensitivity analysis provided in the economic/financial analysis shows that the expected economic/financial returns are robust with respect to these risks. \r\nThe risk sharing facility will build up confidence for PFIs and IEs in EE investments. \r\nAn associated Carbon Finance Program will provide additional revenues to IEs that make EE investments more attractive."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutional Capacity for Implementation and Sustainability: Inadequate support to PFIs and IEs in identification, appraisal and monitoring EE investment may lead to low performance of the project, pipeline development, quality of investment, and project sustainability."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Comprehensive capacity building program provided by TA component including technical capacity for identification, appraisal and monitoring. A parallel carbon finance program is under development to provide complementary resources for TA and establishment of MRV system to ensure the impact and sustainability."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_6.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Fiduciary: A Financial Management assessment identified the following key risks: (a) low FM capacity of the investment owners which may lead to misreporting of transactions or ineligible expenditures; (b) delays in approving and processing payments at all levels, including the PFIs branches and head office, the MoIT PMB, and the MoF due to lack of experience, knowledge, orresponsibility; and (c) lack of capacity of the PFIs in financial reporting in accordance with international standards, which will limit their opportunity to participate in the project.\r\nProcurement risk: During project preparation, an assessment of the major project IAs, including the MoIT and two potential IEs (Hoang Thach Cement Factory and Chinfon Cement Factory) was undertaken. It was found that (a) the MoIT and the two IEs have adequate institutional and organizational capacity in place; the MoIT however has no specific organizational arrangements and staffing for implementation of their respective procurement under the project at this point; (b) the MoIT has some knowledge and experience of Bank procurement as a result of its implementation of several ongoing Bank-financed projects, including CPEE; however, new staff being assigned to implement the project may not be familiar with the Bank procurement procedures; and (c) the two IEs are experienced and proficient in using the procurement procedures under national public procurement law and regulationsor established private sector/commercial practices; they, however, are unfamiliar with the Bank procurement procedures such as ICBand QCBS methods which may be applicable to their subprojects"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_6.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_6.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Mitigation measures for FM: this will be mitigated by (a) the appointment of a qualified project chief accountant by all IAs, to be approved by the Bank; (b) detailed OM with established formal process of approving payments at all levels and all IAs; (c) separating the MoIT PMB from the lending cycle to PFIs and investment owners to minimize the bureaucratic procedures; and (d) training on the Bank FM requirements to the PMB, PFIs, and investment owners. \r\nMitigation measures for procurement. To mitigate the identified procurement-related risks and strengthen procurement implementation capacities, the following key actions have been agreed with the borrower and will be implemented throughout project preparation and implementation. Mitigation measures include: (a) Appoint procurement officer or hire a procurement specialist with adequate qualifications and experience; (b) Prepare and adopt a project OM, including a chapter on procurement, which is incorporated by reference in the subloan agreements with private developers; (c) Procurement training for project management unit staff, including initial procurement training at project launch and in-depth procurement trainings during project implementation."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_6.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_6.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            }
+          },
+          "id": "dt.risks.risk_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_7.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Environment and Social: Sub-projects involve small construction for installation or replacement of energy efficient technologies and equipment. It is anticipated that the Project would mostly include category B subprojects. In any case, all subprojects will be screened carefully case by case, to determine the appropriate category and environmental safeguard instruments to manage the potential impacts."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_7.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_7.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "During the preparation stage, the MOIT has prepared ESMF/RPF/EMPF frameworks to guide and set out the requirements to ensure the safeguard compliance of the Project during implementation period. The frameworks are in compliance with the Bank’s safeguard policies and national legislations on environmental protection. It will be adopted by MOIT and integrated in the Project Operation Manual. The frameworks lay out procedures which includes (i) screening mechanism to exclude ineligible subprojects, (ii) identification of environmental and social impacts associated with the EE project and the mitigation measures; (iii) procedures for preparation and approval/clearance of EA documents per GoV regulations and Bank safeguard policies; (iii) monitoring, institutional arrangement and financial sources for ESMF implementation and (iv) public consultation and information disclosure requirements in accordance to the Bank safeguard policies.\r\nDuring subproject implementation, the IEs will have the overall responsibility to carry out mitigation measures as set out in subproject EMPs. The IEs will carry out internal monitoring to ensure the contractors’ implementation of mitigation measures. The PFIs, PMB and WB and local authorities will carry out external monitoring on IEs safeguard implementation on periodical basis."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_7.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_7.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_7.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.6",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_8.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Stakeholders: : Low interests and weak stakeholders will lead to slow subproject pipeline development. This is the most common issue facing credit lines, such as the Renewable Development Project. Further stakeholder risk exists with the PFIs in terms of their risk management and EE sector exposure. The guarantee payouts required from the Risk Sharing Facility will ultimately depend on the PFIs’ ability to carry out adequate due diligence of covered sub-projects. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_8.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_8.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The project will (a) provide TA and capacity building to the PFIs for business development; (b) link with the government’s voluntary agreements with key IEs; and (c) link with the ongoing IFC’s EE financing advisory services to the PFIs, and other donors’ programs."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_8.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_8.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_8.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "risk.7",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Lifetime energy savings directly attributable to the project, converted to GWh. The baseline value is 0. Projected savings calculated against baseline."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "(GWh/year)",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "(GWh/year)",
+              "value": "4700"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Energy intensity/ improved efficiency ofbuildings, cities, industries and appliances (GWh/year)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "(GWh/year)",
+              "value": "1800"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M7.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of loan officers of PFIs who participated in training workshops offered by the Project or IBRD Loan project."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of loan officers trained",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of loan officers trained",
+              "value": "50"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of loan officers trained"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of loan officers trained",
+              "value": "40"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.5.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "(a) Total project financing (GCF and IBRD projects) US$ 497.2 million\r\n(b) Requested GCF amount US$ 86.3 million\r\n(c) Expected lifetime emission reductions overtime 120 million tCO2eq\r\n(d) Estimated cost per tCO2eq (d = a / c) US$ 4.1 / tCO2eq\r\n(e) Estimated GCF cost per tCO2eq removed (e = b/ c) US$ 0.7 / tCO2eq\r\n\r\n(a) Total co-financing mobilized US$ 410.9 million\r\n(b) - From private sector (PFIs/IEs/ESCOs) US$ 307.3 million\r\n(c) - From public sector (WB/KOICA) US$ 103.6 million\r\n(d) Requested GCF amount US$ 86.3 million\r\n(e) Expected leverage factor (e = a / d) 4.8x\r\n"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Million USD",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Million USD",
+              "value": "411"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Million USD",
+              "value": "160"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M3.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub projects supported by financing facility or/and TA component."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of projects",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of projects",
+              "value": "160"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of projects"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of projects",
+              "value": "60"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs adopting improved EE technologies through Project and IBRD support."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs",
+              "value": "100"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of IEs"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": "Number of IEs",
+              "value": "40"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp071",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MoIT M&E Reports"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp071",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP071"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp071",
+        "locator": "GCF project FP071 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp071"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 410900000
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The World Bank (the Bank) has agreed with the Government of Vietnam (GoV) to adopt a holistic approach to scaling up energy efficiency (EE) in the high-energy intensive industrial sector aiming to unlock the huge potential for energy savings and greenhouse gas (GHG) emission reductions. The proposed Scaling up Energy Efficiency for Industrial Enterprises in Vietnam (“the Project”) will substantially contribute to achieving Vietnam’s Nationally Determined Contribution (NDC); i.e. 25% GHG emission reduction compared to the Business-As-Usual scenario with international support, under the Paris Agreement.\r\nOverall, the Project comprises an integrated package of credit risk mitigation, technical assistance and capacity building activities to various stakeholders from public entities to local financial institutions and industrial enterprises, complemented by an IBRD credit line project. This will reduce EE investment market barriers, such as lack of access to finance and capacity of stakeholders, high project risk perceptions, and the existence of an insufficient policy and regulatory framework that governs EE in the industrial sector.\r\nThe Project comprises two interrelated and closely coordinated components:\r\n• Component 1: US$78 million GCF Risk Sharing Facility (GCF-RSF)\r\n• Component 2: US$10 million World Bank and GCF Technical Assistance (WB/GCF-TA)\r\nThe Project is complemented by:\r\n• IBRD Loan project: US$100 million World Bank Energy Efficiency Credit Line - Vietnam Energy Efficiency for Industrial Enterprises Project (WB-VEEIE)\r\nThe joint implementation of the two components and the IBRD supporting project will promote a market-driven approach to industrial energy efficiency and opening up the commercial lending market to local banks and non-bank financial institutions developing a new EE product line. With financial and technical support from the World Bank and the GCF, the Project and the supporting IBRD Loan will mobilize approximately US$ 407.3 million of EE investments, supporting over 100 industrial companies to reduce energy consumption and generate about 120 MtCO2eq of GHG emission reductions over the lifetime of the investments.\r\nUltimately, the Project will contribute to a paradigm shift in the nascent EE market, by providing know how and experience and by strengthening of capacity and creating an enabling environment for local financial institutions and industrial enterprises to scale up investments in energy efficiency."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "WorldBank"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International Bank for Reconstruction and Development and International Development Association"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Large"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp071",
+        "locator": "GCF project FP071 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp071"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 86300000
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "reason": "The source scalar lost the mega- prefix and stored 120 instead of 120 million.",
+        "source_value": 120.0
+      },
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "basic_info.description: about 120 MtCO2eq over the lifetime",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 120000000
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 5.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 15.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Buildings, cities, industries and appliances"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "public"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "medium"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Scaling Up Energy Efficiency for Industrial Enterprises in Vietnam"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 495300000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp071",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP071",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp071-world-bank-vietnam.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp071"
+}

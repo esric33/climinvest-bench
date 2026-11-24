@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the associated paper."
+title: "ClimInvestBench"
+type: software
+repository-code: "https://github.com/esric33/climinvest-bench"
+authors:
+  - family-names: Richards
+    given-names: Edward
+  - family-names: Sanz-Cruzado
+    given-names: Javier
+  - family-names: McCreadie
+    given-names: Richard
+preferred-citation:
+  type: article
+  title: "ClimInvestBench: Evaluating Agentic Investment Report Generation and Maintenance"
+  year: 2026
+  authors:
+    - family-names: Richards
+      given-names: Edward
+    - family-names: Sanz-Cruzado
+      given-names: Javier
+    - family-names: McCreadie
+      given-names: Richard

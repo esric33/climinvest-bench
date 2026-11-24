@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "react_report.calculation_registry/v1",
+  "type": "object",
+  "additionalProperties": {
+    "type": "object",
+    "required": ["id", "operation_id", "input_ids", "parameters", "unit"],
+    "properties": {
+      "id": {"type": "string", "pattern": "^calc\\."},
+      "operation_id": {"type": "string"},
+      "input_ids": {
+        "type": "object",
+        "additionalProperties": {"type": "string"},
+        "minProperties": 1
+      },
+      "parameters": {"type": "object"},
+      "unit": {"type": ["string", "null"]}
+    }
+  }
+}
+

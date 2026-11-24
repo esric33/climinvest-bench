@@ -1,0 +1,56 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp196.json",
+    "sha256": "605048473029ec6e5707a76ffdf7259e54c848fe0708ca9def69dba964955537",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_energy_sector_ghg_share_pct": {
+      "description": "Energy-sector share of Indonesia greenhouse-gas emissions",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_energy_sector_ghg_share_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp196",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "attributes 65.43% of the total greenhouse gas (GHG) emissions to the energy sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp196.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 65.43
+    },
+    "dt.project.programme_component_count": {
+      "description": "Number of programme components designed around the stated barriers",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.programme_component_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp196",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "designing three components accordingly",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp196.pdf"
+      },
+      "status": "available",
+      "unit": "components",
+      "value": 3
+    }
+  },
+  "project_id": "FP196",
+  "schema_version": "react_report.source_normalization/v2"
+}

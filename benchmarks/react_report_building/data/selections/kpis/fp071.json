@@ -1,0 +1,136 @@
+{
+  "canonical_overrides": {
+    "ghg_reduction_tco2e": {
+      "locator": "basic_info.description: about 120 MtCO2eq over the lifetime",
+      "reason": "The source scalar lost the mega- prefix and stored 120 instead of 120 million.",
+      "value": 120000000
+    }
+  },
+  "cleaned_kpi_count": 9,
+  "excluded_kpi_count": 0,
+  "kpi_candidates": [
+    {
+      "canonical_name": "tonnes of carbon dioxide equivalent tco2eq reduced over lifetime",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "Tonnes of carbon dioxide equivalent (tCO2eq) reduced over lifetime",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "volume of finance leveraged",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of finance leveraged",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "energy intensity improved efficiency ofbuildings cities industries and appliances gwh year",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Energy intensity/ improved efficiency ofbuildings, cities, industries and appliances (GWh/year)",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "number of projects",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of projects",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "number of ies",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of IEs",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "volume of financing",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of financing",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "number of loan officers trained",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of loan officers trained",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "number of ies escos reached through workshops",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of IEs/ESCOs reached through workshops",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "number of ies certified for iso 50 001 ems",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of IEs certified for ISO 50 001/EMS",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    }
+  ],
+  "project_id": "FP071",
+  "risk_count": 8,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.5.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.0.kpis.1"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.3.kpis.0"
+    }
+  ]
+}

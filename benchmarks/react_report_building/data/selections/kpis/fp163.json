@@ -1,0 +1,119 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 8,
+  "excluded_kpi_count": 0,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m 1 1 tonnes of carbon dioxide equivalent reduced or avoided",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M.1.1 Tonnes of carbon dioxide equivalent reduced or avoided.",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "cost per tonne of co2 equivalent reduced",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Cost per tonne of CO2-equivalent reduced",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "volume of public and private funds catalyzed by the gcf",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of public and private funds catalyzed by the GCF",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "solar and wind park critical studies and the parks are ready for tendering",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Solar and wind park critical studies and the parks are ready for tendering",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "mws of low emission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "number of households with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of households with improved access to low-emission energy sources",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "number of individuals with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of individuals with improved access to low-emission energy sources",
+      "path": "outcomes.2.kpis.2",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    }
+  ],
+  "project_id": "FP163",
+  "risk_count": 3,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.2.kpis.1"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.0.kpis.1"
+    }
+  ]
+}

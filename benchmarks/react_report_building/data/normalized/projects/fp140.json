@@ -1,0 +1,3999 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Not all projects signed will have been fully implemented by mid-term; ramp up time anticipated; not all identified technologies will be supported"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Climate-focused investments identified",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Climate-focused investments identified",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Climate-focused investments identified and technically supported"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Climate-focused investments identified",
+              "value": "17"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technology audits and BAT identification reports "
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Ramp-up time anticipated; \r\nCorporates are willing and able to build their capacity to address climate change in a systematic way; \r\nCCG baseline to be established by audits"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies developed",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies developed",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate low-carbon gender-responsive strategies developed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies developed",
+              "value": "17"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.2 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate reporting,  annual  reporting "
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporates are willing and able to build their capacity to address climate change in a systematic way; \r\nCCG baseline to be established by audits"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies implemented",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies implemented",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate low-carbon gender-responsive strategies implemented"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies implemented",
+              "value": "8"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.2 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate reporting,  annual  reporting "
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.1.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporates are willing and able to build their capacity to address climate change in a systematic way; \r\nCCG baseline to be established by audits"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Level 1.3-1.7"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "policy_governance"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Level 2.5-3.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate Climate Governance (CCG) Level"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.2 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate reporting,  annual reporting "
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.1.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Given access to appropriate finance, corporates will invest in high climate impact technologies \r\nCapital markets will  respond to decreased impediments to invest in climate measures in emerging markets"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "USD million of GCF and EBRD finance",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "USD million of GCF and EBRD finance",
+              "value": " 1,010  million  of GCF  and EBRD  finance"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "GCF and EBRD finance (USD)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "USD million of GCF and EBRD finance",
+              "value": " 1,010 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "EBRD reporting, annual reporting "
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "All roadmaps completed by midterm. Increased investment by corporates in lowcarbon measures will lead to: reduced carbon emissions, economic growth through stimulation of green sectors. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "roadmaps and rollouts",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "policy_governance"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "roadmaps and rollouts",
+              "value": "2"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "New sectoral roadmaps and rollouts"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "roadmaps and rollouts",
+              "value": "2"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Programme reports\r\nRoadmaps "
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Completed by mid-term"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Green Transition Bond (GTB) products",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Green Transition Bond (GTB) products",
+              "value": "1"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Green Transition Bond (GTB) products"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Green Transition Bond (GTB) products",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "GTB Guide (report)"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Completed by mid-term "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Case studies",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Case studies",
+              "value": "1"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Case studies"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Case studies",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Case study (compilation report)"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.4.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "baseline established as part of survey administered"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "knowledge increased and applied within 3 months by >75% of participants"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Knowledge uptake"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "knowledge increased and applied within 3 months by >75% of participants"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 10
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.4.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Event materials, lists of attendees, knowledge uptake survey results (including a focus on genderrelated best practices identified through the Programme) "
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.4.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_10.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The final target is defined as the ex-ante GHG impact expected over the 20-year asset lifetime of the projects signed during the Programme implementation period. Key assumptions used in the  estimate are detailed in D.1. \r\nMid-term target is defined as cumulative GHG savings expected to be achieved by mid-term point; assumes all pipeline projects signed and operational for 3 years on average. \r\nTwo actual values to be reported annually: (1) cumulative GHG savings achieved; (2) lifetime GHG saving achieved based on actual annual GHG savings averaged out and extrapolated to 20-year lifetime. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_10.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_10.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_10.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "1,722,000 "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_10.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided - gender-sensitive energy access power generation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_10.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "258,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_10.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_10.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.9.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_10.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 15
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_10.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "validated ex post by an EBRD results management team"
+            }
+          },
+          "id": "dt.kpis.kpi_10",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.9.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_11.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The final target is defined as the ex-ante GHG impact expected over the 20-year asset lifetime of the projects signed during the Programme implementation period. Key assumptions used in the  estimate are detailed in D.1. \r\nMid-term target is defined as cumulative GHG savings expected to be achieved by mid-term point; assumes all pipeline projects signed and operational for 3 years on average. \r\nTwo actual values to be reported annually: (1) cumulative GHG savings achieved; (2) lifetime GHG saving achieved based on actual annual GHG savings averaged out and extrapolated to 20-year lifetime. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_11.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0 "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_11.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_11.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "15,498,000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_11.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (t CO2 eq) reduced or avoided - buildings, cities, industries, and appliances"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_11.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "2,325,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_11.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M3.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_11.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.10.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_11.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 16
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_11.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "validated expost by an EBRD results management team"
+            }
+          },
+          "id": "dt.kpis.kpi_11",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.10.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_12.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The target is defined as the capacity of smallscale RE expected to be installed by the projects signedduring the programme implementation period. Up to 10% of the total energy savings under the Programme is assumed to be resulting from RE capacity deployed."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_12.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_12.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_12.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "MW installed and operational",
+              "value": "115  "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_12.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_12.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "MW signed",
+              "value": "115"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_12.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_12.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.11.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_12.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 17
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_12.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "validated expost by an EBRD results management team"
+            }
+          },
+          "id": "dt.kpis.kpi_12",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.11.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_13.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The final target is defined as ex-ante energy savings expected over the 20-year lifetime of the projects signed during the Programme implementation period. Key assumptions include used in the estimate detailed in D.1.  \r\nMid-term target refers to  cumulative energy savings expected to be achieved by mid-term point; assumes all pipeline projects signed and operational for 3 years on average. Two actual values to be reported annually: (1) cumulative energy savings achieved; (2) lifetime energy saving achieved based on actual annual energy savings averaged out and extrapolated to 20 year lifetime. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_13.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "TJ",
+              "value": "0 "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_13.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_13.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "TJ",
+              "value": "111,40 0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_13.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Energy intensity/improved efficiency of buildings, cities, industries and appliances as a result of Fund support, TJ"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_13.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "TJ",
+              "value": "16,710"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_13.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M7.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_13.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.12.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_13.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 18
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_13.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.12.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "validated expost by an EBRD results management team"
+            }
+          },
+          "id": "dt.kpis.kpi_13",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.12.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ARM"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Armenia"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Asia"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Western Asia"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_2.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "JOR"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Jordan"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_2.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Asia"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_2.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Western Asia"
+            }
+          },
+          "id": "dt.project.countries.country_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "countries.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_3.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "KAZ"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Kazakhstan"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_3.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Asia"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_3.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Central Asia"
+            }
+          },
+          "id": "dt.project.countries.country_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "countries.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_4.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MAR"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Morocco"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_4.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_4.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Northern Africa"
+            }
+          },
+          "id": "dt.project.countries.country_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "countries.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_5.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SRB"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Serbia"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_5.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Europe"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_5.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Southern Europe"
+            }
+          },
+          "id": "dt.project.countries.country_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "countries.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_6.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TUN"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tunisia"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_6.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_6.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Northern Africa"
+            }
+          },
+          "id": "dt.project.countries.country_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "countries.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_7.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "UZB"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_7.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Uzbekistan"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_7.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Asia"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_7.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "countries.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Central Asia"
+            }
+          },
+          "id": "dt.project.countries.country_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "countries.6",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Inability of Programme beneficiaries (corporates) to service the loans."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The EBRD’s comprehensive due diligence and technical support are designed to assess the borrower’s ability to service the loan.  "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Inability of Programme beneficiaries (corporates) to service the loans"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Credit"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The GCF and EBRD loans may be denominated in local currency."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Beneficiaries’ sensitivities to increases in interest rates and local currency devaluation are closely monitored by EBRD in projects’ due diligence, implementation and repayment. \r\nMechanisms to address potential exposure to the increased costs associated with foreign exchange risks will be evaluated on a project by project basis.  \r\nLocal currency financing is very important since most clients are expected to generate income only in local currency. The EBRD has provided local currency loans to corporate clients where it is able to source local currency at competitive rates. However, this approach has shown mixed results because while local currency loans do mitigate exchange rate risk, clients still face interest rate risks with a volatility of interest rate usually greater in local currencies than in Euro or United States dollar. EBRD will therefore seek to evolve local currency instruments and promote them prudently, distinguishing between clients able to apprehend and manage macro-risks and those that should be protected through both currency and interest rate hedging. \r\nThe Programme’s flexibility to provide its finance in local currencies, where feasible, will also mitigate foreign exchange risks. By matching the Programme’s currency to that of local revenues, beneficiaries will be able to reduce their exposure to potential fluctuations in the value of local currencies that could impair a borrower’s ability to service a loan."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The GCF and EBRD loans may be denominated in local currency"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Forex"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Beneficiaries’ failure to comply with national regulations and/or EBRD and GCF environmental and social policy requirements. Beneficiaries’ failure to appropriately management E&S risks and impacts associated with each Project."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Each project will be subject to EBRD’s Environmental and Social Management System (ESMS) for the Programme (see Annex 6). \r\nEach Project will be appropriately appraised and structured to meet EBRD’s ESMS requirements. \r\nEnvironmental and Social Action Plans will be developed during Project appraisal to achieve this. \r\nImplementation thereof will be covenanted through financing agreements.  \r\nESAP implementation will be monitored during Project implementation by the EBRD.   "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Whereby complaints or allegations of potential wrong-doing may be reported in this Programme.  "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Refer to the EBRD’s AMA, regarding compliance with standards, policies and procedures.  "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Prohibited practices"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Prohibited practices"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Whether there are any individuals or entities which may be subject to United Nations Security Council Resolutions imposing financial sanctions are involved in or benefitting from the activities of the  Programme. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Refer to the EBRD’s AMA, regarding compliance with standards, policies and procedures."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sanctions"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sanctions"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_6.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Beneficiaries’ limited capacity or experience to implement high impact technology projects and CCG. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_6.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_6.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical assistance will focus on supporting corporates to identify high climate impact technologies, and to identify corporate low-carbon strategies. \r\nDetailed legal and technical due diligence will be carried out by the EBRD to develop robust and sustainable transition measures and CCG milestones, which will be covenanted in loan agreements. Support will be provided under the Programme to assist corporates in developing low carbon strategies and integrate climate change considerations into planning, risk analysis, governance, and  strategic and investment decision-making. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_6.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_6.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            }
+          },
+          "id": "dt.risks.risk_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "risk.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The target is defined as the capacity of smallscale RE expected to be installed by the projects signedduring the programme implementation period. Up to 10% of the total energy savings under the Programme is assumed to be resulting from RE capacity deployed."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "MW installed and operational",
+              "value": "115  "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "MW signed",
+              "value": "115"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.11.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 17
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.11.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "validated expost by an EBRD results management team"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.11.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporates are willing and able to build their capacity to address climate change in a systematic way; \r\nCCG baseline to be established by audits"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Level 1.3-1.7"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "policy_governance"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Level 2.5-3.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate Climate Governance (CCG) Level"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.2 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate reporting,  annual reporting "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.1.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Given access to appropriate finance, corporates will invest in high climate impact technologies \r\nCapital markets will  respond to decreased impediments to invest in climate measures in emerging markets"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "USD million of GCF and EBRD finance",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "USD million of GCF and EBRD finance",
+              "value": " 1,010  million  of GCF  and EBRD  finance"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "GCF and EBRD finance (USD)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "USD million of GCF and EBRD finance",
+              "value": " 1,010 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "EBRD reporting, annual reporting "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Ramp-up time anticipated; \r\nCorporates are willing and able to build their capacity to address climate change in a systematic way; \r\nCCG baseline to be established by audits"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies developed",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies developed",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate low-carbon gender-responsive strategies developed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "strategies developed",
+              "value": "17"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.2 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Corporate reporting,  annual  reporting "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Not all projects signed will have been fully implemented by mid-term; ramp up time anticipated; not all identified technologies will be supported"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Climate-focused investments identified",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Climate-focused investments identified",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Climate-focused investments identified and technically supported"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": "Climate-focused investments identified",
+              "value": "17"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp140",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technology audits and BAT identification reports "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp140",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP140"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp140",
+        "locator": "GCF project FP140 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp140"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 758860000
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The corporate sector is critical to delivering global climate change mitigation goals. Manufacturing industry, agribusiness and (non-fossil energy) metal and mineral mining sectors (excluding extraction of fossil fuel sources) all have significant potential to deliver decarbonisation of the global economy. Energy demand in industry is the highest of all end-use sectors and, in the IEA 2 degrees scenario (2DS), energy-efficient climate technologies dominate the cumulative CO2 emissions reductions that can be achieved in industry. \r\nEnergy and materials efficiency measures, together with deployment of best available technologies (BATs), will contribute significantly to achieving cumulative emissions reductions in industry before 2030. Globally, the agribusiness sector accounts for 30% of total energy use and over 20% of GHG emissions. To meet growing and changing food demand while tackling climate change, significant improvements in resource use efficiency and conservation are needed. In addition, mining companies are among the biggest consumers of energy in several developing economies and, given the anticipated substantial increase in  demand for several key minerals and metals to manufacture cleaner energy technologies, will be key players in the energy transition. However, achieving a shift in low-carbon pathways across these sectors consistent with 1.5°C of warming will require large investments in low-carbon technologies coupled with changes to corporate governance and business practices, as well as a gender-responsive approach.  \r\nTo enable the paradigm shift and transformational change required within these energy-intensive sectors, the High Impact Programme for the Corporate Sector (the “Programme”) is based on the innovation of linking climate considerations at a project level with the uptake of long-term climate corporate governance performance that is supported by the adoption of sectoral low-carbon trajectories. Currently, innovative financing mechanisms similar to the proposed Programme do not exist in the participating Countries and the corporate sector has not begun to adopt climate corporate governance. To introduce the required systemic change, the GCF and the EBRD working together under the Programme will foster the uptake of new low carbon technologies and adoption of corporate climate-related behavioural changes. By setting climate change mitigation 2030 targets through low carbon investment planning and incorporating climate governance principles into decision-making, corporates will be enabled to contribute to sectoral and country specific low-carbon pathways while also following a gender-responsive approach.  \r\nThe Programme targets energy-intensive industries, (non-fossil energy) mining companies, agribusinesses and agribusiness value chains (and related logistics) in the following participating countries: Armenia, Jordan, Kazakhstan, Morocco, Serbia, Tunisia and Uzbekistan. In these sectors and countries, key barriers need to be overcome to unlock potentials to deliver climate benefits. Critical financial barriers to the uptake of climate technologies across industrial, agribusiness and mining sectors contribute to the higher costs that early adopters of technologies face due to a lack of access to suitable financial products with adequate pricing. In addition, companies face a range of capacity barriers related to identifying, prioritizing, developing, implementing and monitoring low-carbon projects and the respective climate governance procedures. In response to these barriers and to support the private sector to deliver decarbonisation, the Programme has been structured under three components: Component 1:  High impact technologies identification and corporate low-carbon strategy development; Component 2: Innovative financing for high climate impact projects; and Component 3: Low-carbon sectoral roadmaps for high impact industries and knowledge sharing. \r\nComponent 1 addresses technical barriers faced by manufacturing industries, mining and agribusiness sectors by facilitating identification of high-impact climate technology projects. In addition, Component 1 addresses the lack of corporate capacity to conduct climate change planning, and supports the integration of risk analysis and gender-responsive climate change consideration into strategic decision making, target setting and investment planning. \r\nComponent 2 introduces an innovative concessional financing mechanism to address financial barriers to the uptake of high climate impact technologies for a shift to lower carbon processes and operations, in addition to promoting the uptake of corporate climate governance and management practices. The financing mechanism offered links the interest rate to financial performance, with the innovation being the link to climate and corporate governance performance. To participate, corporates and projects will comply with eligibility criteria related to (a) sector, (b) behavioural change, (c) technology and (d) impact potential. \r\nSustainability-linked loans (SLL) and performance-based financing (PBF) climate finance instruments are being developed in advanced markets, and involve borrowers meeting pre-defined sustainability key performance indicators. However, to date, these instruments are concentrated in the European debt market; and no SLL or PBF climate instruments are available for the industrial, agriculture and mining sectors in the participating Countries. Component 3 promotes private-public sector dialogue in policy formulation at the sectoral level to create an enabling environment for climate-related investments by supporting the development of sector-level decarbonisation roadmaps. These roadmaps encompass technical pathways, policy interventions and markets aspects into the formulation of the potential pathways. Low carbon roadmaps facilitate decisions, reforms and capacity building in establishing the strategic capacity to guide companies, sector and country on the corresponding pathway. This collaborative approach developed between the EBRD, corporates, industry association and the public sector will have impact beyond the targeted countries and sectors, and will facilitate replication of the approach in other sectors and geographies. This policy dialogue will enable to identify gender specific constraints in the sectors targeted, and will provide key actions for policy considerations. In addition, knowledge products will be developed to support and engage the private sector and stakeholders, such as policy makers and industry associations, in a collaborative knowledge exchange. \r\nThe Programme will provide total financing (GCF and co-financing) of USD 1,016.890 million, with USD 252.500 million concessional finance and USD 5.530 million grant from the GCF. Alongside concessional financing from the GCF, the EBRD and other co-financing will offer USD 757.500 million to corporates through loans. The EBRD will provide these loans from its own capital resources for specific, covenanted purposes aligned with the Programme goals and supported with a technical assistance grant from the EBRD of USD 1.360 million. Support from the GCF will introduce an innovative funding mechanism that is not currently available to private companies in the participating Countries. GCF support is, therefore, crucial to enable energy-intensive industrial sectors to shift to a low-carbon gender-responsive pathway. The EBRD has extensive experience working with industrial, agribusiness and mining corporates, and has offices in all of the participating Countries allowing local bankers to work closely with corporate clients and other stakeholders. \r\nOverall, the Programme is expected to reduce emissions related to GCF results area “buildings, cities, industries and appliances” by 15.498M tCO2 (reduced over 20-year asset lifetime); and GCF results area “energy access and power generation” by 1.722M tCO2 (reduced over 20-year asset lifetime). The Programme will result in lower energy intensity with over 111,400 TJ in energy savings over the investment lifetimes. The assumptions applied in the above ex-ante assessment are conservative, since the Programme is designed to drive deeper climate ambition within the companies supported. Therefore, eventual direct mitigation results are likely going to be higher particularly in the industrial sector with extensive supply chains. \r\nThe overall impact of the Programme could be substantially higher with indirect (Scope 3) emissions benefits potentially reaching 20-30% of the direct emission reductions, thus increasing the overall impact to over 21.5MtCO2."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "none"
+      ]
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "EBRD"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "European Bank for Reconstruction and Development"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Large"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp140",
+        "locator": "GCF project FP140 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp140"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 258030000
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 17220000.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 6.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 18.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Buildings, cities, industries and appliances",
+        "Energy, mitigation and access"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "private"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "large"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "High Impact Programme for the Corporate Sector"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 1016890000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "programme"
+    }
+  },
+  "project_id": "FP140",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp140"
+}

@@ -1,0 +1,3166 @@
+{
+  "bank_sha256": "c2aefb311f896c108cf970cb31b7f8128019e2a455ce2382ed23be31dfc79ef9",
+  "calibration_status": "uncalibrated_secondary",
+  "citation_slot_count": 358,
+  "component_count": 90,
+  "context_count": 6,
+  "contexts": [
+    {
+      "components": [
+        {
+          "component_id": "executive_summary_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 1,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What is the status of funding reconciliation for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What is the maximum set of priority risks identified for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What is the set of priority KPIs defined for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.funding_scope_qualification"
+              ],
+              "question": "How are the reported aggregate amounts treated for benchmark arithmetic?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.instrument_terms_qualification"
+              ],
+              "question": "How are instrument amounts treated in the benchmark?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.mobilization_qualification"
+              ],
+              "question": "How is the mobilization range characterized for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "How is the synthetic evidence used in the benchmark instance?"
+            }
+          ],
+          "section_id": "executive_summary",
+          "title": "Executive assessment and critical issues"
+        },
+        {
+          "component_id": "project_identification_and_status_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 2,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.description"
+              ],
+              "question": "What is the description of the project's objectives and expected outcomes?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.project_status"
+              ],
+              "question": "What is the current implementation status of the project according to the normalized benchmark source?"
+            }
+          ],
+          "section_id": "project_identification_and_status",
+          "title": "Project identification and status"
+        },
+        {
+          "component_id": "promoter_and_delivery_arrangements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 3,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_financial_standing",
+                "req.promoter_track_record"
+              ],
+              "question": "What is the current financial standing of the promoter for the Indonesia Geothermal Resource Risk Mitigation Project, and is there a comparable source-backed delivery track record available?"
+            }
+          ],
+          "section_id": "promoter_and_delivery_arrangements",
+          "title": "Promoter and delivery assessment"
+        },
+        {
+          "component_id": "climate_rationale_and_strategic_fit_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 4,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.annualised_reported_ghg_target_tco2e"
+              ],
+              "question": "What is the annualised reported GHG target for the project in tonnes of CO2 equivalent per year?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.climate_rationale"
+              ],
+              "question": "What is the climate rationale for the project's intervention?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.ghg_target_horizon"
+              ],
+              "question": "What is the GHG target horizon for the project's accounting?"
+            }
+          ],
+          "section_id": "climate_rationale_and_strategic_fit",
+          "title": "Climate rationale and strategic fit"
+        },
+        {
+          "component_id": "market_rationale_and_additionality_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 5,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.facility_profile_scope"
+              ],
+              "question": "What is the scope of the facility's profile and how does it define the deployment approach for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.market_financing_barrier"
+              ],
+              "question": "What is the identified financing barrier that the facility is intended to address for the target segment?"
+            }
+          ],
+          "section_id": "market_rationale_and_additionality",
+          "title": "Market rationale and financial additionality"
+        },
+        {
+          "component_id": "instrument_structure_and_terms_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 6,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.gcf_instrument_reconciliation_status"
+              ],
+              "question": "What is the status of the reconciliation of instrument amounts across the project's benchmark allocations?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.instrument_terms_qualification"
+              ],
+              "question": "How are the instrument terms qualified in terms of their allocation and valuation?"
+            }
+          ],
+          "section_id": "instrument_structure_and_terms",
+          "title": "Instrument structure and terms"
+        },
+        {
+          "component_id": "allocation_and_utilisation_profile_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 7,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.deployment_envelope_per_gcf_dollar"
+              ],
+              "question": "What is the deployment envelope per GCF dollar declared for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.detailed_implementation_schedule"
+              ],
+              "question": "Is there a source-backed dated activity-level critical path present in the normalized evidence for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "Is the formal MRV-plan completion status available as atomic evidence for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.procurement_plan"
+              ],
+              "question": "Are a source-backed procurement plan and procurement status available as atomic evidence for the project?"
+            }
+          ],
+          "section_id": "allocation_and_utilisation_profile",
+          "title": "Allocation and utilisation profile"
+        },
+        {
+          "component_id": "portfolio_scale_and_mobilisation_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 8,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.mobilization_applicability"
+              ],
+              "question": "Under what condition should the expected scale and mobilisation range be interpreted for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.mobilization_qualification"
+              ],
+              "question": "What is the nature of the range provided for mobilisation in this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.portfolio_unit_count_basis"
+              ],
+              "question": "What is the basis for the portfolio-unit count used in this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.portfolio_unit_count_qualification"
+              ],
+              "question": "How should the portfolio-unit count be interpreted in this project?"
+            }
+          ],
+          "section_id": "portfolio_scale_and_mobilisation",
+          "title": "Portfolio scale and mobilisation"
+        },
+        {
+          "component_id": "technical_feasibility_and_readiness_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 9,
+          "questions": [],
+          "section_id": "technical_feasibility_and_readiness",
+          "title": "Technical feasibility and implementation readiness"
+        },
+        {
+          "component_id": "costs_and_financing_structure_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 10,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.cofinance_per_gcf_dollar"
+              ],
+              "question": "What is the ratio of cofinance to GCF dollars for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.committed_funding_sources_usd"
+              ],
+              "question": "What is the total amount of committed funding sources for this project in USD?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What is the status of funding reconciliation for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.funding_scope_comparability"
+              ],
+              "question": "What is the funding scope comparability status for this project?"
+            }
+          ],
+          "section_id": "costs_and_financing_structure",
+          "title": "Costs and financing structure"
+        },
+        {
+          "component_id": "financial_sustainability_and_business_model_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 11,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.facility_recycling_qualification"
+              ],
+              "question": "What is the status of the facility recycling qualification for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.instrument_terms_qualification"
+              ],
+              "question": "What is the status of the instrument terms qualification for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.business_model",
+                "req.financial_model",
+                "req.financial_returns",
+                "req.lifecycle_opex"
+              ],
+              "question": "What is the status of the business model, financial model, financial returns, lifecycle operating expenditure, and revenue model for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.revenue_model"
+              ],
+              "question": "What is the status of the revenue model for the project?"
+            }
+          ],
+          "section_id": "financial_sustainability_and_business_model",
+          "title": "Financial sustainability and business model"
+        },
+        {
+          "component_id": "impact_esg_and_safeguards_text",
+          "coverage_gap": false,
+          "fallback": true,
+          "ordinal": 12,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e"
+              ],
+              "question": "What is the evidence status or value for project cost per reported tco2e?"
+            }
+          ],
+          "section_id": "impact_esg_and_safeguards",
+          "title": "Impact, ESG, and safeguards"
+        },
+        {
+          "component_id": "performance_indicators_and_mrv_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 13,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.available_kpi_priority_count"
+              ],
+              "question": "How many indicators were available for prioritization in the KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_kpi_priority_count"
+              ],
+              "question": "How many indicators remained unranked in the KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What was the priority cutoff used to select the KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpi_count"
+              ],
+              "question": "How many indicators were selected as priority KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.prioritized_kpi_count"
+              ],
+              "question": "How many indicators were prioritized in the KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What are the selected priority KPIs for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.mrv_ready_kpi_count"
+              ],
+              "question": "What is the total number of MRV-ready KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_mrv_assessments"
+              ],
+              "question": "What are the MRV assessments associated with the KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_target_delta_assessments"
+              ],
+              "question": "What are the target delta assessments associated with the KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_compatible_target_delta_count"
+              ],
+              "question": "How many KPIs have compatible target delta assessments?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.monitoring_reporting_process"
+              ],
+              "question": "What is the status of the project's monitoring and reporting process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "What is the status of the MRV plan for the project?"
+            }
+          ],
+          "section_id": "performance_indicators_and_mrv",
+          "title": "Performance indicators and MRV"
+        },
+        {
+          "component_id": "risk_and_bankability_constraints_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 14,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.scored_risk_count"
+              ],
+              "question": "How many risks are scored in the risk and bankability constraints analysis for the Indonesia Geothermal Resource Risk Mitigation Project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_risk_count"
+              ],
+              "question": "How many risks are unscored in the risk and bankability constraints analysis for the Indonesia Geothermal Resource Risk Mitigation Project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_risk_priority_score"
+              ],
+              "question": "What is the maximum risk priority score used in the risk and bankability constraints analysis for the Indonesia Geothermal Resource Risk Mitigation Project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risk_count"
+              ],
+              "question": "How many risks are selected as maximum priority risks in the risk and bankability constraints analysis for the Indonesia Geothermal Resource Risk Mitigation Project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What is the set of risks tied at the maximum risk priority score in the risk and bankability constraints analysis for the Indonesia Geothermal Resource Risk Mitigation Project?"
+            }
+          ],
+          "section_id": "risk_and_bankability_constraints",
+          "title": "Risk and bankability constraints"
+        },
+        {
+          "component_id": "conclusions_and_evidence_requirements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 15,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "calc.maximum_risk_priority_score"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and what is the maximum-risk priority score?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_priority_cutoff",
+                "req.financial_model"
+              ],
+              "question": "What is the priority-KPI cutoff, and what is the status of the financial model?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.technical_design_maturity",
+                "req.environmental_social_safeguards"
+              ],
+              "question": "What is the status of technical design maturity and environmental and social safeguards?"
+            }
+          ],
+          "section_id": "conclusions_and_evidence_requirements",
+          "title": "Conclusions and evidence requirements"
+        }
+      ],
+      "family": "financing_facility",
+      "prototype_project_id": "FP083",
+      "prototype_project_title": "Indonesia Geothermal Resource Risk Mitigation Project",
+      "task": "missingness"
+    },
+    {
+      "components": [
+        {
+          "component_id": "executive_summary_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 1,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What is the status of funding reconciliation for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What are the maximum priority risks associated with this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.modelled_vs_reported_ghg_ratio"
+              ],
+              "question": "What is the ratio of modelled to reported greenhouse gas emissions for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What are the priority key performance indicators for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.funding_scope_qualification"
+              ],
+              "question": "How is the funding scope qualified for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.land_accounting_qualification"
+              ],
+              "question": "How is the land accounting qualified for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "What is the disclosure status of synthetic evidence used in this project?"
+            }
+          ],
+          "section_id": "executive_summary",
+          "title": "Executive assessment and critical issues"
+        },
+        {
+          "component_id": "project_identification_and_status_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 2,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.description"
+              ],
+              "question": "What is the description of the project and its intended mandate, including the activities it aims to finance and the timeframe for assessing emission reductions?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.project_status"
+              ],
+              "question": "What is the current implementation status of the project according to the normalized benchmark source?"
+            }
+          ],
+          "section_id": "project_identification_and_status",
+          "title": "Project identification and status"
+        },
+        {
+          "component_id": "promoter_and_delivery_arrangements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 3,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_financial_standing"
+              ],
+              "question": "What is the current financial standing of the promoter for the FP019 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_track_record"
+              ],
+              "question": "Is there a comparable source-backed delivery track record for the promoter of the FP019 project?"
+            }
+          ],
+          "section_id": "promoter_and_delivery_arrangements",
+          "title": "Promoter and delivery assessment"
+        },
+        {
+          "component_id": "climate_rationale_and_strategic_fit_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 4,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.climate_rationale",
+                "req.ghg_target_horizon"
+              ],
+              "question": "What is the climate rationale for the project, and how does the greenhouse gas target horizon constrain the case?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.annualised_reported_ghg_target_tco2e"
+              ],
+              "question": "What is the annualised reported greenhouse gas target in tonnes of carbon dioxide equivalent per year?"
+            }
+          ],
+          "section_id": "climate_rationale_and_strategic_fit",
+          "title": "Climate rationale and strategic fit"
+        },
+        {
+          "component_id": "land_use_baseline_and_intervention_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 5,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.avoided_deforestation_rate_pct_per_year",
+                "dt.project.jurisdictional_accounting_qualification"
+              ],
+              "question": "What is the rate of avoided deforestation and how does it relate to the jurisdictional accounting qualification for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.jurisdictional_gross_reduction_tco2e_per_year",
+                "dt.project.land_carbon_pathway_boundary"
+              ],
+              "question": "What is the annual jurisdictional gross reduction in CO2 equivalent emissions and what is the land carbon pathway boundary for this project?"
+            }
+          ],
+          "section_id": "land_use_baseline_and_intervention",
+          "title": "Land-use baseline and intervention"
+        },
+        {
+          "component_id": "area_allocation_and_enrolment_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 6,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.land_area_reconciliation_status"
+              ],
+              "question": "What is the status of land area reconciliation for the applicable accounting area in this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.detailed_implementation_schedule"
+              ],
+              "question": "Is there a source-backed dated activity-level critical path available for the detailed implementation schedule?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.land_and_access_status"
+              ],
+              "question": "Are land tenure, access, and site-control status available as complete atomic evidence?"
+            }
+          ],
+          "section_id": "area_allocation_and_enrolment",
+          "title": "Area allocation and enrolment"
+        },
+        {
+          "component_id": "carbon_accounting_consistency_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 7,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.modelled_net_accounting_ghg_tco2e"
+              ],
+              "question": "What is the modelled net accounting GHG value in tCO2e for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.modelled_vs_reported_ghg_ratio"
+              ],
+              "question": "What is the ratio of modelled GHG to reported GHG for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.jurisdictional_accounting_qualification"
+              ],
+              "question": "What is the jurisdictional accounting qualification for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.reported_ghg_comparison_status"
+              ],
+              "question": "What is the GHG comparison status of the project with respect to reported targets?"
+            }
+          ],
+          "section_id": "carbon_accounting_consistency",
+          "title": "Carbon-accounting consistency"
+        },
+        {
+          "component_id": "people_and_cobenefits_text",
+          "coverage_gap": false,
+          "fallback": true,
+          "ordinal": 8,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.beneficiary_allocation_qualification"
+              ],
+              "question": "What is the evidence status or value for beneficiary allocation qualification?"
+            }
+          ],
+          "section_id": "people_and_cobenefits",
+          "title": "People and co-benefits"
+        },
+        {
+          "component_id": "technical_feasibility_and_readiness_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 9,
+          "questions": [],
+          "section_id": "technical_feasibility_and_readiness",
+          "title": "Technical feasibility and implementation readiness"
+        },
+        {
+          "component_id": "costs_and_financing_structure_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 10,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.cofinance_per_gcf_dollar"
+              ],
+              "question": "What is the ratio of cofinance to GCF dollars for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.committed_funding_sources_usd"
+              ],
+              "question": "What is the total amount of committed funding sources for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What is the status of the funding reconciliation for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.funding_scope_comparability"
+              ],
+              "question": "What is the funding scope comparability for this project?"
+            }
+          ],
+          "section_id": "costs_and_financing_structure",
+          "title": "Costs and financing structure"
+        },
+        {
+          "component_id": "financial_sustainability_and_business_model_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 11,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.business_model",
+                "req.financial_model",
+                "req.financial_returns",
+                "req.lifecycle_opex"
+              ],
+              "question": "Can recurrent financing, operating sustainability, repayment capacity, or returns be assessed from the business model, financial model, financial returns, lifecycle operating expenditure, and revenue model for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.revenue_model"
+              ],
+              "question": "Is there evidence of a complete source-backed business model, financial model, financial returns, lifecycle operating expenditure, or revenue model for this project?"
+            }
+          ],
+          "section_id": "financial_sustainability_and_business_model",
+          "title": "Financial sustainability and business model"
+        },
+        {
+          "component_id": "impact_esg_and_safeguards_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 12,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e"
+              ],
+              "question": "What is the cost per unit of reported carbon dioxide equivalent emissions for this project, and what is the qualification for the greenhouse gas accounting?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.ghg_accounting_qualification"
+              ],
+              "question": "What is the qualification for the greenhouse gas accounting in this project, and how is the normalized project value treated in the accounting boundary?"
+            }
+          ],
+          "section_id": "impact_esg_and_safeguards",
+          "title": "Impact, ESG, and safeguards"
+        },
+        {
+          "component_id": "performance_indicators_and_mrv_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 13,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.available_kpi_priority_count"
+              ],
+              "question": "How many indicators were available for prioritization in the KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_kpi_priority_count"
+              ],
+              "question": "How many indicators remained unranked in the KPI prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_compatible_target_delta_count"
+              ],
+              "question": "How many of the selected KPIs have compatible target delta assessments?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_mrv_assessments"
+              ],
+              "question": "What are the assessments related to the MRV status of the selected KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the priority cutoff used to select the KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_target_delta_assessments"
+              ],
+              "question": "What are the assessments related to the target delta of the KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.mrv_ready_kpi_count"
+              ],
+              "question": "How many of the KPIs are considered MRV-ready?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.prioritized_kpi_count"
+              ],
+              "question": "How many KPIs were prioritized in the selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpi_count"
+              ],
+              "question": "How many KPIs were selected as priority KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What are the selected priority KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.monitoring_reporting_process"
+              ],
+              "question": "What is the status of the project's monitoring and reporting process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "What is the status of the MRV plan for the project?"
+            }
+          ],
+          "section_id": "performance_indicators_and_mrv",
+          "title": "Performance indicators and MRV"
+        },
+        {
+          "component_id": "risk_and_bankability_constraints_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 14,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.scored_risk_count"
+              ],
+              "question": "How many risks are scored in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_risk_count"
+              ],
+              "question": "How many risks are not scored in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_risk_priority_score"
+              ],
+              "question": "What is the maximum risk priority score used in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risk_count"
+              ],
+              "question": "How many risks are tied at the maximum risk priority score in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What are the names of the risks tied at the maximum risk priority score in the risk and bankability constraints section of this report?"
+            }
+          ],
+          "section_id": "risk_and_bankability_constraints",
+          "title": "Risk and bankability constraints"
+        },
+        {
+          "component_id": "conclusions_and_evidence_requirements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 15,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "calc.maximum_risk_priority_score",
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and what is the maximum-risk priority score and KPI priority cutoff?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.environmental_social_safeguards",
+                "req.financial_model",
+                "req.technical_design_maturity"
+              ],
+              "question": "What are the missing evidence requirements for the project's environmental and social safeguards, financial model, and technical design maturity?"
+            }
+          ],
+          "section_id": "conclusions_and_evidence_requirements",
+          "title": "Conclusions and evidence requirements"
+        }
+      ],
+      "family": "land_use_nature",
+      "prototype_project_id": "FP019",
+      "prototype_project_title": "Priming Financial and Land-Use Planning Instruments to Reduce Emissions from Deforestation",
+      "task": "update"
+    },
+    {
+      "components": [
+        {
+          "component_id": "executive_summary_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 1,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "dt.project.funding_scope_qualification"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and how does it relate to the reported financial commitments?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What are the maximum priority risks associated with the project, and how do they affect the project's implementation?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e"
+              ],
+              "question": "What is the cost of the project per reported tonne of CO2 equivalent, and how is this value used in benchmarking?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What are the key performance indicators that the results framework considers most important, and how are they treated in the assessment?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.ghg_accounting_qualification"
+              ],
+              "question": "How is the greenhouse gas accounting treated in the project, and what assumptions are made in the benchmarking process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "What is the nature of the evidence used in the benchmark instance, and how are synthetic assumptions handled?"
+            }
+          ],
+          "section_id": "executive_summary",
+          "title": "Executive assessment and critical issues"
+        },
+        {
+          "component_id": "project_identification_and_status_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 2,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.description"
+              ],
+              "question": "What is the primary context and rationale for the project's focus on low-carbon development in Mauritius?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.project_status"
+              ],
+              "question": "What is the current implementation status of the project according to the normalized benchmark source?"
+            }
+          ],
+          "section_id": "project_identification_and_status",
+          "title": "Project identification and status"
+        },
+        {
+          "component_id": "promoter_and_delivery_arrangements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 3,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_financial_standing"
+              ],
+              "question": "What is the current financial standing of the promoter in relation to the project's implementation?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_track_record"
+              ],
+              "question": "Is there a comparable source-backed delivery track record available for the promoter?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "How is the benchmark instance constructed in terms of evidence and synthetic assumptions?"
+            }
+          ],
+          "section_id": "promoter_and_delivery_arrangements",
+          "title": "Promoter and delivery assessment"
+        },
+        {
+          "component_id": "climate_rationale_and_strategic_fit_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 4,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.climate_rationale",
+                "req.ghg_target_horizon"
+              ],
+              "question": "What is the basis for the climate rationale in the project, and how does the greenhouse gas target horizon affect the case?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.annualised_reported_ghg_target_tco2e"
+              ],
+              "question": "What is the annualised reported greenhouse gas target in tonnes of CO2 equivalent per year?"
+            }
+          ],
+          "section_id": "climate_rationale_and_strategic_fit",
+          "title": "Climate rationale and strategic fit"
+        },
+        {
+          "component_id": "system_baseline_and_policy_context_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 5,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.emission_factor_delta_tco2e_per_mwh"
+              ],
+              "question": "What is the calculated difference in emission factors between the current and projected scenarios, expressed in tonnes of CO2 equivalent per megawatt-hour?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.renewable_policy_gap_pct"
+              ],
+              "question": "What percentage represents the gap in renewable policy implementation compared to the desired level for this project?"
+            }
+          ],
+          "section_id": "system_baseline_and_policy_context",
+          "title": "System baseline and policy context"
+        },
+        {
+          "component_id": "capacity_and_output_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 6,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.capacity_delivery_relationship"
+              ],
+              "question": "What is the relationship between the capacity delivered and the programme-supported investment in this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.generation_accounting_boundary"
+              ],
+              "question": "What is the scope of generation accounting for this project's capacity and output analysis?"
+            }
+          ],
+          "section_id": "capacity_and_output",
+          "title": "Capacity and output"
+        },
+        {
+          "component_id": "commissioning_profile_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 7,
+          "questions": [],
+          "section_id": "commissioning_profile",
+          "title": "Commissioning evidence and dependencies"
+        },
+        {
+          "component_id": "operational_impact_consistency_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 8,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.reported_ghg_comparison_status",
+                "dt.project.reported_ghg_comparison_qualification"
+              ],
+              "question": "What is the status of the reported GHG comparison for the project, and how does this affect the consistency check between the modelled and reported GHG values?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.reported_minus_modelled_ghg_tco2e",
+                "calc.modelled_vs_reported_ghg_ratio"
+              ],
+              "question": "What is the difference between the reported and modelled GHG values, and what does this indicate about the project's GHG performance?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.asset_impact_boundary_qualification"
+              ],
+              "question": "What is the qualification for the asset impact boundary, and how does it affect the interpretation of the modelled GHG values?"
+            }
+          ],
+          "section_id": "operational_impact_consistency",
+          "title": "Operational impact consistency"
+        },
+        {
+          "component_id": "technical_feasibility_and_readiness_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 9,
+          "questions": [],
+          "section_id": "technical_feasibility_and_readiness",
+          "title": "Technical feasibility and implementation readiness"
+        },
+        {
+          "component_id": "costs_and_financing_structure_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 10,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.cofinance_per_gcf_dollar"
+              ],
+              "question": "What is the ratio of cofinancing to GCF dollars in the project's funding structure?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.committed_funding_sources_usd"
+              ],
+              "question": "What is the total amount of committed funding sources in USD for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What is the status of the funding reconciliation for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.funding_scope_comparability"
+              ],
+              "question": "What is the funding scope comparability status for the project?"
+            }
+          ],
+          "section_id": "costs_and_financing_structure",
+          "title": "Costs and financing structure"
+        },
+        {
+          "component_id": "financial_sustainability_and_business_model_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 11,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.business_model"
+              ],
+              "question": "Is there a complete source-backed business model available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_model"
+              ],
+              "question": "Is there a complete source-backed financial model and its assumptions available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_returns"
+              ],
+              "question": "Are comparable project-level financial-return measures available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.lifecycle_opex"
+              ],
+              "question": "Is lifecycle operating expenditure available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.revenue_model"
+              ],
+              "question": "Is there a complete revenue model available for assessing operating sustainability, repayment capacity, or returns?"
+            }
+          ],
+          "section_id": "financial_sustainability_and_business_model",
+          "title": "Financial sustainability and business model"
+        },
+        {
+          "component_id": "impact_esg_and_safeguards_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 12,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e"
+              ],
+              "question": "What is the cost per reported tonne of CO2 equivalent for the project, and what is the qualification for greenhouse gas accounting?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.ghg_accounting_qualification"
+              ],
+              "question": "What is the qualification for greenhouse gas accounting in the project, and how is the normalized project value treated?"
+            }
+          ],
+          "section_id": "impact_esg_and_safeguards",
+          "title": "Impact, ESG, and safeguards"
+        },
+        {
+          "component_id": "performance_indicators_and_mrv_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 13,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.available_kpi_priority_count"
+              ],
+              "question": "How many indicators were available for prioritization in the project's KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_kpi_priority_count"
+              ],
+              "question": "How many indicators remained unranked in the project's KPI prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_compatible_target_delta_count"
+              ],
+              "question": "What is the number of indicators that have compatible target delta assessments in the project's KPI selection?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_mrv_assessments"
+              ],
+              "question": "What are the MRV assessments associated with the KPIs in the project's prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the priority cutoff used to select KPIs in the project's prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_target_delta_assessments"
+              ],
+              "question": "What are the target delta assessments associated with the KPIs in the project's prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.mrv_ready_kpi_count"
+              ],
+              "question": "How many indicators are considered MRV-ready in the project's KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.prioritized_kpi_count"
+              ],
+              "question": "How many indicators were prioritized in the project's KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpi_count"
+              ],
+              "question": "How many indicators were selected as priority KPIs in the project's prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "Which specific KPIs were selected as priority indicators in the project's prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.monitoring_reporting_process"
+              ],
+              "question": "What is the status of the project's monitoring and reporting process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "What is the status of the MRV plan for the project?"
+            }
+          ],
+          "section_id": "performance_indicators_and_mrv",
+          "title": "Performance indicators and MRV"
+        },
+        {
+          "component_id": "risk_and_bankability_constraints_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 14,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.scored_risk_count"
+              ],
+              "question": "How many risks were scored in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_risk_count"
+              ],
+              "question": "How many risks were not scored in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_risk_priority_score"
+              ],
+              "question": "What is the maximum risk priority score used in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risk_count"
+              ],
+              "question": "How many risks were selected as having the maximum risk priority score in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What are the specific risks that were selected as having the maximum risk priority score in the risk and bankability constraints analysis for the FP033 project?"
+            }
+          ],
+          "section_id": "risk_and_bankability_constraints",
+          "title": "Risk and bankability constraints"
+        },
+        {
+          "component_id": "conclusions_and_evidence_requirements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 15,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "calc.maximum_risk_priority_score",
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and what is the maximum risk priority score, along with the priority-KPI cutoff value?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_model",
+                "req.technical_design_maturity",
+                "req.environmental_social_safeguards"
+              ],
+              "question": "What are the specific evidence requirements for the project's financial model, technical design maturity, and environmental and social safeguards?"
+            }
+          ],
+          "section_id": "conclusions_and_evidence_requirements",
+          "title": "Conclusions and evidence requirements"
+        }
+      ],
+      "family": "asset_delivery",
+      "prototype_project_id": "FP033",
+      "prototype_project_title": "Accelerating the Transformational Shift to a Low-Carbon Economy in the Republic of Mauritius",
+      "task": "update"
+    },
+    {
+      "components": [
+        {
+          "component_id": "executive_summary_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 1,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What is the status of funding reconciliation for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What is the maximum priority risk set for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.modelled_vs_reported_ghg_ratio"
+              ],
+              "question": "What is the ratio of modelled to reported greenhouse gas emissions for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What is the set of priority key performance indicators for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.funding_scope_qualification"
+              ],
+              "question": "How is the funding scope qualification defined for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.land_accounting_qualification"
+              ],
+              "question": "How is the land accounting qualification defined for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "What is the disclosure status of synthetic evidence used in the benchmark instance?"
+            }
+          ],
+          "section_id": "executive_summary",
+          "title": "Executive assessment and critical issues"
+        },
+        {
+          "component_id": "project_identification_and_status_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 2,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.description"
+              ],
+              "question": "What is the description of the project and its intended mandate, including the scope, activities, and expected outcomes?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.project_status"
+              ],
+              "question": "What is the current implementation status of the project according to the normalized benchmark source?"
+            }
+          ],
+          "section_id": "project_identification_and_status",
+          "title": "Project identification and status"
+        },
+        {
+          "component_id": "promoter_and_delivery_arrangements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 3,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_financial_standing"
+              ],
+              "question": "What is the current financial standing of the promoter for the FP019 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_track_record"
+              ],
+              "question": "Is there a comparable source-backed delivery track record for the promoter of the FP019 project?"
+            }
+          ],
+          "section_id": "promoter_and_delivery_arrangements",
+          "title": "Promoter and delivery assessment"
+        },
+        {
+          "component_id": "climate_rationale_and_strategic_fit_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 4,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.climate_rationale",
+                "req.ghg_target_horizon"
+              ],
+              "question": "What is the climate rationale for the project, and how does the greenhouse gas target horizon limit the case?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.annualised_reported_ghg_target_tco2e"
+              ],
+              "question": "What is the annualised reported greenhouse gas target in tonnes of carbon dioxide equivalent per year?"
+            }
+          ],
+          "section_id": "climate_rationale_and_strategic_fit",
+          "title": "Climate rationale and strategic fit"
+        },
+        {
+          "component_id": "land_use_baseline_and_intervention_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 5,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.avoided_deforestation_rate_pct_per_year"
+              ],
+              "question": "What is the rate of avoided deforestation in the project's jurisdictional accounting area, expressed as a percentage per year?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.jurisdictional_gross_reduction_tco2e_per_year"
+              ],
+              "question": "What is the annual gross reduction in carbon dioxide equivalent emissions from the jurisdictional accounting area?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.jurisdictional_accounting_qualification"
+              ],
+              "question": "How is the jurisdictional accounting area and annual reference/program emissions defined in the project's context?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.land_carbon_pathway_boundary"
+              ],
+              "question": "What is the boundary used for the project's land carbon pathway?"
+            }
+          ],
+          "section_id": "land_use_baseline_and_intervention",
+          "title": "Land-use baseline and intervention"
+        },
+        {
+          "component_id": "area_allocation_and_enrolment_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 6,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.land_area_reconciliation_status"
+              ],
+              "question": "What is the status of land area reconciliation for the applicable accounting area in this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.detailed_implementation_schedule"
+              ],
+              "question": "Is there a source-backed dated activity-level critical path available for the detailed implementation schedule?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.land_and_access_status"
+              ],
+              "question": "Are land tenure, access, and site-control status available as complete atomic evidence?"
+            }
+          ],
+          "section_id": "area_allocation_and_enrolment",
+          "title": "Area allocation and enrolment"
+        },
+        {
+          "component_id": "carbon_accounting_consistency_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 7,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.modelled_net_accounting_ghg_tco2e"
+              ],
+              "question": "What is the modelled net accounting GHG value in tCO2e for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.modelled_vs_reported_ghg_ratio"
+              ],
+              "question": "What is the ratio of modelled versus reported GHG for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.jurisdictional_accounting_qualification"
+              ],
+              "question": "What is the jurisdictional accounting qualification for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.reported_ghg_comparison_status"
+              ],
+              "question": "What is the GHG comparison status of the project with respect to reported targets?"
+            }
+          ],
+          "section_id": "carbon_accounting_consistency",
+          "title": "Carbon-accounting consistency"
+        },
+        {
+          "component_id": "people_and_cobenefits_text",
+          "coverage_gap": false,
+          "fallback": true,
+          "ordinal": 8,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.beneficiary_allocation_qualification"
+              ],
+              "question": "What is the evidence status or value for beneficiary allocation qualification?"
+            }
+          ],
+          "section_id": "people_and_cobenefits",
+          "title": "People and co-benefits"
+        },
+        {
+          "component_id": "technical_feasibility_and_readiness_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 9,
+          "questions": [],
+          "section_id": "technical_feasibility_and_readiness",
+          "title": "Technical feasibility and implementation readiness"
+        },
+        {
+          "component_id": "costs_and_financing_structure_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 10,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.cofinance_per_gcf_dollar"
+              ],
+              "question": "What does the cofinance per GCF dollar indicate about the stated cofinance and what does it not address regarding viability or return?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.committed_funding_sources_usd"
+              ],
+              "question": "What is the total amount of committed funding sources in USD for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "dt.project.funding_scope_comparability"
+              ],
+              "question": "What is the status of the funding reconciliation for this project, and under what condition is it reported?"
+            }
+          ],
+          "section_id": "costs_and_financing_structure",
+          "title": "Costs and financing structure"
+        },
+        {
+          "component_id": "financial_sustainability_and_business_model_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 11,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.business_model",
+                "req.financial_model",
+                "req.financial_returns",
+                "req.lifecycle_opex"
+              ],
+              "question": "Can recurrent financing, operating sustainability, repayment capacity, or returns be assessed from the business model, financial model, financial returns, lifecycle operating expenditure, and revenue model for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.revenue_model"
+              ],
+              "question": "Is there evidence of a complete source-backed business model, financial model, financial returns, lifecycle operating expenditure, or revenue model for this project?"
+            }
+          ],
+          "section_id": "financial_sustainability_and_business_model",
+          "title": "Financial sustainability and business model"
+        },
+        {
+          "component_id": "impact_esg_and_safeguards_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 12,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e"
+              ],
+              "question": "What is the cost per tonne of CO2 equivalent reported for this project, and what is the qualification for the greenhouse gas accounting?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.ghg_accounting_qualification"
+              ],
+              "question": "What is the qualification for the greenhouse gas accounting in this project, and what is the cost per tonne of CO2 equivalent reported?"
+            }
+          ],
+          "section_id": "impact_esg_and_safeguards",
+          "title": "Impact, ESG, and safeguards"
+        },
+        {
+          "component_id": "performance_indicators_and_mrv_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 13,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.available_kpi_priority_count"
+              ],
+              "question": "How many indicators were considered for priority ranking in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_kpi_priority_count"
+              ],
+              "question": "How many indicators remained unranked in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_compatible_target_delta_count"
+              ],
+              "question": "How many of the selected KPIs have compatible target delta assessments in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_mrv_assessments"
+              ],
+              "question": "What are the MRV assessments associated with the KPIs in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the priority cutoff used to select KPIs in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_target_delta_assessments"
+              ],
+              "question": "What are the target delta assessments associated with the KPIs in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.mrv_ready_kpi_count"
+              ],
+              "question": "How many KPIs are MRV-ready in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.prioritized_kpi_count"
+              ],
+              "question": "How many KPIs were prioritized in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpi_count"
+              ],
+              "question": "How many KPIs were selected as priority KPIs in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What are the selected priority KPIs in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.monitoring_reporting_process"
+              ],
+              "question": "What is the status of the monitoring and reporting process for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "What is the status of the MRV plan for the project?"
+            }
+          ],
+          "section_id": "performance_indicators_and_mrv",
+          "title": "Performance indicators and MRV"
+        },
+        {
+          "component_id": "risk_and_bankability_constraints_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 14,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_risk_count"
+              ],
+              "question": "How many risks are unscored in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risk_count"
+              ],
+              "question": "How many risks are selected as having the maximum risk priority score in this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_risk_priority_score"
+              ],
+              "question": "What is the maximum risk priority score used to identify the highest priority risks in this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.scored_risk_count"
+              ],
+              "question": "How many risks are scored in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What is the complete set of risks tied at the maximum risk priority score in this report?"
+            }
+          ],
+          "section_id": "risk_and_bankability_constraints",
+          "title": "Risk and bankability constraints"
+        },
+        {
+          "component_id": "conclusions_and_evidence_requirements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 15,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "calc.maximum_risk_priority_score",
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and what is the maximum-risk priority score, along with the priority-KPI cutoff?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.environmental_social_safeguards",
+                "req.financial_model",
+                "req.technical_design_maturity"
+              ],
+              "question": "What are the statuses of the environmental and social safeguards, financial model, and technical design maturity for the project?"
+            }
+          ],
+          "section_id": "conclusions_and_evidence_requirements",
+          "title": "Conclusions and evidence requirements"
+        }
+      ],
+      "family": "land_use_nature",
+      "prototype_project_id": "FP019",
+      "prototype_project_title": "Priming Financial and Land-Use Planning Instruments to Reduce Emissions from Deforestation",
+      "task": "missingness"
+    },
+    {
+      "components": [
+        {
+          "component_id": "executive_summary_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 1,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "dt.project.funding_scope_qualification"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and how are the reported aggregate amounts treated for benchmark arithmetic?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e",
+                "dt.project.ghg_accounting_qualification"
+              ],
+              "question": "What is the project cost per reported tCO2e, and how is the greenhouse gas accounting handled in the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks",
+                "calc.priority_kpis"
+              ],
+              "question": "What is the status of the maximum priority risks, and what is the set of priority KPIs used in the results framework?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "What is the status of the synthetic evidence disclosure, and what is the nature of the benchmark instance?"
+            }
+          ],
+          "section_id": "executive_summary",
+          "title": "Executive assessment and critical issues"
+        },
+        {
+          "component_id": "project_identification_and_status_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 2,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.description"
+              ],
+              "question": "What is the primary context and rationale for the project's focus on low-carbon development in Mauritius?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.project_status"
+              ],
+              "question": "What is the current implementation status of the project according to the normalized benchmark source?"
+            }
+          ],
+          "section_id": "project_identification_and_status",
+          "title": "Project identification and status"
+        },
+        {
+          "component_id": "promoter_and_delivery_arrangements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 3,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_financial_standing"
+              ],
+              "question": "What is the status of the promoter's financial standing in relation to the project's evidence requirements?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_track_record"
+              ],
+              "question": "Is there a comparable source-backed delivery track record for the promoter that meets the project's evidence requirements?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "How is the benchmark instance for this project characterized in terms of evidence synthesis and synthetic assumptions?"
+            }
+          ],
+          "section_id": "promoter_and_delivery_arrangements",
+          "title": "Promoter and delivery assessment"
+        },
+        {
+          "component_id": "climate_rationale_and_strategic_fit_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 4,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.climate_rationale",
+                "req.ghg_target_horizon"
+              ],
+              "question": "What is the basis for the climate rationale in the project, and how does the greenhouse gas target horizon affect the case?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.annualised_reported_ghg_target_tco2e"
+              ],
+              "question": "What is the annualised reported greenhouse gas target in tonnes of CO2 equivalent per year?"
+            }
+          ],
+          "section_id": "climate_rationale_and_strategic_fit",
+          "title": "Climate rationale and strategic fit"
+        },
+        {
+          "component_id": "system_baseline_and_policy_context_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 5,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.emission_factor_delta_tco2e_per_mwh"
+              ],
+              "question": "What is the calculated difference in emission factors between the current and target scenarios for electricity generation in the project's context?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.renewable_policy_gap_pct"
+              ],
+              "question": "What percentage gap exists between the current renewable energy policy and the target policy in the project's context?"
+            }
+          ],
+          "section_id": "system_baseline_and_policy_context",
+          "title": "System baseline and policy context"
+        },
+        {
+          "component_id": "capacity_and_output_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 6,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.capacity_delivery_relationship"
+              ],
+              "question": "What is the relationship between the capacity delivered and the programme-supported investment in this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.generation_accounting_boundary"
+              ],
+              "question": "What is the scope of generation accounting for this project's capacity and output assessment?"
+            }
+          ],
+          "section_id": "capacity_and_output",
+          "title": "Capacity and output"
+        },
+        {
+          "component_id": "commissioning_profile_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 7,
+          "questions": [],
+          "section_id": "commissioning_profile",
+          "title": "Commissioning evidence and dependencies"
+        },
+        {
+          "component_id": "operational_impact_consistency_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 8,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.reported_ghg_comparison_status"
+              ],
+              "question": "What is the status of the reported GHG comparison for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.reported_ghg_comparison_qualification"
+              ],
+              "question": "What qualification explains the reported GHG comparison for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.modelled_vs_reported_ghg_ratio"
+              ],
+              "question": "What is the ratio of modelled to reported GHG for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.reported_minus_modelled_ghg_tco2e"
+              ],
+              "question": "What is the difference between reported and modelled GHG in tonnes of CO2e for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.asset_impact_boundary_qualification"
+              ],
+              "question": "What qualification explains the asset impact boundary for the project?"
+            }
+          ],
+          "section_id": "operational_impact_consistency",
+          "title": "Operational impact consistency"
+        },
+        {
+          "component_id": "technical_feasibility_and_readiness_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 9,
+          "questions": [],
+          "section_id": "technical_feasibility_and_readiness",
+          "title": "Technical feasibility and implementation readiness"
+        },
+        {
+          "component_id": "costs_and_financing_structure_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 10,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.cofinance_per_gcf_dollar",
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What does the cofinance per GCF dollar metric indicate about the mobilisation of funds for this project, and what is the status of the funding reconciliation?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.committed_funding_sources_usd",
+                "dt.project.funding_scope_comparability"
+              ],
+              "question": "What is the total amount of committed funding sources for the project, and how does the funding scope comparability affect the interpretation of these figures?"
+            }
+          ],
+          "section_id": "costs_and_financing_structure",
+          "title": "Costs and financing structure"
+        },
+        {
+          "component_id": "financial_sustainability_and_business_model_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 11,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.business_model"
+              ],
+              "question": "Is there a complete source-backed business model available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_model"
+              ],
+              "question": "Is there a complete source-backed financial model and its assumptions available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_returns"
+              ],
+              "question": "Are comparable project-level financial-return measures available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.lifecycle_opex"
+              ],
+              "question": "Is lifecycle operating expenditure available for assessing operating sustainability, repayment capacity, or returns?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.revenue_model"
+              ],
+              "question": "Is there a complete revenue model available for assessing operating sustainability, repayment capacity, or returns?"
+            }
+          ],
+          "section_id": "financial_sustainability_and_business_model",
+          "title": "Financial sustainability and business model"
+        },
+        {
+          "component_id": "impact_esg_and_safeguards_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 12,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e"
+              ],
+              "question": "What is the cost per reported tonne of carbon dioxide equivalent for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.ghg_accounting_qualification"
+              ],
+              "question": "What is the qualification for the greenhouse gas accounting approach used in the project?"
+            }
+          ],
+          "section_id": "impact_esg_and_safeguards",
+          "title": "Impact, ESG, and safeguards"
+        },
+        {
+          "component_id": "performance_indicators_and_mrv_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 13,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.available_kpi_priority_count"
+              ],
+              "question": "How many indicators were available for prioritization in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_kpi_priority_count"
+              ],
+              "question": "How many indicators remained unranked in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_compatible_target_delta_count"
+              ],
+              "question": "How many indicators have compatible target delta assessments in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_mrv_assessments"
+              ],
+              "question": "What are the MRV assessments for the performance indicators in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the priority cutoff used for selecting performance indicators in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_target_delta_assessments"
+              ],
+              "question": "What are the target delta assessments for the performance indicators in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.mrv_ready_kpi_count"
+              ],
+              "question": "How many indicators are MRV-ready in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.prioritized_kpi_count"
+              ],
+              "question": "How many indicators were considered for prioritization in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpi_count"
+              ],
+              "question": "How many indicators were selected as priority indicators in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "Which indicators were selected as priority indicators in the performance indicators and MRV section?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.monitoring_reporting_process"
+              ],
+              "question": "What is the status of the monitoring and reporting process for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "What is the status of the MRV plan for the project?"
+            }
+          ],
+          "section_id": "performance_indicators_and_mrv",
+          "title": "Performance indicators and MRV"
+        },
+        {
+          "component_id": "risk_and_bankability_constraints_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 14,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.scored_risk_count"
+              ],
+              "question": "How many risks are scored in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_risk_count"
+              ],
+              "question": "How many risks are unscored in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_risk_priority_score"
+              ],
+              "question": "What is the maximum risk priority score used in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risk_count"
+              ],
+              "question": "How many risks are selected as maximum priority risks in the risk and bankability constraints analysis for the FP033 project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What is the list of risks tied to the maximum risk priority score in the risk and bankability constraints analysis for the FP033 project?"
+            }
+          ],
+          "section_id": "risk_and_bankability_constraints",
+          "title": "Risk and bankability constraints"
+        },
+        {
+          "component_id": "conclusions_and_evidence_requirements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 15,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and what is the priority cutoff for KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_risk_priority_score",
+                "req.financial_model"
+              ],
+              "question": "What is the maximum risk priority score for the project, and what is the status of the financial model?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.technical_design_maturity",
+                "req.environmental_social_safeguards"
+              ],
+              "question": "What is the status of the technical design maturity and the environmental and social safeguards assessment?"
+            }
+          ],
+          "section_id": "conclusions_and_evidence_requirements",
+          "title": "Conclusions and evidence requirements"
+        }
+      ],
+      "family": "asset_delivery",
+      "prototype_project_id": "FP033",
+      "prototype_project_title": "Accelerating the Transformational Shift to a Low-Carbon Economy in the Republic of Mauritius",
+      "task": "missingness"
+    },
+    {
+      "components": [
+        {
+          "component_id": "executive_summary_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 1,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status"
+              ],
+              "question": "What is the status of funding reconciliation for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What are the maximum priority risks associated with the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "What are the priority KPIs for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.funding_scope_qualification"
+              ],
+              "question": "How is the funding scope qualification described for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.instrument_terms_qualification"
+              ],
+              "question": "How are instrument terms qualified for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.mobilization_qualification"
+              ],
+              "question": "How is the mobilization qualification described for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.synthetic_evidence_disclosure"
+              ],
+              "question": "What is the disclosure status of synthetic evidence used in the benchmark?"
+            }
+          ],
+          "section_id": "executive_summary",
+          "title": "Executive assessment and critical issues"
+        },
+        {
+          "component_id": "project_identification_and_status_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 2,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.description"
+              ],
+              "question": "What is the description of the project's objectives and expected outcomes?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.project_status"
+              ],
+              "question": "What is the current implementation status of the project according to the normalized benchmark source?"
+            }
+          ],
+          "section_id": "project_identification_and_status",
+          "title": "Project identification and status"
+        },
+        {
+          "component_id": "promoter_and_delivery_arrangements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 3,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.promoter_financial_standing",
+                "req.promoter_track_record"
+              ],
+              "question": "What is the current financial standing of the promoter for the Indonesia Geothermal Resource Risk Mitigation Project, and is there a comparable source-backed delivery track record available?"
+            }
+          ],
+          "section_id": "promoter_and_delivery_arrangements",
+          "title": "Promoter and delivery assessment"
+        },
+        {
+          "component_id": "climate_rationale_and_strategic_fit_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 4,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.annualised_reported_ghg_target_tco2e"
+              ],
+              "question": "What is the annualised reported GHG target for the project in tonnes of CO2 equivalent per year?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.climate_rationale"
+              ],
+              "question": "What is the climate rationale for the project's intervention in relation to its target market and financing barrier?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.ghg_target_horizon"
+              ],
+              "question": "What is the GHG target horizon for the project's accounting and how does it affect the climate rationale?"
+            }
+          ],
+          "section_id": "climate_rationale_and_strategic_fit",
+          "title": "Climate rationale and strategic fit"
+        },
+        {
+          "component_id": "market_rationale_and_additionality_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 5,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.facility_profile_scope"
+              ],
+              "question": "What is the scope of the facility's deployment profile, and how does it ensure that the facility does not include recycling or released-capacity reuse?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.market_financing_barrier"
+              ],
+              "question": "What is the identified financing barrier that the facility mechanism is intended to address, and how does it relate to the project's target segment and eligibility criteria?"
+            }
+          ],
+          "section_id": "market_rationale_and_additionality",
+          "title": "Market rationale and financial additionality"
+        },
+        {
+          "component_id": "instrument_structure_and_terms_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 6,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.gcf_instrument_reconciliation_status"
+              ],
+              "question": "What is the status of the reconciliation of instrument amounts to the project's benchmark allocations, and how are instrument terms qualified for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.instrument_terms_qualification"
+              ],
+              "question": "How are instrument amounts and shares treated in the context of risk allocation, and what is the qualification for instrument terms in this project?"
+            }
+          ],
+          "section_id": "instrument_structure_and_terms",
+          "title": "Instrument structure and terms"
+        },
+        {
+          "component_id": "allocation_and_utilisation_profile_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 7,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.deployment_envelope_per_gcf_dollar"
+              ],
+              "question": "What is the deployment envelope per GCF dollar declared for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.detailed_implementation_schedule"
+              ],
+              "question": "Is there a source-backed dated activity-level critical path present in the normalized evidence for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "Is the formal MRV-plan completion status available as atomic evidence for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.procurement_plan"
+              ],
+              "question": "Are a source-backed procurement plan and procurement status available as atomic evidence for this project?"
+            }
+          ],
+          "section_id": "allocation_and_utilisation_profile",
+          "title": "Allocation and utilisation profile"
+        },
+        {
+          "component_id": "portfolio_scale_and_mobilisation_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 8,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.mobilization_applicability"
+              ],
+              "question": "Under what condition should the expected scale and mobilisation range be interpreted for this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.mobilization_qualification"
+              ],
+              "question": "What is the nature of the range provided for mobilisation in this project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.portfolio_unit_count_basis",
+                "dt.project.portfolio_unit_count_qualification"
+              ],
+              "question": "What does the portfolio-unit denominator represent in this context?"
+            }
+          ],
+          "section_id": "portfolio_scale_and_mobilisation",
+          "title": "Portfolio scale and mobilisation"
+        },
+        {
+          "component_id": "technical_feasibility_and_readiness_text",
+          "coverage_gap": true,
+          "fallback": false,
+          "ordinal": 9,
+          "questions": [],
+          "section_id": "technical_feasibility_and_readiness",
+          "title": "Technical feasibility and implementation readiness"
+        },
+        {
+          "component_id": "costs_and_financing_structure_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 10,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.cofinance_per_gcf_dollar"
+              ],
+              "question": "What does the cofinance per GCF dollar indicate about the relationship between cofinance and GCF funding for this project, and how does it relate to additionality, viability, or return?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.committed_funding_sources_usd"
+              ],
+              "question": "What is the total amount of committed funding sources for this project, and how is it presented in the report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "dt.project.funding_scope_comparability"
+              ],
+              "question": "What is the status of the funding reconciliation for this project, and under what condition is it reported?"
+            }
+          ],
+          "section_id": "costs_and_financing_structure",
+          "title": "Costs and financing structure"
+        },
+        {
+          "component_id": "financial_sustainability_and_business_model_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 11,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.facility_recycling_qualification"
+              ],
+              "question": "What is the status of the facility recycling qualification for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.instrument_terms_qualification"
+              ],
+              "question": "What is the status of the instrument terms qualification for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.business_model"
+              ],
+              "question": "Is there a complete source-backed business model available for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_model"
+              ],
+              "question": "Is there a complete source-backed financial model and its assumptions available for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_returns"
+              ],
+              "question": "Are comparable project-level financial-return measures available for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.lifecycle_opex"
+              ],
+              "question": "Is lifecycle operating expenditure available for the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.revenue_model"
+              ],
+              "question": "Is there a complete revenue model available for the project?"
+            }
+          ],
+          "section_id": "financial_sustainability_and_business_model",
+          "title": "Financial sustainability and business model"
+        },
+        {
+          "component_id": "impact_esg_and_safeguards_text",
+          "coverage_gap": false,
+          "fallback": true,
+          "ordinal": 12,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.project_cost_per_reported_tco2e"
+              ],
+              "question": "What is the evidence status or value for project cost per reported tco2e?"
+            }
+          ],
+          "section_id": "impact_esg_and_safeguards",
+          "title": "Impact, ESG, and safeguards"
+        },
+        {
+          "component_id": "performance_indicators_and_mrv_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 13,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.available_kpi_priority_count"
+              ],
+              "question": "How many indicators were available for prioritization in the KPI selection process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_kpi_priority_count"
+              ],
+              "question": "How many indicators remained unranked in the KPI prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What was the cutoff used to select priority KPIs in the prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpi_count"
+              ],
+              "question": "How many KPIs were selected as priority indicators in the prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.priority_kpis"
+              ],
+              "question": "Which specific KPIs were selected as priority indicators in the prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.mrv_ready_kpi_count"
+              ],
+              "question": "How many KPIs were fully ready for MRV in the project?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_mrv_assessments"
+              ],
+              "question": "What are the MRV assessments associated with the KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_compatible_target_delta_count"
+              ],
+              "question": "How many KPIs have compatible target delta assessments?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.kpi_target_delta_assessments"
+              ],
+              "question": "What are the target delta assessments associated with the KPIs?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.prioritized_kpi_count"
+              ],
+              "question": "How many KPIs were prioritized in the overall prioritization process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "dt.project.monitoring_reporting_process"
+              ],
+              "question": "What is the status of the project's monitoring and reporting process?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.mrv_plan_status"
+              ],
+              "question": "What is the status of the MRV plan for the project?"
+            }
+          ],
+          "section_id": "performance_indicators_and_mrv",
+          "title": "Performance indicators and MRV"
+        },
+        {
+          "component_id": "risk_and_bankability_constraints_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 14,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.scored_risk_count"
+              ],
+              "question": "How many risks are scored in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.incomplete_risk_count"
+              ],
+              "question": "How many risks are not scored in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_risk_priority_score"
+              ],
+              "question": "What is the highest risk priority score assigned to any risk in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risks"
+              ],
+              "question": "What is the name of the risk that is tied for the highest risk priority score in the risk and bankability constraints section of this report?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.maximum_priority_risk_count"
+              ],
+              "question": "How many risks are tied for the highest risk priority score in the risk and bankability constraints section of this report?"
+            }
+          ],
+          "section_id": "risk_and_bankability_constraints",
+          "title": "Risk and bankability constraints"
+        },
+        {
+          "component_id": "conclusions_and_evidence_requirements_text",
+          "coverage_gap": false,
+          "fallback": false,
+          "ordinal": 15,
+          "questions": [
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "calc.funding_reconciliation_status",
+                "calc.maximum_risk_priority_score",
+                "calc.kpi_priority_cutoff"
+              ],
+              "question": "What is the status of funding reconciliation for the project, and what is the maximum-risk priority score, along with the priority-KPI cutoff?"
+            },
+            {
+              "aggregator": "AND",
+              "answer_slots": [
+                "req.financial_model",
+                "req.technical_design_maturity",
+                "req.environmental_social_safeguards"
+              ],
+              "question": "What are the current evidence gaps related to the financial model, technical design maturity, and environmental and social safeguards for the project?"
+            }
+          ],
+          "section_id": "conclusions_and_evidence_requirements",
+          "title": "Conclusions and evidence requirements"
+        }
+      ],
+      "family": "financing_facility",
+      "prototype_project_id": "FP083",
+      "prototype_project_title": "Indonesia Geothermal Resource Risk Mitigation Project",
+      "task": "update"
+    }
+  ],
+  "derivation": "Question wording and citation-slot structure only; prototype answers, generation attempts, and usage were removed. Runtime answers are rebound to current condition-specific executable gold.",
+  "provenance": {
+    "generator_model": "Qwen/Qwen3-8B",
+    "generator_seed": 17,
+    "source_document": "v2_full_report_nugget_questions.qwen3-8b.md",
+    "source_document_sha256": "5a32cd917f17b1f55bcfd7260c1e91850fd3afa91c224220e5905482b4731e3d",
+    "source_payload_schema_version": "climinvest.v2_full_report_question_bank/v1",
+    "source_payload_sha256": "5a55c904d97ccbd1121bb8e83e86e7dac3179a60c5eac8256d454166b24e7b9d"
+  },
+  "question_count": 308,
+  "schema_version": "climinvest.v2_citation_question_bank/v1"
+}

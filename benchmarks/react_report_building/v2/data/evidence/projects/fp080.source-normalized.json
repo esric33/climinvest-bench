@@ -1,0 +1,210 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp080.json",
+    "sha256": "b45f8febaa96dd348e39653ac80745f32a69a87ccde918d05a4c2aa2aaa47566",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_electricity_access_pct": {
+      "description": "National electrification rate in the stated baseline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_electricity_access_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "electrification rate stands at approximately 27.9%",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 27.9
+    },
+    "dt.project.baseline_hydropower_generation_pct": {
+      "description": "Approximate hydropower share in the stated Zambia baseline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_hydropower_generation_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "nearly 90% of the total installed generation capacity",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 90.0
+    },
+    "dt.project.baseline_installed_generation_capacity_mw": {
+      "description": "Total installed generation capacity in the stated Zambia baseline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_installed_generation_capacity_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "total installed generation capacity of 2,826.9 MW",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 2826.9
+    },
+    "dt.project.refit_initial_capacity_target_mw": {
+      "description": "Initial renewable capacity objective under the REFiT strategy",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.refit_initial_capacity_target_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "bring initially 200 megawatts (MW) of renewable energy onto the grid",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 200.0
+    },
+    "dt.project.refit_small_hydro_capacity_target_mw": {
+      "description": "Small-hydropower share of the initial REFiT capacity objective",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.refit_small_hydro_capacity_target_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "divided into 100 MW solar PV and 100 MW small-hydropower",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 100.0
+    },
+    "dt.project.refit_solar_capacity_target_mw": {
+      "description": "Solar-PV share of the initial REFiT capacity objective",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.refit_solar_capacity_target_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "divided into 100 MW solar PV and 100 MW small-hydropower",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 100.0
+    },
+    "dt.project.refit_subproject_capacity_max_mw": {
+      "description": "Maximum stated capacity of REFiT small and medium projects",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.refit_subproject_capacity_max_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "renewable energy projects of up to 20 MW",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 20.0
+    },
+    "dt.project.senior_debt_and_standby_loan_envelope_usd": {
+      "description": "AfDB-GCF senior-debt and standby-loan financing envelope",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.senior_debt_and_standby_loan_envelope_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "provide USD 100 million of senior debt and standby loans",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 100000000
+    },
+    "dt.project.technical_assistance_grants_max_usd": {
+      "description": "Maximum technical-assistance grants from GCF and AfDB",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.technical_assistance_grants_max_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp080",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "technical assistance (TA) grants of up to USD 4 million",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp080-afdb-zambia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 4000000
+    }
+  },
+  "project_id": "FP080",
+  "schema_version": "react_report.source_normalization/v2"
+}

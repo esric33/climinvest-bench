@@ -1,0 +1,3933 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Refer to Section E.6.5. Pre-Drilling.  The CO2 emissions reduction potential is estimated by subtracting projected lifetime  emissions from a given sub-project (Sub-Project scenario) from the projected lifetime emissions in the  BAU scenario (Baseline). In the Sub-Project scenario, CO2 emissions are estimated using an average  emission factor for geothermal energy facilities of 62.9 tCO2e/GWh. In the Baseline scenario, CO2  emissions are estimated based on the combined margin grid emission factor of 838 tCO2e/GWh. The  net emission factor is therefore calculated as 838 tCO2e/GWh minus 62.9 tCO2e/GWh, which gives  775 tCO2e/GWh. The emission factors assumed are in line with the World Bank GHG guidelines.   \r\n• Post-Drilling. A specific requirement for final borrowers to submit evidence on GHG emissions as part  of the Project’s monitoring and evaluation framework will be included.  This is in line with the industry  practice and the World Bank will encourage geothermal developers benefitting from its financing to  collect and share project data that may eventually help reconcile pre-drilling estimates with post-drilling  findings.   \r\nEmissions from possible deforestation which were derived from emission factors expressed in terms of  t/hectare, areas of lands needed for drilling (approximately 2~3 ha/one standard well pad), and expected  number of wells to be drilled are calculated as 59,870 ton based on the pre-identified pipeline. This  emissions from the deforestation is reflected in the project GHG accounting although it is negligible  compared to the GHG emission reduction amount from the project. Emissions from the drilling phase is  already considered in the emission factor (62.9 gCO2e/kWh) used in the current calculation and the number is country specific. The estimated development impact from the first tranche of GCF allocation is  expected to be around 60% of the impact from the total project. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "187000000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced as a result of Fund funded projects/ programmes"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "93500000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency  "
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Total financing of US$4 billion divided by the GCF amount mobilized of US$185 million."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "US$  / tCO2eq",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "US$  / tCO2eq",
+              "value": "1.2"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "US$  / tCO2eq",
+              "value": "1.2"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expected values"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "1000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of Lowemission energy capacity installed, generated and/or rehabilitated as a result of the GCF support."
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "500"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Full geothermal development cost around US$4 million per MW * 1,000 MW enabled"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "4 billion"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "2 billion "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.3"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expected values "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0.5 million"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding – SubElement 1: Private capital mobilized for investment in geothermal Exploration"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.4"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expected values "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "3.5 billion"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding – SubElement 2: Private capital expected to be mobilized for investment in geothermal development over time"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.5"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Each project will benefit from around US$30 million loan from the facility"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "projects explored",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "projects explored",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of projects explored"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "projects explored",
+              "value": "10"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PMU established, well-staffed and well-resourced"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA support extended to key players, including MEMR, PLN and Geo Dipa"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_10.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investment support mobilized through TA support under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_10.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "loans for resource confirmation drilling",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_10.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_10.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "loans for resource confirmation drilling",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_10.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of loans for resource confirmation drilling"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_10.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "loans for resource confirmation drilling",
+              "value": "10"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_10.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_10.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_10.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 10
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_10.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_10",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_11.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2.\r\nIt assumes two reports per project."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_11.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "reports prepared by PMU",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_11.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_11.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "reports prepared by PMU",
+              "value": "34"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_11.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of reports prepared by PMU"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_11.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "reports prepared by PMU",
+              "value": "20"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_11.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_11.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_11.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 11
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_11.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_11",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.5.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_12.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_12.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "project-level GAPs prepared and supervision provided",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_12.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_12.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "project-level GAPs prepared and supervision provided",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_12.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of project-level GAPs prepared and supervision provided"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_12.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "project-level GAPs prepared and supervision provided",
+              "value": "10"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_12.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_12.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_12.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 12
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_12.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_12",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_13.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_13.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_13.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_13.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_13.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Geothermal PPA including T&D arrangements"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_13.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_13.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_13.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_13.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 13
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_13.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_13",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.7.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_14.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_14.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "Proposed tariff report",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_14.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_14.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "Proposed tariff report",
+              "value": "1"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_14.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Proposed tariff report delivered to MEMR"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_14.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "Proposed tariff report",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_14.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "5"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_14.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.8.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_14.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 14
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_14.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_14",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.8.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_15.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_15.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "data management software with training (one) delivered to Geo Dipa",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_15.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_15.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "data management software with training (one) delivered to Geo Dipa",
+              "value": "3"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_15.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of data management software with training (one) delivered to Geo Dipa"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_15.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "data management software with training (one) delivered to Geo Dipa",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_15.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "6"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_15.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.9.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_15.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 15
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_15.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_15",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.9.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_16.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_16.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "geothermal exploration and exploitation management focused trainings",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_16.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_16.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "geothermal exploration and exploitation management focused trainings",
+              "value": "6"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_16.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of geothermal exploration and exploitation management focused trainings"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_16.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "geothermal exploration and exploitation management focused trainings",
+              "value": "3"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_16.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "7"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_16.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.10.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_16.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 16
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_16.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.10.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.kpis.kpi_16",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.10.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "IDN"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Indonesia"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Asia"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "South-eastern Asia"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The GoI has set clear strategies and policies to develop the geothermal sector. There have however been significant and frequent changes in the regulatory framework, which has introduced uncertainties in the sector and deterred investments. First, the most recent tariff policy requiring power price to be competitive with the average cost of generation in a region rather than the marginal economic costs of new supply appears to create an additional barrier to bringing on-line renewable energy more broadly and geothermal energy more specifically. This can become a disincentive for geothermal development in areas with low average costs, including large power markets with rich geothermal resources and large power demand, such as Java and Sumatra. Second, uncertainty related to post-exploration business-to-business negotiations of PPA sales price with PLN may prevent developers from investing in exploration. This uncertainty could be compounded by the new requirement for ministerial approval of PPA sales price, which may be perceived as excessive scrutiny and may further deter investors"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Through the Technical Assistance Component, the project team will continue dialogue with key policy-makers and stakeholders on ameliorating the regulatory barriers to the sector."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The GoI has set clear strategies and policies to develop the geothermal sector"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The Project aims to establish a first-of-its-kind Facility to support exploration drilling by geothermal developers in Indonesia. The Project design is still being tested with key stakeholders and issues related to legal, operational, financial, and commercial risks for different parties will be considered and addressed. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The financing terms will need to reflect market conditions and developers’ risk appetite. The team is undertaking extensive market sounding to ensure adequate uptake for the Facility, while working with key government stakeholders to ensure the enabling legal framework for such a Facility is in place."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Piloting a new financing facility with a complex modus operandi has inherent risks related to the institutional capacity of the key entities and stakeholders involved in establishing, managing, and overseeing such an innovative mechanism. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is high-level support and commitment toward this Project among the key stakeholders, which provide momentum to address the main institutional bottlenecks both at the ministries and at SMI. \r\nThe Technical Assistance Component will be designed to address the capacity issues and will focus on specific policies / regulations / practices to unblock some of the existing constraints and facilitate investment into the geothermal sector. \r\nFurthermore, the Bank will build on its ongoing experience of working with SMI, MEMR, and PLN, as well as draw on international experience in supporting efforts to improve the geothermal investment through extensive dialogues and consultations with developers and private sector stakeholders."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The major procurement risks currently envisaged are SMI’s capacity for due diligence and oversight of implementation of complex drilling operations by SOEs. The procurement risks will be further assessed during project preparation and mitigation measures agreed. For each sub-project, the SOEs will also be required to develop Project Procurement Strategy for Development (PPSD) with support from the Bank and SMI.  "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PPSD will include inter alia a market analysis to design the appropriate approaches to the market and to facilitate preparation of the procurement plan. \r\nThe need for hiring the consultants by SMI for carrying capacity assessment of SOEs with market analysis and preparation of PPSD, and supporting SMI in overseeing the procurement and contract management by SMI will also be discussed during the early stages of project preparation."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There are potential direct and negative impacts during project implementation are associated with exploration infrastructure, such as access roads, drilling pads, extraction of geothermal water, and discharges of water and drilling muds. There are also potential long-term impacts from induced development and the benefits of renewable electricity generation. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Some environmental impacts may be considered irreversible or unprecedented without adequate mitigation and management, which is outlined in detail in the accompanying ESMF. \r\nWith regards to social issues, land acquisition is expected to be willing buyer-willing seller. In previous Bank-financed project implemented by PGE in Lahendong and Ulubelu, land acquisition was conducted through direct negotiation and there was no involuntary resettlement. \r\nThe infrastructure, access route and drilling program can be adjusted in case land-owners object to releasing their land. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expected values"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "1000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of Lowemission energy capacity installed, generated and/or rehabilitated as a result of the GCF support."
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "500"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TA activity funded under Component 2"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PMU established, well-staffed and well-resourced"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Yes"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Full geothermal development cost around US$4 million per MW * 1,000 MW enabled"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "4 billion"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "2 billion "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.3"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Each project will benefit from around US$30 million loan from the facility"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "projects explored",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "projects explored",
+              "value": "17"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of projects explored"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "projects explored",
+              "value": "10"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implementing Agency"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expected values "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0.5 million"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding – SubElement 1: Private capital mobilized for investment in geothermal Exploration"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.4"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp083",
+                "locator": "outcomes.0.kpis.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "SMI’s M&E Function as Implement. Agency"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp083",
+            "locator": "outcomes.0.kpis.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP083"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: IBRD US$325 million loan",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 325000000
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The national grid in Indonesia has been dominated by fossil-fueled generation. Based on PLN’s RUPTL 2018, the 2017 generation mix was 58.3 percent coal, 23.2 percent gas, 6 percent diesel, 12.5 percent renewables. At the 2015 COP21 in Paris, Indonesia committed to a Nationally Determined Contribution (NDC) at 29 percent reduction of GHG emissions by 2030. In support of the Indonesian Government’s NDC and plan to increase the share of renewable energy in the power generation mix to 23 percent by 2026, the proposed Project aims to support a scale-up of investment in geothermal energy development. As a result, the Project is expected to contribute to: (i) displacing highly-polluting power supply alternatives and diversifying its generation portfolio; (ii) reducing reliance on fossil fuels and exposure to commodity price volatilities; and (iii) ultimately lowering the energy sector’s emissions compared to the business-as-usual scenario.\r\nThe proposed Project supports the GoI in the establishment of a Geothermal Resource Risk Mitigation Facility, under which debt financing will support geothermal developers’ resource confirmation drilling. The Project will be financed by IBRD (US$325 million loan), and GCF (US$25 million soft loan, US$150 million reimbursable grant, and US$10 million grant). Specifically, the GCF reimbursable grant will be used to finance the subscription of convertible bonds issued by private developers for the financing, together with the corresponding portion of the IBRD Loan, of their resource confirmation drilling. Ultimately, the Project is expected to enable reduction of 187 – 281 MtCO2e over the generating assets’ lifetime (to be cross-checked post drilling in a two-step approach to GHG accounting, see Section E6), an additional electric power generation capacity of 1 – 1.5 GW from geothermal resources and US$4 – 5.5 billion of mostly private capital mobilized for investment in geothermal power generation. The Project will be implemented in tranches the impact of the first tranche (a total of US100 million from GCF) is expected to be around 60% of the impact from the total project."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Geothermal energy"
+      ]
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "WorldBank"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International Bank for Reconstruction and Development and International Development Association"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Large"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: GCF US$25m soft loan, US$150m reimbursable grant and US$10m grant",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 185000000
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 187000000.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 10.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 10.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Energy, mitigation and access"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "public"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "large"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Indonesia Geothermal Resource Risk Mitigation Project"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 510000000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP083",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp083"
+}

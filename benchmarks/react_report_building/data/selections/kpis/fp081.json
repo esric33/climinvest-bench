@@ -1,0 +1,174 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 11,
+  "excluded_kpi_count": 2,
+  "kpi_candidates": [
+    {
+      "canonical_name": "tonnes of carbon dioxide equivalent t co2eq reduced or avoided as a result of fund funded projects programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided as a result of Fund-funded projects/programmes",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "volume of finance leveraged by fund funding funding leverage factor",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of finance leveraged by Fund funding (funding leverage factor)",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "cost per t co2eq decreased for all fund funded mitigation projects programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes",
+      "path": "outcomes.0.kpis.2",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "cost per t co2eq decreased for all fund funded mitigation projects programmes public gcf funding",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes (Public GCF funding)",
+      "path": "outcomes.0.kpis.3",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "cost per t co2eq decreased for all fund funded mitigation projects programmes private funding",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes (Private funding)",
+      "path": "outcomes.0.kpis.4",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "mws of low emission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of low emission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "no of funding proposals received by tccl",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "No. of funding proposals received by TCCL",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "no of proposals sanctioned by tccl under the programme",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "No. of proposals sanctioned by TCCL under the programme",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "amount of loans disbursed by tccl to project developers under the programme",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Amount of loans disbursed by TCCL to project developers under the programme",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "mw of solar rooftop capacity installed under the programme",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MW of solar rooftop capacity installed under the programme",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "jobs created",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "jobs created",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "none",
+      "path": "outcomes.7.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "none",
+      "duplicate_of": null,
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "none",
+      "path": "outcomes.8.kpis.0",
+      "reason": "placeholder indicator name",
+      "source_order": 13
+    }
+  ],
+  "project_id": "FP081",
+  "risk_count": 6,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.0.kpis.1"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.6.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.3.kpis.0"
+    }
+  ]
+}

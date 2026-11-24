@@ -1,0 +1,229 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 15,
+  "excluded_kpi_count": 3,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m4 1 tonnes of carbon dioxide equivalent t co2 eq reduced or avoided including increased removals forest and land use",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M4.1 Tonnes of carbon dioxide equivalent (t CO2 eq) reduced or avoided (including increased removals) - forest and land use",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "number of technologies and innovative solutions transferred or licensed to promote low emission development as a result of arbaro fund support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of technologies and innovative solutions transferred or licensed to promote low-emission development as a result of Arbaro Fund support.",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "m5 1 institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M5.1 Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "m5 1 institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": "outcomes.1.kpis.0",
+      "eligible": false,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": false,
+      "name": "M5.1 Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation",
+      "path": "outcomes.1.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "m5 1 institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementation",
+      "duplicate_of": "outcomes.1.kpis.0",
+      "eligible": false,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": false,
+      "name": "M5.1 Institutional and regulatory systems that improve incentives for low-emission planning and development and their effective implementation",
+      "path": "outcomes.1.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "m9 1 hectares of land or forests under improved and effective management that contributes to co2 emission reductions",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "M9.1 Hectares of land or forests under improved and effective management that contributes to CO2 emission reductions",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "m9 1 hectares of land or forests under improved and effective management that contributes to co2 emission reductions",
+      "duplicate_of": "outcomes.2.kpis.0",
+      "eligible": false,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": false,
+      "name": "M9.1 Hectares of land or forests under improved and effective management that contributes to CO2 emission reductions",
+      "path": "outcomes.2.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "volume in m3 of sustainably produced wood products entering the market or in forest stock",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Volume in m3 of sustainably produced wood products entering the market or in forest stock",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "number of hectares planted and sustainably managed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Number of hectares planted and sustainably managed",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "number of hectares conserved",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "land_nature_outcome",
+      "legacy_selection_eligible": true,
+      "name": "Number of hectares conserved",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "number of formal jobs",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of formal jobs",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "number of people with improved livelihoods",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of people with improved livelihoods",
+      "path": "outcomes.6.kpis.1",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "number of new entities",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of new entities",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "number of community programmes e g outgrower schemes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of community programmes (e.g. outgrower schemes)",
+      "path": "outcomes.8.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "number of people reached by these programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of people reached by these programmes.",
+      "path": "outcomes.8.kpis.1",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "direct jobs",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Direct jobs",
+      "path": "outcomes.19.kpis.0",
+      "reason": "eligible",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "indirect jobs",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Indirect jobs",
+      "path": "outcomes.19.kpis.1",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "approximate tax revenues annual tax income for local governments",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Approximate tax revenues / annual tax income for local governments",
+      "path": "outcomes.20.kpis.0",
+      "reason": "eligible",
+      "source_order": 18
+    }
+  ],
+  "project_id": "FP128",
+  "risk_count": 6,
+  "selected_kpi_paths": [
+    {
+      "family": "land_nature_outcome",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.6.kpis.1"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.6.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.0.kpis.1"
+    }
+  ]
+}

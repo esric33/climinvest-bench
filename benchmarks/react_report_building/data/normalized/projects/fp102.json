@@ -1,0 +1,3612 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Households are aware of the climate change; Households have the capacity to pay;  households are sensitized about using clean energy "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "At least  283,777  people  directly  benefit [of  which  50% are  female]  "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of Households and individuals (males and females) with improved access to low- emission energy sources"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "At least  283,777  people directly  benefit [of  which  50% are  female] "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project management Report, household surveys, Malian Agency for the Development of Domestic Energy and Rural Electrification (AMADER)  report "
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Private enterprises are interested in investing in the sector  "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "3,78"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low- emission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "3,78 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Utility company (EDM) report; AMADER report "
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Political willingness to implement policies and regulations "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National Energy Sector Policy 2006 does not take into account regulation regarding climate change challenges"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Climate  change  issues are  addressed in  all energy  policies and  enforced in  projects  implemented  in Mali "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementati on"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Reinforcement of existing 2006 policy taking into account climate change issues"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National Energy Stategy and policy documents, EDM and AMADER annual reports"
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investment targets are achieved, less turnover and higher retention rate of trained agents  "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": " Regulatory  agency exists  but need  capacity  reinforcement "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Fully  functional  rural  electrification  agency in  place and  produces  contracts  and  supervision  reports in  line with  industry  standards "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Functional rural electrification Agency with trained agents in legal matters (concession contracts), technical aspects (tariff methodology ), supervision of the sector (monitoring and evaluating the project)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": " Legislation  and   regulations to  encourage  clean energy  use and   facilitate  private sector  involment in  place"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": " AMADER report, project report. "
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investment targets are achieved,  Government willingness to electrifie rural localities with clean source energy"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "installed solar PV plants installed",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "installed solar  PV plants  installed",
+              "value": "50"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of Isolated solar PV installed Number of Localities benefiting from PV installations in the project site MW produced by installed solar plants"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "installed solar  PV plants  installed",
+              "value": "50"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Household surveys,  Installation project reports and end of Project execution"
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investment targets are achieved,  Government willingness to electrifie rural localities with clean source energy"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "50"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of Localities benefiting from PV installations in the project site"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "localities",
+              "value": "50"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Household surveys,  Installation project reports and end of Project execution"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.3.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investment targets are achieved,  Government willingness to electrifie rural localities with clean source energy"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "3,78"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MW produced by installed solar plants"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "3,78 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Household surveys,  Installation project reports and end of Project execution"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.3.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Mali government willingness to reduce GHG emissions in the energy sector "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "0 "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "28,378"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of households connected to the clean solar energy Proportion of connected households benefiting due to access to credit under financial mechanism (guarantee scheme) for productive use of clean energy"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "households",
+              "value": "28,378"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Household surveys Evaluation of development result, audit report, private sector structures reports "
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "CO2  emission reduction was based on the most conservative calculations and data  using international default values. CO2 emission reduction could be increased if local data will be available."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0 "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "821,782"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided as a result of the funding of Projects/programs (main indicator)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "821,782"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.9.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 10
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Annual CO2 performance monitoring reporting and validation  "
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.9.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_10.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "We assume that private sector will  participate in the project  "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_10.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR",
+              "value": "0 "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_10.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_10.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR",
+              "value": "19,92 M "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_10.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding (funding leverage factor)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_10.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR",
+              "value": "5,98 M"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_10.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_10.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.9.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_10.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 11
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_10.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project management report "
+            }
+          },
+          "id": "dt.kpis.kpi_10",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.9.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_11.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_11.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR /t  CO2eq",
+              "value": "0 "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_11.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_11.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR /t  CO2eq",
+              "value": "31.6"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_11.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Cost per tCO2 eq decreased"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_11.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR /t  CO2eq",
+              "value": "31.6"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_11.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_11.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.9.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_11.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 12
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_11.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Annual CO2 performance monitoring reporting  and validation"
+            }
+          },
+          "id": "dt.kpis.kpi_11",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.9.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_12.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_12.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "jobs",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_12.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_12.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "jobs",
+              "value": "600"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_12.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "permanent jobs"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_12.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_12.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "12"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_12.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.17.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_12.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 13
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_12.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            }
+          },
+          "id": "dt.kpis.kpi_12",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.17.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_13.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_13.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "jobs",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_13.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_13.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "jobs",
+              "value": "1500"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_13.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "temporary jobs"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_13.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_13.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "12"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_13.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.17.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_13.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 14
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_13.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            }
+          },
+          "id": "dt.kpis.kpi_13",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.17.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MLI"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Mali"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Africa"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sub-Saharan Africa"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Construction risk: Failure in the installation of equipments of the mini-grid plants "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "This risk will be mitigated by applying best practices in the selection process. Indeed, this risk is mitigated by the arrangements made for the choice of high-performance companies and the quality of the technical teams of the AER, supported by the Consulting Engineers' offices, which have proven references for the control and supervision of similar works.  "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Construction risk: Failure in the installation of equipments of the mini-grid plants"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Environmental and social risk (site-specific) "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The Environmental and Social Management Framework (ESMF) for the project has been developed and submitted. \r\nAll sub-projects will be assessed according to the relevant BOAD policies, and an environmental and social action plan (ESAP) will be developed during the implementation of the project. The project ESAP will be an integral part of the required agreement with the project developers. BOAD will apply its highest standards in the screening and managing of E&S related issues. The framework targets only small-scale projects and the sites will be multi-location, which will reduce the overall E&S risk. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Environmental and social risk (site-specific)"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Operating and maintenance Risk "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The operation and maintenance of a solar based mini-grid systems is relatively simple as it consists of cleaning, regular inspections, minor repairs and measurements, data verification, reporting and site security. The Project benefits from a 15-year Operation & Maintenance (O&M) Agreement. A performance bond will be made available by the operator for failure of the plant to achieve performance guarantee. Furthermore, this risk will be mitigated by the choice of quality equipments at construction. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Operating and maintenance Risk"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Regulatory Risk"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "This is mitigated by implementation of component 1 Technical Assistance activities. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Regulatory Risk"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Currency exchange Risk"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project financing will be in EUR. This risk is therefore mitigated given the stowage of the EUR to the XOF. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Currency exchange Risk"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other (financial)"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_6.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Country security Risk  "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_6.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_6.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The security situation which used to be fragile has improved. Despite a difficult security past, medium term macroeconomic prospects are good with overall growth forecast of 5% in 2017. This important factors can positively contribute to a consolidation of Mali political situation and secure stability in future. In fact it is expected that with the secure and wider access to clean energy services, economic activities will further emerge and the society feeling much safer. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Country security Risk"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_6.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_6.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "risk.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Private enterprises are interested in investing in the sector  "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "3,78"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low- emission energy capacity installed, generated and/or rehabilitated as a result of GCF support"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "MWp",
+              "value": "3,78 "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Utility company (EDM) report; AMADER report "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Households are aware of the climate change; Households have the capacity to pay;  households are sensitized about using clean energy "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "At least  283,777  people  directly  benefit [of  which  50% are  female]  "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of Households and individuals (males and females) with improved access to low- emission energy sources"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "At least  283,777  people directly  benefit [of  which  50% are  female] "
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project management Report, household surveys, Malian Agency for the Development of Domestic Energy and Rural Electrification (AMADER)  report "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Political willingness to implement policies and regulations "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National Energy Sector Policy 2006 does not take into account regulation regarding climate change challenges"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Climate  change  issues are  addressed in  all energy  policies and  enforced in  projects  implemented  in Mali "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutional and regulatory systems that improve incentives for low emission planning and development and their effective implementati on"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Reinforcement of existing 2006 policy taking into account climate change issues"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "National Energy Stategy and policy documents, EDM and AMADER annual reports"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "We assume that private sector will  participate in the project  "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR",
+              "value": "0 "
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR",
+              "value": "19,92 M "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding (funding leverage factor)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "EUR",
+              "value": "5,98 M"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.9.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 11
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.9.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project management report "
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.9.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "jobs",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": "jobs",
+              "value": "600"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "permanent jobs"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "12"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.17.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 13
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp102",
+                "locator": "outcomes.17.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp102",
+            "locator": "outcomes.17.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP102"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp102",
+        "locator": "GCF project FP102 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp102"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 9697604
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The main objective of this project is to promote rural electrification through isolated solar photovoltaic systems as a low carbon and resilient solution to the effects of climate change in the energy sector in Mali.  \r\nThe project will: (i) strengthen the capacity of public institutions (AMADER, AER and FER) engaged in rural electrification to accelerate solar-powered electrification; and (ii) increase the rural population's access to electricity in 70 communities through installation of isolated solar photovoltaic minigrid systems for a total capacity of 4.83 MW. The project will thus catalyze the development of an efficient solar market that will enable Mali to meet its renewable energy and greenhouse gas (GHG) reduction targets. In this case, it will help avoid 41 049 tCO2 / year, and 1 027 227 tCO2 for the entire life of the equipment (25 years). Direct beneficiaries are estimated at 310 698 inhabitants, 50% of whom are women in the project area. Around 31,000 new households will have access to electrification in rural areas (28,378 for Tranche 1). The project is tranched at the request of GCF Secretariat. First Tranche will achieve 80% of the impact (821 782 tCO2 eq) and will target 50 localities (283 777 inhabitants).  \r\nThe project has significant potential for paradigm shift in the rural electrification sector in Mali. Traditionally, the growing energy access demand has been met through fossil fuels. This project however provides a total shift in energy production i.e. replacing fossil fuels additions with renewable energy solutions. The project will positively contribute to the regulatory framework through capacity buildings, demonstration of technologies in areas where not available, putting in place an institutional framework for FER to strengthen its capacity to further promote the deployment of renewable energy.  \r\nThe paradigm shifting potential lies in the joint efforts to create a conducive environment by putting in place an enabling regulatory framework and policies, that will incentivize the private sector participation in long term concessions under a sustainable and innovative structural arrangement. It is anticipated that the project model can be replicated accross the whole country and in the wider West African subregion, notably to support different African countries to meet their commitment under the Paris Agreement i.e. Nationally Determined Contributions (NDCs), and to achieve their 2063 Agenda as well as Sustainable Development Goals (SDGs)."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Solar energy"
+      ]
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "BOAD"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Banque Ouest Africaine de Développement (West African Development Bank)"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Medium"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Regional"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp102",
+        "locator": "GCF project FP102 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp102"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 30401454
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "reason": "fp102-ghg-whole-project-v1 (2026-09-08): the upstream scalar 10,272,272 disagrees with the proposal's full-project lifetime total 1,027,227. Preserve the full 70-community/4.83 MW scope; do not substitute the 50-community Tranche 1 total 821,782. The proposal's annual 41,049/41,089 discrepancy remains explicit and is not corrected here. See source_corrections/fp102-ghg-whole-project-v1.json.",
+        "source_value": 10272272.0
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "Funding proposal A.2 and E.1.2: 1,027,227 tCO2e over 25 years for the full 70-community project; Tranche 1 is separately 821,782 tCO2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 1027227
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 4.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 25.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Energy, mitigation and access"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "public"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "medium"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Mali solar rural electrification project"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 39300000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP102",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp102"
+}

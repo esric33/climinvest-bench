@@ -1,0 +1,9 @@
+{
+  "id": "climatefund",
+  "license": "MPL-2.0",
+  "upstream": "https://huggingface.co/datasets/JavierSanzCruza/ClimateFund",
+  "revision": "d7a57b87a7194c4e4eafad072b36d737ac757eab",
+  "file": "climatefund.json",
+  "sha256": "18d531077608d75bf8313dfcb529556141a557f2082e9414289c13d45ce81b9c",
+  "local_path": "benchmarks/react_report_building/data/raw/climatefund.json"
+}

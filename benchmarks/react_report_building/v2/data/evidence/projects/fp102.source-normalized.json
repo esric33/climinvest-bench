@@ -1,0 +1,188 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp102.json",
+    "sha256": "59522e5bf33bd6934f978524ae1d9c27b9f10d8c028833cddbd3fa10b6aabc93",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.direct_beneficiaries_target": {
+      "description": "Estimated direct beneficiaries in the project area",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.direct_beneficiaries_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "Direct beneficiaries are estimated at 310 698 inhabitants",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 310698
+    },
+    "dt.project.expected_annual_avoided_ghg_tco2e": {
+      "description": "Expected annual avoided greenhouse-gas emissions",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_annual_avoided_ghg_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "avoid 41 049 tCO2 / year",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e/year",
+      "value": 41049
+    },
+    "dt.project.first_tranche_impact_share_pct": {
+      "description": "Share of impact attributed to the first tranche",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.first_tranche_impact_share_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "First Tranche will achieve 80% of the impact",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 80.0
+    },
+    "dt.project.installed_capacity_target_mw": {
+      "description": "Total capacity of isolated solar photovoltaic mini-grid systems",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.installed_capacity_target_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "total capacity of 4.83 MW",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 4.83
+    },
+    "dt.project.operating_horizon_years": {
+      "description": "Stated equipment life",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.operating_horizon_years",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "entire life of the equipment (25 years)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 25.0
+    },
+    "dt.project.service_connections_target": {
+      "description": "Approximate new rural household electricity connections",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.service_connections_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "Around 31,000 new households will have access to electrification",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "households",
+      "value": 31000
+    },
+    "dt.project.target_community_count": {
+      "description": "Communities targeted for isolated solar mini-grid installation",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.target_community_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "access to electricity in 70 communities",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "communities",
+      "value": 70
+    },
+    "dt.project.women_beneficiary_share_pct": {
+      "description": "Women share of estimated direct beneficiaries",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.women_beneficiary_share_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp102",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "50% of whom are women in the project area",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp102-boad-mali.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 50.0
+    }
+  },
+  "project_id": "FP102",
+  "schema_version": "react_report.source_normalization/v2"
+}

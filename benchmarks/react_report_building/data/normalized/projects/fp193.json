@@ -1,0 +1,3346 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Avoided deforestation and emissions calculated through IPCC methodology in alignment with Peru’s FREL submission to the UNFCCC (see Annex 22 Carbon Methodology).\r\nProject lifetime: 20 years\r\nGHG emissions avoided in project lifetime: 3,806,936 tCO2eq\r\nAnnual emission reductions: 190,346 tCO2eq"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "1903468.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "emissions reduced, avoided or removed/sequestered"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "1903468.0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MRA4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "REDD+ registry\r\nInfocarbono\r\nAnnual reports from the competent entity"
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investee EBBs profile is aligned with the 2017 census (see Annex 22 Carbon Methodology)\r\nProject lifetime: 162,929 ha"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "ha of forest are under sustainable land use practices proposed by the project",
+              "value": "81464.5"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Hectares of natural resources brought under improved low-emission and/or climate-resilient management practice"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "81464.5"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MRA4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Annual reports from the competent entity (MINAM)\r\nPortfolio company data"
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is some progress carried out by MINAM which requires further support.\r\nIn the case of Peru, forest monitoring has been carried out for Amazonian forests. However, in 2021, MINAM began the official mapping of 02 additional ecosystems: Seasonally dry forest (2,376,000.55 hectares) and Pacific tropical forest (40,000.58 hectares). It is expected that, based on the methodology developed, the Geobosques platform will monitor these ecosystems.\r\nAccording to Article 58 of the regulation of the framework Law on climate change, Law No. 30754, establishes that the tools for monitoring, measuring and reporting the measures to reduce GHG emissions and increase GHG removals in Forests are: Module Forest Cover Monitoring System (MMCB) and the Safeguards Information Module for REDD +"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% forests of the Amazon biome covered by monitoring module (including deforestation and forest degradation)",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% forests of the Amazon biome covered by monitoring module (including deforestation and forest degradation)",
+              "value": "100"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "FREL for Amazon biome includes deforestation and forest degradation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% forests of the Amazon biome covered by monitoring module (including deforestation and forest degradation)",
+              "value": "60"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Strengthened technical and institutional capacities to monitor and prevent deforestation"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Report on standardized methodology for mapping deforestation\r\nAnnual progress report on degradation sub-module"
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is some progress carried out by MINAM which requires further support.\r\nRegarding the 05 REDD+ activities foreseen in the UNFCCC, Peru's current reference level of forest emissions only incorporates the reduction of deforestation. Peru is recognized as a High Forest Low Deforestation country, so it is vital to develop a FREL that includes other REDD+ activities, such as conservation of carbon stocks and sustainable management of forests. This will make visible the climate contribution of forest concessions and natural protected areas."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Only the FREL for deforestation is available for the Amazon"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "FREL of REDD+ activities of deforestation and degradation approved that helps to monitor the performance of the country to prevent deforestation"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "FREL for Amazon biome including degradation approved by UNFCCC"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "FREL for both deforestation and degradation developed for the Amazon, validated with key stakeholders"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Strengthened technical and institutional capacities to monitor and prevent deforestation"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Reference Level Report for deforestation and degradation activities"
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.1.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is some progress carried out by MINAM which requires further support. \r\nCurrently, there is 01 national group on safeguards for REDD +, with multi-stakeholder, multi-level participation, with active participation in REDD+ design in Peru. Likewise, there is a 01 national Prototype of the Safeguards Information Module (MIS)"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "EBBF’s ESMS, SEP and GAP, and associated guidance and . MINAM’s country approach to REDD+ safeguards and first SO"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "policy_governance"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Safeguards Information Module and MAC pilot version operational. At least 03 KPs lesson learned on environmental and social integrity and sustainability of small-scale EBB’s nested under a national REDD+ results-based framework and financing"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of ESG tools strengthened to enable EBB’s screening, categorization, assessment, monitoring and reporting under Peru’s national REDD+ framework"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Revised EBBF’s ESMS, guidance and tools to ensure EBB’s adherence to the Peruvian REDD+ safeguards country approach. SOPs and training modules for EBBs. SOPs for the Safeguards Information Module and MAC developed / revised"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Revised ESMS \r\nStandard Operating Procedures (SOPs) for EBBs \r\nSOPs for the MIS and MAC \r\nMIS and MAC pilot versions operational"
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Private companies international/nationals maintain interest to support EBB ‘s development\r\nTargets can be updated at the Interim Evaluation stage with more reliable data"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "EBBs participate in international platforms /missions (MINAM’s database)",
+              "value": "46"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "EBBs access to new national orinternational markets",
+              "value": "15"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Access market level"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "EBBs access to new national or international markets.",
+              "value": "7"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Portfolio company data Interviews (qualitative methods)"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Baseline survey is developed"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% increase in sales from baseline level",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% increase in sales from baseline level",
+              "value": "2"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Estimated increase in revenue of EBBs"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% increase in sales from baseline level",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2.1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Portfolio company data Surveys"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.3.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Private companies maintain interest to support EBB ‘s development"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "private investors that invest in EBBs",
+              "value": "10"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "private investors that invest in EBBs",
+              "value": "20"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Interest of investors in EBB"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "private investors that invest in EBBs",
+              "value": "15"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of private investors that invest in EBBs"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Employees per EBB estimated: 10"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "Total new green jobs",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "Total new green jobs",
+              "value": "550"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of green jobs created"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "Total new green jobs",
+              "value": "275"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Economic 1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.8.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 10
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Portfolio company data"
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.8.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PER"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Peru"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Americas"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Latin America and the Caribbean"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "In forest-based investments, inadequate planning and implementation agroforestry measures, as well as the occurrence of pests and disease, can result in poor growth and quality of timber and non-timber products. The occurrence of such events may lead to the underperformance of investments in forest-based projects with negative impact on the debt repayment capacity of the project and its ability to attract external investors "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The EBBF’s investment screening process shall prioritize projects adopting international best practices for agroforestry practices and others. Selected projects shall have the capacity to implement best practices from the planning phase, with proper selection of species for the given site conditions, definition of operations for selected species and production targets, and acquisition of high-quality planting materials; and continues throughout the production cycle through timely implementation of agroforestry operations, conducted by skilled staff. Proper project selection aimed at identifying companies with adequate planning and implementation capacity will minimize deviations from the plan of plantation performance and will reduce the vulnerability of plantations against any pests and disease.\r\nIn addition, eligible expenses of EBBF grants shall include pest and disease management programs, including preventive measures such as species diversification. \r\nFinally, plantation investments will be strictly monitored by the FMU to identify deviations from the original plan and develop mitigation measures."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "External natural shocks such as calamities, floods, storms and wildfires can have negative impacts on the performance of forest-based businesses and thereby on the financial performance of the EBBF’s investments. Such events can weaken investee projects making them more vulnerable against future events and result in irreversible financial losses."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Management practices such as species diversification and good-quality management practices cab reduce the vulnerability of forest-based projects against extreme climate events that might occur in Peru, thus reducing any negative impacts on their performance. \r\nFire events need special consideration in plantation investments. Forest fires can cause the loss of significant planted areas and in some cases, they are the result of social conflicts and agricultural practices in surrounding areas, since fire a common practice used to prepare agricultural and pastureland. Investee projects will require to implement proper fire management strategies, focusing on preventive measures and contingency plans. Fire prevention measures shall be integrated in the investee project’s technical operations, by ensuring an adequate level of diversification and avoiding large areas of homogenous vegetation, as well as conducting maintenance operations in a timely manner. \r\nThe risk of fire events will be managed as well through proactive social strategies, targeting cooperation and aligning interests with local communities, through employment generation, enhancement of livelihoods and promotion of out-grower schemes, as well as fire awareness campaigns."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Sudden changes in the demand for the services and products of EBBs, namely a decrease in volumes and product prices, can compromise the financial performance of EBBF investments."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Global trends indicate a reverse trajectory with a growing demand for EBBs’ products and services. Population growth and economic development, together with increasing visibility of forest-based products, suggest that favorable market conditions will persist. \r\nThe EBBF will prioritize investment in EBBs with products and services in growing demand from both domestic and international markets. \r\nEBBF will seek an adequate level of diversification in its portfolio in terms of products, services, geographies, export markets and target customers. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Expropriation\r\nExpropriation or other such political risk event is considered extremely unlikely\r\nCorruption\r\nPROFONANPE will implement an absolute zero tolerance to corruption, money laundering (ML), terrorist financing (TF), and prohibited practices (PP) risks.\r\nLegal risks Inadequacy of local regulatory environment"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Political risks can, to an extent, be mitigated by making sure that the projects are implemented in a transparent manner and making sure that the local stakeholders (from grassroots level to local and national government level) are appropriately informed and heard of throughout the implementation process. \r\nIn addition, the mitigation measures include local participation schemes, integration of neighboring communities as well as good cooperation with the local administration.\r\nPROFONANPE has a complete and extensive understanding of Peru’s regulatory environment. Regardless of level of regulation, PROFONANPE’s projects will be implemented following the highest industry standards, including those related to environmental and social aspects of the projects."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Insufficient co-ordination and/or co-operation between entities (MINAM and PROFONANPE) resulting in project implementation delays."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MINAM and PROFONANPE have a long track record of working closely to deliver complex programmes and projects.\r\nThe EBBF Board will consist of representatives from both organizations to ensure effective coordination, communication and management. It will also be responsible to identify and monitor programme-level risks and suggest corrective actions."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_6.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Political shifts could reduce the national government’s interest in channeling resources to EBBs and potentially change incentives to promote carbon intensive investments. From the project’s perspective, this could imply a reduction in cooperation and protracted bureaucratic processes that might delay the implementation of REDD+ measures."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_6.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_6.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The project’s development objective is framed in Peru’s long-term planning and strategy document which shelters the project from changes in the national political landscape. The Ministry of Environment, which is the Executing Entity under the proposed project , is the main decision making body responsible for the development and implementation of REDD+ measures."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_6.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_6.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_7.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Shifting political priorities and changes in the government administration could hinder REDD+ policy that is both directly related to slowing down deforestation in the country and indirectly related to deforestation as enabling conditions for the bio eco businesses facility (Component 2)."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_7.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_7.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Establish REDD+ policies as part of specific rules, regulations and or plans that are formally approved by competent authorities, with clear mandates for future administrations. \r\nAlso, plan for schemes that ensure the financial self-sustainability of these measures."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_7.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_7.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_7.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            }
+          },
+          "id": "dt.risks.risk_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.6",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_8.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "COVID-19 pandemic caused significant disruptions in the implementation of projects across the country. The Government of Peru has the faculty to mandate a country-wide lockdown any time according to the circumstances. As the country is slowly reopening its economy, uncertainties remain with regard to possible waves of cases. Should the number of cases continue to climb during the program implementation period, this might cause delays and disruptions to the launch and implementation of the program’s activities, and also it could affect the Facility's demand for resources that have been programmed for EBB companies. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_8.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_8.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PROFONANPE and MINAM are fully equipped to work remotely. \r\nAwareness raising and capacity building activities can be conducted via webinars and online training modules that will help EBBs to prepare adequately to assume repayable grant. The repayable grant was designed to be reimbursed for a value of 20% annually annually for 5 years approximately. In conservative terms, it has been estimated that there will be a 30% return success "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_8.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_8.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_8.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.7",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_9.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Due the economics and social characteristics of small and medium enterprises in Peru as the EBBs, it could be presented an scenario where a larger than expected proportion of repayable grants end in default."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_9.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_9.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "To mitigate the risk of default, Annex 3 includes an assumption for the amount of minimum cash needed in the EBBF. This assumption was made as per the analysis performed by the IDB for Biobusinesses in Peru, where it is mentioned that in 2019 the average default rate for medium and small enterprises was around 8%. \r\nFurthermore, during consultations with the innovation partner, it was mentioned that during the incubation phase for the EBBs, special attention would be given to developing the necessary capacities to be able to receive and repay the grants. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_9.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_9.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_9.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "risk.8",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Avoided deforestation and emissions calculated through IPCC methodology in alignment with Peru’s FREL submission to the UNFCCC (see Annex 22 Carbon Methodology).\r\nProject lifetime: 20 years\r\nGHG emissions avoided in project lifetime: 3,806,936 tCO2eq\r\nAnnual emission reductions: 190,346 tCO2eq"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "1903468.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "emissions reduced, avoided or removed/sequestered"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "1903468.0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MRA4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "REDD+ registry\r\nInfocarbono\r\nAnnual reports from the competent entity"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is some progress carried out by MINAM which requires further support. \r\nCurrently, there is 01 national group on safeguards for REDD +, with multi-stakeholder, multi-level participation, with active participation in REDD+ design in Peru. Likewise, there is a 01 national Prototype of the Safeguards Information Module (MIS)"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "EBBF’s ESMS, SEP and GAP, and associated guidance and . MINAM’s country approach to REDD+ safeguards and first SO"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "policy_governance"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Safeguards Information Module and MAC pilot version operational. At least 03 KPs lesson learned on environmental and social integrity and sustainability of small-scale EBB’s nested under a national REDD+ results-based framework and financing"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of ESG tools strengthened to enable EBB’s screening, categorization, assessment, monitoring and reporting under Peru’s national REDD+ framework"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Revised EBBF’s ESMS, guidance and tools to ensure EBB’s adherence to the Peruvian REDD+ safeguards country approach. SOPs and training modules for EBBs. SOPs for the Safeguards Information Module and MAC developed / revised"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1.2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Revised ESMS \r\nStandard Operating Procedures (SOPs) for EBBs \r\nSOPs for the MIS and MAC \r\nMIS and MAC pilot versions operational"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Employees per EBB estimated: 10"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "Total new green jobs",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "Total new green jobs",
+              "value": "550"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of green jobs created"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "Total new green jobs",
+              "value": "275"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Economic 1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.8.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 10
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.8.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Portfolio company data"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.8.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Investee EBBs profile is aligned with the 2017 census (see Annex 22 Carbon Methodology)\r\nProject lifetime: 162,929 ha"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "ha of forest are under sustainable land use practices proposed by the project",
+              "value": "81464.5"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Hectares of natural resources brought under improved low-emission and/or climate-resilient management practice"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "81464.5"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MRA4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Annual reports from the competent entity (MINAM)\r\nPortfolio company data"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is some progress carried out by MINAM which requires further support.\r\nIn the case of Peru, forest monitoring has been carried out for Amazonian forests. However, in 2021, MINAM began the official mapping of 02 additional ecosystems: Seasonally dry forest (2,376,000.55 hectares) and Pacific tropical forest (40,000.58 hectares). It is expected that, based on the methodology developed, the Geobosques platform will monitor these ecosystems.\r\nAccording to Article 58 of the regulation of the framework Law on climate change, Law No. 30754, establishes that the tools for monitoring, measuring and reporting the measures to reduce GHG emissions and increase GHG removals in Forests are: Module Forest Cover Monitoring System (MMCB) and the Safeguards Information Module for REDD +"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% forests of the Amazon biome covered by monitoring module (including deforestation and forest degradation)",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% forests of the Amazon biome covered by monitoring module (including deforestation and forest degradation)",
+              "value": "100"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "FREL for Amazon biome includes deforestation and forest degradation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": "% forests of the Amazon biome covered by monitoring module (including deforestation and forest degradation)",
+              "value": "60"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Strengthened technical and institutional capacities to monitor and prevent deforestation"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp193",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Report on standardized methodology for mapping deforestation\r\nAnnual progress report on degradation sub-module"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp193",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP193"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp193",
+        "locator": "GCF project FP193 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp193"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 1027600
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The Amazon Eco Bio Business Facility (EBBF) will provide effective climate change mitigation outcomes by investing in eco bio businesses (EBBs) supporting the sustainable management and conservation of Peruvian forests. The EBBF will be established as an open-end fund and capitalized with GCF’s resources and Profonanpe’s resources, while its long-term sustainability will be ensured via EBB grant repayments and possibly REDD+ results-based payments (RBP) earmarked to the EBBF under the national REDD+ RBP framework, should Peru qualify for results-based payments in the future. \r\nThe EBBF will contribute to the implementation of REDD+ infrastructure that will in turn provide support and evidence for its emissions reductions.This will take place in a context in which Peru is developing enabling conditions that permit REDD+ emission reductions to be accounted for in a uniform manner with a single National Forest Reference Level for deforestation and degradation beginning in 2021. This proposal responds to the Enhanced Direct Access request for proposals, establishing an effective mechanism for the transfer of funds to projects of small EBBs without access to traditional financing, with clear investment criteria and in line with those of GCF.\r\nDuring the project lifetime the EBBF will identify and invest in the expansion, upscaling and supporting technical improvement for up to 75+ EBBs focused on forest-based products and services. In parallel, the EBBF will provide technical support through an innovation partner to incubate and accelerate EBBs. The EBBF will prioritize projects in areas affected by high deforestation rates in the Amazon biome, namely, Amazonas, San Martin, Cusco, Puno, Loreto and Madre de Dios. The key objectives of the Amazon EBBF are: \r\n1. Provide effective climate change mitigation: The EBBF provides technical assistance and seed capital grant funding on a demand-driven basis to EBBs while leveraging private finance to reduce emissions and enhance carbon stocks. The EBBF will provide specialized technical assistance to EBBs through an innovation partner to dynamize the interventions by covering all the regions of the project and provide seed funding in the form of repayable grants to 55 EBBs. This range is based on the availability of financial resources, financing needs of EBBs, and the number of EBBs registered in the country. EBBF GCF-funded activities will strengthen Peru’s climate change mitigation measures, empowering Peruvian EBBs to prevent 8,602 hectares of forest from being deforested. During the project lifetime, the EBBF will contribute to enhancing carbon stocks and avoiding the emission of 3.8 million tonnes of CO2, with an estimated cost of 2.63 USD / t CO 2eq.\r\n2. Provide economic co-benefits in terms of job creation for men and women: Smallholder farming employs approximately 75% of rural and peri-urban populations in Peru. The EBBF will provide economic co-benefits, alternative livelihoods through formal employment creation in green jobs for men and women. EBBF, through its investments, is estimated to contribute to the creation of 550 formal jobs and EBB staff training. Further on, it is estimated that an additional 2,200 people will indirectly be supported as part of EBBs’ employees’ households or through increased economic affluence and activity. \r\n3. Crowd-in investments in EBBs: GCF will invest in the form of repayable seed capital grants in order to boost the EBBF so that EBBs are able to attract other investors, such as impact, private, and public investors seeking direct exposure to sustainable forest-based projects. Also, it is expected to promote EBBs led by women. \r\n4. Support REDD+ infrastructure in Peru: The project will provide Peru’s Ministry of Environment with the support needed to strengthen Peru’s REDD+ institutional framework and pilot the “nesting” of small-scale interventions under the national framework.\r\n5. First, it will strengthen the deforestation sub-module of the Forest Cover Monitoring Module and expand it to include the forest degradation sub-module. This will include the training of public sector, communities, and private sector actors to utilize the data for decision making purposes. This will enable more accurate data for land use policy creation, private sector planning for crops and forest-based products, and increased participation by communities in livelihood planning. Second, it will develop the reference level for the REDD+ activities of Conservation and Sustainable Management of Forests. Third, it will strengthen the technical and institutional capacities of MINAM and potential EBBs and end-beneficiaries to ensure, monitor, and report on the environmental and social safeguards, integrity and sustainability of the EBBs, in adherence to relevant international and national applicable safeguards and other relevant policies. Both components will create a virtuous cycle of sustainable land stewardship and EBBs with improved enabling environments for success. They will be mutually reinforcing in that EBBs will support the successful implementation of REDD+ RBPs, which would result in a leverage finance for the EBBF to support additional EBBs and leverage outside capital from impact investors and other private actors thus leading to more RBPs. The EBBF will be implemented by the Facility Management Unit (FMU), under the strategic direction of the Board of the REDD+ Financial Mechanism.The REDD+ National Financial Mechanism is conceived as the means  through which the country channels, administers and manages resources from different non-public sources for the implementation of initiatives, programs and/or projects that correspond to each of the three phases of REDD+. Profonanpe is the administrator of this Mechanism, and plays the role Technical and Financial Secretariat. The Financial Mechanism Board will be composed by a diverse range of stakeholder representing key interest groups in relation to REDD+, it includes national and subnational government representants, amazon indigenous people representants and private sector. Designated members of the Board will provide strategic direction and decision-making over the overall execution of the project and the management of the facility. "
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Profonanpe"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Peruvian Trust Fund for National Parks and Protected Areas"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Micro"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "National"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp193",
+        "locator": "GCF project FP193 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp193"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 8972400
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 3806936.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 10.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 20.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Forestry and land use"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "public"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "micro"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Peruvian Amazon Eco Bio Business Facility (Amazon EBBF)"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 10000000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP193",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp193"
+}

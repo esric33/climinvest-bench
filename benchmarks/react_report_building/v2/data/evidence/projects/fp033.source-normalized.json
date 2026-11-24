@@ -1,0 +1,166 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp033.json",
+    "sha256": "725fcc6611587cc8881a5660f43a1b4a24e0fb5bae09b822e7823f37ae08f38d",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_generation_coal_pct": {
+      "description": "Coal share of the electricity generation mix",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_generation_coal_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp033",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "imported coal (39%)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp033-undp-mauritius.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 39.0
+    },
+    "dt.project.baseline_generation_fuel_oil_pct": {
+      "description": "Fuel-oil share of the electricity generation mix",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_generation_fuel_oil_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp033",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "fuel oil (38%)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp033-undp-mauritius.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 38.0
+    },
+    "dt.project.baseline_grid_emission_factor_tco2e_per_mwh": {
+      "description": "Mauritius grid emission factor stated in the project description",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_grid_emission_factor_tco2e_per_mwh",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp033",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "grid emission factor of Mauritius is extremely high at 1.01 tonnes CO2/MWh",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp033-undp-mauritius.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e/MWh",
+      "value": 1.01
+    },
+    "dt.project.baseline_imported_fossil_energy_pct": {
+      "description": "Share of primary energy requirements met by imported fossil fuels",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_imported_fossil_energy_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp033",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "84% of its primary energy requirements met from imported fossil fuels",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp033-undp-mauritius.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 84.0
+    },
+    "dt.project.gcf_phase_1_grant_usd": {
+      "description": "GCF grant resources assigned to project phase 1",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_phase_1_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp033",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "phase 1 (US$ 12 million)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp033-undp-mauritius.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 12000000
+    },
+    "dt.project.gcf_phase_2_grant_usd": {
+      "description": "GCF grant resources assigned to project phase 2",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_phase_2_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp033",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "phase 2 (US$ 16.21 million)",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp033-undp-mauritius.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 16210000
+    },
+    "dt.project.net_ghg_emissions_growth_pct_per_year": {
+      "description": "Reported annual growth in net greenhouse-gas emissions",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.net_ghg_emissions_growth_pct_per_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp033",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "Net greenhouse gas emissions are increasing at a rapid rate of 3% per year",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp033-undp-mauritius.pdf"
+      },
+      "status": "available",
+      "unit": "%/year",
+      "value": 3.0
+    }
+  },
+  "project_id": "FP033",
+  "schema_version": "react_report.source_normalization/v2"
+}

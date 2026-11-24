@@ -1,0 +1,251 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 19,
+  "excluded_kpi_count": 1,
+  "kpi_candidates": [
+    {
+      "canonical_name": "ghg emissions reduced avoided or removed sequestered",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "GHG emissions reduced, avoided or removed/sequestered",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "annual energy savings",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Annual energy savings",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "value of physical assets made more resilient to the effects of climate change and or more able to reduce ghg emissions",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_resilience",
+      "legacy_selection_eligible": false,
+      "name": "Value of physical assets made more resilient to the effects of climate change and/or more able to reduce GHG emissions",
+      "path": "outcomes.0.kpis.2",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "number of lfis partipcated in the programme",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of LFIs partipcated in the Programme",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "number of projects approved by local fis",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of projects approved by local FIs",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "usd volume of disbursement both lending of final beneficiaries subproject loan",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "USD Volume of disbursement – both lending of final beneficiaries(subproject loan)",
+      "path": "outcomes.1.kpis.2",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "usd volume of disbursement both lending of credit guarantee of the gcf",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "USD Volume of disbursement – both lending of credit guarantee of the GCF",
+      "path": "outcomes.1.kpis.3",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "documented esi esco schemes for sharing with local players",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Documented ESI / ESCO schemes for sharing with local players",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "strengthened financing capacity of local fis",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Strengthened financing capacity of local FIs",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "strengthened technical capacity of industry players",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Strengthened technical capacity of industry players",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "strengthened regulatory framework with policy incentive recommendations",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Strengthened regulatory framework with policy incentive recommendations",
+      "path": "outcomes.3.kpis.2",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "accumulation of know how and lessons learnt",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Accumulation of know-how and lessons learnt",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "the number of pilot projects in asean member states",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "The number of pilot projects in ASEAN member states",
+      "path": "outcomes.4.kpis.1",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "active knowledge sharing for asean replication",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Active knowledge sharing for ASEAN replication",
+      "path": "outcomes.4.kpis.2",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "active knowledge sharing for asean replication",
+      "duplicate_of": "outcomes.4.kpis.2",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Active knowledge sharing for ASEAN replication",
+      "path": "outcomes.4.kpis.3",
+      "reason": "duplicate indicator name",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "industrial profits caused by saved energy costs",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Industrial profits caused by saved energy costs",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "new energy efficiency jobs created",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "New energy efficiency jobs created",
+      "path": "outcomes.5.kpis.1",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "increased women s access to energy efficiency finance",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Increased women’s access to energy efficiency finance",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 18
+    },
+    {
+      "canonical_name": "gendered stakeholder consultations as per sub project approved by local fis",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Gendered stakeholder consultations as per sub-project approved by local FIs",
+      "path": "outcomes.6.kpis.1",
+      "reason": "eligible",
+      "source_order": 19
+    },
+    {
+      "canonical_name": "gender capacity building trainings",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Gender capacity building trainings",
+      "path": "outcomes.6.kpis.2",
+      "reason": "eligible",
+      "source_order": 20
+    }
+  ],
+  "project_id": "FP196",
+  "risk_count": 9,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.0.kpis.1"
+    },
+    {
+      "family": "policy_governance",
+      "path": "outcomes.3.kpis.2"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.1.kpis.2"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.5.kpis.1"
+    }
+  ]
+}

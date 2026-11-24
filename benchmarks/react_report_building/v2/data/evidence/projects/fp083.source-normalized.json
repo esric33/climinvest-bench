@@ -1,0 +1,392 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp083.json",
+    "sha256": "95daaa53d6442517172806ce999d97c6ff719ed417aad2dad5f32608b344fb22",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned project twin; no cross-project imputation or external supplementation.",
+  "nodes": {
+    "dt.project.enabled_capacity_max_mw": {
+      "description": "Enabled geothermal capacity upper estimate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.enabled_capacity_max_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 1–1.5 GW additional capacity range",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 1500
+    },
+    "dt.project.enabled_capacity_min_mw": {
+      "description": "Enabled geothermal capacity lower estimate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.enabled_capacity_min_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 1–1.5 GW additional capacity range",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 1000
+    },
+    "dt.project.energy_mix_coal_pct": {
+      "description": "2017 coal generation share",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.energy_mix_coal_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 2017 generation mix, coal",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 58.3
+    },
+    "dt.project.energy_mix_diesel_pct": {
+      "description": "2017 diesel generation share",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.energy_mix_diesel_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 2017 generation mix, diesel",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 6.0
+    },
+    "dt.project.energy_mix_gas_pct": {
+      "description": "2017 gas generation share",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.energy_mix_gas_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 2017 generation mix, gas",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 23.2
+    },
+    "dt.project.energy_mix_renewables_pct": {
+      "description": "2017 renewables generation share",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.energy_mix_renewables_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 2017 generation mix, renewables",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 12.5
+    },
+    "dt.project.first_tranche_gcf_usd": {
+      "description": "First-tranche GCF financing amount",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.first_tranche_gcf_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: first tranche total from GCF",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 100000000
+    },
+    "dt.project.first_tranche_impact_share_pct": {
+      "description": "Approximate first-tranche share of total project impact",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.first_tranche_impact_share_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: first tranche around 60% of total impact",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 60.0
+    },
+    "dt.project.gcf_grant_usd": {
+      "description": "GCF grant financing amount",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: GCF US$10 million grant",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 10000000
+    },
+    "dt.project.gcf_reimbursable_grant_usd": {
+      "description": "GCF reimbursable grant financing amount",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_reimbursable_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: GCF US$150 million reimbursable grant",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 150000000
+    },
+    "dt.project.gcf_soft_loan_usd": {
+      "description": "GCF soft loan financing amount",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_soft_loan_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: GCF US$25 million soft loan",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 25000000
+    },
+    "dt.project.ghg_accounting_qualification": {
+      "description": "GHG accounting qualification",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ghg_accounting_qualification",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: lifetime and post-drilling accounting qualification",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The expected 187–281 MtCO2e range is stated over generating assets' lifetime and is to be cross-checked after drilling using a two-step GHG accounting approach."
+    },
+    "dt.project.ghg_reduction_max_tco2e": {
+      "description": "Expected lifetime GHG reduction upper estimate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ghg_reduction_max_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 187–281 MtCO2e expected lifetime range",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 281000000
+    },
+    "dt.project.ghg_reduction_min_tco2e": {
+      "description": "Expected lifetime GHG reduction lower estimate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ghg_reduction_min_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: 187–281 MtCO2e expected lifetime range",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 187000000
+    },
+    "dt.project.mobilized_capital_max_usd": {
+      "description": "Expected mostly private capital mobilized upper estimate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.mobilized_capital_max_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: US$4–5.5 billion expected mobilization range",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 5500000000
+    },
+    "dt.project.mobilized_capital_min_usd": {
+      "description": "Expected mostly private capital mobilized lower estimate",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.mobilized_capital_min_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: US$4–5.5 billion expected mobilization range",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 4000000000
+    },
+    "dt.project.ndc_reduction_target_pct": {
+      "description": "Indonesia NDC reduction commitment for 2030",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ndc_reduction_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: NDC commitment for 2030",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 29.0
+    },
+    "dt.project.ndc_target_year": {
+      "description": "Indonesia NDC target year",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ndc_target_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: NDC commitment for 2030",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "2030"
+    },
+    "dt.project.renewables_policy_target_pct": {
+      "description": "Renewables generation policy target for 2026",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.renewables_policy_target_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false
+      },
+      "provenance": {
+        "document_id": "proposal.fp083",
+        "locator": "basic_info.description: renewable energy target for 2026",
+        "source_kind": "same_project_source_extraction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 23.0
+    }
+  },
+  "project_id": "FP083",
+  "schema_version": "react_report.source_normalization/v2"
+}

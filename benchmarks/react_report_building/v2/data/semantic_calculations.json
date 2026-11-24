@@ -1,0 +1,176 @@
+{
+  "schema_version": "react_report.semantic_calculations/v1",
+  "calculations": [
+    {
+      "id": "calc.scored_risks",
+      "description": "Complete risk register with low=1, medium=2, high=3 and priority_score=probability_score*impact_score; incomplete inputs remain unscored",
+      "operation_id": "score_risk_priorities",
+      "input_ids": {"records": "dt.risks"},
+      "parameters": {},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.scored_risk_count",
+      "description": "Number of risks with a complete benchmark priority score",
+      "operation_id": "count_field_status",
+      "input_ids": {"records": "calc.scored_risks"},
+      "parameters": {"field": "priority_score", "available": true},
+      "unit": "risks",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.incomplete_risk_count",
+      "description": "Number of risks left unscored because a priority input is unavailable or invalid",
+      "operation_id": "count_field_status",
+      "input_ids": {"records": "calc.scored_risks"},
+      "parameters": {"field": "priority_score", "available": false},
+      "unit": "risks",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.maximum_risk_priority_score",
+      "description": "Maximum over available risk-priority scores; incomplete risks remain unscored and are never treated as zero",
+      "operation_id": "max_available_field",
+      "input_ids": {"records": "calc.scored_risks"},
+      "parameters": {"field": "priority_score"},
+      "unit": "score",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.maximum_priority_risks",
+      "description": "Every scored risk tied at the maximum available priority score, displayed in source order; incomplete risks remain unranked",
+      "operation_id": "filter_equal_available",
+      "input_ids": {"records": "calc.scored_risks", "target": "calc.maximum_risk_priority_score"},
+      "parameters": {"field": "priority_score"},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.maximum_priority_risk_count",
+      "description": "Number of risks tied at the maximum available priority score",
+      "operation_id": "count_records",
+      "input_ids": {"records": "calc.maximum_priority_risks"},
+      "parameters": {},
+      "unit": "risks",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.prioritized_kpis",
+      "description": "Complete cleaned KPI register joined to separately disclosed synthetic benchmark reporting priorities",
+      "operation_id": "join_kpi_priorities",
+      "input_ids": {"records": "dt.kpis", "priorities": "dt.kpi_reporting_priorities"},
+      "parameters": {},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.prioritized_kpi_count",
+      "description": "Number of KPIs in the complete cleaned prioritized register",
+      "operation_id": "count_records",
+      "input_ids": {"records": "calc.prioritized_kpis"},
+      "parameters": {},
+      "unit": "indicators",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.available_kpi_priority_count",
+      "description": "Number of cleaned KPIs with an available synthetic reporting priority; missing or invalid priorities are excluded rather than scored zero",
+      "operation_id": "count_field_status",
+      "input_ids": {"records": "calc.prioritized_kpis"},
+      "parameters": {"field": "benchmark_reporting_priority", "available": true},
+      "unit": "indicators",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.incomplete_kpi_priority_count",
+      "description": "Number of cleaned KPIs left unranked because a synthetic reporting priority is missing or invalid",
+      "operation_id": "count_field_status",
+      "input_ids": {"records": "calc.prioritized_kpis"},
+      "parameters": {"field": "benchmark_reporting_priority", "available": false},
+      "unit": "indicators",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.kpi_priority_cutoff",
+      "description": "Inclusive top-two cutoff over available reporting priorities only; incomplete values remain unranked and are never treated as zero",
+      "operation_id": "top_k_cutoff",
+      "input_ids": {"records": "calc.prioritized_kpis"},
+      "parameters": {"field": "benchmark_reporting_priority", "k": 2},
+      "unit": "priority",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.priority_kpis",
+      "description": "Every KPI at or above the inclusive top-two priority cutoff, including all cutoff ties",
+      "operation_id": "filter_threshold_available",
+      "input_ids": {"records": "calc.prioritized_kpis", "threshold": "calc.kpi_priority_cutoff"},
+      "parameters": {"field": "benchmark_reporting_priority", "comparison": ">="},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.priority_kpi_count",
+      "description": "Number of KPIs selected by the inclusive top-two priority cutoff",
+      "operation_id": "count_records",
+      "input_ids": {"records": "calc.priority_kpis"},
+      "parameters": {},
+      "unit": "indicators",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.kpi_mrv_assessments",
+      "description": "KPI-level MRV readiness based separately on baseline, final target and verification availability",
+      "operation_id": "assess_kpi_mrv",
+      "input_ids": {"records": "calc.prioritized_kpis"},
+      "parameters": {},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.mrv_ready_kpis",
+      "description": "KPIs with available substantive baseline, final target and verification fields",
+      "operation_id": "filter_field_value",
+      "input_ids": {"records": "calc.kpi_mrv_assessments"},
+      "parameters": {"field": "mrv_readiness_status", "value": "ready"},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.mrv_ready_kpi_count",
+      "description": "Number of KPIs classified as MRV ready",
+      "operation_id": "count_records",
+      "input_ids": {"records": "calc.mrv_ready_kpis"},
+      "parameters": {},
+      "unit": "indicators",
+      "value_type": "number"
+    },
+    {
+      "id": "calc.kpi_target_delta_assessments",
+      "description": "KPI-level baseline-to-final-target delta assessments with conservative numeric and unit compatibility gates",
+      "operation_id": "assess_kpi_target_deltas",
+      "input_ids": {"records": "calc.prioritized_kpis"},
+      "parameters": {},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.kpi_compatible_target_deltas",
+      "description": "KPI delta records whose baseline and final target are numeric and unit-compatible",
+      "operation_id": "filter_field_value",
+      "input_ids": {"records": "calc.kpi_target_delta_assessments"},
+      "parameters": {"field": "target_delta_status", "value": "available"},
+      "unit": null,
+      "value_type": "dataset"
+    },
+    {
+      "id": "calc.kpi_compatible_target_delta_count",
+      "description": "Number of KPIs with a deterministically calculable compatible target delta",
+      "operation_id": "count_records",
+      "input_ids": {"records": "calc.kpi_compatible_target_deltas"},
+      "parameters": {},
+      "unit": "indicators",
+      "value_type": "number"
+    }
+  ]
+}

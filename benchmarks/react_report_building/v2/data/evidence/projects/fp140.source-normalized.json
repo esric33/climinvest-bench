@@ -1,0 +1,166 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp140.json",
+    "sha256": "cda0d9a588e65a8ac4577fc95148eae232819a4f8aaf2adfb694c78b02fa1c51",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.buildings_industry_ghg_reduction_tco2e": {
+      "description": "Reported mitigation in the buildings, cities, industries and appliances result area",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.buildings_industry_ghg_reduction_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "buildings, cities, industries and appliances” by 15.498M tCO2",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 15498000
+    },
+    "dt.project.ebrd_and_other_cofinancing_loans_usd": {
+      "description": "Loans offered by EBRD and other co-financing",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ebrd_and_other_cofinancing_loans_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "EBRD and other co-financing will offer USD 757.500 million",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 757500000
+    },
+    "dt.project.ebrd_technical_assistance_grant_usd": {
+      "description": "EBRD technical-assistance grant",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.ebrd_technical_assistance_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "technical assistance grant from the EBRD of USD 1.360 million",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 1360000
+    },
+    "dt.project.energy_access_ghg_reduction_tco2e": {
+      "description": "Reported mitigation in the energy access and power generation result area",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.energy_access_ghg_reduction_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "energy access and power generation” by 1.722M tCO2",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 1722000
+    },
+    "dt.project.expected_energy_savings_tj": {
+      "description": "Expected energy savings over investment lifetimes",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_energy_savings_tj",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "over 111,400 TJ in energy savings",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "TJ",
+      "value": 111400.0
+    },
+    "dt.project.gcf_concessional_loan_usd": {
+      "description": "GCF concessional-finance component",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_concessional_loan_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "USD 252.500 million concessional finance",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 252500000
+    },
+    "dt.project.gcf_grant_usd": {
+      "description": "GCF grant component",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.gcf_grant_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp140",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "USD 5.530 million grant from the GCF",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp140.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 5530000
+    }
+  },
+  "project_id": "FP140",
+  "schema_version": "react_report.source_normalization/v2"
+}

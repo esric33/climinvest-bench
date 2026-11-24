@@ -1,0 +1,634 @@
+{
+  "benchmark_version": "2.2.0-bankability-executable-gold",
+  "categories": [
+    "value_without_dependents.single_section",
+    "value_without_dependents.cross_section",
+    "value_with_dependents.single_section",
+    "value_with_dependents.cross_section",
+    "collection_with_dependents.cross_section"
+  ],
+  "contract_id": "financing_facility",
+  "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+  "masks": [
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.promoter_and_delivery_arrangements_table"
+      ],
+      "affected_section_ids": [
+        "promoter_and_delivery_arrangements"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [],
+      "category": "value_without_dependents.single_section",
+      "condition_id": "fp083.v2.population.mask.value_without_dependents_single_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": false,
+      "kind": "missingness",
+      "locality": "single_section",
+      "masked_ids": [
+        "dt.project.governance_arrangements"
+      ],
+      "max_descendant_depth": 0,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.condition/v2",
+      "section_fanout": 1,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": "synthetic_benchmark_enrichment",
+      "target_id": "dt.project.governance_arrangements",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.allocation_and_utilisation_profile_table",
+        "doc.react_report_v2_financing_facility.artifact.promoter_and_delivery_arrangements_table",
+        "doc.react_report_v2_financing_facility.artifact.technical_feasibility_and_readiness_table"
+      ],
+      "affected_section_ids": [
+        "allocation_and_utilisation_profile",
+        "promoter_and_delivery_arrangements",
+        "technical_feasibility_and_readiness"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [],
+      "category": "value_without_dependents.cross_section",
+      "condition_id": "fp083.v2.population.mask.value_without_dependents_cross_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": false,
+      "kind": "missingness",
+      "locality": "cross_section",
+      "masked_ids": [
+        "dt.project.implementation_sequence"
+      ],
+      "max_descendant_depth": 0,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.condition/v2",
+      "section_fanout": 3,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": "synthetic_benchmark_enrichment",
+      "target_id": "dt.project.implementation_sequence",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.instrument_structure_and_terms_table",
+        "doc.react_report_v2_financing_facility.artifact.instrument_structure_and_terms_text"
+      ],
+      "affected_section_ids": [
+        "instrument_structure_and_terms"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [
+        "calc.gcf_concessional_loan_share_pct",
+        "calc.gcf_equity_share_pct",
+        "calc.gcf_grant_share_pct",
+        "calc.gcf_guarantee_share_pct",
+        "calc.gcf_instrument_reconciliation_gap_abs_usd",
+        "calc.gcf_instrument_reconciliation_gap_pct",
+        "calc.gcf_instrument_reconciliation_gap_usd",
+        "calc.gcf_instrument_reconciliation_status",
+        "calc.gcf_instrument_total_usd",
+        "calc.gcf_reimbursable_grant_share_pct"
+      ],
+      "category": "value_with_dependents.single_section",
+      "condition_id": "fp083.v2.population.mask.value_with_dependents_single_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": true,
+      "kind": "missingness",
+      "locality": "single_section",
+      "masked_ids": [
+        "dt.project.gcf_concessional_loan_usd",
+        "dt.project.gcf_soft_loan_usd"
+      ],
+      "max_descendant_depth": 5,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.condition/v2",
+      "section_fanout": 1,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": "same_project_source_extraction",
+      "target_id": "dt.project.gcf_concessional_loan_usd",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_table",
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_text",
+        "doc.react_report_v2_financing_facility.artifact.costs_and_financing_structure_table",
+        "doc.react_report_v2_financing_facility.artifact.costs_and_financing_structure_text",
+        "doc.react_report_v2_financing_facility.artifact.evidence_and_calculation_register_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_text",
+        "doc.react_report_v2_financing_facility.artifact.impact_esg_and_safeguards_table",
+        "doc.react_report_v2_financing_facility.artifact.impact_esg_and_safeguards_text"
+      ],
+      "affected_section_ids": [
+        "conclusions_and_evidence_requirements",
+        "costs_and_financing_structure",
+        "executive_summary",
+        "impact_esg_and_safeguards"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [
+        "calc.cofinance_share_of_cost_pct",
+        "calc.funding_reconciliation_gap_abs_usd",
+        "calc.funding_reconciliation_gap_pct",
+        "calc.funding_reconciliation_gap_usd",
+        "calc.funding_reconciliation_status",
+        "calc.funding_source_coverage_pct",
+        "calc.gcf_financing_share_of_cost_pct",
+        "calc.project_cost_per_reported_tco2e"
+      ],
+      "category": "value_with_dependents.cross_section",
+      "condition_id": "fp083.v2.population.mask.value_with_dependents_cross_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": true,
+      "kind": "missingness",
+      "locality": "cross_section",
+      "masked_ids": [
+        "dt.project.total_cost_usd"
+      ],
+      "max_descendant_depth": 5,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.condition/v2",
+      "section_fanout": 4,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": null,
+      "target_id": "dt.project.total_cost_usd",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_table",
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_text",
+        "doc.react_report_v2_financing_facility.artifact.evidence_and_calculation_register_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_text",
+        "doc.react_report_v2_financing_facility.artifact.risk_and_bankability_constraints_table",
+        "doc.react_report_v2_financing_facility.artifact.risk_and_bankability_constraints_text"
+      ],
+      "affected_section_ids": [
+        "conclusions_and_evidence_requirements",
+        "executive_summary",
+        "risk_and_bankability_constraints"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [
+        "calc.incomplete_risk_count",
+        "calc.maximum_priority_risk_count",
+        "calc.maximum_priority_risks",
+        "calc.maximum_risk_priority_score",
+        "calc.risk_count",
+        "calc.scored_risk_count",
+        "calc.scored_risks"
+      ],
+      "category": "collection_with_dependents.cross_section",
+      "condition_id": "fp083.v2.population.mask.collection_with_dependents_cross_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": true,
+      "kind": "missingness",
+      "locality": "cross_section",
+      "masked_ids": [
+        "dt.risks"
+      ],
+      "max_descendant_depth": 4,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.condition/v2",
+      "section_fanout": 3,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": null,
+      "target_id": "dt.risks",
+      "target_status_before": "available",
+      "value_kind": "collection"
+    }
+  ],
+  "mutations": [
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.promoter_and_delivery_arrangements_table"
+      ],
+      "affected_section_ids": [
+        "promoter_and_delivery_arrangements"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [],
+      "category": "value_without_dependents.single_section",
+      "changed_ids": [
+        "dt.project.governance_arrangements"
+      ],
+      "changes": [
+        {
+          "constraint_checks": {
+            "nonempty": true,
+            "type_preserved": true
+          },
+          "new_status": "available",
+          "new_value": "A steering body approves material changes; an implementation unit maintains delivery, finance and evidence registers; independent assurance reviews scheduled reporting. (benchmark sensitivity variant)",
+          "node_id": "dt.project.governance_arrangements",
+          "old_status": "available",
+          "old_value": "A steering body approves material changes; an implementation unit maintains delivery, finance and evidence registers; independent assurance reviews scheduled reporting.",
+          "operation": "replace_value",
+          "semantic_rule": "qualified_text_sensitivity_variant"
+        }
+      ],
+      "condition_id": "fp083.v2.population.mutation.value_without_dependents_single_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": false,
+      "kind": "mutation",
+      "locality": "single_section",
+      "max_descendant_depth": 0,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.mutation/v2",
+      "section_fanout": 1,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": "synthetic_benchmark_enrichment",
+      "target_id": "dt.project.governance_arrangements",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.allocation_and_utilisation_profile_table",
+        "doc.react_report_v2_financing_facility.artifact.promoter_and_delivery_arrangements_table",
+        "doc.react_report_v2_financing_facility.artifact.technical_feasibility_and_readiness_table"
+      ],
+      "affected_section_ids": [
+        "allocation_and_utilisation_profile",
+        "promoter_and_delivery_arrangements",
+        "technical_feasibility_and_readiness"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [],
+      "category": "value_without_dependents.cross_section",
+      "changed_ids": [
+        "dt.project.implementation_sequence"
+      ],
+      "changes": [
+        {
+          "constraint_checks": {
+            "nonempty": true,
+            "type_preserved": true
+          },
+          "new_status": "available",
+          "new_value": "establish eligibility; originate pipeline; approve allocations; utilise exposure; monitor portfolio (benchmark sensitivity variant)",
+          "node_id": "dt.project.implementation_sequence",
+          "old_status": "available",
+          "old_value": "establish eligibility; originate pipeline; approve allocations; utilise exposure; monitor portfolio",
+          "operation": "replace_value",
+          "semantic_rule": "qualified_text_sensitivity_variant"
+        }
+      ],
+      "condition_id": "fp083.v2.population.mutation.value_without_dependents_cross_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": false,
+      "kind": "mutation",
+      "locality": "cross_section",
+      "max_descendant_depth": 0,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.mutation/v2",
+      "section_fanout": 3,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": "synthetic_benchmark_enrichment",
+      "target_id": "dt.project.implementation_sequence",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.instrument_structure_and_terms_table",
+        "doc.react_report_v2_financing_facility.artifact.instrument_structure_and_terms_text"
+      ],
+      "affected_section_ids": [
+        "instrument_structure_and_terms"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [
+        "calc.gcf_concessional_loan_share_pct",
+        "calc.gcf_equity_share_pct",
+        "calc.gcf_grant_share_pct",
+        "calc.gcf_guarantee_share_pct",
+        "calc.gcf_instrument_reconciliation_gap_abs_usd",
+        "calc.gcf_instrument_reconciliation_gap_pct",
+        "calc.gcf_instrument_reconciliation_gap_usd",
+        "calc.gcf_instrument_reconciliation_status",
+        "calc.gcf_instrument_total_usd",
+        "calc.gcf_reimbursable_grant_share_pct"
+      ],
+      "category": "value_with_dependents.single_section",
+      "changed_ids": [
+        "dt.project.gcf_concessional_loan_usd",
+        "dt.project.gcf_soft_loan_usd"
+      ],
+      "changes": [
+        {
+          "constraint_checks": {
+            "finite": true,
+            "positive": true,
+            "type_preserved": true
+          },
+          "new_status": "available",
+          "new_value": 26250000,
+          "node_id": "dt.project.gcf_concessional_loan_usd",
+          "old_status": "available",
+          "old_value": 25000000,
+          "operation": "replace_value",
+          "semantic_rule": "positive_integer_sensitivity_increase"
+        },
+        {
+          "alias_of": "dt.project.gcf_concessional_loan_usd",
+          "constraint_checks": {
+            "finite": true,
+            "positive": true,
+            "type_preserved": true
+          },
+          "new_status": "available",
+          "new_value": 26250000,
+          "node_id": "dt.project.gcf_soft_loan_usd",
+          "old_status": "available",
+          "old_value": 25000000,
+          "operation": "replace_value",
+          "semantic_rule": "positive_integer_sensitivity_increase"
+        }
+      ],
+      "condition_id": "fp083.v2.population.mutation.value_with_dependents_single_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": true,
+      "kind": "mutation",
+      "locality": "single_section",
+      "max_descendant_depth": 5,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.mutation/v2",
+      "section_fanout": 1,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": "same_project_source_extraction",
+      "target_id": "dt.project.gcf_concessional_loan_usd",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_table",
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_text",
+        "doc.react_report_v2_financing_facility.artifact.costs_and_financing_structure_table",
+        "doc.react_report_v2_financing_facility.artifact.costs_and_financing_structure_text",
+        "doc.react_report_v2_financing_facility.artifact.evidence_and_calculation_register_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_text",
+        "doc.react_report_v2_financing_facility.artifact.impact_esg_and_safeguards_table",
+        "doc.react_report_v2_financing_facility.artifact.impact_esg_and_safeguards_text"
+      ],
+      "affected_section_ids": [
+        "conclusions_and_evidence_requirements",
+        "costs_and_financing_structure",
+        "executive_summary",
+        "impact_esg_and_safeguards"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [
+        "calc.cofinance_share_of_cost_pct",
+        "calc.funding_reconciliation_gap_abs_usd",
+        "calc.funding_reconciliation_gap_pct",
+        "calc.funding_reconciliation_gap_usd",
+        "calc.funding_reconciliation_status",
+        "calc.funding_source_coverage_pct",
+        "calc.gcf_financing_share_of_cost_pct",
+        "calc.project_cost_per_reported_tco2e"
+      ],
+      "category": "value_with_dependents.cross_section",
+      "changed_ids": [
+        "dt.project.total_cost_usd"
+      ],
+      "changes": [
+        {
+          "constraint_checks": {
+            "finite": true,
+            "positive": true,
+            "type_preserved": true
+          },
+          "new_status": "available",
+          "new_value": 535500000.0,
+          "node_id": "dt.project.total_cost_usd",
+          "old_status": "available",
+          "old_value": 510000000.0,
+          "operation": "replace_value",
+          "semantic_rule": "positive_numeric_sensitivity_increase_5pct"
+        }
+      ],
+      "condition_id": "fp083.v2.population.mutation.value_with_dependents_cross_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": true,
+      "kind": "mutation",
+      "locality": "cross_section",
+      "max_descendant_depth": 5,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.mutation/v2",
+      "section_fanout": 4,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": null,
+      "target_id": "dt.project.total_cost_usd",
+      "target_status_before": "available",
+      "value_kind": "scalar"
+    },
+    {
+      "affected_component_ids": [
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_table",
+        "doc.react_report_v2_financing_facility.artifact.conclusions_and_evidence_requirements_text",
+        "doc.react_report_v2_financing_facility.artifact.evidence_and_calculation_register_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_table",
+        "doc.react_report_v2_financing_facility.artifact.executive_summary_text",
+        "doc.react_report_v2_financing_facility.artifact.risk_and_bankability_constraints_table",
+        "doc.react_report_v2_financing_facility.artifact.risk_and_bankability_constraints_text"
+      ],
+      "affected_section_ids": [
+        "conclusions_and_evidence_requirements",
+        "executive_summary",
+        "risk_and_bankability_constraints"
+      ],
+      "alias_intervention_policy": "react_report.alias_intervention/v1-single-source-closure",
+      "calculation_descendant_ids": [
+        "calc.incomplete_risk_count",
+        "calc.maximum_priority_risk_count",
+        "calc.maximum_priority_risks",
+        "calc.maximum_risk_priority_score",
+        "calc.risk_count",
+        "calc.scored_risk_count",
+        "calc.scored_risks"
+      ],
+      "category": "collection_with_dependents.cross_section",
+      "changed_ids": [
+        "dt.risks"
+      ],
+      "changes": [
+        {
+          "constraint_checks": {
+            "collection_remains_nonempty": true,
+            "incomplete_risk_priorities_excluded": true,
+            "record_count_after": 4,
+            "record_count_before": 5,
+            "selected_risk_priority_is_available": true,
+            "selected_risk_priority_is_maximum": true
+          },
+          "new_record": null,
+          "node_id": "dt.risks",
+          "old_record": {
+            "description": "Project risk record",
+            "fields": {
+              "description": {
+                "description": "Risk description",
+                "id": "dt.risks.risk_5.description",
+                "kind": "scalar",
+                "provenance": {
+                  "document_id": "proposal.fp083",
+                  "locator": "risk.4",
+                  "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+                },
+                "status": "available",
+                "unit": null,
+                "value": "There are potential direct and negative impacts during project implementation are associated with exploration infrastructure, such as access roads, drilling pads, extraction of geothermal water, and discharges of water and drilling muds. There are also potential long-term impacts from induced development and the benefits of renewable electricity generation. "
+              },
+              "impact": {
+                "description": "Risk impact",
+                "id": "dt.risks.risk_5.impact",
+                "kind": "scalar",
+                "provenance": {
+                  "document_id": "proposal.fp083",
+                  "locator": "risk.4",
+                  "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+                },
+                "status": "available",
+                "unit": null,
+                "value": "medium"
+              },
+              "mitigation": {
+                "description": "Risk mitigation",
+                "id": "dt.risks.risk_5.mitigation",
+                "kind": "scalar",
+                "provenance": {
+                  "document_id": "proposal.fp083",
+                  "locator": "risk.4",
+                  "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+                },
+                "status": "available",
+                "unit": null,
+                "value": "Some environmental impacts may be considered irreversible or unprecedented without adequate mitigation and management, which is outlined in detail in the accompanying ESMF. \r\nWith regards to social issues, land acquisition is expected to be willing buyer-willing seller. In previous Bank-financed project implemented by PGE in Lahendong and Ulubelu, land acquisition was conducted through direct negotiation and there was no involuntary resettlement. \r\nThe infrastructure, access route and drilling program can be adjusted in case land-owners object to releasing their land. "
+              },
+              "name": {
+                "description": "Risk name",
+                "id": "dt.risks.risk_5.name",
+                "kind": "scalar",
+                "provenance": {
+                  "document_id": "proposal.fp083",
+                  "locator": "risk.4",
+                  "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+                },
+                "status": "available",
+                "unit": null,
+                "value": "Social and environmental"
+              },
+              "probability": {
+                "description": "Risk probability",
+                "id": "dt.risks.risk_5.probability",
+                "kind": "scalar",
+                "provenance": {
+                  "document_id": "proposal.fp083",
+                  "locator": "risk.4",
+                  "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+                },
+                "status": "available",
+                "unit": null,
+                "value": "medium"
+              },
+              "source_order": {
+                "description": "Source order",
+                "id": "dt.risks.risk_5.source_order",
+                "kind": "scalar",
+                "provenance": {
+                  "document_id": "proposal.fp083",
+                  "locator": "risk.4",
+                  "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+                },
+                "status": "available",
+                "unit": null,
+                "value": 5
+              },
+              "type": {
+                "description": "Risk type",
+                "id": "dt.risks.risk_5.type",
+                "kind": "scalar",
+                "provenance": {
+                  "document_id": "proposal.fp083",
+                  "locator": "risk.4",
+                  "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+                },
+                "status": "available",
+                "unit": null,
+                "value": "Social and environmental"
+              }
+            },
+            "id": "dt.risks.risk_5",
+            "kind": "record",
+            "provenance": {
+              "document_id": "proposal.fp083",
+              "locator": "risk.4",
+              "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp083-world-bank-indonesia.pdf"
+            },
+            "status": "available"
+          },
+          "operation": "remove_record",
+          "record_id": "dt.risks.risk_5",
+          "semantic_rule": "remove_last_source_order_maximum_available_risk_priority"
+        }
+      ],
+      "condition_id": "fp083.v2.population.mutation.collection_with_dependents_cross_section",
+      "contract_id": "financing_facility",
+      "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+      "has_calculation_dependents": true,
+      "kind": "mutation",
+      "locality": "cross_section",
+      "max_descendant_depth": 4,
+      "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+      "project_id": "FP083",
+      "schema_version": "react_report.mutation/v2",
+      "section_fanout": 3,
+      "selection_reason": "preferred semantically stable representative validated against the registered compiled graph, prepared project evidence, and project-resolved active influence",
+      "target_applicability_status": "applicable",
+      "target_evidence_class": null,
+      "target_id": "dt.risks",
+      "target_status_before": "available",
+      "value_kind": "collection"
+    }
+  ],
+  "prepared_evidence_sha256": "15361b21c5a99a2e9ce8647693cd8bd1eae28371082a91f233680792041167a5",
+  "project_id": "FP083",
+  "schema_version": "react_report.perturbation_pilot/v2",
+  "selection": "compiled-graph category representatives restricted to applicable, available project evidence, semantically valid mutations, and project-resolved active influence"
+}

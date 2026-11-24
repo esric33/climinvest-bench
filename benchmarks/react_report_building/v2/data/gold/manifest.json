@@ -1,0 +1,1391 @@
+{
+  "conditions_included": true,
+  "gold_count": 220,
+  "manifest_sha256": "230313908de18dd508e77094815cad18264e18769e70722bb7212d1d9e26e3c6",
+  "population_id": "climatefund20-three-specialisation-study-population-v1",
+  "project_count": 20,
+  "projects": [
+    {
+      "baseline_gold_sha256": "3347085b5a9d97cf902645a3bc1d4537e44cc2d462947822d05e3ea2e61fc720",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp019.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "8d6df940532f7f6b4e0eaeb641566fa46be5ce960df7af49aa130dba970b50d2",
+          "kind": "missingness",
+          "path": "conditions/fp019.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "20f327345255bec9305a60ed3f841a99233170341cec4cbebad8e0ceb7415dde",
+          "kind": "missingness",
+          "path": "conditions/fp019.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "75d8cb63abf30e82d7f88ecbdc3280df851cab60aef0b9e4f074bd000b9eb351",
+          "kind": "missingness",
+          "path": "conditions/fp019.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "0c1a805e514a1309b4cc989e5b06ef8689de9a69b187b0d7570e0c1fbee2a30f",
+          "kind": "missingness",
+          "path": "conditions/fp019.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "63dabde720344d075254cd604a4b4fbd1bd14bfcb6c6bb741b3576ad94a74521",
+          "kind": "missingness",
+          "path": "conditions/fp019.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "b4d9f62919660f90cb612c40fbeac2ffd90172864aed1b5d5187d33ed93bdc27",
+          "kind": "mutation",
+          "path": "conditions/fp019.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "b7ea5613f9960eb44138f701600a749ecc2e2e96b3de10b3cece89962ef6f880",
+          "kind": "mutation",
+          "path": "conditions/fp019.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "580415a8f7619889c839911950a391ca4e7e8ab4ece2b92f3861ed3378be5519",
+          "kind": "mutation",
+          "path": "conditions/fp019.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "27e0e5f2dbf0859aec3def800224877f26c5dbc739c9b7062c8cf8038cf5a1df",
+          "kind": "mutation",
+          "path": "conditions/fp019.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp019.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "1994d27f97c79747fcf7a85353890a3bbdc71a33e81fde3683cefd610767b55b",
+          "kind": "mutation",
+          "path": "conditions/fp019.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP019",
+      "template_id": "land_use_nature"
+    },
+    {
+      "baseline_gold_sha256": "58c67f3db806d8cc487eefff03e931076fb4bf5d9b2bd7f9965b714fd520a8ac",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp033.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "5c3726379e64e6629da975b78a91b02257dc96e3713b8e9f243f82996699651c",
+          "kind": "missingness",
+          "path": "conditions/fp033.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "3bd20af96bab54b62f18891e38eed41760e2ae4b311dbd97c9c442058456d933",
+          "kind": "missingness",
+          "path": "conditions/fp033.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "ba16661809c5892efc4546863dfd7ade62b8a75f23d31111c085d3852305483a",
+          "kind": "missingness",
+          "path": "conditions/fp033.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "54fc2731d406a54bdffe989685a59fc536a86b40fd32515c871671b06a09af75",
+          "kind": "missingness",
+          "path": "conditions/fp033.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "907ad19eeddda2da44dda201847a88ff23c64db24f941babe288e6d9881cc540",
+          "kind": "missingness",
+          "path": "conditions/fp033.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "25fed39a520855e3c63fb097ebea979591e2e4ca7029018f2428f76ee5bc3b71",
+          "kind": "mutation",
+          "path": "conditions/fp033.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "be5a90409ed7c03d47d4345ac114f673a38e8e452c8101063474e667436d855a",
+          "kind": "mutation",
+          "path": "conditions/fp033.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "160f63bc15ff7698dbc0383b801abfa41787eb2b79711ad72eeb3c9bc5e510ef",
+          "kind": "mutation",
+          "path": "conditions/fp033.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "44a457c0293720b9d6c0c2e1e44b592f497b8ae03b24665dff0453158c8ec065",
+          "kind": "mutation",
+          "path": "conditions/fp033.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp033.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "933ce1f748279f5b7dd277b6db8574987973fef8e871617c0b3dcdfcb2d22516",
+          "kind": "mutation",
+          "path": "conditions/fp033.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP033",
+      "template_id": "asset_delivery"
+    },
+    {
+      "baseline_gold_sha256": "fd3133ab1100debdfe13493e260d24705375bf6b5edab2455496de9099d4db54",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp039.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "2ce3c283dc33d727367ff5fa789ba4de774bf3eac932403459e6886333098ed7",
+          "kind": "missingness",
+          "path": "conditions/fp039.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "2dda8d3c8893ab2b68997818b774822c8a46a81ac3c407852098ff39399c3b79",
+          "kind": "missingness",
+          "path": "conditions/fp039.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "4b2895a627ef4cae8e2a51418a8ded47bc32f9099ab84c18ac997b65892b27a3",
+          "kind": "missingness",
+          "path": "conditions/fp039.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "feae7a0797ca0e30627bc7f06792d7bb479dded3556624e05bfc7ef75bf0c1fa",
+          "kind": "missingness",
+          "path": "conditions/fp039.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "b56ec311176ed118be3ea4a2772ea0ccc5cd3a708bcee43b9a7fc6fb611db36c",
+          "kind": "missingness",
+          "path": "conditions/fp039.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "949d0586c3d0702fce10c1832de918a06e13d57646c3c290eac5ad6237e67976",
+          "kind": "mutation",
+          "path": "conditions/fp039.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "58ab0affacceb3729051ba0341d60eb69685ad568add79c0c8997022cb17a3a6",
+          "kind": "mutation",
+          "path": "conditions/fp039.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "c24474b6b63c937b14d714f07f2799f29d133a9e3688745bfe426c5f63efb485",
+          "kind": "mutation",
+          "path": "conditions/fp039.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "490fa4d56ef667527f4088b89396e84942e7b41ac999247363eb0f8790e7aaed",
+          "kind": "mutation",
+          "path": "conditions/fp039.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp039.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "d527139724eb634754a7cc8c694ffcc0f9d3cc3e6d1e2eede0ee868c5390228d",
+          "kind": "mutation",
+          "path": "conditions/fp039.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP039",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "6c598fbfd51beb026b10f2ff48a982339324b34356fb9bcbd8ca3003e132c8b0",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp063.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "68a14faf791e21cec083afc2521a3786ec94580db75e8f05941f6a0429a90783",
+          "kind": "missingness",
+          "path": "conditions/fp063.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "82cd5176a147581509a1cc74426639978a90ccc9aa869f6307c58e32f708e45e",
+          "kind": "missingness",
+          "path": "conditions/fp063.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "f660e56ff36595f458f8f970558e136bd09079cf9591dfcb2eada946f5159a64",
+          "kind": "missingness",
+          "path": "conditions/fp063.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "147a56e68cfd9d8444f96fa585365ebca61d39c1e230bf611b820cc22fbc6786",
+          "kind": "missingness",
+          "path": "conditions/fp063.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "fe84e0a9fff229e201465cf774840a6165b2cf4e390da449d7be70fa5ee42540",
+          "kind": "missingness",
+          "path": "conditions/fp063.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "0743f8a8bdc074602a4d56bfb547aab18ece4850424dfaca4c02f4fb15b644c8",
+          "kind": "mutation",
+          "path": "conditions/fp063.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "5c89a0d4db8607179bb704542c764b7eac3c2e4de5520e5db90ecf2f46614547",
+          "kind": "mutation",
+          "path": "conditions/fp063.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "e064c8d79abc16c76f0a5804f10402e73fef35e220d6e68950270a55081ed869",
+          "kind": "mutation",
+          "path": "conditions/fp063.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "f26c334a9d30c242866bf2bc56cbb7d998f2ef7d3811312e5737812358c3eb47",
+          "kind": "mutation",
+          "path": "conditions/fp063.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp063.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "72911f1fe03142c9312c06df626585995bbf0d1a0dac1329f5cd4ca265a2819c",
+          "kind": "mutation",
+          "path": "conditions/fp063.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP063",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "198085aeede0c5686c72f0fb0541c37fcc02635f6af2f46f281e8411c8a5ab17",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp064.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "2b6e6980efbdab9b7b37cf88b07263edf3fb33ff36f6659c5bed9ac71699505f",
+          "kind": "missingness",
+          "path": "conditions/fp064.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "88eca9208d6818110f470355cec69ba64c1540db5eec48aa7dd69e98f17f3ab6",
+          "kind": "missingness",
+          "path": "conditions/fp064.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "4bb74bc5879eb7e3c0f0c5107421f12061b1dc0a5eded358de323836437a26f0",
+          "kind": "missingness",
+          "path": "conditions/fp064.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "66a38053c6fcc2f1465e04f6ed6eb23867c35408a9def4e1865715c68653eb91",
+          "kind": "missingness",
+          "path": "conditions/fp064.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "5fe2daff27186df1e0797270d3c7c07c2fe1bd83ac165658bc4e70008755608b",
+          "kind": "missingness",
+          "path": "conditions/fp064.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "1daa317728823d38adbc6cd02e44bb660143190ed610d0d80384d463b3be9a3e",
+          "kind": "mutation",
+          "path": "conditions/fp064.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "f8600ba6b658035557ec6c4e05852755c99c6764e1cdd81274e8308342e6a0d4",
+          "kind": "mutation",
+          "path": "conditions/fp064.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "b4376852292eb0f6ce1d3c24fbb39e6fb0fa3e922177a3936beccde1351af6bb",
+          "kind": "mutation",
+          "path": "conditions/fp064.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "b48788157458e009ae0d5edbe696b19719cdf4da1bc9d0c034d165957d96a132",
+          "kind": "mutation",
+          "path": "conditions/fp064.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp064.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "9437ccfff8e6358551c65bc26edb2d1ea4d2ee7860c7bed9b47cf06cbf738a2f",
+          "kind": "mutation",
+          "path": "conditions/fp064.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP064",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "347f74255e049972d3e0f75012bae5e4afee779c8b250932ee9d384164294dec",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp071.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "3fdb2da1c315eef08360cde743c376b36d1dcdb396b320082ce5e4e0d8cb3cbf",
+          "kind": "missingness",
+          "path": "conditions/fp071.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "e263b83ff230793232d92b0e279621d9e1d078884a48b0120cf63f5a10dc5bc5",
+          "kind": "missingness",
+          "path": "conditions/fp071.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "9c4dc4f3df6c563c2eb7dfc62b70f36279e4444535fa0703d4094917bc9f8231",
+          "kind": "missingness",
+          "path": "conditions/fp071.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "47250d97d96317102d22f565a9d5db64a49d2cd66f9fbc2618998392058ccb71",
+          "kind": "missingness",
+          "path": "conditions/fp071.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "77cfb6d8c6466987b01387bf207416a130efeaec977a8caaaa5f76f77d27f344",
+          "kind": "missingness",
+          "path": "conditions/fp071.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "24f5dca8523e2903cf4c1a1370b6c82068d8b4f4a3bd0827c1276e6d74eec7ba",
+          "kind": "mutation",
+          "path": "conditions/fp071.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "b425a3f6bc0d57c5c3d7a56e924eff57e317049e8236dc20a50a527dec83a929",
+          "kind": "mutation",
+          "path": "conditions/fp071.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "9f0e4f54bd49b20eba2b500b828af47f312f28e3732188570b3fe82475a5d831",
+          "kind": "mutation",
+          "path": "conditions/fp071.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "2d5ac4187f832af3b6772ce1579c87296c045df919339673a4dea574adef4f70",
+          "kind": "mutation",
+          "path": "conditions/fp071.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp071.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "8f30b462ab0decd5e8347a19e97db554f092d1bb0c75c4bcd504fbb074bf52e0",
+          "kind": "mutation",
+          "path": "conditions/fp071.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP071",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "4169459751ad5ad28f145010ff55ce3e68b6e8508eea4cf12df428f6d374ccbe",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp080.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "1eba3fbc4c508583d623fe1f59cb040205bae24c6d12eaa73373f13abeedb64e",
+          "kind": "missingness",
+          "path": "conditions/fp080.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "62365fbd98ed2e44a0c26b2028c9927c253f5519c12a20af6dc613d9fd2f4815",
+          "kind": "missingness",
+          "path": "conditions/fp080.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "1c320d75775b297270f57d6edb3c0ee14b08b6558194fe361582b70100c710d1",
+          "kind": "missingness",
+          "path": "conditions/fp080.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "cc15c9ceaae08bb2d31426a1642c06e44ede654f981ae7097a3ffab849b3893c",
+          "kind": "missingness",
+          "path": "conditions/fp080.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "c1a21b8042937effaf6586cd0bff933c0abe4c745638454b95195944f2877cc4",
+          "kind": "missingness",
+          "path": "conditions/fp080.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "d965c3e95bac274400fd2cf49b084eef8724b7b796c29828485956ba969204df",
+          "kind": "mutation",
+          "path": "conditions/fp080.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "b4280460d963f54a308e556fa7fafdd1433c535454b8a58031b283edab43c91f",
+          "kind": "mutation",
+          "path": "conditions/fp080.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "be97b8fabb3dd0d3f46f8d02246ec51cf7b92249ff9f0a8983f908b4dbd8305d",
+          "kind": "mutation",
+          "path": "conditions/fp080.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "792a4f631ccf9912ba74776cb5bf2d6e5520c3f1c7af8767f7fb673cf08a2617",
+          "kind": "mutation",
+          "path": "conditions/fp080.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp080.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "88f2373433f1fa31f40ca86fcd33a15b4ad8f4f3eac8c926d092bd42ed4cf148",
+          "kind": "mutation",
+          "path": "conditions/fp080.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP080",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "0e7d479fa682ba31581eb8136f694526b016c089b56a0abcf409f6909a261aaa",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp081.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "d642e59ce39a658444b07a1b2738190590155e0d3d8bd9e9e38f485dbfa3471a",
+          "kind": "missingness",
+          "path": "conditions/fp081.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "cf1411f5f9a9b244cc29fc0e80824df2789baf4c5edf6dfa0c7f64542ef345c6",
+          "kind": "missingness",
+          "path": "conditions/fp081.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "a522a4b616f6cac0bca877fc967fd936d87a07a032099e0f5f2cd6a1516a373e",
+          "kind": "missingness",
+          "path": "conditions/fp081.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "222554ea7d32c871c8594050999473c09fd008c04d36111f4ae99432e5fe5d47",
+          "kind": "missingness",
+          "path": "conditions/fp081.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "4257347cc2bb05b8975c0b47e531426fd8319a4d1250cb79179460c711333907",
+          "kind": "missingness",
+          "path": "conditions/fp081.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "9ff20fcfd70875cfc94f1e844d2d6972aff80db5a14ca4d61c9844c6dd078246",
+          "kind": "mutation",
+          "path": "conditions/fp081.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "7b8ea6817b85a6f4bfa0d21a893774705096409149081a4a4b6024616eab03ae",
+          "kind": "mutation",
+          "path": "conditions/fp081.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "bd1c99312234347c9edf5350a8b91a19fe4ecf2da6a2856bd124cfaa5ba1b603",
+          "kind": "mutation",
+          "path": "conditions/fp081.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "afa7ae4307b9c6d889660151a8b0dce2cfb37ca381d0ef0e4e37750cbf752a28",
+          "kind": "mutation",
+          "path": "conditions/fp081.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp081.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "f577064498c6cf676b2dc07fc18e7323d44ffc37e1b096ea5a760412a875ab9e",
+          "kind": "mutation",
+          "path": "conditions/fp081.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP081",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "638f5dca700c7ae8efb094a037ddceda19dfe97a33b131dee7e91806a930a040",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp083.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "964091a0048354ee3218f03bb764f1b9818d76b8183774f8ad211013a664f8ae",
+          "kind": "missingness",
+          "path": "conditions/fp083.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "26fb455fa1557f288960591144e576cc5d0afe6fbadc5348ebda99a34e15b4c4",
+          "kind": "missingness",
+          "path": "conditions/fp083.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "ff79c75cc5a2da54d9dd0e4d3471b7a39d59e0727a5967682e6795e6e811d33b",
+          "kind": "missingness",
+          "path": "conditions/fp083.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "0b86376b2e0dbaed15658feae2bf13b2073a324480f15c5d1a6c44d14446b876",
+          "kind": "missingness",
+          "path": "conditions/fp083.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "cefb3d9acb9530459ba278967ae2092753e8cee0c2991c26c8e18b91be38e7e1",
+          "kind": "missingness",
+          "path": "conditions/fp083.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "bddd07d91b2e6fcb1678df2f6c4303acc9f475cfd00d17759dc3633d0616ff96",
+          "kind": "mutation",
+          "path": "conditions/fp083.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "5631555ea68ac8dd52b3e5f5a8fa8bb4e9ea0d5b2bb82dfc04cd769b7a7534cb",
+          "kind": "mutation",
+          "path": "conditions/fp083.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "01dbf59c37db322cde3c838a8652128c17a92d8c0aef79f50da08d0a36d1fe54",
+          "kind": "mutation",
+          "path": "conditions/fp083.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "04b4aacd29c95472a40e367cb534bd4f2b252e9929a720657ac83e84537b5301",
+          "kind": "mutation",
+          "path": "conditions/fp083.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp083.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "f9796adbd42f07a92873a29f9dd27221d3acd65c66c6ca04624aeb7c45c89abf",
+          "kind": "mutation",
+          "path": "conditions/fp083.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP083",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "9206af0470cc7bd37b030827226a31d1a71e27f1c30cc6587b8ff4fa4dc31802",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp090.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "e33d4b680720a61affb65a48e4e0a61b6782ed85f76278652087bc320865e9d3",
+          "kind": "missingness",
+          "path": "conditions/fp090.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "3d22279fa496824c5b3fcd6703fd5352da89d67f6f821b8456cca05f2087d27f",
+          "kind": "missingness",
+          "path": "conditions/fp090.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "387c437f72e3e50d686cc1f74d62d97f3a8978086b34c16bd48697b1a65a24c1",
+          "kind": "missingness",
+          "path": "conditions/fp090.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "15ada704d31979b53af998d7cd120291ac50be0da59deeb422758b8d09a4f343",
+          "kind": "missingness",
+          "path": "conditions/fp090.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "781a50f633a62f734df9509f99d470b3f30127615dac6b41d4bb5a0ae6f434e4",
+          "kind": "missingness",
+          "path": "conditions/fp090.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "20a4c0fec15c28ee80f7fdb3c468cfcfa407f76749e3e8991d8c8b1b2b60c1e6",
+          "kind": "mutation",
+          "path": "conditions/fp090.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "1be9be9b8dda325fbfeea5561a4a06d1005de2310a8f66172873c2b10e147de7",
+          "kind": "mutation",
+          "path": "conditions/fp090.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "197fd8732fb5c5e210f1e00c3e2751bd8c6abe4aacf1e01d5488c9959abc8e6d",
+          "kind": "mutation",
+          "path": "conditions/fp090.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "b0622750210c711ead2fe12c2e9f97df6c3585d55025bdc7c6e19ce54a220080",
+          "kind": "mutation",
+          "path": "conditions/fp090.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp090.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "abf34758c2064fcbdbb30d95668308fcfc4ed8cddcea37a74b9f8ec58821f94a",
+          "kind": "mutation",
+          "path": "conditions/fp090.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP090",
+      "template_id": "asset_delivery"
+    },
+    {
+      "baseline_gold_sha256": "cd35179287490505493fb27c9cf8d3d97be131b1d013b3b1be06e6a2ca32f445",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp102.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "fa6cfe8d4c878f40983a0cd8be5ed60a56bab33b182880297d7ae503eeb9c86f",
+          "kind": "missingness",
+          "path": "conditions/fp102.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "90b78b9169c8ab801b7de239802cc824ee4e26920fe6ccc55bc6e930d0b734cb",
+          "kind": "missingness",
+          "path": "conditions/fp102.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "39e032eaeb7ef728d9db5c9b65fac9f288484521904025d74e8c1aae4bfc9048",
+          "kind": "missingness",
+          "path": "conditions/fp102.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "dee15a37f5116ce69db50b7e078d1c675aa2208e0a75f087a517b90ad7432215",
+          "kind": "missingness",
+          "path": "conditions/fp102.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "d5077c8a966713bc10b6c340dde0bad9ba3185bf402b7a5052d0de4149ed6982",
+          "kind": "missingness",
+          "path": "conditions/fp102.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "82d2cee862d071f876feb02306b0802d93891f1ad99c213a8a36e4b2c5ff431c",
+          "kind": "mutation",
+          "path": "conditions/fp102.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "13fdef308c4fc2d003955ae471fc530bdfd7328875a5dffe120ad9ea7843427f",
+          "kind": "mutation",
+          "path": "conditions/fp102.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "9e4a519bb39b36baef62340f20d958482864c5a036b26ddd2ca4ba6d120dbdeb",
+          "kind": "mutation",
+          "path": "conditions/fp102.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "affe1c0beec7577317329b2a95efca69a530438ca011e92d787d5827c18a3904",
+          "kind": "mutation",
+          "path": "conditions/fp102.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp102.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "806403e6477c8b18e388e756ca65bd0c4f695232f6200c1175722a6efa4f00aa",
+          "kind": "mutation",
+          "path": "conditions/fp102.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP102",
+      "template_id": "asset_delivery"
+    },
+    {
+      "baseline_gold_sha256": "4ab7505c43ce6e9101a5e60014ce3253120ba1cd76345b2d4130ffbffa85b0b3",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp106.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "8a86e94912facaff2cb5dde5d12a239e55e49a5a900d716306dd6833fd8a1416",
+          "kind": "missingness",
+          "path": "conditions/fp106.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "d7c75077e8eb1705288456cfbd219b2011ae8ca9c5dd851b63c1351e60599a5d",
+          "kind": "missingness",
+          "path": "conditions/fp106.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "38b4c8ebf49e81320523dcb8c37705ab7b4d78a185adaa059868df38f8c373e4",
+          "kind": "missingness",
+          "path": "conditions/fp106.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "317caeb944d9f58f4e9beaa4a7432d0d46e251b204396dfa42066e31722b98ba",
+          "kind": "missingness",
+          "path": "conditions/fp106.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "42010e3b0b67abe2e26dfe47b2297e27d7e9588f9bb29882345780dfebff062a",
+          "kind": "missingness",
+          "path": "conditions/fp106.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "553149bcf551bd9498b73184dde0810d53467dc20d8c21a9eca9ecce909209dd",
+          "kind": "mutation",
+          "path": "conditions/fp106.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "e5b11014c37bc5ae7592fde3a900a485315e51dc199af911df23774174b4e152",
+          "kind": "mutation",
+          "path": "conditions/fp106.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "10dec65dc7a9eb5f3d349695c363402c856981ff6a622cffde6a22da02cd0022",
+          "kind": "mutation",
+          "path": "conditions/fp106.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "88e942ec64a6048c8e34e1cdeb9d06d4bfde2a20c3d91d3dadd9edd3ef2318ab",
+          "kind": "mutation",
+          "path": "conditions/fp106.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp106.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "b7b5d88c9292add4a96875ac29830a7e3d81cfad9f3eefd8944a489bcf45824b",
+          "kind": "mutation",
+          "path": "conditions/fp106.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP106",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "86cf94e8bf9f98630f149e34f4d0963aff3833d929e28875b196ffa54a4696c5",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp128.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "5514a89e2c92d5c0ce3d1c052f29705c5a904bb71594697671062ea485ba3993",
+          "kind": "missingness",
+          "path": "conditions/fp128.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "69310f01a0268397ecc2f37dc4c9ac650f84efb2fdb12ce6b64d695d793985cf",
+          "kind": "missingness",
+          "path": "conditions/fp128.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "83968a3113aef629605cebbbac24a34cd59f7ce862e87f99ebfe30a99e5938c7",
+          "kind": "missingness",
+          "path": "conditions/fp128.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "acc21a297411cca2dd622ccfb60a061ef477acb8c2132c77fe4604d498b7c96e",
+          "kind": "missingness",
+          "path": "conditions/fp128.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "4368fcdf34d8a83177c8a4bda0190296871cfea3dc44c4e1aa236a0cbf7bb5b2",
+          "kind": "missingness",
+          "path": "conditions/fp128.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "4ae342f51a548835c6ac7394c4105cca23ced47eec7cabe4e2eb4e7a4d0bac33",
+          "kind": "mutation",
+          "path": "conditions/fp128.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "bf09c06389e204bc91788da66395916ce6cd2e908b6787203a9b244fe03d33db",
+          "kind": "mutation",
+          "path": "conditions/fp128.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "17a3aea153b828d87560b0ec976e84a993d1d038840fe98bf6eae7daf585af0a",
+          "kind": "mutation",
+          "path": "conditions/fp128.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "db3395c4b35e7a2b8f9e39106060cdea93fc0f86a48fa40663bef490c72685d7",
+          "kind": "mutation",
+          "path": "conditions/fp128.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp128.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "33a27c3ea9adb53ebda466a0229d794cb815de5ace7ee1d2f5b9f385a6d7a3f2",
+          "kind": "mutation",
+          "path": "conditions/fp128.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP128",
+      "template_id": "land_use_nature"
+    },
+    {
+      "baseline_gold_sha256": "1e4bd7e1ff983d013ebed9a2500f0c8e508a38e5641b1970cb5c3c55ad1562e7",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp138.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "aba4149067cb9d405937133c470e1e156504b1004389e43d9152e81c535c407a",
+          "kind": "missingness",
+          "path": "conditions/fp138.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "032ddb9d50a8c0ce995037be6af829b615d4c3b7031cfee4840fbabf85d84ebe",
+          "kind": "missingness",
+          "path": "conditions/fp138.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "1067637310450020a5935246b099ac6b96709b439d66a66b87c79fe9ec1454db",
+          "kind": "missingness",
+          "path": "conditions/fp138.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "856bb4de1f02dce20b5849aa7536866d793cac866f6d5c90ac60a63b32b3dbf1",
+          "kind": "missingness",
+          "path": "conditions/fp138.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "d48f217cfcf32792083156180e5f6fa1b28be261d5540567ae7861cd5002297e",
+          "kind": "missingness",
+          "path": "conditions/fp138.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "9a7b1e581e6064377c1459e3312e9f8ea64c86b65f6ba89784e2e714f99479e9",
+          "kind": "mutation",
+          "path": "conditions/fp138.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "f6f8a622e71d31f33e37c8d41057e633b32033a7d6f5c499a2e15fbb574ab9ca",
+          "kind": "mutation",
+          "path": "conditions/fp138.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "3e0757ebf82c7940ff87406cae27991922dea889f09613f9c77c89fddda000ae",
+          "kind": "mutation",
+          "path": "conditions/fp138.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "57fc36b6ddc644f1d769cb02e1bb4ec4393615466af973f8087c0668598548fa",
+          "kind": "mutation",
+          "path": "conditions/fp138.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp138.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "896bc065fa2672621b018c8ab11c11a0157ccd39d1f605b8259f91adb51ae3d9",
+          "kind": "mutation",
+          "path": "conditions/fp138.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP138",
+      "template_id": "asset_delivery"
+    },
+    {
+      "baseline_gold_sha256": "fa7f5576c2a2523fbb6b5f92ee541c22e959b2da4a7d9bb382a67f8f7c3701ed",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp140.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "339fea7f6545a9760050e379d053dbe287e0350a6199eaf364d12c730ac69d48",
+          "kind": "missingness",
+          "path": "conditions/fp140.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "1746ee79ce1e0b113beae40776f185fb8f811033127709551c6dba69e91efe0c",
+          "kind": "missingness",
+          "path": "conditions/fp140.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "19c4133bea5f24e0a1d7c4a9a3abf6ea7bd96c41fa8d1d90828691ebf87453c7",
+          "kind": "missingness",
+          "path": "conditions/fp140.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "c67609dbce612a6d548741682523b44ee2c717ac9519dcacd3b1c5483544b5bb",
+          "kind": "missingness",
+          "path": "conditions/fp140.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "433911634d1575b5b800e9bb0123ffedba8ee3e3d747c2d639bfd4884c2003a7",
+          "kind": "missingness",
+          "path": "conditions/fp140.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "4b151c48ac5d58d28d50f34b45d474f60efb280f84998be5162f4237f504e520",
+          "kind": "mutation",
+          "path": "conditions/fp140.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "165052a89682231dad39102e95366cf5c418643676914a0b8e921d3b8052260f",
+          "kind": "mutation",
+          "path": "conditions/fp140.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "5b9c5459fecf7bac7b3ae89ccf6330b387075091987f7b75ecdbdbbafd2d7096",
+          "kind": "mutation",
+          "path": "conditions/fp140.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "594dd6806bc656d8f8cbaa5231945dd7f8a2c99c4f44d95c25772b52d82fe398",
+          "kind": "mutation",
+          "path": "conditions/fp140.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp140.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "15953fe47c0dfb1060c2136183564beb71527d1a44c2003dac00269713eefe25",
+          "kind": "mutation",
+          "path": "conditions/fp140.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP140",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "9fef5bff8475271de7bdb571d25bba34721b38ab6cfe73a24054b88e0a9707eb",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp148.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "8ed66b29fb88dbde9d402a89db7666c55cdd8dae144d18dd1328f6ddcbf57d5c",
+          "kind": "missingness",
+          "path": "conditions/fp148.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "bbe8c7be01e98297f2c827c81cfb94f34eca1539cad00b603eba02a0ed5ab24d",
+          "kind": "missingness",
+          "path": "conditions/fp148.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "80b506063f6ded9d524e4e2e298258ccda0e2958e0d18503bab418d4e2395e40",
+          "kind": "missingness",
+          "path": "conditions/fp148.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "0ee1b5e75551b0d393b8940f7c777ca8f1d9358ef5597cf2e15efa667b790871",
+          "kind": "missingness",
+          "path": "conditions/fp148.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "57c169358979b381596fd5387730825ccd4295a4bca750649a6cb3180bfb05f5",
+          "kind": "missingness",
+          "path": "conditions/fp148.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "abd00c863e882e6843601b17ff4f6eec1b399546668f3a5a8cc66eda14267ef0",
+          "kind": "mutation",
+          "path": "conditions/fp148.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "db050f074ef8cf56537ae6aac103d6af1daf3e13996ac9f6025a3ae28d22f182",
+          "kind": "mutation",
+          "path": "conditions/fp148.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "61f0350c53a4b480e9dea016c0291dfcc7eac64b7f3f6ee3971e7f652c18d866",
+          "kind": "mutation",
+          "path": "conditions/fp148.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "5ffcef5b2af5c7b063adf5d5c6f43f9ba16f3235bbeb662154f7f5ac4793895a",
+          "kind": "mutation",
+          "path": "conditions/fp148.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp148.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "06f7a4873f786a0166e46ef54cc8226a6e8ee48a011d7becb6c03bc30d646531",
+          "kind": "mutation",
+          "path": "conditions/fp148.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP148",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "af0010303256b484c428ce655e4215c52d7efbf2647158b634bb9d77534662e3",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp163.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "e07823f5a8c063f95a68c17bb46010706ce503295d27fdd19984a8d4dc782906",
+          "kind": "missingness",
+          "path": "conditions/fp163.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "f2330037769ddafbd313e5a98343d504e282aff1ee4d7396120742d1ab62b4fa",
+          "kind": "missingness",
+          "path": "conditions/fp163.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "44fdd459b9cdd0ee7c14b3d6f815ea94119a1034f4937673b2642da825bb4e0c",
+          "kind": "missingness",
+          "path": "conditions/fp163.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "f4996fc0bb4fc66ea08583a7219ef9db21a04f3f5889259cfe685980c3e8c3b7",
+          "kind": "missingness",
+          "path": "conditions/fp163.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "5f97426f44bedae13f57bf6faca70a2c126f1e7db9468ba285f1a5f0b4128a40",
+          "kind": "missingness",
+          "path": "conditions/fp163.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "b9e33f5cd6983fa6c2bc41e0421c553f153692871717886c4da4a7bce150901c",
+          "kind": "mutation",
+          "path": "conditions/fp163.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "2cc664f1bae844a0ae8dff1654faf595c8ec4dc177e0d717dceead86d50246f5",
+          "kind": "mutation",
+          "path": "conditions/fp163.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "90144f4fcb6f0488d78fa85322dd9f01a56ca375cc52a27e76fd6b9319998942",
+          "kind": "mutation",
+          "path": "conditions/fp163.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "e63a4aaa7e7008b5e3eab41795da6ec2869e02fe293323350d7d002168505cda",
+          "kind": "mutation",
+          "path": "conditions/fp163.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp163.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "dfedbd41d3e4cefc874c366a1a821a82975d0e4ed5e36374145caa0247bd079b",
+          "kind": "mutation",
+          "path": "conditions/fp163.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP163",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "e90e428dd4c6b40d1558a47eaf8ef569289854d67df0af5777e16774c62cd666",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp178.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "a86edc3ff234fb7612a4b4bb6d74f3b60c3e4bc1d6a60a0617a5c4e8392f6ef1",
+          "kind": "missingness",
+          "path": "conditions/fp178.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "7a1ad150ce44e9c2036ad87e8ac113209c18910aae2f91a5d552337c5a348a3b",
+          "kind": "missingness",
+          "path": "conditions/fp178.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "dc248650c38ae7e577d482a4a28f2fcdbbc49c5ab3e754771119d68c7ba33bc9",
+          "kind": "missingness",
+          "path": "conditions/fp178.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "4a957c4a01922000903c173c042642c9acc68b549533e529ee479089e6d65200",
+          "kind": "missingness",
+          "path": "conditions/fp178.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "3e94f56c26d518f1261705297e1e5fc5f7bc5542f3910688204c071fb656d714",
+          "kind": "missingness",
+          "path": "conditions/fp178.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "0c257af3d9caca09b8e3b8344727c0bf29a280759b305f66049d04887c7f10aa",
+          "kind": "mutation",
+          "path": "conditions/fp178.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "3e030b017691ea349c3a87195650b6ed9ee8dea5ee721b3b7ed745cece7216e1",
+          "kind": "mutation",
+          "path": "conditions/fp178.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "d123c41266a71653a3d66a6298a795545c1d5216aff16e7af3d5864ae39fea08",
+          "kind": "mutation",
+          "path": "conditions/fp178.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "d9d28b7e71fd62379ad54707faf2ab2811159c24dded6bdbfa06ebc3aaab8024",
+          "kind": "mutation",
+          "path": "conditions/fp178.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp178.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "748a6ea18842979367b42aa6a4db63e10120e99823aa3b92930d96e5065309eb",
+          "kind": "mutation",
+          "path": "conditions/fp178.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP178",
+      "template_id": "financing_facility"
+    },
+    {
+      "baseline_gold_sha256": "0d94f25496a563053214f6c11b808f9bf3082de367f88455b8655c7ad9af1928",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp193.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "dfcac072cae2e91d9b2855ccf0d4b1f162f4da2e9e6dee2aebf0fa1a35cc7d5f",
+          "kind": "missingness",
+          "path": "conditions/fp193.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "e30345e256d345d5dbc05e84268ae1fd31dbc2d9b5734400ff88f73e91b340c1",
+          "kind": "missingness",
+          "path": "conditions/fp193.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "9945c47505c4d47a99c22a11ca4f8d2c9cf22f0b84975a41fe3d3590691c000c",
+          "kind": "missingness",
+          "path": "conditions/fp193.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "4c679ae29979f42486d4ed6e48e9decff6ee60901fcaaf1532435e1593b9064e",
+          "kind": "missingness",
+          "path": "conditions/fp193.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "78be086aee506d5f901b4ceec38dbce51a01242190c11f1fac4f7cbd1e180a17",
+          "kind": "missingness",
+          "path": "conditions/fp193.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "2c3bfb92d28dbfdb83b6f89c42cc23ea5341c1e3e8eaf880d3a3a0173a194fd6",
+          "kind": "mutation",
+          "path": "conditions/fp193.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "270d03fcc7105138f87fe7f15c4ec6340e0fd6c1678971a71c1b4fa8d77527cd",
+          "kind": "mutation",
+          "path": "conditions/fp193.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "9af14ee911db0f7c9f5c829af9cdba682c7ded2745bd6d7d3c9b410648824209",
+          "kind": "mutation",
+          "path": "conditions/fp193.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "7f3d998eafbde89d54009759c0875c9d2179d4b97d677c40f78883b111717101",
+          "kind": "mutation",
+          "path": "conditions/fp193.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp193.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "6a7d0d74f5c3e6ad952cf1280d7e80ad08526ef3c7387df23100d4e0df0764be",
+          "kind": "mutation",
+          "path": "conditions/fp193.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP193",
+      "template_id": "land_use_nature"
+    },
+    {
+      "baseline_gold_sha256": "9e8fb8ce20d8dee0a56a3c42b27d5e7e9a824dfe9ec3d5b57f4d4be65c804921",
+      "baseline_path": "baseline.json",
+      "condition_count": 10,
+      "conditions": [
+        {
+          "condition_id": "fp196.v2.population.mask.value_without_dependents_single_section",
+          "gold_sha256": "9b2f62685d7d8744475f6ef7125492c1d5d7091dda590ec96d5122a1f628434d",
+          "kind": "missingness",
+          "path": "conditions/fp196.v2.population.mask.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mask.value_without_dependents_cross_section",
+          "gold_sha256": "6e9d3b233ce8a0b5119233211c4ce0217950a3cce6b1590baa575d4504a98eed",
+          "kind": "missingness",
+          "path": "conditions/fp196.v2.population.mask.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mask.value_with_dependents_single_section",
+          "gold_sha256": "c0210287784367bf63a1ffccdfa766110565abe5df27f3f0e88e30fb2b75af54",
+          "kind": "missingness",
+          "path": "conditions/fp196.v2.population.mask.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mask.value_with_dependents_cross_section",
+          "gold_sha256": "0fce0a893ac9f00928bd560ce725bcebfc3394fca40ecc81fd61b203a5a69100",
+          "kind": "missingness",
+          "path": "conditions/fp196.v2.population.mask.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mask.collection_with_dependents_cross_section",
+          "gold_sha256": "0ff244673e05cc6b08cc25b061cda1642ccb35e3c1e6843e9388061eb4f06d10",
+          "kind": "missingness",
+          "path": "conditions/fp196.v2.population.mask.collection_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mutation.value_without_dependents_single_section",
+          "gold_sha256": "5ccd8293e7d0e504a4c882c9dff57c04a1049af87a9d627676736b64551f3c67",
+          "kind": "mutation",
+          "path": "conditions/fp196.v2.population.mutation.value_without_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mutation.value_without_dependents_cross_section",
+          "gold_sha256": "a8c0e8b0d16feb4a95dbdf7cf2a92149663473ba7043b15d8fcfd348b0ea37f6",
+          "kind": "mutation",
+          "path": "conditions/fp196.v2.population.mutation.value_without_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mutation.value_with_dependents_single_section",
+          "gold_sha256": "54ec4cee1e688a053941bb16258e079bb3937018df6c26d457166404dd2ff192",
+          "kind": "mutation",
+          "path": "conditions/fp196.v2.population.mutation.value_with_dependents_single_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mutation.value_with_dependents_cross_section",
+          "gold_sha256": "93ad262dc7bca6ae0d8ac14078257b70344983449065e0aee3122ae313dc8c67",
+          "kind": "mutation",
+          "path": "conditions/fp196.v2.population.mutation.value_with_dependents_cross_section.json"
+        },
+        {
+          "condition_id": "fp196.v2.population.mutation.collection_with_dependents_cross_section",
+          "gold_sha256": "106a2bdcdc3a7e32c4e404bfc85edfcb12ac5ef0f0895726f2d4b1df9d1d3ae6",
+          "kind": "mutation",
+          "path": "conditions/fp196.v2.population.mutation.collection_with_dependents_cross_section.json"
+        }
+      ],
+      "project_id": "FP196",
+      "template_id": "financing_facility"
+    }
+  ],
+  "provider_calls": 0,
+  "schema_version": "react_report.executable_gold_population/v1"
+}

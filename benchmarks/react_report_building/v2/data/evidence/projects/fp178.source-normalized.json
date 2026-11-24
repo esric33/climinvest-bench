@@ -1,0 +1,254 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp178.json",
+    "sha256": "273e2108194405fca07fe2576a1209a8a843cad804b86abe557f50cd2db76169",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.afdb_cofinancing_usd": {
+      "description": "AfDB portion of stated co-financing",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.afdb_cofinancing_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "US$ 379.6 million from the AfDB",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 379600000
+    },
+    "dt.project.construction_jobs_target": {
+      "description": "Estimated jobs created during construction",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.construction_jobs_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "1250 jobs will be created during construction",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "jobs",
+      "value": 1250
+    },
+    "dt.project.direct_beneficiaries_target": {
+      "description": "Expected direct beneficiaries",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.direct_beneficiaries_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "directly benefit 3.5 million people",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 3500000
+    },
+    "dt.project.enabled_capacity_min_mw": {
+      "description": "Lower bound stated for additional solar-generation capacity",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.enabled_capacity_min_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "adding over 500 MW of solar energy generation capacity",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 500.0
+    },
+    "dt.project.expected_ipp_debt_usd": {
+      "description": "Debt financing expected to be mobilized by independent power producers",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_ipp_debt_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "US$ 566.9 million in debt financing",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 566900000
+    },
+    "dt.project.expected_ipp_equity_usd": {
+      "description": "Equity expected to be mobilized by independent power producers",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_ipp_equity_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "mobilize US$ 141.7 million in equity",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 141700000
+    },
+    "dt.project.indirect_beneficiaries_target": {
+      "description": "Expected indirect beneficiaries",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.indirect_beneficiaries_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "indirect beneficiaries are estimated at 700,000 people",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 700000
+    },
+    "dt.project.partial_risk_guarantee_usd": {
+      "description": "Partial risk guarantee introduced by the facility",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.partial_risk_guarantee_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "partial risk guarantee of US$ 40 million",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 40000000
+    },
+    "dt.project.permanent_jobs_target": {
+      "description": "Estimated permanent jobs",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.permanent_jobs_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "450 permanent jobs",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "jobs",
+      "value": 450
+    },
+    "dt.project.private_sector_cofinancing_usd": {
+      "description": "Private-sector portion of stated co-financing",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.private_sector_cofinancing_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "US$ 437 million of private sector co-financing",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 437000000
+    },
+    "dt.project.women_beneficiaries_target": {
+      "description": "Expected women direct beneficiaries",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.women_beneficiaries_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp178",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "out of which 1.75 million are women",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp178.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 1750000
+    }
+  },
+  "project_id": "FP178",
+  "schema_version": "react_report.source_normalization/v2"
+}

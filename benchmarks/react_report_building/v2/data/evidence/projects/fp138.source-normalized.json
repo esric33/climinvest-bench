@@ -1,0 +1,166 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp138.json",
+    "sha256": "3ed5001a2a655fa11159f16174df0d3d63641b1d7b17f2502bd06a84194a6244",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.baseline_electricity_access_pct": {
+      "description": "Rural electricity-access rate in the stated baseline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_electricity_access_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "only 42% of Senegal’s rural population has access to electricity",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 42.0
+    },
+    "dt.project.baseline_renewable_generation_pct": {
+      "description": "Clean-energy share of the stated energy mix",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.baseline_renewable_generation_pct",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "20% of the energy mix derived from clean energy sources",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "%",
+      "value": 20.0
+    },
+    "dt.project.expected_annual_avoided_ghg_tco2e": {
+      "description": "Estimated annual emissions reduction",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.expected_annual_avoided_ghg_tco2e",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "estimated 45,098 tCO2 annual emission reductions impact",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e/year",
+      "value": 45098
+    },
+    "dt.project.installed_capacity_target_mw": {
+      "description": "Ultimate total solar-PV mini-grid capacity",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.installed_capacity_target_mw",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "32 MW total solar PV mini-grids ultimate capacity",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "MW",
+      "value": 32.0
+    },
+    "dt.project.service_connections_target": {
+      "description": "Newly electrified rural households targeted within five years",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.service_connections_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "benefitting 38,917 newly electrified rural households within 5 years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "households",
+      "value": 38917
+    },
+    "dt.project.target_community_count": {
+      "description": "Isolated villages targeted for solar mini-grid deployment",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.target_community_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "deploying 100% solar mini-grids in a thousand (1,000) isolated villages",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": "villages",
+      "value": 1000
+    },
+    "dt.project.universal_access_target_year": {
+      "description": "Government target year for universal energy access",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.universal_access_target_year",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp138",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "pledged to reach universal energy access by 2025",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/fp138-boad-senegal_0.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "2025"
+    }
+  },
+  "project_id": "FP138",
+  "schema_version": "react_report.source_normalization/v2"
+}

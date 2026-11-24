@@ -1,0 +1,163 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 9,
+  "excluded_kpi_count": 3,
+  "kpi_candidates": [
+    {
+      "canonical_name": "emissions reduced avoided or removed sequestered",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": true,
+      "name": "emissions reduced, avoided or removed/sequestered",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "hectares of natural resources brought under improved low emission and or climate resilient management practice",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Hectares of natural resources brought under improved low-emission and/or climate-resilient management practice",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "frel for amazon biome includes deforestation and forest degradation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "FREL for Amazon biome includes deforestation and forest degradation",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "frel for amazon biome including degradation approved by unfccc",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "FREL for Amazon biome including degradation approved by UNFCCC",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "frel for amazon biome including degradation approved by unfccc",
+      "duplicate_of": "outcomes.1.kpis.1",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "FREL for Amazon biome including degradation approved by UNFCCC",
+      "path": "outcomes.1.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "number of esg tools strengthened to enable ebb s screening categorization assessment monitoring and reporting under peru s national redd framework",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "policy_governance",
+      "legacy_selection_eligible": true,
+      "name": "Number of ESG tools strengthened to enable EBB’s screening, categorization, assessment, monitoring and reporting under Peru’s national REDD+ framework",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "access market level",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Access market level",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "estimated increase in revenue of ebbs",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Estimated increase in revenue of EBBs",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "interest of investors in ebb",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Interest of investors in EBB",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "number of green jobs created",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of green jobs created",
+      "path": "outcomes.8.kpis.0",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "number of green jobs created",
+      "duplicate_of": "outcomes.8.kpis.0",
+      "eligible": false,
+      "family": "employment_gender",
+      "legacy_selection_eligible": false,
+      "name": "Number of green jobs created",
+      "path": "outcomes.8.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "number of green jobs created",
+      "duplicate_of": "outcomes.8.kpis.0",
+      "eligible": false,
+      "family": "employment_gender",
+      "legacy_selection_eligible": false,
+      "name": "Number of green jobs created",
+      "path": "outcomes.8.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 12
+    }
+  ],
+  "project_id": "FP193",
+  "risk_count": 9,
+  "selected_kpi_paths": [
+    {
+      "family": "climate_impact",
+      "path": "outcomes.0.kpis.0"
+    },
+    {
+      "family": "policy_governance",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.8.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.0.kpis.1"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.1.kpis.0"
+    }
+  ]
+}

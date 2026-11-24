@@ -1,0 +1,2674 @@
+{
+  "schema_version": "climinvest.reviewed_prose_dependency_maps/v1",
+  "candidate_outputs_used": false,
+  "sections": {
+    "executive_summary": {
+      "6384240c031f62ab5273dabb25260d25d88bad22051336f2e2acf410df0583b0": {
+        "family": "asset_delivery",
+        "title": "Executive summary",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.cofinance_per_gcf_dollar",
+              "calc.funding_reconciliation_status",
+              "calc.kpi_priority_cutoff",
+              "calc.maximum_priority_risk_count",
+              "calc.maximum_priority_risks",
+              "calc.maximum_risk_priority_score",
+              "calc.priority_kpi_count",
+              "calc.priority_kpis",
+              "calc.project_cost_per_reported_tco2e",
+              "dt.project.cofinance_usd",
+              "dt.project.description",
+              "dt.project.funding_scope_qualification",
+              "dt.project.gcf_financing_usd",
+              "dt.project.ghg_accounting_qualification",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.installed_capacity_target_mw",
+              "dt.project.total_cost_usd",
+              "req.environmental_social_safeguards",
+              "req.financial_model",
+              "req.project_status",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_design_maturity"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "funding_reconciliation_status": "calc.funding_reconciliation_status",
+              "project_cost_per_reported_tco2e": "calc.project_cost_per_reported_tco2e",
+              "calc.maximum_priority_risks": "calc.maximum_priority_risks"
+            },
+            "references": [
+              "calc.funding_reconciliation_status",
+              "calc.project_cost_per_reported_tco2e",
+              "calc.maximum_priority_risks"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "calc.priority_kpis": "calc.priority_kpis"
+            },
+            "references": [
+              "calc.priority_kpis"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "dt.project.funding_scope_qualification": "dt.project.funding_scope_qualification",
+              "dt.project.ghg_accounting_qualification": "dt.project.ghg_accounting_qualification",
+              "req.synthetic_evidence_disclosure": "req.synthetic_evidence_disclosure"
+            },
+            "references": [
+              "dt.project.funding_scope_qualification",
+              "dt.project.ghg_accounting_qualification",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "e6b537722ee8b7482daff72348d03e8264f7e28efed985b06a576419f3bcafeb": {
+        "family": "financing_facility",
+        "title": "Executive summary",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.additional_capital_per_gcf_dollar_high",
+              "calc.additional_capital_per_gcf_dollar_low",
+              "calc.cofinance_per_gcf_dollar",
+              "calc.funding_reconciliation_status",
+              "calc.kpi_priority_cutoff",
+              "calc.maximum_priority_risk_count",
+              "calc.maximum_priority_risks",
+              "calc.maximum_risk_priority_score",
+              "calc.priority_kpi_count",
+              "calc.priority_kpis",
+              "calc.project_cost_per_reported_tco2e",
+              "dt.project.cofinance_usd",
+              "dt.project.description",
+              "dt.project.facility_deployment_envelope_usd",
+              "dt.project.financial_additionality",
+              "dt.project.funding_scope_qualification",
+              "dt.project.gcf_financing_usd",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.instrument_terms_qualification",
+              "dt.project.mobilization_qualification",
+              "dt.project.total_cost_usd",
+              "req.environmental_social_safeguards",
+              "req.financial_model",
+              "req.project_status",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_design_maturity"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "funding_reconciliation_status": "calc.funding_reconciliation_status",
+              "calc.maximum_priority_risks": "calc.maximum_priority_risks",
+              "calc.priority_kpis": "calc.priority_kpis"
+            },
+            "references": [
+              "calc.funding_reconciliation_status",
+              "calc.maximum_priority_risks",
+              "calc.priority_kpis"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.funding_scope_qualification": "dt.project.funding_scope_qualification",
+              "dt.project.instrument_terms_qualification": "dt.project.instrument_terms_qualification",
+              "dt.project.mobilization_qualification": "dt.project.mobilization_qualification",
+              "req.synthetic_evidence_disclosure": "req.synthetic_evidence_disclosure"
+            },
+            "references": [
+              "dt.project.funding_scope_qualification",
+              "dt.project.instrument_terms_qualification",
+              "dt.project.mobilization_qualification",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "03e72ff9648f16b5ebdb8658ee8ec975f508068c142ef10d3ea3b5d814c0c483": {
+        "family": "land_use_nature",
+        "title": "Executive summary",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.cofinance_per_gcf_dollar",
+              "calc.funding_reconciliation_status",
+              "calc.kpi_priority_cutoff",
+              "calc.maximum_priority_risk_count",
+              "calc.maximum_priority_risks",
+              "calc.maximum_risk_priority_score",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.priority_kpi_count",
+              "calc.priority_kpis",
+              "calc.project_cost_per_reported_tco2e",
+              "dt.project.cofinance_usd",
+              "dt.project.description",
+              "dt.project.funding_scope_qualification",
+              "dt.project.gcf_financing_usd",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.intervention_area_target_ha",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_accounting_qualification",
+              "dt.project.total_cost_usd",
+              "req.environmental_social_safeguards",
+              "req.financial_model",
+              "req.project_status",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_design_maturity"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "funding_reconciliation_status": "calc.funding_reconciliation_status",
+              "modelled_vs_reported_ghg_ratio": "calc.modelled_vs_reported_ghg_ratio",
+              "calc.maximum_priority_risks": "calc.maximum_priority_risks",
+              "calc.priority_kpis": "calc.priority_kpis"
+            },
+            "references": [
+              "calc.funding_reconciliation_status",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.maximum_priority_risks",
+              "calc.priority_kpis"
+            ],
+            "context_references": [
+              "dt.project.land_accounting_mode"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.land_accounting_qualification": "dt.project.land_accounting_qualification",
+              "dt.project.funding_scope_qualification": "dt.project.funding_scope_qualification",
+              "req.synthetic_evidence_disclosure": "req.synthetic_evidence_disclosure"
+            },
+            "references": [
+              "dt.project.land_accounting_qualification",
+              "dt.project.funding_scope_qualification",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "context_references": [
+              "dt.project.land_accounting_mode"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode"
+            ],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "project_identification_and_status": {
+      "d8777e24ede43818c3b02958cdd2564fd2d2d393c728e7d184296e3b4be8b068": {
+        "family": "asset_delivery",
+        "title": "Project identification and status",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "dt.project.description": "dt.project.description"
+            },
+            "references": [
+              "dt.project.description"
+            ],
+            "context_references": [
+              "dt.project.code",
+              "dt.project.countries",
+              "dt.project.entity_name",
+              "dt.project.sector",
+              "dt.project.title"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.description"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.project_status": "req.project_status"
+            },
+            "references": [
+              "req.project_status"
+            ],
+            "context_references": [
+              "dt.project.description"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "aff2420bbe3e5df82c16d7c0532dceaf1c111f74113ed06e2ec4bcbfbe1fcfd7": {
+        "family": "financing_facility",
+        "title": "Project identification and status",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "dt.project.description": "dt.project.description"
+            },
+            "references": [
+              "dt.project.description"
+            ],
+            "context_references": [
+              "dt.project.code",
+              "dt.project.countries",
+              "dt.project.entity_name",
+              "dt.project.sector",
+              "dt.project.title"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "req.project_status": "req.project_status"
+            },
+            "references": [
+              "req.project_status"
+            ],
+            "context_references": [
+              "dt.project.description"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "242009a28ae6d444d95f67b957d7c2bcafc6176565939bac653791822b10b4d5": {
+        "family": "land_use_nature",
+        "title": "Project identification and status",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "dt.project.description": "dt.project.description"
+            },
+            "references": [
+              "dt.project.description"
+            ],
+            "context_references": [
+              "dt.project.code",
+              "dt.project.countries",
+              "dt.project.entity_name",
+              "dt.project.sector",
+              "dt.project.title"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "req.project_status": "req.project_status"
+            },
+            "references": [
+              "req.project_status"
+            ],
+            "context_references": [
+              "dt.project.description"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "promoter_and_delivery_arrangements": {
+      "6ac8374d0a8c2c8121756b274f1372c013c37c1697186d7f3ec733dff331e9ad": {
+        "family": "asset_delivery",
+        "title": "Promoter and delivery arrangements",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.promoter_financial_standing": "req.promoter_financial_standing",
+              "req.promoter_track_record": "req.promoter_track_record"
+            },
+            "references": [
+              "req.promoter_financial_standing",
+              "req.promoter_track_record"
+            ],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "req.synthetic_evidence_disclosure": "req.synthetic_evidence_disclosure"
+            },
+            "references": [
+              "req.synthetic_evidence_disclosure"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "b2e76b60ff2e25401cfc7b2f265887815cadbbd30916235003f82bfe2194724d": {
+        "family": "financing_facility",
+        "title": "Promoter and delivery arrangements",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.promoter_financial_standing": "req.promoter_financial_standing",
+              "req.promoter_track_record": "req.promoter_track_record"
+            },
+            "references": [
+              "req.promoter_financial_standing",
+              "req.promoter_track_record"
+            ],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "5c3c803bc2e17235f71076580f1e5c1a9c4c414252f058cda9b6cf2f58a9c020": {
+        "family": "land_use_nature",
+        "title": "Promoter and delivery arrangements",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.promoter_financial_standing": "req.promoter_financial_standing",
+              "req.promoter_track_record": "req.promoter_track_record"
+            },
+            "references": [
+              "req.promoter_financial_standing",
+              "req.promoter_track_record"
+            ],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.entity_name",
+              "dt.project.entity_sector",
+              "dt.project.entity_size",
+              "dt.project.entity_type",
+              "dt.project.governance_arrangements",
+              "dt.project.implementation_agency",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "climate_rationale_and_strategic_fit": {
+      "3a9b98e9ad8d2cd5c281903e4565c6dc95225d96c6c8a4e93fcb36e4f1c02fc5": {
+        "family": "asset_delivery",
+        "title": "Climate rationale and strategic fit",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.adaptation_areas",
+              "dt.project.countries",
+              "dt.project.description",
+              "dt.project.energy_technologies",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.mitigation_areas",
+              "dt.project.sector",
+              "req.climate_rationale"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.description",
+              "dt.project.sector"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.climate_rationale": "req.climate_rationale",
+              "req.ghg_target_horizon": "req.ghg_target_horizon"
+            },
+            "references": [
+              "req.climate_rationale",
+              "req.ghg_target_horizon"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "annualised_reported_ghg_target_tco2e": "calc.annualised_reported_ghg_target_tco2e"
+            },
+            "references": [
+              "calc.annualised_reported_ghg_target_tco2e"
+            ],
+            "context_references": [
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "8226abf188ed23c1cedb4a6218879199e23d232bda9330e531364a990e5fbb3d": {
+        "family": "financing_facility",
+        "title": "Climate rationale and strategic fit",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.adaptation_areas",
+              "dt.project.countries",
+              "dt.project.description",
+              "dt.project.energy_technologies",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.market_financing_barrier",
+              "dt.project.mitigation_areas",
+              "dt.project.sector",
+              "dt.project.target_market_segment",
+              "req.climate_rationale"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.description",
+              "dt.project.sector"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.climate_rationale": "req.climate_rationale",
+              "req.ghg_target_horizon": "req.ghg_target_horizon"
+            },
+            "references": [
+              "req.climate_rationale",
+              "req.ghg_target_horizon"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "annualised_reported_ghg_target_tco2e": "calc.annualised_reported_ghg_target_tco2e"
+            },
+            "references": [
+              "calc.annualised_reported_ghg_target_tco2e"
+            ],
+            "context_references": [
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "b953b53772fdea8128fde88dbc3ba69f2f27518ac7b2713b29d193be65242118": {
+        "family": "land_use_nature",
+        "title": "Climate rationale and strategic fit",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.adaptation_areas",
+              "dt.project.countries",
+              "dt.project.description",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.land_pathway_applicability",
+              "dt.project.land_use_baseline",
+              "dt.project.mitigation_areas",
+              "dt.project.sector",
+              "req.climate_rationale"
+            ],
+            "gate_references": [
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.description",
+              "dt.project.sector",
+              "dt.project.land_pathway_applicability"
+            ],
+            "gate_references": [
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.climate_rationale": "req.climate_rationale",
+              "req.ghg_target_horizon": "req.ghg_target_horizon"
+            },
+            "references": [
+              "req.climate_rationale",
+              "req.ghg_target_horizon"
+            ],
+            "context_references": [
+              "dt.project.land_pathway_applicability"
+            ],
+            "gate_references": [
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "annualised_reported_ghg_target_tco2e": "calc.annualised_reported_ghg_target_tco2e"
+            },
+            "references": [
+              "calc.annualised_reported_ghg_target_tco2e"
+            ],
+            "context_references": [
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.land_pathway_applicability"
+            ],
+            "gate_references": [
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "system_baseline_and_policy_context": {
+      "265ccb29b056131e7292fdcc042bc4def45f99f2964f089ffc21b5bd4e47ec4a": {
+        "family": "asset_delivery",
+        "title": "System baseline and policy context",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.baseline_electricity_access_pct",
+              "dt.project.baseline_fossil_generation_pct",
+              "dt.project.baseline_grid_emission_factor_tco2e_per_mwh",
+              "dt.project.baseline_renewable_generation_pct",
+              "dt.project.policy_renewable_target_pct",
+              "dt.project.policy_target_year",
+              "dt.project.project_operating_emission_factor_tco2e_per_mwh"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "renewable_policy_gap_pct": "calc.renewable_policy_gap_pct",
+              "emission_factor_delta_tco2e_per_mwh": "calc.emission_factor_delta_tco2e_per_mwh"
+            },
+            "references": [
+              "calc.renewable_policy_gap_pct",
+              "calc.emission_factor_delta_tco2e_per_mwh"
+            ],
+            "context_references": [
+              "dt.project.baseline_electricity_access_pct",
+              "dt.project.baseline_fossil_generation_pct",
+              "dt.project.baseline_grid_emission_factor_tco2e_per_mwh",
+              "dt.project.baseline_renewable_generation_pct",
+              "dt.project.policy_renewable_target_pct",
+              "dt.project.policy_target_year",
+              "dt.project.project_operating_emission_factor_tco2e_per_mwh"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.baseline_electricity_access_pct",
+              "dt.project.baseline_fossil_generation_pct",
+              "dt.project.baseline_grid_emission_factor_tco2e_per_mwh",
+              "dt.project.baseline_renewable_generation_pct",
+              "dt.project.policy_renewable_target_pct",
+              "dt.project.policy_target_year",
+              "dt.project.project_operating_emission_factor_tco2e_per_mwh"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "capacity_and_output": {
+      "297d86f4a34a6b787148bdb14dedea78e284e9938cfe99412379c6ac17b65c24": {
+        "family": "asset_delivery",
+        "title": "Capacity and output",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "dt.project.capacity_delivery_relationship": "dt.project.capacity_delivery_relationship"
+            },
+            "references": [
+              "dt.project.capacity_delivery_relationship"
+            ],
+            "context_references": [
+              "calc.full_build_gross_generation_mwh_per_year",
+              "calc.full_build_net_generation_mwh_per_year",
+              "dt.project.installed_capacity_target_mw"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.beneficiaries_per_installed_mw",
+              "calc.direct_beneficiaries_per_service_connection",
+              "calc.full_build_gross_generation_mwh_per_year",
+              "calc.full_build_net_generation_mwh_per_year",
+              "calc.gcf_financing_per_installed_mw",
+              "calc.gcf_financing_per_service_connection",
+              "calc.project_cost_per_installed_mw",
+              "dt.project.capacity_delivery_relationship",
+              "dt.project.capacity_factor_pct",
+              "dt.project.generation_accounting_boundary",
+              "dt.project.grid_loss_pct",
+              "dt.project.installed_capacity_target_mw",
+              "dt.project.service_connections_target"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.generation_accounting_boundary": "dt.project.generation_accounting_boundary"
+            },
+            "references": [
+              "dt.project.generation_accounting_boundary"
+            ],
+            "context_references": [
+              "calc.full_build_gross_generation_mwh_per_year",
+              "calc.full_build_net_generation_mwh_per_year",
+              "dt.project.installed_capacity_target_mw"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "commissioning_profile": {
+      "7989dc9ad6d327839b91bfceaaaf76e36d12c8c45987e93694dd933417b2d34c": {
+        "family": "asset_delivery",
+        "title": "Commissioning evidence and dependencies",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.capacity_delivery_relationship",
+              "dt.project.implementation_sequence",
+              "dt.project.service_connections_target",
+              "req.detailed_implementation_schedule",
+              "req.land_and_access_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.technical_design_maturity"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.implementation_sequence",
+              "req.detailed_implementation_schedule",
+              "req.land_and_access_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.technical_design_maturity"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "operational_impact_consistency": {
+      "ed2326ff97b225478bee255ef73a1d6bbc9d405f20533e087e954ededc4bc6e0": {
+        "family": "asset_delivery",
+        "title": "Operational impact consistency",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.emission_factor_delta_tco2e_per_mwh",
+              "calc.full_build_avoided_ghg_tco2e_per_year",
+              "calc.full_build_net_generation_mwh_per_year",
+              "calc.simple_horizon_avoided_ghg_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "gate_references": [
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "dt.project.reported_ghg_comparison_status": "dt.project.reported_ghg_comparison_status",
+              "modelled_vs_reported_ghg_ratio": "calc.modelled_vs_reported_ghg_ratio",
+              "reported_minus_modelled_ghg_tco2e": "calc.reported_minus_modelled_ghg_tco2e"
+            },
+            "references": [
+              "dt.project.reported_ghg_comparison_status",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.reported_minus_modelled_ghg_tco2e"
+            ],
+            "context_references": [],
+            "gate_references": [
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.reported_ghg_comparison_qualification": "dt.project.reported_ghg_comparison_qualification",
+              "dt.project.asset_impact_boundary_qualification": "dt.project.asset_impact_boundary_qualification"
+            },
+            "references": [
+              "dt.project.reported_ghg_comparison_qualification",
+              "dt.project.asset_impact_boundary_qualification"
+            ],
+            "context_references": [
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "gate_references": [
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {},
+            "references": [],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "technical_feasibility_and_readiness": {
+      "ca5c777e6e766c2c52a93209b9629c478b0756f19c29a056969ffbabc89462cc": {
+        "family": "asset_delivery",
+        "title": "Technical feasibility and implementation readiness",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years",
+              "req.detailed_implementation_schedule",
+              "req.land_and_access_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.detailed_implementation_schedule",
+              "req.land_and_access_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "8ee882a207be2bcea7a79823e7162407a505696e608bf059f357c53dc0834c38": {
+        "family": "financing_facility",
+        "title": "Technical feasibility and implementation readiness",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.eligibility_criteria",
+              "dt.project.facility_archetype",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years",
+              "req.detailed_implementation_schedule",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.detailed_implementation_schedule",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "cf323b2a17f42ffe7ae4fbc55ab5b110e9ad91033cb13ea7a7d5e6fb8d93f825": {
+        "family": "land_use_nature",
+        "title": "Technical feasibility and implementation readiness",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.delivery_mechanism",
+              "dt.project.implementation_sequence",
+              "dt.project.implementation_years",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "req.detailed_implementation_schedule",
+              "req.land_and_access_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.detailed_implementation_schedule",
+              "req.land_and_access_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "financial_sustainability_and_business_model": {
+      "b3b917edae233b5cff01b28d44ec8483a7e87080e801ce61823d72867d278034": {
+        "family": "asset_delivery",
+        "title": "Financial sustainability and business model",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "req.business_model": "req.business_model",
+              "req.revenue_model": "req.revenue_model",
+              "req.lifecycle_opex": "req.lifecycle_opex",
+              "req.financial_model": "req.financial_model",
+              "req.financial_returns": "req.financial_returns"
+            },
+            "references": [
+              "req.business_model",
+              "req.revenue_model",
+              "req.lifecycle_opex",
+              "req.financial_model",
+              "req.financial_returns"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.gcf_financing_per_installed_mw",
+              "calc.gcf_financing_per_reported_tco2e",
+              "calc.project_cost_per_installed_mw",
+              "calc.project_cost_per_reported_tco2e"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "fe8a5945512d85e579b979d6b0a6db3b98b9c52f2b745305dca4e994547d1409": {
+        "family": "financing_facility",
+        "title": "Financial sustainability and business model",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "req.business_model": "req.business_model",
+              "req.revenue_model": "req.revenue_model",
+              "req.lifecycle_opex": "req.lifecycle_opex",
+              "req.financial_model": "req.financial_model",
+              "req.financial_returns": "req.financial_returns"
+            },
+            "references": [
+              "req.business_model",
+              "req.revenue_model",
+              "req.lifecycle_opex",
+              "req.financial_model",
+              "req.financial_returns"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "dt.project.instrument_terms_qualification": "dt.project.instrument_terms_qualification",
+              "dt.project.facility_recycling_qualification": "dt.project.facility_recycling_qualification"
+            },
+            "references": [
+              "dt.project.instrument_terms_qualification",
+              "dt.project.facility_recycling_qualification"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "464239dc874f63c37c0b613fd6072b97963b8a21bb583cbb0cf3205f7da79217": {
+        "family": "land_use_nature",
+        "title": "Financial sustainability and business model",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "req.business_model": "req.business_model",
+              "req.revenue_model": "req.revenue_model",
+              "req.lifecycle_opex": "req.lifecycle_opex",
+              "req.financial_model": "req.financial_model",
+              "req.financial_returns": "req.financial_returns"
+            },
+            "references": [
+              "req.business_model",
+              "req.revenue_model",
+              "req.lifecycle_opex",
+              "req.financial_model",
+              "req.financial_returns"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.gcf_financing_per_direct_beneficiary",
+              "calc.gcf_financing_per_intervention_hectare",
+              "calc.project_cost_per_direct_beneficiary",
+              "calc.project_cost_per_intervention_hectare"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "impact_esg_and_safeguards": {
+      "9cbec997423e3e007766fd33b6dbd9aab941ea76ad0b577b2db0b083d75087a9": {
+        "family": "asset_delivery",
+        "title": "Impact, ESG, and safeguards",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.direct_beneficiaries_target",
+              "dt.project.environmental_cobenefits",
+              "dt.project.ghg_accounting_qualification",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.social_cobenefits"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "project_cost_per_reported_tco2e": "calc.project_cost_per_reported_tco2e"
+            },
+            "references": [
+              "calc.project_cost_per_reported_tco2e"
+            ],
+            "context_references": [
+              "calc.gcf_financing_per_reported_tco2e",
+              "dt.project.ghg_accounting_qualification"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.environmental_social_safeguards",
+              "req.gender_assessment_and_action_plan",
+              "req.land_and_access_status",
+              "req.stakeholder_engagement"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "dt.project.ghg_accounting_qualification": "dt.project.ghg_accounting_qualification"
+            },
+            "references": [
+              "dt.project.ghg_accounting_qualification"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "c64ed1c809d9b651203e16d06f5d13845e41f1b2c5f2e0a236eab4f960289feb": {
+        "family": "financing_facility",
+        "title": "Impact, ESG, and safeguards",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.eligibility_criteria",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.target_market_segment"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "project_cost_per_reported_tco2e": "calc.project_cost_per_reported_tco2e"
+            },
+            "references": [
+              "calc.project_cost_per_reported_tco2e"
+            ],
+            "context_references": [
+              "calc.gcf_financing_per_reported_tco2e"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.eligibility_criteria",
+              "req.environmental_social_safeguards",
+              "req.gender_assessment_and_action_plan",
+              "req.ghg_target_horizon",
+              "req.land_and_access_status",
+              "req.stakeholder_engagement"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "8574079d98b1256fd91ac7bf7f3dc90cf3fc498497e2b827d862e1954751d0fd": {
+        "family": "land_use_nature",
+        "title": "Impact, ESG, and safeguards",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.biodiversity_cobenefits",
+              "dt.project.direct_beneficiaries_target",
+              "dt.project.ghg_accounting_qualification",
+              "dt.project.ghg_reduction_tco2e",
+              "dt.project.ghg_target_horizon_years",
+              "dt.project.livelihood_cobenefits"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "project_cost_per_reported_tco2e": "calc.project_cost_per_reported_tco2e"
+            },
+            "references": [
+              "calc.project_cost_per_reported_tco2e"
+            ],
+            "context_references": [
+              "calc.gcf_financing_per_reported_tco2e",
+              "dt.project.ghg_accounting_qualification"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.environmental_social_safeguards",
+              "req.gender_assessment_and_action_plan",
+              "req.land_and_access_status",
+              "req.stakeholder_engagement"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "dt.project.ghg_accounting_qualification": "dt.project.ghg_accounting_qualification"
+            },
+            "references": [
+              "dt.project.ghg_accounting_qualification"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "conclusions_and_evidence_requirements": {
+      "00a865f75ccefe0f1bbe13b80626a66aa5e316fc76427d7e595a397f3e3b4505": {
+        "family": "asset_delivery",
+        "title": "Conclusions and evidence requirements",
+        "contract_sha256": "ea810fd387b7d6ab0ead1be004eddf35c2394ebe79cfde4a6b593071cf8a041e",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.annualised_reported_ghg_target_tco2e",
+              "calc.available_kpi_priority_count",
+              "calc.cofinance_per_gcf_dollar",
+              "calc.cofinance_share_of_cost_pct",
+              "calc.committed_funding_sources_usd",
+              "calc.emission_factor_delta_tco2e_per_mwh",
+              "calc.full_build_avoided_ghg_tco2e_per_year",
+              "calc.full_build_gross_generation_mwh_per_year",
+              "calc.full_build_net_generation_mwh_per_year",
+              "calc.funding_reconciliation_gap_pct",
+              "calc.funding_reconciliation_gap_usd",
+              "calc.funding_reconciliation_status",
+              "calc.funding_source_coverage_pct",
+              "calc.gcf_financing_per_installed_mw",
+              "calc.gcf_financing_per_reported_tco2e",
+              "calc.gcf_financing_per_service_connection",
+              "calc.gcf_financing_share_of_cost_pct",
+              "calc.incomplete_kpi_priority_count",
+              "calc.incomplete_risk_count",
+              "calc.kpi_compatible_target_delta_count",
+              "calc.kpi_priority_cutoff",
+              "calc.maximum_priority_risk_count",
+              "calc.maximum_risk_priority_score",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.mrv_ready_kpi_count",
+              "calc.prioritized_kpi_count",
+              "calc.priority_kpi_count",
+              "calc.project_cost_per_installed_mw",
+              "calc.project_cost_per_reported_tco2e",
+              "calc.risk_count",
+              "calc.scored_risk_count",
+              "calc.simple_horizon_avoided_ghg_tco2e",
+              "dt.project.funding_scope_qualification",
+              "dt.project.generation_accounting_boundary",
+              "dt.project.ghg_accounting_qualification",
+              "req.business_model",
+              "req.climate_rationale",
+              "req.detailed_implementation_schedule",
+              "req.environmental_social_safeguards",
+              "req.financial_model",
+              "req.financial_returns",
+              "req.gender_assessment_and_action_plan",
+              "req.land_and_access_status",
+              "req.lifecycle_opex",
+              "req.mrv_plan_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.promoter_financial_standing",
+              "req.promoter_track_record",
+              "req.revenue_model",
+              "req.stakeholder_engagement",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "funding_reconciliation_status": "calc.funding_reconciliation_status",
+              "calc.maximum_risk_priority_score": "calc.maximum_risk_priority_score",
+              "calc.kpi_priority_cutoff": "calc.kpi_priority_cutoff"
+            },
+            "references": [
+              "calc.funding_reconciliation_status",
+              "calc.maximum_risk_priority_score",
+              "calc.kpi_priority_cutoff"
+            ],
+            "context_references": [
+              "calc.annualised_reported_ghg_target_tco2e",
+              "calc.available_kpi_priority_count",
+              "calc.cofinance_per_gcf_dollar",
+              "calc.cofinance_share_of_cost_pct",
+              "calc.committed_funding_sources_usd",
+              "calc.emission_factor_delta_tco2e_per_mwh",
+              "calc.full_build_avoided_ghg_tco2e_per_year",
+              "calc.full_build_gross_generation_mwh_per_year",
+              "calc.full_build_net_generation_mwh_per_year",
+              "calc.funding_reconciliation_gap_pct",
+              "calc.funding_reconciliation_gap_usd",
+              "calc.funding_source_coverage_pct",
+              "calc.gcf_financing_per_installed_mw",
+              "calc.gcf_financing_per_reported_tco2e",
+              "calc.gcf_financing_per_service_connection",
+              "calc.gcf_financing_share_of_cost_pct",
+              "calc.incomplete_kpi_priority_count",
+              "calc.incomplete_risk_count",
+              "calc.kpi_compatible_target_delta_count",
+              "calc.maximum_priority_risk_count",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.mrv_ready_kpi_count",
+              "calc.prioritized_kpi_count",
+              "calc.priority_kpi_count",
+              "calc.project_cost_per_installed_mw",
+              "calc.project_cost_per_reported_tco2e",
+              "calc.risk_count",
+              "calc.scored_risk_count",
+              "calc.simple_horizon_avoided_ghg_tco2e",
+              "dt.project.funding_scope_qualification",
+              "dt.project.generation_accounting_boundary",
+              "dt.project.ghg_accounting_qualification"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.financial_model": "req.financial_model",
+              "req.technical_design_maturity": "req.technical_design_maturity",
+              "req.environmental_social_safeguards": "req.environmental_social_safeguards"
+            },
+            "references": [
+              "req.financial_model",
+              "req.technical_design_maturity",
+              "req.environmental_social_safeguards"
+            ],
+            "context_references": [
+              "req.business_model",
+              "req.climate_rationale",
+              "req.detailed_implementation_schedule",
+              "req.financial_returns",
+              "req.gender_assessment_and_action_plan",
+              "req.land_and_access_status",
+              "req.lifecycle_opex",
+              "req.mrv_plan_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.promoter_financial_standing",
+              "req.promoter_track_record",
+              "req.revenue_model",
+              "req.stakeholder_engagement",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r4",
+            "aliases": {},
+            "references": [],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "4bec6a844a26af3de52553d7fd244044c3ddade10d6146f5eb192275baee6db8": {
+        "family": "financing_facility",
+        "title": "Conclusions and evidence requirements",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.additional_capital_per_gcf_dollar_high",
+              "calc.additional_capital_per_gcf_dollar_low",
+              "calc.annualised_reported_ghg_target_tco2e",
+              "calc.available_kpi_priority_count",
+              "calc.cofinance_per_gcf_dollar",
+              "calc.cofinance_share_of_cost_pct",
+              "calc.committed_funding_sources_usd",
+              "calc.deployment_envelope_per_gcf_dollar",
+              "calc.funding_reconciliation_gap_pct",
+              "calc.funding_reconciliation_gap_usd",
+              "calc.funding_reconciliation_status",
+              "calc.funding_source_coverage_pct",
+              "calc.gcf_financing_per_reported_tco2e",
+              "calc.gcf_financing_share_of_cost_pct",
+              "calc.incomplete_kpi_priority_count",
+              "calc.incomplete_risk_count",
+              "calc.kpi_compatible_target_delta_count",
+              "calc.kpi_priority_cutoff",
+              "calc.maximum_priority_risk_count",
+              "calc.maximum_risk_priority_score",
+              "calc.mrv_ready_kpi_count",
+              "calc.prioritized_kpi_count",
+              "calc.priority_kpi_count",
+              "calc.project_cost_per_reported_tco2e",
+              "calc.risk_count",
+              "calc.scored_risk_count",
+              "calc.total_enabled_capital_max_usd",
+              "calc.total_enabled_capital_min_usd",
+              "dt.project.financial_additionality",
+              "dt.project.funding_scope_qualification",
+              "dt.project.instrument_terms_qualification",
+              "dt.project.mobilization_qualification",
+              "req.business_model",
+              "req.climate_rationale",
+              "req.detailed_implementation_schedule",
+              "req.environmental_social_safeguards",
+              "req.financial_model",
+              "req.financial_returns",
+              "req.gender_assessment_and_action_plan",
+              "req.lifecycle_opex",
+              "req.mrv_plan_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.promoter_financial_standing",
+              "req.promoter_track_record",
+              "req.revenue_model",
+              "req.stakeholder_engagement",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "funding_reconciliation_status": "calc.funding_reconciliation_status",
+              "calc.maximum_risk_priority_score": "calc.maximum_risk_priority_score",
+              "calc.kpi_priority_cutoff": "calc.kpi_priority_cutoff"
+            },
+            "references": [
+              "calc.funding_reconciliation_status",
+              "calc.maximum_risk_priority_score",
+              "calc.kpi_priority_cutoff"
+            ],
+            "context_references": [
+              "calc.additional_capital_per_gcf_dollar_high",
+              "calc.additional_capital_per_gcf_dollar_low",
+              "calc.annualised_reported_ghg_target_tco2e",
+              "calc.available_kpi_priority_count",
+              "calc.cofinance_per_gcf_dollar",
+              "calc.cofinance_share_of_cost_pct",
+              "calc.committed_funding_sources_usd",
+              "calc.deployment_envelope_per_gcf_dollar",
+              "calc.funding_reconciliation_gap_pct",
+              "calc.funding_reconciliation_gap_usd",
+              "calc.funding_source_coverage_pct",
+              "calc.gcf_financing_per_reported_tco2e",
+              "calc.gcf_financing_share_of_cost_pct",
+              "calc.incomplete_kpi_priority_count",
+              "calc.incomplete_risk_count",
+              "calc.kpi_compatible_target_delta_count",
+              "calc.maximum_priority_risk_count",
+              "calc.mrv_ready_kpi_count",
+              "calc.prioritized_kpi_count",
+              "calc.priority_kpi_count",
+              "calc.project_cost_per_reported_tco2e",
+              "calc.risk_count",
+              "calc.scored_risk_count",
+              "calc.total_enabled_capital_max_usd",
+              "calc.total_enabled_capital_min_usd",
+              "dt.project.financial_additionality",
+              "dt.project.funding_scope_qualification",
+              "dt.project.instrument_terms_qualification",
+              "dt.project.mobilization_qualification"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.financial_model": "req.financial_model",
+              "req.technical_design_maturity": "req.technical_design_maturity",
+              "req.environmental_social_safeguards": "req.environmental_social_safeguards"
+            },
+            "references": [
+              "req.financial_model",
+              "req.technical_design_maturity",
+              "req.environmental_social_safeguards"
+            ],
+            "context_references": [
+              "req.business_model",
+              "req.climate_rationale",
+              "req.detailed_implementation_schedule",
+              "req.financial_returns",
+              "req.gender_assessment_and_action_plan",
+              "req.lifecycle_opex",
+              "req.mrv_plan_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.promoter_financial_standing",
+              "req.promoter_track_record",
+              "req.revenue_model",
+              "req.stakeholder_engagement",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r4",
+            "aliases": {},
+            "references": [],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      },
+      "f8ae8685ee265f88781c203929adfd08e70859069ea3772034cffdb0f4ea990b": {
+        "family": "land_use_nature",
+        "title": "Conclusions and evidence requirements",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.allocated_intervention_area_ha",
+              "calc.annualised_reported_ghg_target_tco2e",
+              "calc.available_kpi_priority_count",
+              "calc.avoided_deforestation_rate_pct_per_year",
+              "calc.cofinance_per_gcf_dollar",
+              "calc.cofinance_share_of_cost_pct",
+              "calc.committed_funding_sources_usd",
+              "calc.full_enrolment_effective_ghg_tco2e_per_year",
+              "calc.full_enrolment_gross_ghg_tco2e_per_year",
+              "calc.full_enrolment_net_ghg_tco2e_per_year",
+              "calc.full_enrolment_post_leakage_ghg_tco2e_per_year",
+              "calc.funding_reconciliation_gap_pct",
+              "calc.funding_reconciliation_gap_usd",
+              "calc.funding_reconciliation_status",
+              "calc.funding_source_coverage_pct",
+              "calc.gcf_financing_per_intervention_hectare",
+              "calc.gcf_financing_per_reported_tco2e",
+              "calc.gcf_financing_share_of_cost_pct",
+              "calc.incomplete_kpi_priority_count",
+              "calc.incomplete_risk_count",
+              "calc.jurisdictional_gross_reduction_tco2e_per_year",
+              "calc.kpi_compatible_target_delta_count",
+              "calc.kpi_priority_cutoff",
+              "calc.land_area_reconciliation_gap_pct",
+              "calc.land_area_reconciliation_status",
+              "calc.local_community_beneficiary_share_pct",
+              "calc.maximum_priority_risk_count",
+              "calc.maximum_risk_priority_score",
+              "calc.modelled_net_accounting_ghg_tco2e",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.mrv_ready_kpi_count",
+              "calc.prioritized_kpi_count",
+              "calc.priority_kpi_count",
+              "calc.project_cost_per_intervention_hectare",
+              "calc.project_cost_per_reported_tco2e",
+              "calc.risk_count",
+              "calc.scored_risk_count",
+              "calc.women_beneficiary_share_pct",
+              "dt.project.funding_scope_qualification",
+              "dt.project.land_accounting_qualification",
+              "dt.project.land_adjustment_scope_qualification",
+              "dt.project.land_carbon_pathway_boundary",
+              "req.business_model",
+              "req.climate_rationale",
+              "req.detailed_implementation_schedule",
+              "req.environmental_social_safeguards",
+              "req.financial_model",
+              "req.financial_returns",
+              "req.gender_assessment_and_action_plan",
+              "req.land_and_access_status",
+              "req.lifecycle_opex",
+              "req.mrv_plan_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.promoter_financial_standing",
+              "req.promoter_track_record",
+              "req.revenue_model",
+              "req.stakeholder_engagement",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_design_maturity",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "funding_reconciliation_status": "calc.funding_reconciliation_status",
+              "calc.maximum_risk_priority_score": "calc.maximum_risk_priority_score",
+              "calc.kpi_priority_cutoff": "calc.kpi_priority_cutoff"
+            },
+            "references": [
+              "calc.funding_reconciliation_status",
+              "calc.maximum_risk_priority_score",
+              "calc.kpi_priority_cutoff"
+            ],
+            "context_references": [
+              "calc.allocated_intervention_area_ha",
+              "calc.annualised_reported_ghg_target_tco2e",
+              "calc.available_kpi_priority_count",
+              "calc.avoided_deforestation_rate_pct_per_year",
+              "calc.cofinance_per_gcf_dollar",
+              "calc.cofinance_share_of_cost_pct",
+              "calc.committed_funding_sources_usd",
+              "calc.full_enrolment_effective_ghg_tco2e_per_year",
+              "calc.full_enrolment_gross_ghg_tco2e_per_year",
+              "calc.full_enrolment_net_ghg_tco2e_per_year",
+              "calc.full_enrolment_post_leakage_ghg_tco2e_per_year",
+              "calc.funding_reconciliation_gap_pct",
+              "calc.funding_reconciliation_gap_usd",
+              "calc.funding_source_coverage_pct",
+              "calc.gcf_financing_per_intervention_hectare",
+              "calc.gcf_financing_per_reported_tco2e",
+              "calc.gcf_financing_share_of_cost_pct",
+              "calc.incomplete_kpi_priority_count",
+              "calc.incomplete_risk_count",
+              "calc.jurisdictional_gross_reduction_tco2e_per_year",
+              "calc.kpi_compatible_target_delta_count",
+              "calc.land_area_reconciliation_gap_pct",
+              "calc.land_area_reconciliation_status",
+              "calc.local_community_beneficiary_share_pct",
+              "calc.maximum_priority_risk_count",
+              "calc.modelled_net_accounting_ghg_tco2e",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.mrv_ready_kpi_count",
+              "calc.prioritized_kpi_count",
+              "calc.priority_kpi_count",
+              "calc.project_cost_per_intervention_hectare",
+              "calc.project_cost_per_reported_tco2e",
+              "calc.risk_count",
+              "calc.scored_risk_count",
+              "calc.women_beneficiary_share_pct",
+              "dt.project.funding_scope_qualification",
+              "dt.project.land_accounting_qualification",
+              "dt.project.land_adjustment_scope_qualification",
+              "dt.project.land_carbon_pathway_boundary"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "req.financial_model": "req.financial_model",
+              "req.technical_design_maturity": "req.technical_design_maturity",
+              "req.environmental_social_safeguards": "req.environmental_social_safeguards"
+            },
+            "references": [
+              "req.financial_model",
+              "req.technical_design_maturity",
+              "req.environmental_social_safeguards"
+            ],
+            "context_references": [
+              "req.business_model",
+              "req.climate_rationale",
+              "req.detailed_implementation_schedule",
+              "req.financial_returns",
+              "req.gender_assessment_and_action_plan",
+              "req.land_and_access_status",
+              "req.lifecycle_opex",
+              "req.mrv_plan_status",
+              "req.permitting_status",
+              "req.procurement_plan",
+              "req.project_status",
+              "req.promoter_financial_standing",
+              "req.promoter_track_record",
+              "req.revenue_model",
+              "req.stakeholder_engagement",
+              "req.synthetic_evidence_disclosure",
+              "req.technical_feasibility_status"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r4",
+            "aliases": {},
+            "references": [],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "market_rationale_and_additionality": {
+      "53d3053e77b553e4ed83e25fe6f9aa98f1960ea512cca515bfe2d2cf47caf8d3": {
+        "family": "financing_facility",
+        "title": "Market rationale and financial additionality",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.eligibility_criteria",
+              "dt.project.facility_archetype",
+              "dt.project.facility_profile_scope",
+              "dt.project.financial_additionality",
+              "dt.project.market_financing_barrier",
+              "dt.project.target_market_segment",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.eligibility_criteria",
+              "dt.project.facility_archetype",
+              "dt.project.facility_profile_scope",
+              "dt.project.financial_additionality",
+              "dt.project.market_financing_barrier",
+              "dt.project.target_market_segment",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.facility_profile_scope": "dt.project.facility_profile_scope"
+            },
+            "references": [
+              "dt.project.facility_profile_scope"
+            ],
+            "context_references": [
+              "dt.project.eligibility_criteria",
+              "dt.project.facility_archetype",
+              "dt.project.financial_additionality",
+              "dt.project.market_financing_barrier",
+              "dt.project.target_market_segment",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "instrument_structure_and_terms": {
+      "743ae00845a89e6d6a32f8556308b387c38a2883bc5cdf25cdf91b5fc7bd6615": {
+        "family": "financing_facility",
+        "title": "Instrument structure and terms",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.gcf_concessional_loan_share_pct",
+              "calc.gcf_equity_share_pct",
+              "calc.gcf_grant_share_pct",
+              "calc.gcf_guarantee_share_pct",
+              "calc.gcf_instrument_reconciliation_gap_usd",
+              "calc.gcf_instrument_reconciliation_status",
+              "calc.gcf_instrument_total_usd",
+              "calc.gcf_reimbursable_grant_share_pct",
+              "dt.project.gcf_concessional_loan_usd",
+              "dt.project.gcf_equity_usd",
+              "dt.project.gcf_financing_usd",
+              "dt.project.gcf_grant_usd",
+              "dt.project.gcf_guarantee_usd",
+              "dt.project.gcf_reimbursable_grant_usd",
+              "dt.project.instrument_terms_qualification"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "gcf_instrument_reconciliation_status": "calc.gcf_instrument_reconciliation_status"
+            },
+            "references": [
+              "calc.gcf_instrument_reconciliation_status"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.instrument_terms_qualification": "dt.project.instrument_terms_qualification"
+            },
+            "references": [
+              "dt.project.instrument_terms_qualification"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "allocation_and_utilisation_profile": {
+      "d4898e968300c39f6b76d1dc7f3ec872fe2674184d49f328d62b6c09492df17d": {
+        "family": "financing_facility",
+        "title": "Allocation and utilisation profile",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.eligibility_criteria",
+              "dt.project.facility_deployment_basis",
+              "dt.project.facility_deployment_envelope_usd",
+              "dt.project.implementation_sequence"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "deployment_envelope_per_gcf_dollar": "calc.deployment_envelope_per_gcf_dollar",
+              "req.detailed_implementation_schedule": "req.detailed_implementation_schedule",
+              "req.procurement_plan": "req.procurement_plan",
+              "req.mrv_plan_status": "req.mrv_plan_status"
+            },
+            "references": [
+              "calc.deployment_envelope_per_gcf_dollar",
+              "req.detailed_implementation_schedule",
+              "req.procurement_plan",
+              "req.mrv_plan_status"
+            ],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "portfolio_scale_and_mobilisation": {
+      "61190c1821ffe9d454d3b99ee125ecfd23cb935fba831a5552d796bbdbb1a3b6": {
+        "family": "financing_facility",
+        "title": "Portfolio scale and mobilisation",
+        "contract_sha256": "f683025d165d06743b77936c0cfd04a131ee6ba98503b48ece54794fa7eb6337",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "dt.project.mobilization_applicability": "dt.project.mobilization_applicability"
+            },
+            "references": [
+              "dt.project.mobilization_applicability"
+            ],
+            "context_references": [
+              "calc.additional_capital_mobilized_mid_usd",
+              "calc.additional_capital_per_deployment_envelope_dollar_high",
+              "calc.additional_capital_per_deployment_envelope_dollar_low",
+              "calc.additional_capital_per_gcf_dollar_high",
+              "calc.additional_capital_per_gcf_dollar_low",
+              "calc.deployment_envelope_per_portfolio_unit",
+              "calc.enabled_capital_per_portfolio_unit_high",
+              "calc.enabled_capital_per_portfolio_unit_low",
+              "calc.total_enabled_capital_max_usd",
+              "calc.total_enabled_capital_min_usd",
+              "dt.project.additional_capital_mobilized_max_usd",
+              "dt.project.additional_capital_mobilized_min_usd"
+            ],
+            "gate_references": [
+              "dt.project.mobilization_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "dt.project.portfolio_unit_count_basis": "dt.project.portfolio_unit_count_basis",
+              "dt.project.portfolio_unit_count_qualification": "dt.project.portfolio_unit_count_qualification"
+            },
+            "references": [
+              "dt.project.portfolio_unit_count_basis",
+              "dt.project.portfolio_unit_count_qualification"
+            ],
+            "context_references": [
+              "dt.project.portfolio_unit_count",
+              "dt.project.portfolio_unit_type",
+              "dt.project.mobilization_applicability"
+            ],
+            "gate_references": [
+              "dt.project.mobilization_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.additional_capital_mobilized_mid_usd",
+              "calc.additional_capital_per_deployment_envelope_dollar_high",
+              "calc.additional_capital_per_deployment_envelope_dollar_low",
+              "calc.additional_capital_per_gcf_dollar_high",
+              "calc.additional_capital_per_gcf_dollar_low",
+              "calc.deployment_envelope_per_portfolio_unit",
+              "calc.enabled_capital_per_portfolio_unit_high",
+              "calc.enabled_capital_per_portfolio_unit_low",
+              "calc.total_enabled_capital_max_usd",
+              "calc.total_enabled_capital_min_usd",
+              "dt.project.mobilization_applicability"
+            ],
+            "gate_references": [
+              "dt.project.mobilization_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "dt.project.mobilization_qualification": "dt.project.mobilization_qualification"
+            },
+            "references": [
+              "dt.project.mobilization_qualification"
+            ],
+            "context_references": [
+              "dt.project.mobilization_applicability"
+            ],
+            "gate_references": [
+              "dt.project.mobilization_applicability"
+            ],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "land_use_baseline_and_intervention": {
+      "9381c33455ff6a8d263414562cc2e98351af2a1df0bbe86b61af8686ed69243a": {
+        "family": "land_use_nature",
+        "title": "Land-use baseline and intervention",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.baseline_deforestation_rate_pct_per_year",
+              "dt.project.jurisdictional_accounting_qualification",
+              "dt.project.jurisdictional_program_emissions_tco2e_per_year",
+              "dt.project.jurisdictional_reference_emissions_tco2e_per_year",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_carbon_pathway_boundary",
+              "dt.project.land_pathway_applicability",
+              "dt.project.land_use_baseline",
+              "dt.project.project_deforestation_rate_pct_per_year"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "avoided_deforestation_rate_pct_per_year": "calc.avoided_deforestation_rate_pct_per_year",
+              "jurisdictional_gross_reduction_tco2e_per_year": "calc.jurisdictional_gross_reduction_tco2e_per_year"
+            },
+            "references": [
+              "calc.avoided_deforestation_rate_pct_per_year",
+              "calc.jurisdictional_gross_reduction_tco2e_per_year"
+            ],
+            "context_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.land_carbon_pathway_boundary": "dt.project.land_carbon_pathway_boundary",
+              "dt.project.jurisdictional_accounting_qualification": "dt.project.jurisdictional_accounting_qualification"
+            },
+            "references": [
+              "dt.project.land_carbon_pathway_boundary",
+              "dt.project.jurisdictional_accounting_qualification"
+            ],
+            "context_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.baseline_deforestation_rate_pct_per_year",
+              "dt.project.jurisdictional_accounting_qualification",
+              "dt.project.jurisdictional_program_emissions_tco2e_per_year",
+              "dt.project.jurisdictional_reference_emissions_tco2e_per_year",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_carbon_pathway_boundary",
+              "dt.project.land_pathway_applicability",
+              "dt.project.land_use_baseline",
+              "dt.project.project_deforestation_rate_pct_per_year"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability"
+            ],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "area_allocation_and_enrolment": {
+      "758580e61a2f4491861a1b5b788a9f0ce2bb8361897c84d4655d8a6575ad6015": {
+        "family": "land_use_nature",
+        "title": "Area allocation and enrolment",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "land_area_reconciliation_status": "calc.land_area_reconciliation_status"
+            },
+            "references": [
+              "calc.land_area_reconciliation_status"
+            ],
+            "context_references": [
+              "calc.allocated_intervention_area_ha",
+              "calc.land_area_reconciliation_gap_ha",
+              "calc.land_area_reconciliation_gap_pct",
+              "calc.plantation_afforestation_area_share_pct",
+              "calc.protection_area_share_pct",
+              "calc.restoration_area_share_pct",
+              "calc.sustainable_management_area_share_pct",
+              "dt.project.forest_protection_area_target_ha",
+              "dt.project.intervention_area_target_ha",
+              "dt.project.jurisdictional_accounting_area_ha",
+              "dt.project.land_accounting_mode",
+              "dt.project.plantation_afforestation_area_target_ha",
+              "dt.project.restoration_area_target_ha",
+              "dt.project.sustainable_management_area_target_ha",
+              "req.detailed_implementation_schedule",
+              "req.land_and_access_status"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "req.land_and_access_status": "req.land_and_access_status",
+              "req.detailed_implementation_schedule": "req.detailed_implementation_schedule"
+            },
+            "references": [
+              "req.land_and_access_status",
+              "req.detailed_implementation_schedule"
+            ],
+            "context_references": [
+              "calc.allocated_intervention_area_ha",
+              "calc.land_area_reconciliation_gap_ha",
+              "calc.land_area_reconciliation_gap_pct",
+              "calc.land_area_reconciliation_status",
+              "calc.plantation_afforestation_area_share_pct",
+              "calc.protection_area_share_pct",
+              "calc.restoration_area_share_pct",
+              "calc.sustainable_management_area_share_pct",
+              "dt.project.forest_protection_area_target_ha",
+              "dt.project.intervention_area_target_ha",
+              "dt.project.jurisdictional_accounting_area_ha",
+              "dt.project.land_accounting_mode",
+              "dt.project.plantation_afforestation_area_target_ha",
+              "dt.project.restoration_area_target_ha",
+              "dt.project.sustainable_management_area_target_ha"
+            ],
+            "gate_references": [
+              "dt.project.land_accounting_mode"
+            ],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "carbon_accounting_consistency": {
+      "2f7b14c124a25743f2d8a5e3261c224405ebe395984d1c147b2b1c0b19b87bdc": {
+        "family": "land_use_nature",
+        "title": "Carbon-accounting consistency",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {
+              "modelled_net_accounting_ghg_tco2e": "calc.modelled_net_accounting_ghg_tco2e"
+            },
+            "references": [
+              "calc.modelled_net_accounting_ghg_tco2e"
+            ],
+            "context_references": [
+              "calc.full_enrolment_effective_ghg_tco2e_per_year",
+              "calc.full_enrolment_gross_ghg_tco2e_per_year",
+              "calc.full_enrolment_net_ghg_tco2e_per_year",
+              "calc.full_enrolment_post_leakage_ghg_tco2e_per_year",
+              "calc.gross_plantation_afforestation_ghg_tco2e_per_year",
+              "calc.gross_protection_ghg_tco2e_per_year",
+              "calc.gross_restoration_ghg_tco2e_per_year",
+              "calc.gross_sustainable_management_ghg_tco2e_per_year",
+              "calc.jurisdictional_gross_reduction_tco2e_per_year",
+              "calc.modelled_vs_reported_ghg_ratio",
+              "calc.reported_minus_modelled_ghg_tco2e",
+              "dt.project.implementation_effectiveness_pct",
+              "dt.project.land_accounting_horizon_years",
+              "dt.project.leakage_deduction_pct",
+              "dt.project.permanence_buffer_pct",
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "gate_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_adjustment_scope_qualification",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "gate_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {
+              "dt.project.reported_ghg_comparison_status": "dt.project.reported_ghg_comparison_status",
+              "modelled_vs_reported_ghg_ratio": "calc.modelled_vs_reported_ghg_ratio"
+            },
+            "references": [
+              "dt.project.reported_ghg_comparison_status",
+              "calc.modelled_vs_reported_ghg_ratio"
+            ],
+            "context_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability"
+            ],
+            "gate_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {
+              "dt.project.jurisdictional_accounting_qualification": "dt.project.jurisdictional_accounting_qualification"
+            },
+            "references": [
+              "dt.project.jurisdictional_accounting_qualification"
+            ],
+            "context_references": [
+              "dt.project.land_accounting_mode",
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "gate_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": true
+          },
+          {
+            "key": "r4",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.modelled_vs_reported_ghg_ratio",
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "gate_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r5",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.jurisdictional_accounting_qualification",
+              "dt.project.land_accounting_qualification",
+              "dt.project.land_adjustment_scope_qualification",
+              "dt.project.land_carbon_pathway_boundary",
+              "dt.project.reported_ghg_comparison_qualification",
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "gate_references": [
+              "dt.project.implementation_effectiveness_adjustment_applicability",
+              "dt.project.land_accounting_mode",
+              "dt.project.land_pathway_applicability",
+              "dt.project.leakage_adjustment_applicability",
+              "dt.project.permanence_buffer_adjustment_applicability",
+              "dt.project.reported_ghg_comparison_status"
+            ],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r6",
+            "aliases": {},
+            "references": [],
+            "context_references": [],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    },
+    "people_and_cobenefits": {
+      "e5a13e339385868c50a3ca9f0eb6341b4ede9c2160a4cab1cd6bfae826cb3870": {
+        "family": "land_use_nature",
+        "title": "People and co-benefits",
+        "contract_sha256": "cecaf629079c6c8436082689757ad5cd5edebd6544f1d03acc465b32b74202f7",
+        "rules": [
+          {
+            "key": "r0",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.beneficiary_allocation_qualification",
+              "dt.project.biodiversity_cobenefits",
+              "dt.project.direct_beneficiaries_target",
+              "dt.project.livelihood_cobenefits",
+              "dt.project.livelihood_enterprises_target",
+              "dt.project.local_community_beneficiaries_target",
+              "dt.project.women_beneficiaries_target",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r1",
+            "aliases": {
+              "dt.project.beneficiary_allocation_qualification": "dt.project.beneficiary_allocation_qualification"
+            },
+            "references": [
+              "dt.project.beneficiary_allocation_qualification"
+            ],
+            "context_references": [
+              "dt.project.biodiversity_cobenefits",
+              "dt.project.direct_beneficiaries_target",
+              "dt.project.livelihood_cobenefits",
+              "dt.project.livelihood_enterprises_target",
+              "dt.project.local_community_beneficiaries_target",
+              "dt.project.women_beneficiaries_target",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r2",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "calc.gcf_financing_per_direct_beneficiary",
+              "calc.gcf_financing_per_livelihood_enterprise",
+              "calc.local_community_beneficiary_share_pct",
+              "calc.project_cost_per_direct_beneficiary",
+              "calc.women_beneficiary_share_pct"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          },
+          {
+            "key": "r3",
+            "aliases": {},
+            "references": [],
+            "context_references": [
+              "dt.project.beneficiary_allocation_qualification",
+              "dt.project.biodiversity_cobenefits",
+              "dt.project.direct_beneficiaries_target",
+              "dt.project.livelihood_cobenefits",
+              "dt.project.livelihood_enterprises_target",
+              "dt.project.local_community_beneficiaries_target",
+              "dt.project.women_beneficiaries_target",
+              "req.synthetic_evidence_disclosure"
+            ],
+            "gate_references": [],
+            "jurisdictional_only": false
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "analysis_id": "paper-results-2026-10-09-revised-metrics",
+  "source_snapshot": "2026-09-21",
+  "original_score_rows_sha256": "84d1c3c45d0f6f8bb7301a05dd56d345df4ae126160a81ecec8ff33378a08c11",
+  "original_resource_rows_sha256": "500c43c2b3e38c249fa7e895d1cb0246669bb7f2108bed43b5a3f8e9267dc22c",
+  "score_rows_sha256": "4687f4916ffaec7dcf5b034b34b059ba04499d73e0260986851c65accf40a261",
+  "resource_rows_sha256": "0abedc82cfd9b0acb4dc0188e076c3e96c36595c027bd139d46251f59057e084",
+  "planned_records": 2640,
+  "accepted_reports": 2589,
+  "provider_calls_for_export": 0
+}

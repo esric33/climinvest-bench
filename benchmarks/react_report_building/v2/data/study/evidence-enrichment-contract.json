@@ -1,0 +1,227 @@
+{
+  "schema_version": "react_report.evidence_enrichment_contract/v1",
+  "contract_id": "climatefund20-source-and-synthetic-enrichment-v1",
+  "contract_version": "1.0.0",
+  "purpose": "Keep observed project evidence, explicit source gaps, deterministic synthetic benchmark assumptions, and peer references distinguishable at node and result level.",
+  "pipeline": [
+    {
+      "stage": 1,
+      "id": "source_normalization",
+      "output_pattern": "{project_id}.source-normalized.json",
+      "may_use": [
+        "normalized project twin",
+        "atomic extraction from the same project's description and collections",
+        "approved same-project material in a content-hashed sibling repository"
+      ],
+      "must_not": [
+        "infer an unstated project value",
+        "copy another project's value into the target project",
+        "overwrite a normalized source node",
+        "use an evaluated model or a gold answer"
+      ]
+    },
+    {
+      "stage": 2,
+      "id": "benchmark_enrichment",
+      "output_pattern": "{project_id}.enrichment.json",
+      "may_use": [
+        "source-normalized target-project nodes",
+        "published generator rules and fixed parameters",
+        "deterministic project-specific seeds",
+        "target-excluded peer statistics"
+      ],
+      "must_not": [
+        "overwrite any source-backed node",
+        "generate a field that is not applicable to the assigned specialisation",
+        "use an evaluated model or candidate output",
+        "present a synthetic value as a sourced fact",
+        "include the target project in its own leave-one-out reference"
+      ]
+    }
+  ],
+  "merge_policy": {
+    "node_id_collisions_are_errors": true,
+    "observed_values_are_immutable": true,
+    "synthetic_values_fill_only_unresolved_contract_ids": true,
+    "not_applicable_is_not_synthetically_filled": true,
+    "unclassified_nodes_are_errors": true
+  },
+  "applicability_policy": {
+    "canonical_field": "applicability",
+    "allowed_values": [
+      "applicable",
+      "not_applicable"
+    ],
+    "not_applicable_requires_qualification": true,
+    "not_applicable_is_not_a_missing_value": true,
+    "not_applicable_is_not_coerced_to_zero": true,
+    "calculations_with_not_applicable_required_inputs_are_not_evaluated": true,
+    "division_requires_an_applicable_positive_denominator": true,
+    "additive_zero_exception": "An exhaustive balance category, such as an unused GCF instrument type, may carry numeric zero with applicability=not_applicable solely so its parent reconciliation remains executable; it must remain labelled not applicable and must not be used as a denominator or interpreted as an observed balance.",
+    "conditional_families": [
+      "facility mobilisation",
+      "facility reach",
+      "modelled-versus-reported impact comparison",
+      "funding coverage and cost shares"
+    ],
+    "runtime_projection": {
+      "evidence_states": [
+        "available",
+        "missing",
+        "not_applicable"
+      ],
+      "not_applicable_must_be_visible_in_catalogue": true,
+      "not_applicable_dependency_result": "not_applicable",
+      "not_applicable_must_not_be_reported_as_missing_dependency": true,
+      "required_input_may_be_not_applicable_only_when_contract_marks_family_conditional": true
+    }
+  },
+  "classification": {
+    "canonical_field": "evidence_class",
+    "legacy_alias": "provenance.source_kind",
+    "normalized_twin_container_default": "normalized_project_source"
+  },
+  "evidence_classes": {
+    "normalized_project_source": {
+      "reporting_bucket": "normalized_source_backed",
+      "source_backed": true,
+      "synthetic": false,
+      "required_provenance_fields": [
+        "document_id",
+        "locator"
+      ]
+    },
+    "same_project_source_extraction": {
+      "reporting_bucket": "normalized_source_backed",
+      "source_backed": true,
+      "synthetic": false,
+      "required_provenance_fields": [
+        "document_id",
+        "locator",
+        "source_kind"
+      ]
+    },
+    "sibling_repository_source_supplement": {
+      "reporting_bucket": "sibling_source_supplement",
+      "source_backed": true,
+      "synthetic": false,
+      "required_provenance_fields": [
+        "locator",
+        "path",
+        "repository",
+        "revision",
+        "source_kind"
+      ]
+    },
+    "documented_source_gap": {
+      "reporting_bucket": "documented_source_gap",
+      "source_backed": true,
+      "synthetic": false,
+      "required_provenance_fields": [
+        "locator",
+        "source_kind"
+      ]
+    },
+    "synthetic_benchmark_enrichment": {
+      "reporting_bucket": "synthetic_benchmark_assumption",
+      "source_backed": false,
+      "synthetic": true,
+      "required_node_fields": [
+        "conditioned_on",
+        "evidence_class",
+        "generator_id",
+        "generator_version",
+        "not_a_source_claim",
+        "seed"
+      ],
+      "required_provenance_fields": [
+        "contract_id",
+        "project_id",
+        "rule_id",
+        "template_id"
+      ],
+      "required_enrichment_fields": [
+        "constraints",
+        "imputed",
+        "overwrites_normalized_node",
+        "synthetic"
+      ]
+    },
+    "cross_project_reference_statistic": {
+      "reporting_bucket": "derived_peer_reference",
+      "source_backed": false,
+      "synthetic": false,
+      "required_provenance_fields": [
+        "input_evidence_classes",
+        "project_ids",
+        "source_kind",
+        "synthetic_input_share",
+        "target_excluded"
+      ]
+    }
+  },
+  "synthetic_generation": {
+    "evaluated_model_generation_permitted": false,
+    "seed_algorithm": "sha256",
+    "seed_material_order": [
+      "contract_id",
+      "contract_version",
+      "generator_id",
+      "generator_version",
+      "project_id",
+      "node_id"
+    ],
+    "seed_separator": "|",
+    "conditioned_on_must_be_sorted_unique_ids": true,
+    "generation_graph_must_be_acyclic": true,
+    "generator_rules_must_be_versioned": true,
+    "generator_parameters_must_be_released": true,
+    "constraints_must_include_unit_or_domain_validation": true,
+    "reruns_must_be_byte_identical": true,
+    "required_invariants": [
+      "ordered ranges have lower values no greater than upper values",
+      "instrument amounts reconcile to the relevant observed aggregate",
+      "facility allocation shares sum to one within declared tolerance",
+      "cumulative utilisation is monotonic within the declared profile and does not exceed its deployment envelope",
+      "instrument-component allocations do not exceed their parent envelope",
+      "funding coverage, cost-share, and reconciliation classifications are evaluated only for comparable financing scopes",
+      "portfolio-unit ratios retain the unit type and count basis and do not reinterpret pipeline counts as funded targets",
+      "not-applicable mobilisation or reach values do not generate zero-valued ratios",
+      "facility reach records retain population type, basis, time reference, and qualification",
+      "facility utilisation labels follow the declared deployment basis and guarantee exposure is never described as cash disbursement",
+      "initial-cycle facility deployment does not imply capital recycling or lifetime utilisation",
+      "plantation or afforestation area is not classified as ecological restoration area",
+      "land calculations follow the selected activity-area, jurisdictional, or investment-portfolio accounting mode",
+      "jurisdictional reductions use a declared reference-emissions boundary rather than activity-hectare carbon-stock multiplication",
+      "reported-versus-modelled GHG comparisons require compatible asset, impact-channel, geography, and horizon boundaries",
+      "units remain compatible along every dependency edge"
+    ]
+  },
+  "reference_generation": {
+    "target_project_must_be_excluded": true,
+    "input_project_ids_must_be_recorded": true,
+    "input_evidence_classes_must_be_recorded": true,
+    "synthetic_input_share_must_be_reported": true,
+    "source_only_references_are_preferred": true,
+    "synthetic_dependent_references_must_be_labelled": true
+  },
+  "paper_reporting": {
+    "node_counts_by_reporting_bucket": true,
+    "section_requirements_by_reporting_bucket": true,
+    "calculation_dependencies_by_reporting_bucket": true,
+    "source_only_and_synthetic_dependent_results_separately": true,
+    "generator_versions_rules_parameters_and_seeds": true,
+    "manual_gold_repairs_separate_from_generated_output": true,
+    "scope_limitation": "This is a semi-synthetic report-building benchmark and not factual investment due diligence."
+  },
+  "preflight_gates": [
+    "every required contract input resolves as source-backed, synthetic benchmark enrichment, documented missing, or not applicable",
+    "no source-backed node is overwritten",
+    "every synthetic node passes its declared constraints",
+    "every generated reference excludes its target project",
+    "every conditional metric either proves applicable inputs and scope comparability or is emitted as not applicable with a qualification",
+    "runtime and preflight distinguish not applicable from missing and missing dependency",
+    "every applicable calculation executes with finite, unit-compatible outputs",
+    "a second build produces byte-identical evidence bundles"
+  ]
+}

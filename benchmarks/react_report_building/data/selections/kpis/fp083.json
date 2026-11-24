@@ -1,0 +1,207 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 16,
+  "excluded_kpi_count": 0,
+  "kpi_candidates": [
+    {
+      "canonical_name": "tonnes of carbon dioxide equivalent t co2eq reduced as a result of fund funded projects programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced as a result of Fund funded projects/ programmes",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "cost per t co2eq decreased for all fund funded mitigation projects programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Cost per t CO2eq decreased for all Fund-funded mitigation projects/ programmes",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "mws of lowemission energy capacity installed generated and or rehabilitated as a result of the gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of Lowemission energy capacity installed, generated and/or rehabilitated as a result of the GCF support.",
+      "path": "outcomes.0.kpis.2",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "volume of finance leveraged by fund funding",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of finance leveraged by Fund funding",
+      "path": "outcomes.0.kpis.3",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "volume of finance leveraged by fund funding subelement 1 private capital mobilized for investment in geothermal exploration",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of finance leveraged by Fund funding – SubElement 1: Private capital mobilized for investment in geothermal Exploration",
+      "path": "outcomes.0.kpis.4",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "volume of finance leveraged by fund funding subelement 2 private capital expected to be mobilized for investment in geothermal development over time",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of finance leveraged by Fund funding – SubElement 2: Private capital expected to be mobilized for investment in geothermal development over time",
+      "path": "outcomes.0.kpis.5",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "number of projects explored",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of projects explored",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "pmu established well staffed and well resourced",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "PMU established, well-staffed and well-resourced",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "ta support extended to key players including memr pln and geo dipa",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "TA support extended to key players, including MEMR, PLN and Geo Dipa",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "number of loans for resource confirmation drilling",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Number of loans for resource confirmation drilling",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "number of reports prepared by pmu",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of reports prepared by PMU",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "number of project level gaps prepared and supervision provided",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of project-level GAPs prepared and supervision provided",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "geothermal ppa including t d arrangements",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Geothermal PPA including T&D arrangements",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "proposed tariff report delivered to memr",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Proposed tariff report delivered to MEMR",
+      "path": "outcomes.8.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "number of data management software with training one delivered to geo dipa",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of data management software with training (one) delivered to Geo Dipa",
+      "path": "outcomes.9.kpis.0",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "number of geothermal exploration and exploitation management focused trainings",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of geothermal exploration and exploitation management focused trainings",
+      "path": "outcomes.10.kpis.0",
+      "reason": "eligible",
+      "source_order": 16
+    }
+  ],
+  "project_id": "FP083",
+  "risk_count": 5,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.0.kpis.2"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.0.kpis.3"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.0.kpis.4"
+    }
+  ]
+}

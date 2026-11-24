@@ -1,0 +1,100 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp193.json",
+    "sha256": "f773d9ab1d99dd1b300d65d920c63e310433b03df7b95b6c6bd9c5f3308a97f6",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.forest_protection_area_target_ha": {
+      "description": "Forest area targeted to be prevented from deforestation",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.forest_protection_area_target_ha",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "prevent 8,602 hectares of forest from being deforested",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "ha",
+      "value": 8602.0
+    },
+    "dt.project.formal_jobs_target": {
+      "description": "Estimated formal jobs created",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.formal_jobs_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "creation of 550 formal jobs",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "jobs",
+      "value": 550
+    },
+    "dt.project.indirect_people_supported_target": {
+      "description": "People estimated to be supported indirectly",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.indirect_people_supported_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "an additional 2,200 people will indirectly be supported",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 2200
+    },
+    "dt.project.livelihood_enterprises_target": {
+      "description": "Eco bio businesses targeted for repayable seed-funding grants",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.livelihood_enterprises_target",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp193",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "provide seed funding in the form of repayable grants to 55 EBBs",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp193.pdf"
+      },
+      "status": "available",
+      "unit": "businesses",
+      "value": 55
+    }
+  },
+  "project_id": "FP193",
+  "schema_version": "react_report.source_normalization/v2"
+}

@@ -1,0 +1,30 @@
+{
+  "canary_id": "climatefund10-section-canary-v1",
+  "design": {
+    "assignment_source": "population_manifest",
+    "is_study_population": false,
+    "project_template_assignments_are_inherited": true,
+    "selection_rule": "Retain the previously reviewed ten-project spread for an early section-level systems check; do not estimate final population results from this subset.",
+    "subset_size": 10
+  },
+  "population_manifest": {
+    "file_sha256": "11ab8752a4caa16009bc14b378e592834f52e0e3fbba2a480dc29c68a0cae38a",
+    "path": "v2/data/study/twenty-project-study-population.json",
+    "population_id": "climatefund20-three-specialisation-study-population-v1"
+  },
+  "project_ids": [
+    "FP019",
+    "FP033",
+    "FP039",
+    "FP083",
+    "FP090",
+    "FP102",
+    "FP106",
+    "FP138",
+    "FP163",
+    "FP193"
+  ],
+  "purpose": "A ten-project, section-based Luna canary used to validate the completed twenty-project contract before the full benchmark run. It is a cost-control subset, not the study population.",
+  "schema_version": "react_report.study_canary/v1",
+  "status": "frozen_for_preflight"
+}

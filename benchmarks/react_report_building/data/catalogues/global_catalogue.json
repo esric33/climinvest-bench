@@ -1,0 +1,1113 @@
+{
+  "calculations": {
+    "calc.cofinance_per_gcf_dollar": {
+      "description": "Cofinance divided by total GCF funding",
+      "id": "calc.cofinance_per_gcf_dollar",
+      "input_ids": {
+        "denominator": "calc.gcf_funding_total",
+        "numerator": "dt.project.cofinance_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "x"
+    },
+    "calc.cofinance_share_pct": {
+      "description": "Cofinance as a percentage of total project cost",
+      "id": "calc.cofinance_share_pct",
+      "input_ids": {
+        "part": "dt.project.cofinance_usd",
+        "whole": "dt.project.total_cost_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "percentage",
+      "parameters": {},
+      "unit": "%"
+    },
+    "calc.country_count": {
+      "description": "Number of records in the project country collection",
+      "id": "calc.country_count",
+      "input_ids": {
+        "records": "dt.project.countries"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_records",
+      "parameters": {},
+      "unit": "countries"
+    },
+    "calc.country_count_position": {
+      "description": "Neutral comparison of country count with the frozen baseline reference",
+      "id": "calc.country_count_position",
+      "input_ids": {
+        "left": "calc.country_count",
+        "right": "reference.climatefund20.v1.average_country_count"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "compare",
+      "parameters": {},
+      "unit": "comparison"
+    },
+    "calc.funding_reconciliation_gap": {
+      "description": "Total project cost minus the sum of GCF funding and cofinance",
+      "id": "calc.funding_reconciliation_gap",
+      "input_ids": {
+        "minuend": "dt.project.total_cost_usd",
+        "subtrahend": "calc.total_funding_sources"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "subtract",
+      "parameters": {},
+      "unit": "USD"
+    },
+    "calc.funding_reconciliation_status": {
+      "description": "Whether funding sources reconcile with total project cost",
+      "id": "calc.funding_reconciliation_status",
+      "input_ids": {
+        "value": "calc.funding_reconciliation_gap"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "zero_status",
+      "parameters": {},
+      "unit": null
+    },
+    "calc.gcf_cost_per_tco2e": {
+      "description": "Total GCF funding divided by canonical GHG reduction",
+      "id": "calc.gcf_cost_per_tco2e",
+      "input_ids": {
+        "denominator": "dt.project.ghg_reduction_tco2e",
+        "numerator": "calc.gcf_funding_total"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "USD/tCO2e"
+    },
+    "calc.gcf_financing_share_pct": {
+      "description": "GCF funding as a percentage of total project cost",
+      "id": "calc.gcf_financing_share_pct",
+      "input_ids": {
+        "part": "calc.gcf_funding_total",
+        "whole": "dt.project.total_cost_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "percentage",
+      "parameters": {},
+      "unit": "%"
+    },
+    "calc.gcf_funding_total": {
+      "description": "Total GCF funding",
+      "id": "calc.gcf_funding_total",
+      "input_ids": {
+        "canonical_gcf_financing": "dt.project.gcf_financing_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "sum",
+      "parameters": {},
+      "unit": "USD"
+    },
+    "calc.ghg_reduction_position": {
+      "description": "Neutral comparison of canonical GHG reduction with the frozen baseline reference",
+      "id": "calc.ghg_reduction_position",
+      "input_ids": {
+        "left": "dt.project.ghg_reduction_tco2e",
+        "right": "reference.climatefund20.v1.average_ghg_reduction_tco2e"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "compare",
+      "parameters": {},
+      "unit": "comparison"
+    },
+    "calc.ghg_reduction_vs_reference": {
+      "description": "Canonical GHG reduction divided by the frozen baseline reference",
+      "id": "calc.ghg_reduction_vs_reference",
+      "input_ids": {
+        "denominator": "reference.climatefund20.v1.average_ghg_reduction_tco2e",
+        "numerator": "dt.project.ghg_reduction_tco2e"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "x"
+    },
+    "calc.highest_risk_count": {
+      "description": "Number of priority risks tied at the maximum severity",
+      "id": "calc.highest_risk_count",
+      "input_ids": {
+        "records": "calc.highest_risks"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_records",
+      "parameters": {},
+      "unit": "risks"
+    },
+    "calc.highest_risk_score": {
+      "description": "Maximum severity among the three priority risks",
+      "id": "calc.highest_risk_score",
+      "input_ids": {
+        "records": "calc.priority_risks"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "max_field",
+      "parameters": {
+        "field": "severity"
+      },
+      "unit": "score"
+    },
+    "calc.highest_risks": {
+      "description": "Every priority risk tied at the maximum severity",
+      "id": "calc.highest_risks",
+      "input_ids": {
+        "records": "calc.priority_risks",
+        "target": "calc.highest_risk_score"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "filter_equal",
+      "parameters": {
+        "field": "severity"
+      },
+      "unit": null
+    },
+    "calc.implementation_period_position": {
+      "description": "Neutral comparison of implementation years with the frozen baseline reference",
+      "id": "calc.implementation_period_position",
+      "input_ids": {
+        "left": "dt.project.implementation_years",
+        "right": "reference.climatefund20.v1.average_implementation_years"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "compare",
+      "parameters": {},
+      "unit": "comparison"
+    },
+    "calc.implementation_to_impact_ratio": {
+      "description": "Implementation period divided by expected lifespan",
+      "id": "calc.implementation_to_impact_ratio",
+      "input_ids": {
+        "denominator": "dt.project.lifespan_years",
+        "numerator": "dt.project.implementation_years"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "x"
+    },
+    "calc.lifespan_position": {
+      "description": "Neutral comparison of lifespan with the frozen baseline reference",
+      "id": "calc.lifespan_position",
+      "input_ids": {
+        "left": "dt.project.lifespan_years",
+        "right": "reference.climatefund20.v1.average_lifespan_years"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "compare",
+      "parameters": {},
+      "unit": "comparison"
+    },
+    "calc.missing_kpi_assumption_count": {
+      "description": "Selected KPI records without an available assumption",
+      "id": "calc.missing_kpi_assumption_count",
+      "input_ids": {
+        "records": "dt.selected_kpis"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_unavailable_field",
+      "parameters": {
+        "field": "assumptions"
+      },
+      "unit": "indicators"
+    },
+    "calc.missing_kpi_baseline_count": {
+      "description": "Selected KPI records without an available baseline",
+      "id": "calc.missing_kpi_baseline_count",
+      "input_ids": {
+        "records": "dt.selected_kpis"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_unavailable_field",
+      "parameters": {
+        "field": "baseline"
+      },
+      "unit": "indicators"
+    },
+    "calc.missing_kpi_final_count": {
+      "description": "Selected KPI records without an available final target",
+      "id": "calc.missing_kpi_final_count",
+      "input_ids": {
+        "records": "dt.selected_kpis"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_unavailable_field",
+      "parameters": {
+        "field": "final_target"
+      },
+      "unit": "indicators"
+    },
+    "calc.missing_kpi_intermediate_count": {
+      "description": "Selected KPI records without an available intermediate target",
+      "id": "calc.missing_kpi_intermediate_count",
+      "input_ids": {
+        "records": "dt.selected_kpis"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_unavailable_field",
+      "parameters": {
+        "field": "intermediate_target"
+      },
+      "unit": "indicators"
+    },
+    "calc.missing_kpi_verification_count": {
+      "description": "Selected KPI records without an available verification method",
+      "id": "calc.missing_kpi_verification_count",
+      "input_ids": {
+        "records": "dt.selected_kpis"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_unavailable_field",
+      "parameters": {
+        "field": "verification"
+      },
+      "unit": "indicators"
+    },
+    "calc.nominal_cost_per_implementation_year": {
+      "description": "Total project cost divided by implementation years",
+      "id": "calc.nominal_cost_per_implementation_year",
+      "input_ids": {
+        "denominator": "dt.project.implementation_years",
+        "numerator": "dt.project.total_cost_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "USD/year"
+    },
+    "calc.priority_risks": {
+      "description": "The three highest-severity risks, ties broken by source order",
+      "id": "calc.priority_risks",
+      "input_ids": {
+        "records": "calc.scored_risks"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "top_by",
+      "parameters": {
+        "field": "severity",
+        "k": 3,
+        "order": "descending",
+        "tie_break": "source_order"
+      },
+      "unit": null
+    },
+    "calc.project_cost_position": {
+      "description": "Neutral comparison of project cost with the frozen baseline reference",
+      "id": "calc.project_cost_position",
+      "input_ids": {
+        "left": "dt.project.total_cost_usd",
+        "right": "reference.climatefund20.v1.average_project_cost_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "compare",
+      "parameters": {},
+      "unit": "comparison"
+    },
+    "calc.project_cost_vs_reference": {
+      "description": "Project cost divided by the frozen ClimateFund20 v1 baseline reference",
+      "id": "calc.project_cost_vs_reference",
+      "input_ids": {
+        "denominator": "reference.climatefund20.v1.average_project_cost_usd",
+        "numerator": "dt.project.total_cost_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "x"
+    },
+    "calc.scored_risks": {
+      "description": "Risk collection with low=1, medium=2, high=3 and severity=probability×impact",
+      "id": "calc.scored_risks",
+      "input_ids": {
+        "records": "dt.risks"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "score_risks",
+      "parameters": {},
+      "unit": null
+    },
+    "calc.selected_kpi_count": {
+      "description": "Number of records in the selected KPI collection",
+      "id": "calc.selected_kpi_count",
+      "input_ids": {
+        "records": "dt.selected_kpis"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "count_records",
+      "parameters": {},
+      "unit": "indicators"
+    },
+    "calc.tco2e_per_gcf_dollar": {
+      "description": "Canonical GHG reduction divided by total GCF funding",
+      "id": "calc.tco2e_per_gcf_dollar",
+      "input_ids": {
+        "denominator": "calc.gcf_funding_total",
+        "numerator": "dt.project.ghg_reduction_tco2e"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "tCO2e/USD"
+    },
+    "calc.tco2e_per_total_cost_dollar": {
+      "description": "Canonical GHG reduction divided by total project cost",
+      "id": "calc.tco2e_per_total_cost_dollar",
+      "input_ids": {
+        "denominator": "dt.project.total_cost_usd",
+        "numerator": "dt.project.ghg_reduction_tco2e"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "tCO2e/USD"
+    },
+    "calc.total_cost_per_tco2e": {
+      "description": "Total project cost divided by canonical GHG reduction",
+      "id": "calc.total_cost_per_tco2e",
+      "input_ids": {
+        "denominator": "dt.project.ghg_reduction_tco2e",
+        "numerator": "dt.project.total_cost_usd"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "divide",
+      "parameters": {},
+      "unit": "USD/tCO2e"
+    },
+    "calc.total_cost_per_tco2e_position": {
+      "description": "Neutral comparison of project cost per tCO2e with the frozen baseline reference",
+      "id": "calc.total_cost_per_tco2e_position",
+      "input_ids": {
+        "left": "calc.total_cost_per_tco2e",
+        "right": "reference.climatefund20.v1.average_total_cost_per_tco2e"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "compare",
+      "parameters": {},
+      "unit": "comparison"
+    },
+    "calc.total_funding_sources": {
+      "description": "GCF funding plus cofinance",
+      "id": "calc.total_funding_sources",
+      "input_ids": {
+        "cofinance": "dt.project.cofinance_usd",
+        "gcf": "calc.gcf_funding_total"
+      },
+      "kind": "calculation_definition",
+      "operation_id": "sum",
+      "parameters": {},
+      "unit": "USD"
+    }
+  },
+  "citation_format": "[visible text](node_id)",
+  "data": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ]
+    },
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "unit": "USD"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ]
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "unit": "USD"
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "unit": "tCO2e"
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "unit": "years"
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "unit": "years"
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "unit": "USD"
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "unit": null
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ]
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ]
+    },
+    "reference.climatefund20.v1.average_country_count": {
+      "description": "Frozen baseline average country count",
+      "id": "reference.climatefund20.v1.average_country_count",
+      "kind": "scalar",
+      "unit": "countries"
+    },
+    "reference.climatefund20.v1.average_ghg_reduction_tco2e": {
+      "description": "Frozen baseline average ghg reduction tco2e",
+      "id": "reference.climatefund20.v1.average_ghg_reduction_tco2e",
+      "kind": "scalar",
+      "unit": "tCO2e"
+    },
+    "reference.climatefund20.v1.average_implementation_years": {
+      "description": "Frozen baseline average implementation years",
+      "id": "reference.climatefund20.v1.average_implementation_years",
+      "kind": "scalar",
+      "unit": "years"
+    },
+    "reference.climatefund20.v1.average_lifespan_years": {
+      "description": "Frozen baseline average lifespan years",
+      "id": "reference.climatefund20.v1.average_lifespan_years",
+      "kind": "scalar",
+      "unit": "years"
+    },
+    "reference.climatefund20.v1.average_project_cost_usd": {
+      "description": "Frozen baseline average project cost usd",
+      "id": "reference.climatefund20.v1.average_project_cost_usd",
+      "kind": "scalar",
+      "unit": "USD"
+    },
+    "reference.climatefund20.v1.average_total_cost_per_tco2e": {
+      "description": "Frozen baseline average total cost per tco2e",
+      "id": "reference.climatefund20.v1.average_total_cost_per_tco2e",
+      "kind": "scalar",
+      "unit": "USD/tCO2e"
+    }
+  },
+  "missing_format": "[missing](missing.node_id)",
+  "operations": {
+    "compare": {
+      "input_roles": [
+        "left",
+        "right"
+      ],
+      "parameters": {}
+    },
+    "count_records": {
+      "input_roles": [
+        "records"
+      ],
+      "parameters": {}
+    },
+    "count_unavailable_field": {
+      "input_roles": [
+        "records"
+      ],
+      "parameters": [
+        "field"
+      ]
+    },
+    "divide": {
+      "input_roles": [
+        "numerator",
+        "denominator"
+      ],
+      "parameters": {}
+    },
+    "filter_equal": {
+      "input_roles": [
+        "records",
+        "target"
+      ],
+      "parameters": [
+        "field"
+      ]
+    },
+    "max_field": {
+      "input_roles": [
+        "records"
+      ],
+      "parameters": [
+        "field"
+      ]
+    },
+    "percentage": {
+      "input_roles": [
+        "part",
+        "whole"
+      ],
+      "parameters": {}
+    },
+    "score_risks": {
+      "input_roles": [
+        "records"
+      ],
+      "parameters": {}
+    },
+    "subtract": {
+      "input_roles": [
+        "minuend",
+        "subtrahend"
+      ],
+      "parameters": {}
+    },
+    "sum": {
+      "input_roles": "one or more numeric roles",
+      "parameters": {}
+    },
+    "top_by": {
+      "input_roles": [
+        "records"
+      ],
+      "parameters": [
+        "field",
+        "order",
+        "k",
+        "tie_break"
+      ]
+    },
+    "zero_status": {
+      "input_roles": [
+        "value"
+      ],
+      "parameters": {}
+    }
+  },
+  "output_rules": {
+    "block_order": "Emit exactly required_blocks in listed order, with no extra headings, prose blocks, or tables.",
+    "number_format": "Use comma thousands separators for integers and two decimal places for floats. Use the same unit label, placement, and spacing as retrieved factoids with that unit; do not substitute symbols or aliases. Do not display a unit for dimensionless comparison or score values. Append x directly for ratio units.",
+    "prose": "Each required prose block is one Markdown paragraph. Prose may synthesize evidence, but citations wrap the supported visible claim rather than a generic label.",
+    "table_citations": "Wrap the complete displayed table-cell value as [exact value](node_id).",
+    "table_text_normalization": "Replace source newlines with spaces, escape literal | as \\|, and encode literal [ and ] inside a displayed value as &#91; and &#93;.",
+    "table_values": "Use exact evidence or calculated values in table cells; do not paraphrase, rename, summarize, translate, or correct them."
+  },
+  "report_title": "Project Investment and Performance Profile",
+  "schema_version": "react_report.data_catalogue/v2",
+  "sections": [
+    {
+      "heading": "Project overview",
+      "id": "project_overview",
+      "required_blocks": [
+        {
+          "content_contract": {
+            "finance_and_scale": "State total project cost, GCF financing, cofinance, the implementation period, expected lifespan and canonical GHG reduction.",
+            "format": "Use one Markdown paragraph.",
+            "identity": "Identify the project by code and title, then state its type, sector, size, countries and accredited entity.",
+            "intervention": "Briefly describe the intervention and intended climate outcome using the project description.",
+            "scope": "Use only project front matter; do not discuss calculated indicators, selected KPIs or risks."
+          },
+          "id": "project_overview.prose",
+          "kind": "prose"
+        },
+        {
+          "heading": "Project characteristics",
+          "id": "project_overview.characteristics_heading",
+          "kind": "subsection"
+        },
+        {
+          "id": "project_overview.characteristics_table",
+          "kind": "table"
+        }
+      ]
+    },
+    {
+      "heading": "Scale and calculated indicators",
+      "id": "scale_and_calculated_indicators",
+      "required_blocks": [
+        {
+          "id": "scale.calculation_table",
+          "kind": "table"
+        },
+        {
+          "content_contract": {
+            "delivery_scale": "State nominal annual cost, the implementation-to-impact ratio and country count.",
+            "finance": "Interpret total GCF funding, total funding sources, the reconciliation gap and status, GCF and cofinance shares, and cofinance per GCF dollar.",
+            "format": "Use one Markdown paragraph.",
+            "mitigation_efficiency": "State total and GCF cost per tCO2e and both inverse tCO2e-per-dollar measures.",
+            "reference_comparisons": "Compare project cost, GHG reduction, total cost per tCO2e, implementation period, lifespan and country count with their frozen twenty-project references. Include the two project-to-reference ratios and every relative position.",
+            "scope": "Use only scale, calculation and frozen-reference evidence; do not discuss selected KPI records or individual risks."
+          },
+          "id": "scale.interpretation",
+          "kind": "prose"
+        },
+        {
+          "heading": "Twenty-project baseline references",
+          "id": "scale.reference_heading",
+          "kind": "subsection"
+        },
+        {
+          "id": "scale.reference_table",
+          "kind": "table"
+        },
+        {
+          "id": "scale.comparison_table",
+          "kind": "table"
+        }
+      ]
+    },
+    {
+      "heading": "Selected performance indicators",
+      "id": "selected_performance_indicators",
+      "required_blocks": [
+        {
+          "id": "kpis.table",
+          "kind": "table"
+        },
+        {
+          "content_contract": {
+            "completeness": "State the selected-indicator count and the counts missing a baseline, intermediate target, final target, verification method and assumption.",
+            "each_indicator": "Discuss all five selected indicators in table order. For each, state its indicator name, baseline, intermediate target, final target, verification method and assumption, preserving any explicit missing states.",
+            "format": "Use one Markdown paragraph after the KPI table.",
+            "scope": "Use only selected-KPI evidence and its deterministic completeness counts; do not introduce project finance, scale comparisons or risks."
+          },
+          "id": "kpis.interpretation",
+          "kind": "prose"
+        }
+      ]
+    },
+    {
+      "heading": "Priority risks",
+      "id": "priority_risks",
+      "required_blocks": [
+        {
+          "id": "risks.table",
+          "kind": "table"
+        },
+        {
+          "content_contract": {
+            "discuss_each": "For each tied record, discuss its name, description and mitigation.",
+            "excluded_risks": "Do not discuss or cite any risk that is not tied at the maximum severity.",
+            "format": "Use one Markdown paragraph after the three-row risk table.",
+            "included_risks": "Identify every and only priority risk tied at that maximum severity, and state the tied set.",
+            "maximum_severity": "State the maximum severity score."
+          },
+          "id": "risks.synthesis",
+          "kind": "prose"
+        }
+      ]
+    },
+    {
+      "heading": "Overall evidence summary",
+      "id": "overall_evidence_summary",
+      "required_blocks": [
+        {
+          "content_contract": {
+            "finance_and_efficiency": "Summarize funding reconciliation status, GCF financing share, cofinance per GCF dollar, total cost per tCO2e and its reference position.",
+            "format": "Use one Markdown paragraph.",
+            "identity_and_scale": "Name the project and state total project cost and canonical GHG reduction.",
+            "kpi_evidence": "State the selected-indicator count and each deterministic missing-field count.",
+            "reference_profile": "State the project cost, GHG reduction, implementation period, lifespan and country-count positions relative to the frozen reference.",
+            "risk_evidence": "State the maximum risk severity, the number of risks tied at that severity and the complete tied risk set.",
+            "scope": "Synthesize only these specified cross-section facts; do not select or rank a subjectively important KPI."
+          },
+          "id": "summary.prose",
+          "kind": "prose"
+        }
+      ]
+    }
+  ],
+  "tables": {
+    "kpis.table": {
+      "column_fields": {
+        "Assumptions": "assumptions",
+        "Baseline": "baseline",
+        "Final target": "final_target",
+        "Indicator": "indicator",
+        "Intermediate target": "intermediate_target",
+        "Verification": "verification"
+      },
+      "headers": [
+        "Indicator",
+        "Baseline",
+        "Intermediate target",
+        "Final target",
+        "Verification",
+        "Assumptions"
+      ],
+      "record_order": "collection source order",
+      "record_source": "dt.selected_kpis",
+      "row_count": 5
+    },
+    "project_overview.characteristics_table": {
+      "headers": [
+        "Project field",
+        "Value"
+      ],
+      "row_keys": [
+        "Project code",
+        "Project title",
+        "Type",
+        "Sector",
+        "Size",
+        "Countries",
+        "Accredited entity",
+        "Total project cost",
+        "Implementation period",
+        "Expected lifespan",
+        "Canonical GHG reduction"
+      ],
+      "row_sources": {
+        "Accredited entity": "dt.project.entity_name",
+        "Canonical GHG reduction": "dt.project.ghg_reduction_tco2e",
+        "Countries": "dt.project.countries",
+        "Expected lifespan": "dt.project.lifespan_years",
+        "Implementation period": "dt.project.implementation_years",
+        "Project code": "dt.project.code",
+        "Project title": "dt.project.title",
+        "Sector": "dt.project.sector",
+        "Size": "dt.project.size",
+        "Total project cost": "dt.project.total_cost_usd",
+        "Type": "dt.project.type"
+      },
+      "special_display": {
+        "Countries": "join exact country name field values in source order with ', ' and cite dt.project.countries"
+      }
+    },
+    "risks.table": {
+      "column_fields": {
+        "Description": "description",
+        "Impact": "impact",
+        "Mitigation": "mitigation",
+        "Probability": "probability",
+        "Risk": "name",
+        "Severity": "severity",
+        "Type": "type"
+      },
+      "headers": [
+        "Risk",
+        "Type",
+        "Probability",
+        "Impact",
+        "Severity",
+        "Description",
+        "Mitigation"
+      ],
+      "record_order": "calculated collection order",
+      "record_source": "calc.priority_risks",
+      "row_count": 3
+    },
+    "scale.calculation_table": {
+      "headers": [
+        "Calculated indicator",
+        "Value"
+      ],
+      "row_keys": [
+        "GCF funding total",
+        "Total funding sources",
+        "Funding reconciliation gap",
+        "Funding reconciliation status",
+        "GCF financing share",
+        "Cofinance share",
+        "Cofinance per GCF dollar",
+        "Total cost per tCO2e",
+        "GCF cost per tCO2e",
+        "tCO2e per total-cost dollar",
+        "tCO2e per GCF dollar",
+        "Nominal cost per implementation year",
+        "Implementation-to-impact ratio",
+        "Country count",
+        "Selected KPI count",
+        "Missing KPI baselines",
+        "Missing KPI intermediate targets",
+        "Missing KPI final targets",
+        "Missing KPI verification methods",
+        "Missing KPI assumptions",
+        "Highest risk score",
+        "Highest risks",
+        "Highest risk count",
+        "Project cost versus reference",
+        "GHG reduction versus reference",
+        "Project cost position",
+        "GHG reduction position"
+      ],
+      "row_sources": {
+        "Cofinance per GCF dollar": "calc.cofinance_per_gcf_dollar",
+        "Cofinance share": "calc.cofinance_share_pct",
+        "Country count": "calc.country_count",
+        "Funding reconciliation gap": "calc.funding_reconciliation_gap",
+        "Funding reconciliation status": "calc.funding_reconciliation_status",
+        "GCF cost per tCO2e": "calc.gcf_cost_per_tco2e",
+        "GCF financing share": "calc.gcf_financing_share_pct",
+        "GCF funding total": "calc.gcf_funding_total",
+        "GHG reduction position": "calc.ghg_reduction_position",
+        "GHG reduction versus reference": "calc.ghg_reduction_vs_reference",
+        "Highest risk count": "calc.highest_risk_count",
+        "Highest risk score": "calc.highest_risk_score",
+        "Highest risks": "calc.highest_risks",
+        "Implementation-to-impact ratio": "calc.implementation_to_impact_ratio",
+        "Missing KPI assumptions": "calc.missing_kpi_assumption_count",
+        "Missing KPI baselines": "calc.missing_kpi_baseline_count",
+        "Missing KPI final targets": "calc.missing_kpi_final_count",
+        "Missing KPI intermediate targets": "calc.missing_kpi_intermediate_count",
+        "Missing KPI verification methods": "calc.missing_kpi_verification_count",
+        "Nominal cost per implementation year": "calc.nominal_cost_per_implementation_year",
+        "Project cost position": "calc.project_cost_position",
+        "Project cost versus reference": "calc.project_cost_vs_reference",
+        "Selected KPI count": "calc.selected_kpi_count",
+        "Total cost per tCO2e": "calc.total_cost_per_tco2e",
+        "Total funding sources": "calc.total_funding_sources",
+        "tCO2e per GCF dollar": "calc.tco2e_per_gcf_dollar",
+        "tCO2e per total-cost dollar": "calc.tco2e_per_total_cost_dollar"
+      }
+    },
+    "scale.comparison_table": {
+      "headers": [
+        "Metric",
+        "Project",
+        "Reference",
+        "Relative position"
+      ],
+      "row_keys": [
+        "Total cost per tCO2e",
+        "Implementation period",
+        "Expected lifespan",
+        "Country count"
+      ],
+      "row_sources": {
+        "Country count": {
+          "Project": "calc.country_count",
+          "Reference": "reference.climatefund20.v1.average_country_count",
+          "Relative position": "calc.country_count_position"
+        },
+        "Expected lifespan": {
+          "Project": "dt.project.lifespan_years",
+          "Reference": "reference.climatefund20.v1.average_lifespan_years",
+          "Relative position": "calc.lifespan_position"
+        },
+        "Implementation period": {
+          "Project": "dt.project.implementation_years",
+          "Reference": "reference.climatefund20.v1.average_implementation_years",
+          "Relative position": "calc.implementation_period_position"
+        },
+        "Total cost per tCO2e": {
+          "Project": "calc.total_cost_per_tco2e",
+          "Reference": "reference.climatefund20.v1.average_total_cost_per_tco2e",
+          "Relative position": "calc.total_cost_per_tco2e_position"
+        }
+      }
+    },
+    "scale.reference_table": {
+      "headers": [
+        "Reference indicator",
+        "Baseline reference"
+      ],
+      "row_keys": [
+        "Average project cost",
+        "Average GHG reduction",
+        "Average implementation period",
+        "Average lifespan",
+        "Average country count",
+        "Average total cost per tCO2e"
+      ],
+      "row_sources": {
+        "Average GHG reduction": "reference.climatefund20.v1.average_ghg_reduction_tco2e",
+        "Average country count": "reference.climatefund20.v1.average_country_count",
+        "Average implementation period": "reference.climatefund20.v1.average_implementation_years",
+        "Average lifespan": "reference.climatefund20.v1.average_lifespan_years",
+        "Average project cost": "reference.climatefund20.v1.average_project_cost_usd",
+        "Average total cost per tCO2e": "reference.climatefund20.v1.average_total_cost_per_tco2e"
+      }
+    }
+  },
+  "tools": {
+    "calculate": {
+      "arguments": {
+        "operations": {
+          "items": {
+            "forbidden": [
+              "calculation_id",
+              "formula",
+              "value"
+            ],
+            "properties": {
+              "input_ids": "copy the complete role-to-node-ID object exactly from that catalogue entry",
+              "operation_id": "copy exactly from that catalogue entry",
+              "parameters": "copy the complete parameters object exactly from that catalogue entry",
+              "result_id": "complete canonical calc.* ID; equal to the calculation catalogue key"
+            },
+            "required": [
+              "result_id",
+              "operation_id",
+              "input_ids",
+              "parameters"
+            ],
+            "type": "object"
+          },
+          "minItems": 1,
+          "type": "array"
+        }
+      },
+      "example": {
+        "operations": [
+          {
+            "input_ids": {
+              "records": "dt.project.countries"
+            },
+            "operation_id": "count_records",
+            "parameters": {},
+            "result_id": "calc.country_count"
+          }
+        ]
+      },
+      "terminal": false
+    },
+    "create_report": {
+      "arguments": {
+        "markdown": "complete report Markdown"
+      },
+      "terminal": true
+    },
+    "create_section": {
+      "arguments": {
+        "markdown": "required for create and replace",
+        "mode": "create, keep, or replace",
+        "section_id": "requested section ID"
+      },
+      "terminal": true
+    },
+    "get_data": {
+      "arguments": {
+        "ids": "array of documented IDs"
+      },
+      "terminal": false
+    }
+  },
+  "update_precedence": "The updated evidence store supersedes the prior report."
+}

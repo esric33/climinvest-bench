@@ -1,0 +1,229 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 17,
+  "excluded_kpi_count": 1,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m 1 1 tonnes of carbon dioxide equivalent t co2eq reduced or avoided from energy access and power generation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M.1.1 Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided from energy access and power generation",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "6 3 mws of low emission energy capacity installed generated and or rehabilitated solar",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "6.3 MWs of low emission energy capacity installed, generated and/or rehabilitated (solar)",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "6 3 mws of low emission energy capacity installed generated and or rehabilitated wind",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "6.3 MWs of low emission energy capacity installed, generated and/or rehabilitated (wind)",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "number of projects approved under the programme",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of Projects approved under the programme",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "number of projects approved under the programme solar pv",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of Projects approved under the programme (Solar PV)",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "number of projects approved under the programme wind",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of Projects approved under the programme (Wind)",
+      "path": "outcomes.2.kpis.2",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "total value of funding approved for the programme excluding gcf",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Total value of Funding Approved for the Programme (excluding GCF)",
+      "path": "outcomes.2.kpis.3",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "value of funding approved for the programme solar pv excluding gcf",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Value of Funding Approved for the Programme, Solar PV (excluding GCF)",
+      "path": "outcomes.2.kpis.4",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "value of funding approved for the programme wind excluding gcf",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Value of Funding Approved for the Programme, Wind (excluding GCF)",
+      "path": "outcomes.2.kpis.5",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "financing leveraged through the facilities",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Financing leveraged through the facilities",
+      "path": "outcomes.2.kpis.6",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "value of subordinated debt provided to subprojects including gcf component 1",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Value of subordinated debt provided to subprojects (including GCF) – Component 1",
+      "path": "outcomes.2.kpis.7",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "value of subordinated debt provided to subprojects including gcf component 1",
+      "duplicate_of": "outcomes.2.kpis.7",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Value of subordinated debt provided to subprojects (including GCF) – Component 1",
+      "path": "outcomes.2.kpis.8",
+      "reason": "duplicate indicator name",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "number of households with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of households with improved access to low-emission energy sources",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "number of jobs created construction",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of Jobs created: construction",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "number of jobs created operation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Number of Jobs created: operation",
+      "path": "outcomes.4.kpis.1",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "job creation at solar pv",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Job Creation at Solar PV",
+      "path": "outcomes.4.kpis.2",
+      "reason": "eligible",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "job created at onshore wind",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Job Created at Onshore Wind",
+      "path": "outcomes.4.kpis.3",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "diversification of sa energy mix",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Diversification of SA energy mix",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 18
+    }
+  ],
+  "project_id": "FP106",
+  "risk_count": 6,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.2.kpis.3"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.4.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.2.kpis.0"
+    }
+  ]
+}

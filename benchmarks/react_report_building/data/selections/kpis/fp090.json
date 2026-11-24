@@ -1,0 +1,240 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 16,
+  "excluded_kpi_count": 3,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m1 1 tons of carbondioxide equivalent t co2 eq reduced or avoided from gender sensitive energy access and power generation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M1.1 Tons of carbondioxide equivalent (t CO2 eq) reduced or avoided from gender sensitive energy access and power generation",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "cost per tco2eq decreased for all fundfunded mitigation projects programmes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Cost per tCO2eq decreased for all Fundfunded mitigation projects/ programmes",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "volume of finance leveraged by fund funding",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "finance_investment",
+      "legacy_selection_eligible": true,
+      "name": "Volume of finance leveraged by Fund funding",
+      "path": "outcomes.0.kpis.2",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "3 1 number and value of physical assets made more resilient to climate variability and",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_resilience",
+      "legacy_selection_eligible": true,
+      "name": "3.1 Number and value of physical assets made more resilient to climate variability and",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "m5 1 enhanced capacity assess renewable energy technologies and set off take tariffs for power purchaseagreements ppas for private sector funded investment",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M5.1 Enhanced capacity assess renewable energy technologies and set off-take tariffs for power purchaseAgreements (PPAs) for private sector funded investment",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "m5 2 gender related training",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "M5.2 Gender related training",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "m6 1 proportion of low emission power supply in a jurisdiction or market",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M6.1 Proportion of low emission power supply in a jurisdiction or market",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "m6 2 number of households and individuals males and females with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "M6.2 Number of households, and individuals (males and females) with improved access to low emission energy sources",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "m6 3 mws of low emission energy and storage capacity installed generated and or rehabilitated",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M6.3 MWs of low emission energy and storage capacity installed, generated and/or rehabilitated",
+      "path": "outcomes.3.kpis.2",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "m6 3 mws of low emission energy and storage capacity installed generated and or rehabilitated",
+      "duplicate_of": "outcomes.3.kpis.2",
+      "eligible": false,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": false,
+      "name": "M6.3 MWs of low emission energy and storage capacity installed, generated and/or rehabilitated",
+      "path": "outcomes.3.kpis.3",
+      "reason": "duplicate indicator name",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "m6 3 mws of low emission energy and storage capacity installed generated and or rehabilitated",
+      "duplicate_of": "outcomes.3.kpis.2",
+      "eligible": false,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": false,
+      "name": "M6.3 MWs of low emission energy and storage capacity installed, generated and/or rehabilitated",
+      "path": "outcomes.3.kpis.4",
+      "reason": "duplicate indicator name",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "mws of storage capacity installed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of storage capacity installed",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "mws of storage capacity installed",
+      "duplicate_of": "outcomes.4.kpis.0",
+      "eligible": false,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": false,
+      "name": "MWs of storage capacity installed",
+      "path": "outcomes.4.kpis.1",
+      "reason": "duplicate indicator name",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "mws of low emission energy capacity installed generated and or rehabilitated",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "MWs of low emission energy capacity installed, generated and/or rehabilitated",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "number of households and individuals males and females with improved access to low emission energy sources",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "Number of households, and individuals (males and females) with improved access to low emission energy sources",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "number of staff of tpl and meidecc trained on renewable energy technologies and ppa",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of staff of TPL and MEIDECC trained on renewable energy technologies and PPA",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "number of staff in tpl and meidecc as well as technicians trained on outer islands on o m of renewable energy assets",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of staff in TPL and MEIDECC as well as technicians trained on outer-islands on O&M of renewable energy assets",
+      "path": "outcomes.7.kpis.1",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "number of procurement contracts supported to be awarded",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of procurement contracts supported to be awarded",
+      "path": "outcomes.7.kpis.2",
+      "reason": "eligible",
+      "source_order": 18
+    },
+    {
+      "canonical_name": "number of o m manuals developed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of O&M manuals developed",
+      "path": "outcomes.7.kpis.3",
+      "reason": "eligible",
+      "source_order": 19
+    }
+  ],
+  "project_id": "FP090",
+  "risk_count": 8,
+  "selected_kpi_paths": [
+    {
+      "family": "climate_resilience",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.3.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.3.kpis.1"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "finance_investment",
+      "path": "outcomes.0.kpis.2"
+    }
+  ]
+}

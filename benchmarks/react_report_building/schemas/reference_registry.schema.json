@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "react_report.reference_registry/v1",
+  "type": "object",
+  "required": ["schema_version", "id", "version", "frozen", "project_ids", "nodes"],
+  "properties": {
+    "schema_version": {"const": "react_report.reference_registry/v1"},
+    "id": {"const": "reference.climatefund20.v1"},
+    "version": {"const": 1},
+    "frozen": {"const": true},
+    "project_ids": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 20,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^FP[0-9]{3}$"}
+    },
+    "nodes": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["id", "kind", "status", "value"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^reference\\.climatefund20\\.v1\\."},
+          "kind": {"const": "scalar"},
+          "status": {"const": "available"},
+          "value": {"type": "number"}
+        }
+      }
+    }
+  }
+}

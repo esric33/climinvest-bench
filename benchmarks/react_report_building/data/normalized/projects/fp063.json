@@ -1,0 +1,3203 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Energy savings are realized for SMEs as expected.\r\nGovernment continues to invest in electricity transmission network and relative prices of firewood and electricity increasingly favors electricity."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "GWH",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "GWH",
+              "value": "2,134"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "7.1 Energy intensity/improved efficiency of industries as a result of Fund support. Energy savings (GWh) (Paris performance indicator) GWh/Project lifetime"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "GWH",
+              "value": "1088"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M7.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Based on AFD electronic registry system"
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Industries: Informed by MDB/IFI GHG accounting harmonization work on energy efficiency."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "t CO2eq",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "t CO2eq",
+              "value": "3,275, 251"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonnes of carbon dioxide equivalent (t CO2eq) reduced as a result of Fund funded projects/programmes"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "t CO2eq",
+              "value": "1,900,000"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Aggregate summation of sector specific t CO2eq reduction indicators. Intended to be estimated"
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Discussion of legal, regulatory and institutional best-practice proposals with national authorities for their consideration and decision"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Regulation under discussion"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Strengt hened instituti onal and regulat ory environ ment that promot es EE investments."
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of policies, institutions, coordination mechanisms and regulatory frameworks that improve incentives for low‐emission planning and development and their effective implementation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "A5.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Reports from working group dialogues and draft proposals discussed"
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Main stockholders (SMEs, LFIs technology providers verifiers) make use of financial and non-financial instruments. \r\nSkill level on EE investments of local professionals of main stockholders is increased and maintained to support market growth."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Number of integrated ESI financing strategies developed",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "policy_governance"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Number of integrated ESI financing strategies developed",
+              "value": "1"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of integrated ESI financing strategies developed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Number of integrated ESI financing strategies developed",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by subactivity 1.1.7"
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "LFIs are interested in opening up credit lines for SMEs.\r\nSMEs are interested in taking up loans for EE investments.\r\nGovernment continues to invest in electricity transmission network.\r\nRelative prices of firewood and electricity increasingly favors electricity."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "USD Millions",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "USD Millions",
+              "value": "54.05"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Total EE investments in Millions of USD"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "USD Millions",
+              "value": "15"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by subactivity 1.1.7"
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Government continues to invest in electricity transmission network.\r\nRelative prices of firewood and electricity increasingly favors electricity."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "firms",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "firms",
+              "value": "365"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "# of firms"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "firms",
+              "value": "132"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by sub activity 1.1.7"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.5.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There are enough SMEs that are women held or managed that are interested in taking up loans on EE investments."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Percentage share of loans for investments channeled to SMEs managed by women",
+              "value": "TBD%"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Percentage share of loans for investments channeled to SMEs managed by women",
+              "value": "at least 30%"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Percentage share of loans for investments channeled to SMEs managed by women"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Percentage share of loans for investments channeled to SMEs managed by women",
+              "value": "at least 30%"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by subactivity 1.1.7"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.5.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "LFIs are interested in opening up credit lines for SMEs at better financing terms.\r\nSMEs are interested in taking up loans for EE investments."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Average maturity of channeled loans (years)",
+              "value": "4-9"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Average maturity of channeled loans (years)",
+              "value": "6-9"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Average maturity of channeled loans (years)"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Average maturity of channeled loans (years)",
+              "value": "5.2"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by subactivity 1.1.7"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.5.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PRY"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Paraguay"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Americas"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Latin America and the Caribbean"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Persistence of high risk perceptions of EE projects by SMEs and LFIs is a critical challenge to EE investments and its occurrence has been analyzed both for developing and developed countries. "
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The proposed Project methodology plans to address this risk through different mechanisms:\r\ni. Capacity building and awareness enhancement. To increase the capacity of potential investment firms and LFIs to assess actual credit risks associated with the financing of EE technologies under the Project’s mechanisms, thus further reducing perceived risks of loan underperformance;\r\nii. Technical due diligence. Technical due diligence by a third party independent validator to assess project feasibility and energy saving;\r\niii. Shared insurance mechanisms. In addition, economic conditions in the short to medium term, in particular those resulting from incremental prices of non-sustainable biomass, uncertain supply and increasing transport costs will induce increasing interest in EE efficiency investments."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is a risk that the project does not create a financing market for EE investments and the interest of financial institutions remains dependent on the provision of credit lines supported by concessional financing."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The proposed Project methodology plans to address this risk through different mechanisms which include capacity building and demonstration projects.\r\n- Initial support to kick-off the market will be provided through the Project. Technical support for early-financed projects, once the financing strategy has been deployed by AFD, will support demonstration of the viability of the concept.\r\n- LFIs gain experience with EE investments using loan resources and risk-sharing mechanisms which let them experience the actual risks of EE investments. The key barrier to EE investment is not the interest rate, as most EE projects are profitable without concessional support. Together these activities mitigate the residual risk to low. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There is a potential risk in that the EE investment projects to be developed under this Project will not achieve the expected energy savings and/or that these energy savings will not occur in the expected time frame."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "This risk is being addressed through different means. Risk will be transferred to project developers and, if the expected energy savings are not achieved due to equipment failure, the warranties/surety bonds furnished by the technology providers should provide risk protection for end users, investors and/or lenders."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There are risks related to the uptake/lower than expected momentum of the proposed instruments by Paraguay’s energy end-users (SMEs) and financial institutions."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "In the framework of the market analysis of the demand and supply for EE investment and financing, extensive stakeholder engagement and consultations were undertaken with key market actors to confirm interest in EE and the conditions for investment. Furthermore, in the framework of the proposed Project each mechanism will be discussed and socialized with the relevant actors so as to receive and integrate feedback during the structuring and implementation of the financial strategy. Based on existing experience in Mexico and Colombia, these different interactive phases serve to increase the interest of market actors. In addition, the intervention is designed to minimize transaction costs to firms, technology solution providers and LFIs of entering and participating in the program. This is achieved by standardizing and simplifying documentation and procedures.\r\nThe failure to take up investments, especially where related to electricity-based equipment is highly sensitive to the relation between firewood and electricity prices. To bridge the time gap till firewood becomes more expensive in the medium-term the Project contemplates intermediary energy efficiency measures to incentivize the financing market with LFIs and raise capacity among SMEs and technology service providers. Furthermore,  the Project will support the Energy Ministry to enhance the execution of national policies and legislation to reduce the use of fuel wood and in this manner, promote further energy efficient technologies and sustainable use of biomass. The Project will also be monitoring prices of fire-wood to assess if major changes could result in potential reduction of demand.  "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There are risks related to the price developments of fuel wood and electricity."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "While demand and pricing for fuel wood is likely to increase, the interaction between the enforcement of the Zero Deforestation Law and the information provision about fuel wood price developments is important for private sector actors to take into account in their long-term investment decisions. As a risk mitigation strategy, the project contemplates i) price and market monitoring mechanisms, ii) inclusive roundtable discussions with local stakeholders from national authorities, ANDE, private sector actors and the relevant NGO community working on fuel wood markets, iii) awareness and socialization campaign to disseminate results to inform business investment decisions in favor of a potential fuel switch are realized. This is particularly relevant given the informality of the market, imperfect knowledge about drivers of price changes and the fact that the prices differ between regions especially with the distance between fuel wood demand and supply centers (Mautner Markthof et al, 2008)\r\nMitigating this uncertainty through price information provided through component 1.3.1 will furthermore help support industrial fuel wood users in their long-term investment decisions.\r\nPromote, through new activities incorporated in the technical cooperation, more information and transparency about prices to investors so that business decisions in favor of a potential fuel switch are realized. This is particularly relevant given the informality of the market, imperfect knowledge about drivers of price changes and the fact that the prices differ between regions especially with the distance between fuel wood demand and supply centers (Mautner Markthof et al, 2008). Mitigating this uncertainty through price information provided through component 1.3.1 will furthermore help support industrial fuel wood users in their long-term investment decisions.\r\nSupport, with new technical cooperation component 2, the government to promote their policies, standards and good practices that can engage further technology providers and the private sector in investing in energy efficient equipment, as well as informing the government and review the legal, regulatory, and institutional enabling frameworks for EE investments. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There are risks related to the price developments of fuel wood and electricity"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_6.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Delays resulting from limited experience of the implementing partner (AFD) in managing a complex Project focusing on EE investments"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_6.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_6.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Even if investment in EE measures constitutes a new area of business with additional complexities, AFD has extended experience in managing sustainability issues as part of their financial operations. Risk can be mitigated through: 1) the package of technical assistance, in particular continuous support provided for the overall coordination and integration of the Project into the operations of AFD, and 2) continued engagement between the IDB and the executing entity to ensure ownership at the management as well as technical level. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_6.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_6.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_7.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "If not properly decommissioned and disposed, the replaced equipment could lead to GHG leakages (reutilization) and/or soil contamination."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_7.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_7.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD, with support from IDB, will design and implement a Decommissioning and Disposal Protocol, based on the existing local regulations and compliant with IDB safeguards. The Project stipulates that old replaced equipment should be properly decommissioned and disposed of to avoid GHG emissions leakages and any potential contamination. Replaced equipment will have to be handled in a technically appropriate manner to ensure that its final disposal is undertaken in accordance with all relevant national regulations and with the assistance of national licensed or certified waste management service provider."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_7.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_7.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_7.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.6",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_8.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "If not properly assessed the program could finance Category B. projects that are deemed non- eligible."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_8.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_8.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD, with support from IDB, will design and implement a classification tool for cogeneration projects in order to ensure that only C category projects will be financed through the program. The classification tool will need to be approved by IDB prior to first disbursement. AFD will apply the tool itself. \r\nThe AFD E&S specialists will perform on-site visits for all projects above USD1million. IDB will supervise its application as part of its normal E&S supervision tasks."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_8.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "If not properly assessed the program could finance Category B"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_8.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_8.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.7",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_9.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutional commitment in Paraguay. Other potential risk that may arise during the life of the project is that the interest and commitment of the Paraguayan government or AFD could be reduced as a result of changing policy priorities and/or economic conditions."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_9.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_9.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "This risk is to be mitigated through the continuous and constructive engagement with government authorities as well as by the commitments resulting from international agreements."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_9.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Institutional commitment in Paraguay"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_9.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_9.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "risk.8",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Governance"
+            }
+          },
+          "id": "dt.risks.risk_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "risk.8",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Energy savings are realized for SMEs as expected.\r\nGovernment continues to invest in electricity transmission network and relative prices of firewood and electricity increasingly favors electricity."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "GWH",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "GWH",
+              "value": "2,134"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "7.1 Energy intensity/improved efficiency of industries as a result of Fund support. Energy savings (GWh) (Paris performance indicator) GWh/Project lifetime"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "GWH",
+              "value": "1088"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M7.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Based on AFD electronic registry system"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Main stockholders (SMEs, LFIs technology providers verifiers) make use of financial and non-financial instruments. \r\nSkill level on EE investments of local professionals of main stockholders is increased and maintained to support market growth."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Number of integrated ESI financing strategies developed",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "policy_governance"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Number of integrated ESI financing strategies developed",
+              "value": "1"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of integrated ESI financing strategies developed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Number of integrated ESI financing strategies developed",
+              "value": "1"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by subactivity 1.1.7"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Discussion of legal, regulatory and institutional best-practice proposals with national authorities for their consideration and decision"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Regulation under discussion"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Strengt hened instituti onal and regulat ory environ ment that promot es EE investments."
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of policies, institutions, coordination mechanisms and regulatory frameworks that improve incentives for low‐emission planning and development and their effective implementation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "A5.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Reports from working group dialogues and draft proposals discussed"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "LFIs are interested in opening up credit lines for SMEs.\r\nSMEs are interested in taking up loans for EE investments.\r\nGovernment continues to invest in electricity transmission network.\r\nRelative prices of firewood and electricity increasingly favors electricity."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "USD Millions",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "USD Millions",
+              "value": "54.05"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Total EE investments in Millions of USD"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "USD Millions",
+              "value": "15"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by subactivity 1.1.7"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "There are enough SMEs that are women held or managed that are interested in taking up loans on EE investments."
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Percentage share of loans for investments channeled to SMEs managed by women",
+              "value": "TBD%"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Percentage share of loans for investments channeled to SMEs managed by women",
+              "value": "at least 30%"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Percentage share of loans for investments channeled to SMEs managed by women"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": "Percentage share of loans for investments channeled to SMEs managed by women",
+              "value": "at least 30%"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp063",
+                "locator": "outcomes.5.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "AFD project reports based on registry to be developed by subactivity 1.1.7"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp063",
+            "locator": "outcomes.5.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP063"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp063",
+        "locator": "GCF project FP063 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp063"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 20000000
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "In Paraguay, micro, small and medium-sized enterprises (henceforth SMEs for simplicity) have an inadequate access to medium and long-term finance to narrow technology gaps and boost productivity and growth. This inadequate financing access, coupled with the limited transmission network to access sources of affordable and readily available hydroelectricity, has restricted SMEs in key energy consuming sectors to develop energy efficiency investments projects, including: (i) the exchange of old equipment with new efficient equipment that reduces use of firewood, biomass and other fossil fuels ; (ii) the exchange of old equipment with new efficient equipment that replaces use of firewood, biomass and other fossil fuels by electricity from hydropower; and (iii) the retrofit of equipment with new efficient equipment that that reduces use of firewood, biomass and other fossil fuels. Access to these investments could reduce energy consumption from non-renewable energy source, mainly biomass, and reduce greenhouse emissions by about 4 million tCO2eq over the project’s lifetime, in addition to promoting increased SME productivity gains. GCF reimbursable funding will help increase medium and long-term financing for energy efficiency (EE) projects in SMEs by supporting the structuring of financing mechanisms and instruments and improve local financial institutions (LFIs) and SMEs’ local technical capacity and knowledge on EE investments. Thus, GCF funding will increase energy efficiency in the SMEs industrial sector, with reduced GHG emissions through diminished demand of non-sustainable biomass and other fossil fuel energy sources.\r\nGCF funding will be channeled through a sovereign-guaranteed loan from the Inter-American Development Bank (IDB), according to its own policies and procedures, to the Agencia Financiera de Desarrollo (AFD), a second-tier national development bank (NDB). The GCF reimbursable resources, which will be maintained in a dedicated account, will be blended with AFD’s own resources in order to provide a concessional line of financing available to first-tier local financial institutions (LFIs) so that they can, in turn, offer financing at adequate terms and conditions to SME firms interested in adopting eligible EE measures. And will support the Energy Ministry in enhancing the execution of its policies and legislation aimed at reducing the use of fuel wood and promoting the uptake of standards and technologies to ensure an efficient and sustainable use of biomass. The GCF reimbursable resources will be blended with AFD’s own resources to provide a concessional line of financing for first-tier LFIs so that they can, in turn, offer financing at adequate terms and conditions to SME firms interested in adopting eligible EE measures. The economic and financial analysis of the project show the project has an economic rate of return of 136% with a social cost of carbon of USD 62/tCO2, and a financial return of 74%. The project is aligned with Paraguay’s National  Development Plan 2030, National Energy Policy, National Climate Change Plan, National Climate Change Policy and the National Determined Contribution, where improvement of energy efficiency is one of the strategic areas included under those policy guidelines. The project design has taken into consideration the input of stakeholders, as they have been fully consulted and the NDA has issued a Letter of Non-Objection."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "IDB"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Inter-American Development Bank"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Large"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp063",
+        "locator": "GCF project FP063 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp063"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 23000000
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 4004899.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 5.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 5.0
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Buildings, cities, industries and appliances"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "private"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "small"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Promoting private sector investments in energy efficiency in the industrial sector in Paraguay"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 43000000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp063",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP063",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp063-idb-paraguay.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp063"
+}

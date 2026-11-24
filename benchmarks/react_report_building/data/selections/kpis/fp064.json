@@ -1,0 +1,284 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 19,
+  "excluded_kpi_count": 4,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m6 1 proportion of low emission power supply in a jurisdiction or market",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M6.1 Proportion of low-emission power supply in a jurisdiction or market",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "m6 3 mws of low emission energy capacity installed generated and or rehabilitated",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M6.3. MWs of low- emission energy capacity installed, generated and/or rehabilitated",
+      "path": "outcomes.0.kpis.1",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "annual gwh of energy produced from re sources by sub projects financed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Annual GWh of energy produced from RE sources by sub-projects financed",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "annual gwh of energy saved from ee technologies implemented in sub projects financed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Annual GWh of energy saved from EE technologies implemented in sub- projects financed",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "m1 1 tons of carbon dioxide equivalent tco2eq reduced or avoided power generation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M1.1 Tons of carbon dioxide equivalent (tCO2eq) reduced or avoided power generation",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "m3 1 tons of carbon dioxide equivalent tco2eq reduced or avoided buildings cities industries and appliances",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M3.1 Tons of carbon dioxide equivalent (tCO2eq) reduced or avoided – buildings, cities, industries, and appliances",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "number of targeted technical assistance studies reports completed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of targeted technical assistance studies/reports completed",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "number of training sessions completed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of training sessions completed",
+      "path": "outcomes.5.kpis.1",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "number of training sessions completed",
+      "duplicate_of": "outcomes.5.kpis.1",
+      "eligible": false,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": false,
+      "name": "Number of training sessions completed",
+      "path": "outcomes.5.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "number of total of events publications completed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of Total of events/publications completed",
+      "path": "outcomes.5.kpis.3",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "number of total of events publications completed",
+      "duplicate_of": "outcomes.5.kpis.3",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Number of Total of events/publications completed",
+      "path": "outcomes.5.kpis.4",
+      "reason": "duplicate indicator name",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "number of total of events publications completed",
+      "duplicate_of": "outcomes.5.kpis.3",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Number of Total of events/publications completed",
+      "path": "outcomes.5.kpis.5",
+      "reason": "duplicate indicator name",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "number of total of events publications completed",
+      "duplicate_of": "outcomes.5.kpis.3",
+      "eligible": false,
+      "family": "other",
+      "legacy_selection_eligible": false,
+      "name": "Number of Total of events/publications completed",
+      "path": "outcomes.5.kpis.6",
+      "reason": "duplicate indicator name",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "estimated number of re sub projects financed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Estimated number of RE sub-projects financed",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    },
+    {
+      "canonical_name": "estimated number of ee sub projects financed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Estimated number of EE sub-projects financed",
+      "path": "outcomes.6.kpis.1",
+      "reason": "eligible",
+      "source_order": 15
+    },
+    {
+      "canonical_name": "savings in reduced infrastructure investments for energy supply",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Savings in reduced infrastructure investments for energy supply",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 16
+    },
+    {
+      "canonical_name": "so2 annual reduction",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "SO2 annual reduction",
+      "path": "outcomes.8.kpis.0",
+      "reason": "eligible",
+      "source_order": 17
+    },
+    {
+      "canonical_name": "nox annual reduction",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "NOx annual reduction",
+      "path": "outcomes.8.kpis.1",
+      "reason": "eligible",
+      "source_order": 18
+    },
+    {
+      "canonical_name": "mercury annual reduction",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Mercury annual reduction",
+      "path": "outcomes.8.kpis.2",
+      "reason": "eligible",
+      "source_order": 19
+    },
+    {
+      "canonical_name": "number of smes",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of SMEs",
+      "path": "outcomes.9.kpis.0",
+      "reason": "eligible",
+      "source_order": 20
+    },
+    {
+      "canonical_name": "green jobs created in the biogas and biomass industry",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Green jobs created in the biogas and biomass industry",
+      "path": "outcomes.9.kpis.1",
+      "reason": "eligible",
+      "source_order": 21
+    },
+    {
+      "canonical_name": "green jobs created in the ee industry",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Green jobs created in the EE industry",
+      "path": "outcomes.9.kpis.2",
+      "reason": "eligible",
+      "source_order": 22
+    },
+    {
+      "canonical_name": "jobs to be created for wome",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Jobs to be created for wome",
+      "path": "outcomes.11.kpis.0",
+      "reason": "eligible",
+      "source_order": 23
+    }
+  ],
+  "project_id": "FP064",
+  "risk_count": 7,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.0.kpis.0"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.5.kpis.1"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.9.kpis.1"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.5.kpis.0"
+    },
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.0.kpis.1"
+    }
+  ]
+}

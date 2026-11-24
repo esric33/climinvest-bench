@@ -1,0 +1,4246 @@
+{
+  "collections": {
+    "dt.kpis": {
+      "description": "Complete cleaned and deduplicated normalized KPI collection",
+      "id": "dt.kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "About 307,823 t CO2 eq is expected to be reduced by IPPs, which will happen because of BESS to be funded by GCF.\r\nIncreased diesel generation to meet demand growth will not exceed benefits of reduced emissions"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_impact"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "tCO2e",
+              "value": "340395.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.1 Tons of carbondioxide equivalent (t CO2 eq) reduced or avoided from gender sensitive energy access and power generation"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "tCO2e",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project reports"
+            }
+          },
+          "id": "dt.kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.0.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "About 307,823 t CO2 eq is expected to be reduced by IPPs, which will happen because of BESS to be funded by GCF.\r\nIncreased diesel generation to meet demand growth will not exceed benefits of reduced emissions"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD / tCO2eq",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD / tCO2eq",
+              "value": "156.2"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Cost per tCO2eq decreased for all Fundfunded mitigation projects/ programmes"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "USD / tCO2eq",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project Completion Report"
+            }
+          },
+          "id": "dt.kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.0.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "It includes the anticipated private sector investment caused by TREP. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "38200000.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "USD",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project Completion Report"
+            }
+          },
+          "id": "dt.kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.0.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The full scope of the project is implemented as design"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_resilience"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "53200000.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3.1 Number and value of physical assets made more resilient to climate variability and"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "USD",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "A3.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project Completion Report"
+            }
+          },
+          "id": "dt.kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PPAs shall be timely signed with renewable IPPs"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "PPAs",
+              "value": "1.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "PPAs",
+              "value": "3.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.1 Enhanced capacity assess renewable energy technologies and set off-take tariffs for power purchaseAgreements (PPAs) for private sector funded investment"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "PPAs",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s PPAs entered into IPPs"
+            }
+          },
+          "id": "dt.kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_6.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1. Require liaison with community chief/leaders and women’s NGOs to source qualified women. This will be a mandated requirement by MEIDECC, TPL and contractor management"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_6.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "% women participation",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_6.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "employment_gender"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_6.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "% women participation",
+              "value": "30.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_6.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.2 Gender related training"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_6.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "% women participation",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_6.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_6.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_6.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Safeguard Monitoring Report"
+            }
+          },
+          "id": "dt.kpis.kpi_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.2.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_7.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Both public and private investments shall be timely made"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_7.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "% of low emission power supply in a jurisdiction or market",
+              "value": "10.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_7.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_7.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "% of low emission power supply in a jurisdiction or market",
+              "value": "50.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_7.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.1 Proportion of low emission power supply in a jurisdiction or market"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_7.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "% of low emission power supply in a jurisdiction or market",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_7.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_7.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_7.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_8.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Both public and private investments shall be timely made \r\n7.8 MW of RE is expected to be financed by IPPs\r\n19.9MWh of BESS on Tongatapu and 2.3 MWh of BESS on outer-islands"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_8.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No centralized electricity supplied"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_8.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_8.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "individuals",
+              "value": "15000.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_8.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.2 Number of households, and individuals (males and females) with improved access to low emission energy sources"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_8.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_8.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_8.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_8.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report\r\nindividuals (males and females) with improved access to low emission energy sources"
+            }
+          },
+          "id": "dt.kpis.kpi_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.3.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_9.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Both public and private investments shall be timely made\r\n7.8 MW of RE is expected to be financed by IPPs"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_9.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "MW (RE)",
+              "value": "3.7"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_9.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_9.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "MW (RE)",
+              "value": "8.95"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_9.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.3 MWs of low emission energy and storage capacity installed, generated and/or rehabilitated"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_9.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "MW (RE)",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_9.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_9.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_9.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 9
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_9.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_9",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.3.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_10.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "19.9MWh of Battery Energy Storage Systems (BESS) on Tongatapu and 2.3 MWh of BESS on outer-islands"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_10.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_10.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_10.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "10.1 "
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_10.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of storage capacity installed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_10.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "MW",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_10.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "1"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_10.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.4.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_10.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 12
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_10.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.4.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_10",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.4.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_11.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Additional 7.8 MW of RE is expected to be financed by IPPs \r\nBoth public and private investments shall be timely made "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_11.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "3.7"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_11.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_11.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "MW",
+              "value": "4.85"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_11.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "MWs of low emission energy capacity installed, generated and/or rehabilitated"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_11.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "MW",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_11.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "2"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_11.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.5.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_11.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 14
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_11.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.5.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_11",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.5.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_12.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_12.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No centralized, clean electricity supply"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_12.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_12.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "individuals",
+              "value": "15000"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_12.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of households, and individuals (males and females) with improved access to low emission energy sources"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_12.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_12.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_12.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.6.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_12.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 15
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_12.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.6.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_12",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.6.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_13.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_13.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "staff",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_13.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_13.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "staff",
+              "value": "10"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_13.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of staff of TPL and MEIDECC trained on renewable energy technologies and PPA"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_13.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "staff",
+              "value": "5"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_13.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_13.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_13.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 16
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_13.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_13",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.7.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_14.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_14.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "staff",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_14.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_14.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "staff",
+              "value": "15"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_14.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of staff in TPL and MEIDECC as well as technicians trained on outer-islands on O&M of renewable energy assets"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_14.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "staff",
+              "value": "7"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_14.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_14.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_14.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 17
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_14.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_14",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.7.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_15.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_15.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "procurement contracts",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_15.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_15.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "procurement contracts",
+              "value": "5"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_15.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of procurement contracts supported to be awarded"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_15.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "procurement contracts",
+              "value": "5"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_15.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_15.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_15.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 18
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_15.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_15",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.7.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.kpis.kpi_16.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.kpis.kpi_16.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "O&M manuals",
+              "value": "0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.kpis.kpi_16.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "other"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.kpis.kpi_16.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "O&M manuals",
+              "value": "5"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.kpis.kpi_16.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Number of O&M manuals developed"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.kpis.kpi_16.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "O&M manuals",
+              "value": "0"
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.kpis.kpi_16.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "4"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.kpis.kpi_16.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.7.kpis.3"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.kpis.kpi_16.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 19
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.kpis.kpi_16.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.7.kpis.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.kpis.kpi_16",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.7.kpis.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.project.countries": {
+      "description": "Countries in which the project operates",
+      "id": "dt.project.countries",
+      "kind": "collection",
+      "record_schema": [
+        "code",
+        "name",
+        "region",
+        "subregion"
+      ],
+      "records": [
+        {
+          "description": "Project country",
+          "fields": {
+            "code": {
+              "description": "Country code",
+              "id": "dt.project.countries.country_1.code",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TON"
+            },
+            "name": {
+              "description": "Country name",
+              "id": "dt.project.countries.country_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Tonga"
+            },
+            "region": {
+              "description": "Country region",
+              "id": "dt.project.countries.country_1.region",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Oceania"
+            },
+            "subregion": {
+              "description": "Country subregion",
+              "id": "dt.project.countries.country_1.subregion",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "countries.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Polynesia"
+            }
+          },
+          "id": "dt.project.countries.country_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "countries.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.risks": {
+      "description": "Complete normalized project risk collection",
+      "id": "dt.risks",
+      "kind": "collection",
+      "record_schema": [
+        "name",
+        "type",
+        "probability",
+        "impact",
+        "description",
+        "mitigation",
+        "source_order"
+      ],
+      "records": [
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_1.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "More frequent or intense tropical cyclones or other natural hazards in the future may damage project infrastructure"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_1.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_1.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TREP will ensure that infrastructure investments meet standards for cyclone and earthquake resilience."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_1.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_1.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 1
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_1.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Social and environmental"
+            }
+          },
+          "id": "dt.risks.risk_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_2.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Poor coordination between all executing entities and the agencies with oversight roles may inhibit effective implementation"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_2.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_2.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "A detailed Project Administration Manual will be prepared by ADB setting out the reporting, monitoring and evaluation activities, responsibilities and budget to be complied by all executing entities and project sponsor. It will help all executing entities implement TREP in accordance with ADB’s guidelines. \r\nMoreover, ADB will ensure that ADB as the accredited entity will regularly follow its project implementation processes and guidelines including reporting obligations under the AMA, and any additional  terms that may be agreed in the FAA."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_2.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_2.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 2
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_2.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_3.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Future falls in diesel prices: If the price of diesel falls significantly, it may undermine the competitiveness of renewable energy technologies over the short term."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_3.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_3.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "If diesel prices sharply decline, the competitiveness of renewable energy would be reduced. It should be noted however, that Tonga’s commitment to renewable energy transition is based on a number of factors, including increased energy security, stability, independence and improved local environment. These should be sufficient to ensure that any impacts on the overall project performance of a drop-in diesel price is low or very low. The situation will be monitored."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_3.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_3.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_3.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            }
+          },
+          "id": "dt.risks.risk_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_4.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Delays in procurement and start-up may delay implementation"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_4.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_4.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project start-up activities will begin immediately following project approval to enable timely detailed design, preparation of bid documents, and the tendering and award of contracts. Advance contracting will be undertaken for goods and services that are expected to be procured through the national competitive bidding method. A realistic timeline has been prepared, and these factors fed  into the financial and economic assessments."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_4.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Delays in procurement and start-up may delay implementation"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_4.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_4.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.3",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.3",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_5.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Implementation is delayed due to delays in procurement and land acquisition."
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_5.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_5.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "During ADB’s due diligence process, the candidate sub-project sites have been already identified. For Outputs 1 and 2, TPL already owns or leases the required lands. For Output 3, MEIDECC have already consulted the owners of lands. The Resettlement Plan has been prepared and it will be implemented in accordance with ADB’s Safeguards Policy Statement (2009)."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_5.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Implementation is delayed due to delays in procurement and land acquisition"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_5.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_5.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.4",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.4",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_6.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The new government has been recently formed"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_6.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "high"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_6.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ADB’s programing team will confirm new government’s strategic priority in energy sector. The new government will most likely put its efforts to meet the current RE target of 50% and 70% by 2020 and 2030."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_6.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The new government has been recently formed"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_6.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_6.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 6
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_6.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.5",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Other"
+            }
+          },
+          "id": "dt.risks.risk_6",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.5",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_7.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "IPP investors may not be timely emerged"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_7.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_7.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL has successfully sourced, structured and negotiated the first independent power producer(IPP) for a 2 MW solar PV farm, which is currently in operation. \r\nAdditional IPPs in the pipeline include: (i) Option for additional 4 MW (2 lots of 2 MW) of IPP solar through the current power purchase agreement; and (ii) the Government of New Zealand (MFAT) has committed NZ$5.0 million to support a 2.2 MW wind IPP project, which both MFAT and TPL have just started identifying the IPP. However, both solar and wind IPPs are subject to installation of any form of storage to be grant funded by development partners like GCF."
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_7.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "IPP investors may not be timely emerged"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_7.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_7.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_7.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.6",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Credit"
+            }
+          },
+          "id": "dt.risks.risk_7",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.6",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project risk record",
+          "fields": {
+            "description": {
+              "description": "Risk description",
+              "id": "dt.risks.risk_8.description",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The proposed technology solution may underperform"
+            },
+            "impact": {
+              "description": "Risk impact",
+              "id": "dt.risks.risk_8.impact",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "medium"
+            },
+            "mitigation": {
+              "description": "Risk mitigation",
+              "id": "dt.risks.risk_8.mitigation",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "ADB and TPL/MEIDECC will engage experienced turnkey contractors who have proven track records. The project management consulting (PMC) firm who has extensive experience in assisting designing and procurement activities, especially for project located in small islands has already been recruited in meeting the requirements of TPL and operating in identical conditions. \r\nTPL to ensure proper operation and maintenance over the life of BESS shall reserve a certain amount of revenue for upcoming operation and maintenance costs. "
+            },
+            "name": {
+              "description": "Risk name",
+              "id": "dt.risks.risk_8.name",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The proposed technology solution may underperform"
+            },
+            "probability": {
+              "description": "Risk probability",
+              "id": "dt.risks.risk_8.probability",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.risks.risk_8.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "type": {
+              "description": "Risk type",
+              "id": "dt.risks.risk_8.type",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "risk.7",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Technical and operational"
+            }
+          },
+          "id": "dt.risks.risk_8",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "risk.7",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    },
+    "dt.selected_kpis": {
+      "description": "Legacy five-row KPI diversity sample retained for compatibility",
+      "id": "dt.selected_kpis",
+      "kind": "collection",
+      "record_schema": [
+        "source_id",
+        "source_order",
+        "family",
+        "indicator",
+        "baseline",
+        "intermediate_target",
+        "final_target",
+        "verification",
+        "assumptions",
+        "parent_outcome"
+      ],
+      "records": [
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_1.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "The full scope of the project is implemented as design"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_1.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_1.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "climate_resilience"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_1.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "53200000.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_1.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "3.1 Number and value of physical assets made more resilient to climate variability and"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_1.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "USD",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_1.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "A3.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_1.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.1.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_1.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 4
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_1.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.1.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project Completion Report"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_1",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.1.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_2.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Both public and private investments shall be timely made"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_2.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "% of low emission power supply in a jurisdiction or market",
+              "value": "10.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_2.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "low_emission_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_2.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "% of low emission power supply in a jurisdiction or market",
+              "value": "50.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_2.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.1 Proportion of low emission power supply in a jurisdiction or market"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_2.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "% of low emission power supply in a jurisdiction or market",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_2.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_2.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_2.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 7
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_2.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_2",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.3.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_3.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Both public and private investments shall be timely made \r\n7.8 MW of RE is expected to be financed by IPPs\r\n19.9MWh of BESS on Tongatapu and 2.3 MWh of BESS on outer-islands"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_3.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "No centralized electricity supplied"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_3.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "beneficiaries_access"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_3.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "individuals",
+              "value": "15000.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_3.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.2 Number of households, and individuals (males and females) with improved access to low emission energy sources"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_3.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": null,
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_3.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M6.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_3.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.3.kpis.1"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_3.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 8
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_3.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.3.kpis.1",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s Annual Report\r\nSemi-Annual Progress Report\r\nindividuals (males and females) with improved access to low emission energy sources"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_3",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.3.kpis.1",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_4.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "PPAs shall be timely signed with renewable IPPs"
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_4.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "PPAs",
+              "value": "1.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_4.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "institutional_capacity"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_4.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "PPAs",
+              "value": "3.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_4.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.1 Enhanced capacity assess renewable energy technologies and set off-take tariffs for power purchaseAgreements (PPAs) for private sector funded investment"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_4.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "PPAs",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_4.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M5.0"
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_4.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.2.kpis.0"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_4.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 5
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_4.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.2.kpis.0",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "TPL’s PPAs entered into IPPs"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_4",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.2.kpis.0",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        },
+        {
+          "description": "Project performance indicator",
+          "fields": {
+            "assumptions": {
+              "description": "Assumptions",
+              "id": "dt.selected_kpis.kpi_5.assumptions",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "It includes the anticipated private sector investment caused by TREP. "
+            },
+            "baseline": {
+              "description": "Baseline",
+              "id": "dt.selected_kpis.kpi_5.baseline",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "0.0"
+            },
+            "family": {
+              "description": "Canonical KPI family",
+              "id": "dt.selected_kpis.kpi_5.family",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "finance_investment"
+            },
+            "final_target": {
+              "description": "Final target",
+              "id": "dt.selected_kpis.kpi_5.final_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": "USD",
+              "value": "38200000.0"
+            },
+            "indicator": {
+              "description": "Indicator name",
+              "id": "dt.selected_kpis.kpi_5.indicator",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Volume of finance leveraged by Fund funding"
+            },
+            "intermediate_target": {
+              "description": "Intermediate target",
+              "id": "dt.selected_kpis.kpi_5.intermediate_target",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "missing",
+              "unit": "USD",
+              "value": null
+            },
+            "parent_outcome": {
+              "description": "Parent outcome",
+              "id": "dt.selected_kpis.kpi_5.parent_outcome",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "M1.0 "
+            },
+            "source_id": {
+              "description": "Original KPI path",
+              "id": "dt.selected_kpis.kpi_5.source_id",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "outcomes.0.kpis.2"
+            },
+            "source_order": {
+              "description": "Source order",
+              "id": "dt.selected_kpis.kpi_5.source_order",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": 3
+            },
+            "verification": {
+              "description": "Means of verification",
+              "id": "dt.selected_kpis.kpi_5.verification",
+              "kind": "scalar",
+              "provenance": {
+                "document_id": "proposal.fp090",
+                "locator": "outcomes.0.kpis.2",
+                "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+              },
+              "status": "available",
+              "unit": null,
+              "value": "Project Completion Report"
+            }
+          },
+          "id": "dt.selected_kpis.kpi_5",
+          "kind": "record",
+          "provenance": {
+            "document_id": "proposal.fp090",
+            "locator": "outcomes.0.kpis.2",
+            "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+          },
+          "status": "available"
+        }
+      ],
+      "status": "available"
+    }
+  },
+  "nodes": {
+    "dt.project.adaptation_areas": {
+      "description": "Adaptation areas",
+      "id": "dt.project.adaptation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.adaptation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": []
+    },
+    "dt.project.code": {
+      "description": "Project code",
+      "id": "dt.project.code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "FP090"
+    },
+    "dt.project.cofinance_usd": {
+      "description": "Cofinance Usd",
+      "id": "dt.project.cofinance_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp090",
+        "locator": "GCF project FP090 financing: Total Co-Financing",
+        "url": "https://www.greenclimate.fund/project/fp090"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 17700000
+    },
+    "dt.project.description": {
+      "description": "Project description",
+      "id": "dt.project.description",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.description",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The Kingdom of Tonga (Tonga) is a small island developing state consisting of 177 islands with a total area of 748 km2. Tonga’s population is approximately 103,000, of which almost three-quarters live in the island of Tongatapu. Tonga is extremely remote from all markets and most resources. Until recently, Tonga depended almost entirely on imported diesel (around 90%) to generate its electricity. This led to climate change concerns and also created a high dependency on imported fuels, which caused limited electricity consumption because of high electricity costs. Tonga has a large potential for renewable energy, notably from solar, wind and biomass. However, financial, technical and other barriers have constrained the development of renewable energies. In response, the Government of Tonga (GOT) issued the Renewable Energy Act in 2008 and then formulated the Tonga Energy Road Map, 2010 – 2020 (TERM). Tonga’s Nationally Determined Contributions (NDC) include the following generation (supply side) targets:\r\n• by 2020, 50% of all electricity to be generated from renewables; and\r\n• by 2030, 70% of all electricity to be generated from renewables\r\nGOT has been implementing the TERM in a phase manner.\r\nThe first two phases of TERM are under implementation. When these phases are complete, approximately 27% of Tonga’s electricity will be generated from renewable energies. Building on this, the proposed project – the Tonga Renewable Energy Project (TREP) to be funded in part by the Green Climate Fund (GCF) – will be the major force to implement TERM Phase 3, thereby helping Tonga meet its NDC targets.\r\nTo also improve the demand side management of electricity, GOT has aimed to improve energy efficiency through reduction of electricity line losses to 9 percent by 2020 (from a baseline of 18 percent in 2010) under its NDC. To achieve this target, GOT and TPL have implemented and currently implement the following completed and planned energy efficiency activities :\r\n• Power distribution network upgrades under the Tonga Village Network Upgrade Project on Tongatapau (completed);\r\n• Power distribution network upgrades under the Outer Islands Renewable Energy Project (OIREP) on Ha’apai (completed), ‘Eua (completed) and Vava’u (on-going);\r\n• Power distribution network upgrades under the Nuku'alofa Network Upgrade Project on Tongatapau (planned); and\r\n• Others (e.g. Smart meter installation, Interconnection Upgrades and Energy Efficiency Programmes for residential and commercial customers, etc) (on-going)."
+    },
+    "dt.project.energy_technologies": {
+      "description": "Energy technologies",
+      "id": "dt.project.energy_technologies",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.energy_technologies",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "On-shore wind energy",
+        "Solar energy"
+      ]
+    },
+    "dt.project.entity_code": {
+      "description": "Accredited entity code",
+      "id": "dt.project.entity_code",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.entity_code",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "ADB"
+    },
+    "dt.project.entity_name": {
+      "description": "Accredited entity name",
+      "id": "dt.project.entity_name",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.entity_name",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Asian Development Bank"
+    },
+    "dt.project.entity_sector": {
+      "description": "Accredited entity sector",
+      "id": "dt.project.entity_sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.entity_sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Public"
+    },
+    "dt.project.entity_size": {
+      "description": "Accredited entity size",
+      "id": "dt.project.entity_size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.entity_size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Large"
+    },
+    "dt.project.entity_type": {
+      "description": "Accredited entity type",
+      "id": "dt.project.entity_type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.entity_type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "International"
+    },
+    "dt.project.gcf_financing_usd": {
+      "description": "Gcf Financing Usd",
+      "id": "dt.project.gcf_financing_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "gcf_portfolio.fp090",
+        "locator": "GCF project FP090 financing: Total GCF Financing",
+        "url": "https://www.greenclimate.fund/project/fp090"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 29900000
+    },
+    "dt.project.ghg_reduction_tco2e": {
+      "description": "Canonical expected lifetime GHG reduction",
+      "id": "dt.project.ghg_reduction_tco2e",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.ghg_reduction_tco2e",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "tCO2e",
+      "value": 340395.0
+    },
+    "dt.project.implementation_years": {
+      "description": "Expected implementation period",
+      "id": "dt.project.implementation_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.implementation_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 8.0
+    },
+    "dt.project.lifespan_years": {
+      "description": "Expected project or asset lifespan",
+      "id": "dt.project.lifespan_years",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.lifespan_years",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "years",
+      "value": 24.9
+    },
+    "dt.project.mitigation_areas": {
+      "description": "Mitigation areas",
+      "id": "dt.project.mitigation_areas",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.mitigation_areas",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": [
+        "Energy, mitigation and access"
+      ]
+    },
+    "dt.project.sector": {
+      "description": "Project sector",
+      "id": "dt.project.sector",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.sector",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "public"
+    },
+    "dt.project.size": {
+      "description": "Project size",
+      "id": "dt.project.size",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "small"
+    },
+    "dt.project.title": {
+      "description": "Project title",
+      "id": "dt.project.title",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.title",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Tonga Renewable Energy Project under the Pacific Islands Renewable Energy Investment Program"
+    },
+    "dt.project.total_cost_usd": {
+      "description": "Total approved project cost",
+      "id": "dt.project.total_cost_usd",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.total_cost_usd",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 47600000.0
+    },
+    "dt.project.type": {
+      "description": "Project type",
+      "id": "dt.project.type",
+      "kind": "scalar",
+      "provenance": {
+        "document_id": "proposal.fp090",
+        "locator": "dt.project.type",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "project"
+    }
+  },
+  "project_id": "FP090",
+  "proposal_url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp090-adb-tonga.pdf",
+  "schema_version": "react_report.project_twin/v1",
+  "source_url": "https://www.greenclimate.fund/project/fp090"
+}

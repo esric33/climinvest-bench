@@ -1,0 +1,276 @@
+{
+  "input": {
+    "path": "data/normalized/projects/fp148.json",
+    "sha256": "c9f91966975f2c409d32808c55ef5f630128ce1b0d11a5027f798924ef7d2dbb",
+    "source_node": "dt.project.description"
+  },
+  "method": "Manual atomic extraction of values explicitly present in the pinned same-project description; every extracted node is exact-fragment validated, with no inference, cross-project imputation, or external supplementation.",
+  "nodes": {
+    "dt.project.identified_financing_requests_usd": {
+      "description": "Total indicative financing requests in the identified pipeline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.identified_financing_requests_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "indicative requests totaling ~$79.56 million",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 79560000
+    },
+    "dt.project.identified_request_max_usd": {
+      "description": "Maximum indicative company request",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.identified_request_max_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "ranging from $8,000 to $3 million in size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 3000000
+    },
+    "dt.project.identified_request_min_usd": {
+      "description": "Minimum indicative company request",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.identified_request_min_usd",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "ranging from $8,000 to $3 million in size",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": "USD",
+      "value": 8000
+    },
+    "dt.project.no_objection_country_count": {
+      "description": "Countries from which the accredited entity secured letters of no objection",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.no_objection_country_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "secured Letters of No Objection from 9 countries",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": "countries",
+      "value": 9
+    },
+    "dt.project.people_at_risk_of_lost_access": {
+      "description": "People estimated to be prevented from accessing renewable household energy without relief",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.people_at_risk_of_lost_access",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "16.3 million people may be prevented from accessing renewable household energy",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 16300000
+    },
+    "dt.project.people_reach_basis": {
+      "description": "Basis of the reported people-reach count",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.people_reach_basis",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "these firms serve over 85 million customers",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "current customers of companies in the identified demand pipeline"
+    },
+    "dt.project.people_reach_qualification": {
+      "description": "Qualification attached to the reported people-reach count",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.people_reach_qualification",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "these firms serve over 85 million customers",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "The source states over 85 million current customers; this is not a new-beneficiary target."
+    },
+    "dt.project.people_reached_count": {
+      "description": "Customers currently served by firms in the identified demand pipeline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.people_reached_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "these firms serve over 85 million customers",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": "people",
+      "value": 85000000
+    },
+    "dt.project.portfolio_unit_count": {
+      "description": "Companies in the identified relief-funding demand pipeline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_count",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "308 companies have expressed a need for relief funding",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": "companies",
+      "value": 308
+    },
+    "dt.project.portfolio_unit_count_basis": {
+      "description": "Basis of the company count",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_count_basis",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "308 companies have expressed a need for relief funding",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "identified demand pipeline"
+    },
+    "dt.project.portfolio_unit_count_qualification": {
+      "description": "Qualification attached to the company count",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_count_qualification",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "308 companies have expressed a need for relief funding",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "Companies expressed a financing need; the count is not a final borrower target."
+    },
+    "dt.project.portfolio_unit_type": {
+      "description": "Type of unit in the identified demand pipeline",
+      "evidence_class": "same_project_source_extraction",
+      "id": "dt.project.portfolio_unit_type",
+      "kind": "scalar",
+      "normalization": {
+        "imputed": false,
+        "method": "manual atomic extraction",
+        "overwrites_source_node": false,
+        "support_validation": "exact_fragment"
+      },
+      "provenance": {
+        "document_id": "proposal.fp148",
+        "locator": "basic_info.description",
+        "source_kind": "same_project_source_extraction",
+        "support_fragment": "308 companies have expressed a need for relief funding",
+        "url": "https://www.greenclimate.fund/sites/default/files/document/funding-proposal-fp148.pdf"
+      },
+      "status": "available",
+      "unit": null,
+      "value": "borrower/company"
+    }
+  },
+  "project_id": "FP148",
+  "schema_version": "react_report.source_normalization/v2"
+}

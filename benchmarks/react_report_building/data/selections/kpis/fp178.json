@@ -1,0 +1,185 @@
+{
+  "canonical_overrides": {},
+  "cleaned_kpi_count": 13,
+  "excluded_kpi_count": 1,
+  "kpi_candidates": [
+    {
+      "canonical_name": "m1 1 tonnes of carbon dioxide equivalent t co2eq reduced or avoided gender sensitive energy access power generation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "climate_impact",
+      "legacy_selection_eligible": false,
+      "name": "M1.1 Tonnes of carbon dioxide equivalent (t CO2eq) reduced or avoided - gender-sensitive energy access power generation",
+      "path": "outcomes.0.kpis.0",
+      "reason": "eligible",
+      "source_order": 1
+    },
+    {
+      "canonical_name": "m6 1 proportion of low emission power supply in a jurisdiction market",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M6.1 Proportion of low-emission power supply in a jurisdiction market",
+      "path": "outcomes.1.kpis.0",
+      "reason": "eligible",
+      "source_order": 2
+    },
+    {
+      "canonical_name": "m6 2 number of households and individuals males and females with improved access to low emission energy sources monitoring reporting and verification by independent",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": true,
+      "name": "M6.2 Number of households and individuals (males and females) with improved access to low-emission energy sources Monitoring, Reporting and Verification by independent",
+      "path": "outcomes.1.kpis.1",
+      "reason": "eligible",
+      "source_order": 3
+    },
+    {
+      "canonical_name": "m6 2 number of households and individuals males and females with improved access to low emission energy sources monitoring reporting and verification by independent",
+      "duplicate_of": "outcomes.1.kpis.1",
+      "eligible": false,
+      "family": "beneficiaries_access",
+      "legacy_selection_eligible": false,
+      "name": "M6.2 Number of households and individuals (males and females) with improved access to low-emission energy sources Monitoring, Reporting and Verification by independent",
+      "path": "outcomes.1.kpis.2",
+      "reason": "duplicate indicator name",
+      "source_order": 4
+    },
+    {
+      "canonical_name": "m6 3 mws of lowemission energy capacity installed generated and or rehabilitated as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M6.3 MWs of lowemission energy capacity installed, generated and/or rehabilitated as a result of GCF support",
+      "path": "outcomes.1.kpis.3",
+      "reason": "eligible",
+      "source_order": 5
+    },
+    {
+      "canonical_name": "m5 1 institutional and regulatory systems that improve incentives for lowemission planning and development and their effective implementation",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "M5.1 Institutional and regulatory systems that improve incentives for lowemission planning and development and their effective implementation",
+      "path": "outcomes.2.kpis.0",
+      "reason": "eligible",
+      "source_order": 6
+    },
+    {
+      "canonical_name": "number of technologies and innovative solutions transferred or licensed to support low emission development as a result of gcf support",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "other",
+      "legacy_selection_eligible": true,
+      "name": "Number of technologies and innovative solutions transferred or licensed to support low emission development as a result of GCF support",
+      "path": "outcomes.2.kpis.1",
+      "reason": "eligible",
+      "source_order": 7
+    },
+    {
+      "canonical_name": "grids are upgraded to a status where vre becomes dispatchable",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Grids are upgraded to a status where VRE becomes dispatchable",
+      "path": "outcomes.3.kpis.0",
+      "reason": "eligible",
+      "source_order": 8
+    },
+    {
+      "canonical_name": "number of grid connected solar pv farms",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Number of grid connected solar PV farms",
+      "path": "outcomes.3.kpis.1",
+      "reason": "eligible",
+      "source_order": 9
+    },
+    {
+      "canonical_name": "utility scale storage installed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Utility scale storage installed",
+      "path": "outcomes.4.kpis.0",
+      "reason": "eligible",
+      "source_order": 10
+    },
+    {
+      "canonical_name": "additional solar capacity installed",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Additional solar capacity installed",
+      "path": "outcomes.5.kpis.0",
+      "reason": "eligible",
+      "source_order": 11
+    },
+    {
+      "canonical_name": "improved reliability of supply reduction in blackouts and brownouts saidi saifi measures for selected cities",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "low_emission_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Improved reliability of supply – reduction in blackouts and brownouts – SAIDI & SAIFI measures for selected cities",
+      "path": "outcomes.5.kpis.1",
+      "reason": "eligible",
+      "source_order": 12
+    },
+    {
+      "canonical_name": "knowledge and experience exists within transmission operators and utilities to operate with high vre conducive enabling environment for ipps established number of people trained including regulators utilities sex disaggregated improved capacity skills of trainees sex disaggregated data",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "institutional_capacity",
+      "legacy_selection_eligible": true,
+      "name": "Knowledge and experience exists within transmission operators and utilities to operate with high VRE Conducive enabling environment for IPPs established Number of people trained (including regulators, utilities), sex disaggregated Improved capacity / skills of trainees (sex disaggregated data)",
+      "path": "outcomes.6.kpis.0",
+      "reason": "eligible",
+      "source_order": 13
+    },
+    {
+      "canonical_name": "standard developed and competitive tender using gender responsive procurement process designed matchmaking events organized to mobilize private investments",
+      "duplicate_of": null,
+      "eligible": true,
+      "family": "employment_gender",
+      "legacy_selection_eligible": true,
+      "name": "Standard developed and competitive tender using gender responsive procurement process designed Matchmaking events organized to mobilize private investments",
+      "path": "outcomes.7.kpis.0",
+      "reason": "eligible",
+      "source_order": 14
+    }
+  ],
+  "project_id": "FP178",
+  "risk_count": 5,
+  "selected_kpi_paths": [
+    {
+      "family": "low_emission_capacity",
+      "path": "outcomes.1.kpis.0"
+    },
+    {
+      "family": "beneficiaries_access",
+      "path": "outcomes.1.kpis.1"
+    },
+    {
+      "family": "institutional_capacity",
+      "path": "outcomes.2.kpis.0"
+    },
+    {
+      "family": "employment_gender",
+      "path": "outcomes.7.kpis.0"
+    },
+    {
+      "family": "other",
+      "path": "outcomes.2.kpis.1"
+    }
+  ]
+}
